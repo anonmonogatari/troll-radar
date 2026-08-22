@@ -18,16 +18,16 @@
       {
         "id": "becathlon",
         "label": "becathlon",
-        "entries": 2,
-        "coordinated": 2,
-        "radius": 12
+        "entries": 3,
+        "coordinated": 3,
+        "radius": 14
       },
       {
         "id": "bozaj",
         "label": "bozaj",
-        "entries": 2,
-        "coordinated": 2,
-        "radius": 12
+        "entries": 3,
+        "coordinated": 3,
+        "radius": 14
       },
       {
         "id": "david ellefson",
@@ -46,9 +46,9 @@
       {
         "id": "enturi",
         "label": "enturi",
-        "entries": 1,
-        "coordinated": 1,
-        "radius": 10
+        "entries": 2,
+        "coordinated": 2,
+        "radius": 12
       },
       {
         "id": "funkycrow",
@@ -67,9 +67,9 @@
       {
         "id": "givles",
         "label": "givles",
-        "entries": 1,
-        "coordinated": 1,
-        "radius": 10
+        "entries": 2,
+        "coordinated": 2,
+        "radius": 12
       },
       {
         "id": "hackerbey",
@@ -130,9 +130,9 @@
       {
         "id": "londrast",
         "label": "londrast",
-        "entries": 1,
-        "coordinated": 1,
-        "radius": 10
+        "entries": 2,
+        "coordinated": 2,
+        "radius": 12
       },
       {
         "id": "madanin",
@@ -151,9 +151,9 @@
       {
         "id": "miamix",
         "label": "miamix",
-        "entries": 1,
-        "coordinated": 1,
-        "radius": 10
+        "entries": 2,
+        "coordinated": 2,
+        "radius": 12
       },
       {
         "id": "parantezicindekiadam",
@@ -194,39 +194,7 @@
     "links": [
       {
         "source": "madanin",
-        "target": "medyumay",
-        "weight": 1,
-        "topics": [
-          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
-        ]
-      },
-      {
-        "source": "madanin",
         "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
-        ]
-      },
-      {
-        "source": "madanin",
-        "target": "miamix",
-        "weight": 1,
-        "topics": [
-          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
-        ]
-      },
-      {
-        "source": "medyumay",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
-        ]
-      },
-      {
-        "source": "medyumay",
-        "target": "miamix",
         "weight": 1,
         "topics": [
           "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
@@ -235,38 +203,567 @@
       {
         "source": "miamix",
         "target": "timurun fillerinin bakicisi",
+        "weight": 2,
+        "topics": [
+          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "medyumay",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
         ]
       },
       {
+        "source": "madanin",
+        "target": "miamix",
+        "weight": 1,
+        "topics": [
+          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+        ]
+      },
+      {
+        "source": "madanin",
+        "target": "medyumay",
+        "weight": 1,
+        "topics": [
+          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+        ]
+      },
+      {
+        "source": "medyumay",
+        "target": "miamix",
+        "weight": 1,
+        "topics": [
+          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+        ]
+      },
+      {
+        "source": "7714714",
+        "target": "ondortelliuc",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "500t yolcusu",
+        "target": "mertolyon",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "mertolyon",
+        "target": "rusya",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "mertolyon",
+        "target": "monofobik",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "hipergami",
+        "target": "mertolyon",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "mertolyon",
+        "target": "nofarlug",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "mertolyon",
+        "target": "rootifera",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "gurbetci taraftar",
+        "target": "mertolyon",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "500t yolcusu",
+        "target": "rusya",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "500t yolcusu",
+        "target": "monofobik",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "500t yolcusu",
+        "target": "hipergami",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "500t yolcusu",
+        "target": "nofarlug",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "500t yolcusu",
+        "target": "rootifera",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "500t yolcusu",
+        "target": "gurbetci taraftar",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "monofobik",
+        "target": "rusya",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "hipergami",
+        "target": "rusya",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "nofarlug",
+        "target": "rusya",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "rootifera",
+        "target": "rusya",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "gurbetci taraftar",
+        "target": "rusya",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "hipergami",
+        "target": "monofobik",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "monofobik",
+        "target": "nofarlug",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "monofobik",
+        "target": "rootifera",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "gurbetci taraftar",
+        "target": "monofobik",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "hipergami",
+        "target": "nofarlug",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "hipergami",
+        "target": "rootifera",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "gurbetci taraftar",
+        "target": "hipergami",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "nofarlug",
+        "target": "rootifera",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "gurbetci taraftar",
+        "target": "nofarlug",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "gurbetci taraftar",
+        "target": "rootifera",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "vzw",
+        "target": "youth gone wild",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "shinigami ryuk",
+        "target": "vzw",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "mesglsn sanirm bn yatiyrm",
+        "target": "vzw",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "vatkalickt",
+        "target": "vzw",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "sosyaldeneydekicuzdanicebellezedenadam",
+        "target": "vzw",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "better call sabire",
+        "target": "vzw",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "kiloveremeyenkediannesi",
+        "target": "vzw",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "verybutverygoodman",
+        "target": "vzw",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "shinigami ryuk",
+        "target": "youth gone wild",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "mesglsn sanirm bn yatiyrm",
+        "target": "youth gone wild",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "vatkalickt",
+        "target": "youth gone wild",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "sosyaldeneydekicuzdanicebellezedenadam",
+        "target": "youth gone wild",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "better call sabire",
+        "target": "youth gone wild",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "kiloveremeyenkediannesi",
+        "target": "youth gone wild",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "verybutverygoodman",
+        "target": "youth gone wild",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "mesglsn sanirm bn yatiyrm",
+        "target": "shinigami ryuk",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "shinigami ryuk",
+        "target": "vatkalickt",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "shinigami ryuk",
+        "target": "sosyaldeneydekicuzdanicebellezedenadam",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "better call sabire",
+        "target": "shinigami ryuk",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "kiloveremeyenkediannesi",
+        "target": "shinigami ryuk",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "shinigami ryuk",
+        "target": "verybutverygoodman",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "mesglsn sanirm bn yatiyrm",
+        "target": "vatkalickt",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "mesglsn sanirm bn yatiyrm",
+        "target": "sosyaldeneydekicuzdanicebellezedenadam",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "better call sabire",
+        "target": "mesglsn sanirm bn yatiyrm",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "kiloveremeyenkediannesi",
+        "target": "mesglsn sanirm bn yatiyrm",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "mesglsn sanirm bn yatiyrm",
+        "target": "verybutverygoodman",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "sosyaldeneydekicuzdanicebellezedenadam",
+        "target": "vatkalickt",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "better call sabire",
+        "target": "vatkalickt",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "kiloveremeyenkediannesi",
+        "target": "vatkalickt",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "vatkalickt",
+        "target": "verybutverygoodman",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "better call sabire",
+        "target": "sosyaldeneydekicuzdanicebellezedenadam",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "kiloveremeyenkediannesi",
+        "target": "sosyaldeneydekicuzdanicebellezedenadam",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "sosyaldeneydekicuzdanicebellezedenadam",
+        "target": "verybutverygoodman",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "better call sabire",
+        "target": "kiloveremeyenkediannesi",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "better call sabire",
+        "target": "verybutverygoodman",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "kiloveremeyenkediannesi",
+        "target": "verybutverygoodman",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
         "source": "david ellefson",
         "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
-        ]
-      },
-      {
-        "source": "georgewalker",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
-        ]
-      },
-      {
-        "source": "enturi",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
-        ]
-      },
-      {
-        "source": "david ellefson",
-        "target": "georgewalker",
         "weight": 1,
         "topics": [
           "ankara'da alman kurdundan kaçarken ölen çocuk"
@@ -281,6 +778,31 @@
         ]
       },
       {
+        "source": "david ellefson",
+        "target": "georgewalker",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
+        "source": "enturi",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 2,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk",
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "georgewalker",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
         "source": "enturi",
         "target": "georgewalker",
         "weight": 1,
@@ -289,8 +811,680 @@
         ]
       },
       {
-        "source": "hirvatistanli",
+        "source": "cool story la fontaine",
+        "target": "femmelette",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "bilgiziyar faresi",
+        "target": "cool story la fontaine",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "cool story la fontaine",
+        "target": "zibinnik",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "cool story la fontaine",
+        "target": "crystal mind",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "cool story la fontaine",
+        "target": "rustu ciftyumruk",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "cool story la fontaine",
+        "target": "mr monarch",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "cool story la fontaine",
+        "target": "v0dka",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "andonyadis",
+        "target": "cool story la fontaine",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "bilgiziyar faresi",
+        "target": "femmelette",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "femmelette",
+        "target": "zibinnik",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "crystal mind",
+        "target": "femmelette",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "femmelette",
+        "target": "rustu ciftyumruk",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "femmelette",
+        "target": "mr monarch",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "femmelette",
+        "target": "v0dka",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "andonyadis",
+        "target": "femmelette",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "bilgiziyar faresi",
+        "target": "zibinnik",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "bilgiziyar faresi",
+        "target": "crystal mind",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "bilgiziyar faresi",
+        "target": "rustu ciftyumruk",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "bilgiziyar faresi",
+        "target": "mr monarch",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "bilgiziyar faresi",
+        "target": "v0dka",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "andonyadis",
+        "target": "bilgiziyar faresi",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "crystal mind",
+        "target": "zibinnik",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "rustu ciftyumruk",
+        "target": "zibinnik",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "mr monarch",
+        "target": "zibinnik",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "v0dka",
+        "target": "zibinnik",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "andonyadis",
+        "target": "zibinnik",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "crystal mind",
+        "target": "rustu ciftyumruk",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "crystal mind",
+        "target": "mr monarch",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "crystal mind",
+        "target": "v0dka",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "andonyadis",
+        "target": "crystal mind",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "mr monarch",
+        "target": "rustu ciftyumruk",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "rustu ciftyumruk",
+        "target": "v0dka",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "andonyadis",
+        "target": "rustu ciftyumruk",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "mr monarch",
+        "target": "v0dka",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "andonyadis",
+        "target": "mr monarch",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "andonyadis",
+        "target": "v0dka",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "karakanka",
+        "target": "x4",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "cunoesse vittulainen",
+        "target": "x4",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "neutral true",
+        "target": "x4",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "charango",
+        "target": "x4",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "ucansarman",
+        "target": "x4",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "deli ali 667",
+        "target": "x4",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "thoothamon",
+        "target": "x4",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "debe okurum",
+        "target": "x4",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "delivida",
+        "target": "x4",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "cunoesse vittulainen",
+        "target": "karakanka",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "karakanka",
+        "target": "neutral true",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "charango",
+        "target": "karakanka",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "karakanka",
+        "target": "ucansarman",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "deli ali 667",
+        "target": "karakanka",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "karakanka",
+        "target": "thoothamon",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "debe okurum",
+        "target": "karakanka",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "delivida",
+        "target": "karakanka",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "cunoesse vittulainen",
+        "target": "neutral true",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "charango",
+        "target": "cunoesse vittulainen",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "cunoesse vittulainen",
+        "target": "ucansarman",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "cunoesse vittulainen",
+        "target": "deli ali 667",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "cunoesse vittulainen",
+        "target": "thoothamon",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "cunoesse vittulainen",
+        "target": "debe okurum",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "cunoesse vittulainen",
+        "target": "delivida",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "charango",
+        "target": "neutral true",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "neutral true",
+        "target": "ucansarman",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "deli ali 667",
+        "target": "neutral true",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "neutral true",
+        "target": "thoothamon",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "debe okurum",
+        "target": "neutral true",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "delivida",
+        "target": "neutral true",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "charango",
+        "target": "ucansarman",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "charango",
+        "target": "deli ali 667",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "charango",
+        "target": "thoothamon",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "charango",
+        "target": "debe okurum",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "charango",
+        "target": "delivida",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "deli ali 667",
+        "target": "ucansarman",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "thoothamon",
+        "target": "ucansarman",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "debe okurum",
+        "target": "ucansarman",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "delivida",
+        "target": "ucansarman",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "deli ali 667",
+        "target": "thoothamon",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "debe okurum",
+        "target": "deli ali 667",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "deli ali 667",
+        "target": "delivida",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "debe okurum",
+        "target": "thoothamon",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "delivida",
+        "target": "thoothamon",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "debe okurum",
+        "target": "delivida",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "hackerbey",
+        "target": "jimmymartin",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hackerbey",
         "target": "kafadanilo",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hackerbey",
+        "target": "ingiliz dili ve edebiyati",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hackerbey",
+        "target": "kecuva",
         "weight": 1,
         "topics": [
           "chp'li belediyelerin fahiş konser harcamaları"
@@ -305,15 +1499,23 @@
         ]
       },
       {
-        "source": "hirvatistanli",
-        "target": "ingiliz dili ve edebiyati",
+        "source": "jimmymartin",
+        "target": "kafadanilo",
         "weight": 1,
         "topics": [
           "chp'li belediyelerin fahiş konser harcamaları"
         ]
       },
       {
-        "source": "hirvatistanli",
+        "source": "ingiliz dili ve edebiyati",
+        "target": "jimmymartin",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "jimmymartin",
         "target": "kecuva",
         "weight": 1,
         "topics": [
@@ -323,14 +1525,6 @@
       {
         "source": "hirvatistanli",
         "target": "jimmymartin",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "hackerbey",
-        "target": "kafadanilo",
         "weight": 1,
         "topics": [
           "chp'li belediyelerin fahiş konser harcamaları"
@@ -353,7 +1547,7 @@
         ]
       },
       {
-        "source": "jimmymartin",
+        "source": "hirvatistanli",
         "target": "kafadanilo",
         "weight": 1,
         "topics": [
@@ -361,7 +1555,15 @@
         ]
       },
       {
-        "source": "hackerbey",
+        "source": "ingiliz dili ve edebiyati",
+        "target": "kecuva",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hirvatistanli",
         "target": "ingiliz dili ve edebiyati",
         "weight": 1,
         "topics": [
@@ -369,75 +1571,11 @@
         ]
       },
       {
-        "source": "hackerbey",
+        "source": "hirvatistanli",
         "target": "kecuva",
         "weight": 1,
         "topics": [
           "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "hackerbey",
-        "target": "jimmymartin",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "ingiliz dili ve edebiyati",
-        "target": "kecuva",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "ingiliz dili ve edebiyati",
-        "target": "jimmymartin",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "jimmymartin",
-        "target": "kecuva",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "playerman",
-        "target": "reactionshot",
-        "weight": 1,
-        "topics": [
-          "ekrem imamoğlu'nun roma gezisi faturası"
-        ]
-      },
-      {
-        "source": "dijitalkitap",
-        "target": "reactionshot",
-        "weight": 1,
-        "topics": [
-          "ekrem imamoğlu'nun roma gezisi faturası"
-        ]
-      },
-      {
-        "source": "reactionshot",
-        "target": "szw",
-        "weight": 1,
-        "topics": [
-          "ekrem imamoğlu'nun roma gezisi faturası"
-        ]
-      },
-      {
-        "source": "parantezicindekiadam",
-        "target": "reactionshot",
-        "weight": 1,
-        "topics": [
-          "ekrem imamoğlu'nun roma gezisi faturası"
         ]
       },
       {
@@ -459,6 +1597,14 @@
       {
         "source": "parantezicindekiadam",
         "target": "playerman",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "playerman",
+        "target": "reactionshot",
         "weight": 1,
         "topics": [
           "ekrem imamoğlu'nun roma gezisi faturası"
@@ -481,6 +1627,14 @@
         ]
       },
       {
+        "source": "dijitalkitap",
+        "target": "reactionshot",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
         "source": "parantezicindekiadam",
         "target": "szw",
         "weight": 1,
@@ -489,17 +1643,481 @@
         ]
       },
       {
-        "source": "becathlon",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 2,
+        "source": "reactionshot",
+        "target": "szw",
+        "weight": 1,
         "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın",
-          "yabancı turistin türk esnafına isyan etmesi"
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "parantezicindekiadam",
+        "target": "reactionshot",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "ckmltyf",
+        "target": "slowrocker",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "earl hacker",
+        "target": "screenknife",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "alf in yedigi kedi",
+        "target": "screenknife",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "niltt",
+        "target": "screenknife",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "lamusi",
+        "target": "screenknife",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "lonely tree",
+        "target": "screenknife",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "screenknife",
+        "target": "the archmage",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "alf in yedigi kedi",
+        "target": "earl hacker",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "earl hacker",
+        "target": "niltt",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "earl hacker",
+        "target": "lamusi",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "earl hacker",
+        "target": "lonely tree",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "earl hacker",
+        "target": "the archmage",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "alf in yedigi kedi",
+        "target": "niltt",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "alf in yedigi kedi",
+        "target": "lamusi",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "alf in yedigi kedi",
+        "target": "lonely tree",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "alf in yedigi kedi",
+        "target": "the archmage",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "lamusi",
+        "target": "niltt",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "lonely tree",
+        "target": "niltt",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "niltt",
+        "target": "the archmage",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "lamusi",
+        "target": "lonely tree",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "lamusi",
+        "target": "the archmage",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "lonely tree",
+        "target": "the archmage",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "biseydiycemben",
+        "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "biseydiycemben",
+        "target": "yaren",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "biseydiycemben",
+        "target": "miamix",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "biseydiycemben",
+        "target": "nane kokusu",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "biseydiycemben",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "biseydiycemben",
+        "target": "givles",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
         ]
       },
       {
         "source": "becathlon",
+        "target": "biseydiycemben",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "biseydiycemben",
+        "target": "enturi",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "biseydiycemben",
         "target": "bozaj",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "londrast",
+        "target": "yaren",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "londrast",
+        "target": "miamix",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "londrast",
+        "target": "nane kokusu",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "londrast",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 2,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın",
+          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        ]
+      },
+      {
+        "source": "givles",
+        "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "becathlon",
+        "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "enturi",
+        "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "bozaj",
+        "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "miamix",
+        "target": "yaren",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "nane kokusu",
+        "target": "yaren",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "timurun fillerinin bakicisi",
+        "target": "yaren",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "givles",
+        "target": "yaren",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "becathlon",
+        "target": "yaren",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "enturi",
+        "target": "yaren",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "bozaj",
+        "target": "yaren",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "miamix",
+        "target": "nane kokusu",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "givles",
+        "target": "miamix",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "becathlon",
+        "target": "miamix",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "enturi",
+        "target": "miamix",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "bozaj",
+        "target": "miamix",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "nane kokusu",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "givles",
+        "target": "nane kokusu",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "becathlon",
+        "target": "nane kokusu",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "enturi",
+        "target": "nane kokusu",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "bozaj",
+        "target": "nane kokusu",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "givles",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "becathlon",
+        "target": "timurun fillerinin bakicisi",
         "weight": 2,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın",
@@ -516,11 +2134,1500 @@
         ]
       },
       {
+        "source": "becathlon",
+        "target": "givles",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "enturi",
+        "target": "givles",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "bozaj",
+        "target": "givles",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "becathlon",
+        "target": "enturi",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "becathlon",
+        "target": "bozaj",
+        "weight": 2,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın",
+          "yabancı turistin türk esnafına isyan etmesi"
+        ]
+      },
+      {
+        "source": "bozaj",
+        "target": "enturi",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
         "source": "1xw",
         "target": "948",
         "weight": 1,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "feignant",
+        "target": "karizmatik bir nick olsun",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "karizmatik bir nick olsun",
+        "target": "peter4",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "karizmatik bir nick olsun",
+        "target": "wishuwerehere",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "karizmatik bir nick olsun",
+        "target": "ne rakisi sevim",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ben buraya niye ciktim",
+        "target": "karizmatik bir nick olsun",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "karizmatik bir nick olsun",
+        "target": "raybanzib",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "burunsuz pinok",
+        "target": "karizmatik bir nick olsun",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "19o5",
+        "target": "karizmatik bir nick olsun",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "bilmemeninbilmisligi",
+        "target": "karizmatik bir nick olsun",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "feignant",
+        "target": "peter4",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "feignant",
+        "target": "wishuwerehere",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "feignant",
+        "target": "ne rakisi sevim",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ben buraya niye ciktim",
+        "target": "feignant",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "feignant",
+        "target": "raybanzib",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "burunsuz pinok",
+        "target": "feignant",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "19o5",
+        "target": "feignant",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "bilmemeninbilmisligi",
+        "target": "feignant",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "peter4",
+        "target": "wishuwerehere",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ne rakisi sevim",
+        "target": "peter4",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ben buraya niye ciktim",
+        "target": "peter4",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "peter4",
+        "target": "raybanzib",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "burunsuz pinok",
+        "target": "peter4",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "19o5",
+        "target": "peter4",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "bilmemeninbilmisligi",
+        "target": "peter4",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ne rakisi sevim",
+        "target": "wishuwerehere",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ben buraya niye ciktim",
+        "target": "wishuwerehere",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "raybanzib",
+        "target": "wishuwerehere",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "burunsuz pinok",
+        "target": "wishuwerehere",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "19o5",
+        "target": "wishuwerehere",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "bilmemeninbilmisligi",
+        "target": "wishuwerehere",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ben buraya niye ciktim",
+        "target": "ne rakisi sevim",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ne rakisi sevim",
+        "target": "raybanzib",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "burunsuz pinok",
+        "target": "ne rakisi sevim",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "19o5",
+        "target": "ne rakisi sevim",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "bilmemeninbilmisligi",
+        "target": "ne rakisi sevim",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ben buraya niye ciktim",
+        "target": "raybanzib",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ben buraya niye ciktim",
+        "target": "burunsuz pinok",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "19o5",
+        "target": "ben buraya niye ciktim",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ben buraya niye ciktim",
+        "target": "bilmemeninbilmisligi",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "burunsuz pinok",
+        "target": "raybanzib",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "19o5",
+        "target": "raybanzib",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "bilmemeninbilmisligi",
+        "target": "raybanzib",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "19o5",
+        "target": "burunsuz pinok",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "bilmemeninbilmisligi",
+        "target": "burunsuz pinok",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "19o5",
+        "target": "bilmemeninbilmisligi",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "lapuente",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "lapuente",
+        "target": "protego",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "entrollment",
+        "target": "lapuente",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "gearbox ag",
+        "target": "lapuente",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "humanitariantragedy",
+        "target": "lapuente",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "celimsiz eklembacakli",
+        "target": "lapuente",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "homoiskandinavus",
+        "target": "lapuente",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "kirkbirincikarakter",
+        "target": "lapuente",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "fyodorwell",
+        "target": "lapuente",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "protego",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "entrollment",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "gearbox ag",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "humanitariantragedy",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "celimsiz eklembacakli",
+        "target": "darwinisecdeyeyatiranadam",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "homoiskandinavus",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "kirkbirincikarakter",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "fyodorwell",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "entrollment",
+        "target": "protego",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "gearbox ag",
+        "target": "protego",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "humanitariantragedy",
+        "target": "protego",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "celimsiz eklembacakli",
+        "target": "protego",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "homoiskandinavus",
+        "target": "protego",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "kirkbirincikarakter",
+        "target": "protego",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "fyodorwell",
+        "target": "protego",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "entrollment",
+        "target": "gearbox ag",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "entrollment",
+        "target": "humanitariantragedy",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "celimsiz eklembacakli",
+        "target": "entrollment",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "entrollment",
+        "target": "homoiskandinavus",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "entrollment",
+        "target": "kirkbirincikarakter",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "entrollment",
+        "target": "fyodorwell",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "gearbox ag",
+        "target": "humanitariantragedy",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "celimsiz eklembacakli",
+        "target": "gearbox ag",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "gearbox ag",
+        "target": "homoiskandinavus",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "gearbox ag",
+        "target": "kirkbirincikarakter",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "fyodorwell",
+        "target": "gearbox ag",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "celimsiz eklembacakli",
+        "target": "humanitariantragedy",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "homoiskandinavus",
+        "target": "humanitariantragedy",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "humanitariantragedy",
+        "target": "kirkbirincikarakter",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "fyodorwell",
+        "target": "humanitariantragedy",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "celimsiz eklembacakli",
+        "target": "homoiskandinavus",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "celimsiz eklembacakli",
+        "target": "kirkbirincikarakter",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "celimsiz eklembacakli",
+        "target": "fyodorwell",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "homoiskandinavus",
+        "target": "kirkbirincikarakter",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "fyodorwell",
+        "target": "homoiskandinavus",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "fyodorwell",
+        "target": "kirkbirincikarakter",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "baskabirtane",
+        "target": "hohem",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "aytoldi",
+        "target": "hohem",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "hohem",
+        "target": "viransce",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "hohem",
+        "target": "meridyen6",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "hohem",
+        "target": "voyager3355",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "dogumctrl",
+        "target": "hohem",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "ckcozr",
+        "target": "hohem",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "hohem",
+        "target": "large hail storm",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "elrohilisilrah",
+        "target": "hohem",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "aytoldi",
+        "target": "baskabirtane",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "baskabirtane",
+        "target": "viransce",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "baskabirtane",
+        "target": "meridyen6",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "baskabirtane",
+        "target": "voyager3355",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "baskabirtane",
+        "target": "dogumctrl",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "baskabirtane",
+        "target": "ckcozr",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "baskabirtane",
+        "target": "large hail storm",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "baskabirtane",
+        "target": "elrohilisilrah",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "aytoldi",
+        "target": "viransce",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "aytoldi",
+        "target": "meridyen6",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "aytoldi",
+        "target": "voyager3355",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "aytoldi",
+        "target": "dogumctrl",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "aytoldi",
+        "target": "ckcozr",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "aytoldi",
+        "target": "large hail storm",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "aytoldi",
+        "target": "elrohilisilrah",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "meridyen6",
+        "target": "viransce",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "viransce",
+        "target": "voyager3355",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "dogumctrl",
+        "target": "viransce",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "ckcozr",
+        "target": "viransce",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "large hail storm",
+        "target": "viransce",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "elrohilisilrah",
+        "target": "viransce",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "meridyen6",
+        "target": "voyager3355",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "dogumctrl",
+        "target": "meridyen6",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "ckcozr",
+        "target": "meridyen6",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "large hail storm",
+        "target": "meridyen6",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "elrohilisilrah",
+        "target": "meridyen6",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "dogumctrl",
+        "target": "voyager3355",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "ckcozr",
+        "target": "voyager3355",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "large hail storm",
+        "target": "voyager3355",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "elrohilisilrah",
+        "target": "voyager3355",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "ckcozr",
+        "target": "dogumctrl",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "dogumctrl",
+        "target": "large hail storm",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "dogumctrl",
+        "target": "elrohilisilrah",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "ckcozr",
+        "target": "large hail storm",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "ckcozr",
+        "target": "elrohilisilrah",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "elrohilisilrah",
+        "target": "large hail storm",
+        "weight": 1,
+        "topics": [
+          "olası israil türkiye savaşı"
+        ]
+      },
+      {
+        "source": "ascsagittarius",
+        "target": "hevamfuskiki",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "hevamfuskiki",
+        "target": "shagrax",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "hevamfuskiki",
+        "target": "sozen",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "cikolataliportakal",
+        "target": "hevamfuskiki",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "funeral winds",
+        "target": "hevamfuskiki",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "engineer061",
+        "target": "hevamfuskiki",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "hevamfuskiki",
+        "target": "tinsel",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "hevamfuskiki",
+        "target": "saksi cicegi",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "falanks",
+        "target": "hevamfuskiki",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "ascsagittarius",
+        "target": "shagrax",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "ascsagittarius",
+        "target": "sozen",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "ascsagittarius",
+        "target": "cikolataliportakal",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "ascsagittarius",
+        "target": "funeral winds",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "ascsagittarius",
+        "target": "engineer061",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "ascsagittarius",
+        "target": "tinsel",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "ascsagittarius",
+        "target": "saksi cicegi",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "ascsagittarius",
+        "target": "falanks",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "shagrax",
+        "target": "sozen",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "cikolataliportakal",
+        "target": "shagrax",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "funeral winds",
+        "target": "shagrax",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "engineer061",
+        "target": "shagrax",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "shagrax",
+        "target": "tinsel",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "saksi cicegi",
+        "target": "shagrax",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "falanks",
+        "target": "shagrax",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "cikolataliportakal",
+        "target": "sozen",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "funeral winds",
+        "target": "sozen",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "engineer061",
+        "target": "sozen",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "sozen",
+        "target": "tinsel",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "saksi cicegi",
+        "target": "sozen",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "falanks",
+        "target": "sozen",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "cikolataliportakal",
+        "target": "funeral winds",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "cikolataliportakal",
+        "target": "engineer061",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "cikolataliportakal",
+        "target": "tinsel",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "cikolataliportakal",
+        "target": "saksi cicegi",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "cikolataliportakal",
+        "target": "falanks",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "engineer061",
+        "target": "funeral winds",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "funeral winds",
+        "target": "tinsel",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "funeral winds",
+        "target": "saksi cicegi",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "falanks",
+        "target": "funeral winds",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "engineer061",
+        "target": "tinsel",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "engineer061",
+        "target": "saksi cicegi",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "engineer061",
+        "target": "falanks",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "saksi cicegi",
+        "target": "tinsel",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "falanks",
+        "target": "tinsel",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+        ]
+      },
+      {
+        "source": "falanks",
+        "target": "saksi cicegi",
+        "weight": 1,
+        "topics": [
+          "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
         ]
       },
       {
@@ -542,14 +3649,6 @@
       {
         "source": "lacivertnokta",
         "target": "localtime",
-        "weight": 1,
-        "topics": [
-          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
-        ]
-      },
-      {
-        "source": "londrast",
-        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "soylu'nun yeğeniyim diyen kadının terör estirmesi"

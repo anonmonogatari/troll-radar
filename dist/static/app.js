@@ -267,17 +267,17 @@ function renderDiscoveryCandidates(candidates) {
                         ${escapeHtml(c.detected_cell)}
                     </span>
                 </td>
-                <td class="py-3 px-3 font-mono text-slate-300 font-semibold">
+                <td class="py-3 px-3 font-mono text-purple-300 font-bold">
+                    %${m.stance_alignment || 0}
+                </td>
+                <td class="py-3 px-3 font-mono text-red-300 font-semibold">
+                    %${m.smear_intensity || 0}
+                </td>
+                <td class="py-3 px-3 font-mono text-amber-300 font-semibold">
+                    %${m.vote_brigading || 0}
+                </td>
+                <td class="py-3 px-3 font-mono text-blue-300 font-semibold">
                     %${m.synchronicity_score || 0}
-                </td>
-                <td class="py-3 px-3 font-mono text-slate-300">
-                    <span title="Düşük olması troll eğilimini gösterir">${m.topic_entropy || 0} H(x)</span>
-                </td>
-                <td class="py-3 px-3 font-mono text-slate-300">
-                    %${m.political_ratio || 0}
-                </td>
-                <td class="py-3 px-3 font-mono text-slate-300">
-                    %${m.shift_regularity || 0}
                 </td>
                 <td class="py-3 px-3 text-right">
                     ${c.is_monitored ? `

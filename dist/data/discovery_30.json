@@ -1,161 +1,140 @@
 {
-  "total_evaluated": 27,
-  "high_confidence_trolls": 17,
+  "total_evaluated": 113,
+  "high_confidence_trolls": 16,
   "cells": [
     {
-      "cell_name": "Muhalefet & Belediye Karalama",
-      "member_count": 11,
-      "average_troll_score": 77.5,
+      "cell_name": "Kültür Savaşı & Yaşam Tarzı",
+      "member_count": 8,
+      "average_troll_score": 78.5,
       "members": [
-        "parantezicindekiadam",
+        "becathlon",
+        "nane kokusu",
+        "biseydiycemben",
+        "yaren",
+        "enturi",
+        "bozaj",
+        "french goddess",
+        "bananazura"
+      ],
+      "top_evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "victor osimhen",
+        "ankara'da alman kurdundan kaçarken ölen çocuk",
+        "yabancı turistin türk esnafına isyan etmesi",
+        "evrim alasya"
+      ]
+    },
+    {
+      "cell_name": "Muhalefet & Belediye Karalama",
+      "member_count": 7,
+      "average_troll_score": 81.1,
+      "members": [
         "playerman",
         "reactionshot",
-        "szw",
         "dijitalkitap",
         "hackerbey",
         "hirvatistanli",
-        "ingiliz dili ve edebiyati",
-        "jimmymartin",
-        "kafadanilo",
-        "kecuva"
+        "ripinogluwinkle",
+        "osbirci31"
       ],
       "top_evidence_topics": [
+        "clint eastwood",
+        "ekrem imamoğlu",
         "chp'li belediyelerin fahiş konser harcamaları",
         "ekrem imamoğlu'nun roma gezisi faturası"
       ]
     },
     {
       "cell_name": "Yargı, Güvenlik & Hamaset",
-      "member_count": 6,
-      "average_troll_score": 70.0,
+      "member_count": 4,
+      "average_troll_score": 81.7,
       "members": [
-        "madanin",
-        "medyumay",
-        "miamix",
-        "lacivertnokta",
         "localtime",
-        "londrast"
+        "lacivertnokta",
+        "londrast",
+        "miamix"
       ],
       "top_evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
       ]
     },
     {
-      "cell_name": "Dış Politika & Jeopolitik Savunma",
-      "member_count": 3,
-      "average_troll_score": 75.0,
-      "members": [
-        "funkycrow",
-        "givles",
-        "georgewalker"
-      ],
-      "top_evidence_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk",
-        "türkiye'nin brics üyeliği ve batı'nın paniği"
-      ]
-    },
-    {
-      "cell_name": "Genel Algı Hücresi",
+      "cell_name": "Ekonomi Savunması & Aklama",
       "member_count": 2,
-      "average_troll_score": 62.5,
+      "average_troll_score": 78.7,
       "members": [
-        "david ellefson",
-        "enturi"
-      ],
-      "top_evidence_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "cell_name": "Kültür Savaşı & Yaşam Tarzı",
-      "member_count": 2,
-      "average_troll_score": 62.5,
-      "members": [
-        "bozaj",
-        "becathlon"
+        "948",
+        "1xw"
       ],
       "top_evidence_topics": [
         "haşemalılarla aynı denize girmek istemeyen kadın",
         "yabancı turistin türk esnafına isyan etmesi"
       ]
+    },
+    {
+      "cell_name": "Dış Politika & Jeopolitik Savunma",
+      "member_count": 2,
+      "average_troll_score": 61.7,
+      "members": [
+        "givles",
+        "georgewalker"
+      ],
+      "top_evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "ankara'da alman kurdundan kaçarken ölen çocuk",
+        "türkiye'nin brics üyeliği ve batı'nın paniği"
+      ]
+    },
+    {
+      "cell_name": "Genel Karalama & Algı Hücresi",
+      "member_count": 1,
+      "average_troll_score": 49.0,
+      "members": [
+        "teenage"
+      ],
+      "top_evidence_topics": [
+        "sandviç alıp dolandırılmak"
+      ]
     }
   ],
   "candidates": [
     {
-      "nick": "funkycrow",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Dış Politika & Jeopolitik Savunma",
-      "entry_count": 1,
+      "nick": "becathlon",
+      "troll_score": 97.0,
+      "risk_level": "Kesin Organize Troll",
+      "badge_color": "red",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 3,
       "metrics": {
-        "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
+        "topic_entropy": 0.92,
+        "stance_alignment": 100.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 95.0,
         "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
+        "shift_regularity": 0.0
       },
       "evidence_topics": [
-        "türkiye'nin brics üyeliği ve batı'nın paniği"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "givles",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Dış Politika & Jeopolitik Savunma",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
-        "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
-      },
-      "evidence_topics": [
-        "türkiye'nin brics üyeliği ve batı'nın paniği"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "parantezicindekiadam",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Muhalefet & Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
-        "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
-      },
-      "evidence_topics": [
-        "ekrem imamoğlu'nun roma gezisi faturası"
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
     {
       "nick": "playerman",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
+      "troll_score": 94.0,
+      "risk_level": "Kesin Organize Troll",
+      "badge_color": "red",
       "detected_cell": "Muhalefet & Belediye Karalama",
       "entry_count": 1,
       "metrics": {
         "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
+        "stance_alignment": 100.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 95.0,
         "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
+        "shift_regularity": 100.0
       },
       "evidence_topics": [
         "ekrem imamoğlu'nun roma gezisi faturası"
@@ -164,38 +143,18 @@
     },
     {
       "nick": "reactionshot",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
+      "troll_score": 94.0,
+      "risk_level": "Kesin Organize Troll",
+      "badge_color": "red",
       "detected_cell": "Muhalefet & Belediye Karalama",
       "entry_count": 1,
       "metrics": {
         "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
+        "stance_alignment": 100.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 95.0,
         "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
-      },
-      "evidence_topics": [
-        "ekrem imamoğlu'nun roma gezisi faturası"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "szw",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Muhalefet & Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
-        "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
+        "shift_regularity": 100.0
       },
       "evidence_topics": [
         "ekrem imamoğlu'nun roma gezisi faturası"
@@ -204,18 +163,18 @@
     },
     {
       "nick": "dijitalkitap",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
+      "troll_score": 94.0,
+      "risk_level": "Kesin Organize Troll",
+      "badge_color": "red",
       "detected_cell": "Muhalefet & Belediye Karalama",
       "entry_count": 1,
       "metrics": {
         "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
+        "stance_alignment": 100.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 95.0,
         "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
+        "shift_regularity": 100.0
       },
       "evidence_topics": [
         "ekrem imamoğlu'nun roma gezisi faturası"
@@ -223,79 +182,19 @@
       "is_monitored": true
     },
     {
-      "nick": "madanin",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Yargı, Güvenlik & Hamaset",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
-        "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
-      },
-      "evidence_topics": [
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "medyumay",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Yargı, Güvenlik & Hamaset",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
-        "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
-      },
-      "evidence_topics": [
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "miamix",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Yargı, Güvenlik & Hamaset",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
-        "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
-      },
-      "evidence_topics": [
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
-      ],
-      "is_monitored": true
-    },
-    {
       "nick": "hackerbey",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
+      "troll_score": 94.0,
+      "risk_level": "Kesin Organize Troll",
+      "badge_color": "red",
       "detected_cell": "Muhalefet & Belediye Karalama",
       "entry_count": 1,
       "metrics": {
         "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
+        "stance_alignment": 100.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 95.0,
         "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
+        "shift_regularity": 100.0
       },
       "evidence_topics": [
         "chp'li belediyelerin fahiş konser harcamaları"
@@ -304,18 +203,18 @@
     },
     {
       "nick": "hirvatistanli",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
+      "troll_score": 94.0,
+      "risk_level": "Kesin Organize Troll",
+      "badge_color": "red",
       "detected_cell": "Muhalefet & Belediye Karalama",
       "entry_count": 1,
       "metrics": {
         "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
+        "stance_alignment": 100.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 95.0,
         "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
+        "shift_regularity": 100.0
       },
       "evidence_topics": [
         "chp'li belediyelerin fahiş konser harcamaları"
@@ -323,99 +222,266 @@
       "is_monitored": true
     },
     {
-      "nick": "ingiliz dili ve edebiyati",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Muhalefet & Belediye Karalama",
+      "nick": "nane kokusu",
+      "troll_score": 94.0,
+      "risk_level": "Kesin Organize Troll",
+      "badge_color": "red",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
       "entry_count": 1,
       "metrics": {
         "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
+        "stance_alignment": 100.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 95.0,
         "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
+        "shift_regularity": 0.0
       },
       "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları"
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "localtime",
+      "troll_score": 91.0,
+      "risk_level": "Kesin Organize Troll",
+      "badge_color": "red",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 100.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 80.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
     },
     {
-      "nick": "jimmymartin",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Muhalefet & Belediye Karalama",
+      "nick": "biseydiycemben",
+      "troll_score": 91.0,
+      "risk_level": "Kesin Organize Troll",
+      "badge_color": "red",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
       "entry_count": 1,
       "metrics": {
         "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
+        "stance_alignment": 100.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 80.0,
         "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
+        "shift_regularity": 0.0
       },
       "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları"
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "lacivertnokta",
+      "troll_score": 88.0,
+      "risk_level": "Kesin Organize Troll",
+      "badge_color": "red",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 100.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 65.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
     },
     {
-      "nick": "kafadanilo",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Muhalefet & Belediye Karalama",
+      "nick": "yaren",
+      "troll_score": 88.0,
+      "risk_level": "Kesin Organize Troll",
+      "badge_color": "red",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
       "entry_count": 1,
       "metrics": {
         "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
+        "stance_alignment": 100.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 65.0,
         "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
+        "shift_regularity": 0.0
       },
       "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları"
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "948",
+      "troll_score": 86.2,
+      "risk_level": "Kesin Organize Troll",
+      "badge_color": "red",
+      "detected_cell": "Ekonomi Savunması & Aklama",
+      "entry_count": 2,
+      "metrics": {
+        "topic_entropy": 1.0,
+        "stance_alignment": 100.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 80.0,
+        "synchronicity_score": 50.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
     {
-      "nick": "kecuva",
-      "troll_score": 77.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Muhalefet & Belediye Karalama",
-      "entry_count": 1,
+      "nick": "enturi",
+      "troll_score": 81.7,
+      "risk_level": "Kesin Organize Troll",
+      "badge_color": "red",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 2,
       "metrics": {
-        "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
+        "topic_entropy": 1.0,
+        "stance_alignment": 50.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 95.0,
         "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 100.0,
-        "link_bias": 0.0
+        "shift_regularity": 0.0
       },
       "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları"
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
       ],
       "is_monitored": true
     },
     {
-      "nick": "georgewalker",
-      "troll_score": 70.0,
+      "nick": "londrast",
+      "troll_score": 78.7,
+      "risk_level": "Kesin Organize Troll",
+      "badge_color": "red",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 2,
+      "metrics": {
+        "topic_entropy": 1.0,
+        "stance_alignment": 50.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 80.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "bozaj",
+      "troll_score": 78.7,
+      "risk_level": "Kesin Organize Troll",
+      "badge_color": "red",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 3,
+      "metrics": {
+        "topic_entropy": 0.92,
+        "stance_alignment": 66.7,
+        "smear_intensity": 66.7,
+        "vote_brigading": 95.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "1xw",
+      "troll_score": 71.2,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Ekonomi Savunması & Aklama",
+      "entry_count": 2,
+      "metrics": {
+        "topic_entropy": 1.0,
+        "stance_alignment": 50.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 80.0,
+        "synchronicity_score": 50.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "givles",
+      "troll_score": 69.2,
       "risk_level": "Yüksek Olasılıklı Troll",
       "badge_color": "orange",
       "detected_cell": "Dış Politika & Jeopolitik Savunma",
       "entry_count": 2,
       "metrics": {
         "topic_entropy": 1.0,
-        "topic_entropy_score": 50.0,
+        "stance_alignment": 50.0,
+        "smear_intensity": 50.0,
+        "vote_brigading": 95.0,
         "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 50.0,
-        "link_bias": 0.0
+        "shift_regularity": 50.0
+      },
+      "evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "türkiye'nin brics üyeliği ve batı'nın paniği"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "miamix",
+      "troll_score": 69.2,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 2,
+      "metrics": {
+        "topic_entropy": 1.0,
+        "stance_alignment": 50.0,
+        "smear_intensity": 50.0,
+        "vote_brigading": 95.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 50.0
+      },
+      "evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "georgewalker",
+      "troll_score": 54.2,
+      "risk_level": "Şüpheli / Polarize Hesap",
+      "badge_color": "yellow",
+      "detected_cell": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 2,
+      "metrics": {
+        "topic_entropy": 1.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 50.0,
+        "vote_brigading": 95.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 50.0
       },
       "evidence_topics": [
         "ankara'da alman kurdundan kaçarken ölen çocuk",
@@ -424,211 +490,1887 @@
       "is_monitored": true
     },
     {
-      "nick": "lacivertnokta",
-      "troll_score": 62.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Yargı, Güvenlik & Hamaset",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
-        "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 0.0,
-        "link_bias": 0.0
-      },
-      "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "localtime",
-      "troll_score": 62.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Yargı, Güvenlik & Hamaset",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
-        "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 0.0,
-        "link_bias": 0.0
-      },
-      "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "londrast",
-      "troll_score": 62.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Yargı, Güvenlik & Hamaset",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
-        "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 0.0,
-        "link_bias": 0.0
-      },
-      "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "david ellefson",
-      "troll_score": 62.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Genel Algı Hücresi",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
-        "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 0.0,
-        "link_bias": 0.0
-      },
-      "evidence_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "enturi",
-      "troll_score": 62.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Genel Algı Hücresi",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "topic_entropy_score": 50.0,
-        "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 0.0,
-        "link_bias": 0.0
-      },
-      "evidence_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "bozaj",
-      "troll_score": 62.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
+      "nick": "french goddess",
+      "troll_score": 49.0,
+      "risk_level": "Şüpheli / Polarize Hesap",
+      "badge_color": "yellow",
       "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 2,
+      "entry_count": 1,
       "metrics": {
-        "topic_entropy": 1.0,
-        "topic_entropy_score": 50.0,
-        "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 0.0,
-        "link_bias": 0.0
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 95.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
       },
       "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "evrim alasya"
       ],
-      "is_monitored": true
+      "is_monitored": false
     },
     {
-      "nick": "becathlon",
-      "troll_score": 62.5,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 2,
+      "nick": "ripinogluwinkle",
+      "troll_score": 49.0,
+      "risk_level": "Şüpheli / Polarize Hesap",
+      "badge_color": "yellow",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
       "metrics": {
-        "topic_entropy": 1.0,
-        "topic_entropy_score": 50.0,
-        "synchronicity_score": 100.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 0.0,
-        "link_bias": 0.0
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 95.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
       },
       "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "ekrem imamoğlu"
       ],
-      "is_monitored": true
+      "is_monitored": false
+    },
+    {
+      "nick": "teenage",
+      "troll_score": 49.0,
+      "risk_level": "Şüpheli / Polarize Hesap",
+      "badge_color": "yellow",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 95.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 100.0
+      },
+      "evidence_topics": [
+        "sandviç alıp dolandırılmak"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "osbirci31",
+      "troll_score": 49.0,
+      "risk_level": "Şüpheli / Polarize Hesap",
+      "badge_color": "yellow",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 95.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "clint eastwood"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "bananazura",
+      "troll_score": 49.0,
+      "risk_level": "Şüpheli / Polarize Hesap",
+      "badge_color": "yellow",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 95.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "victor osimhen"
+      ],
+      "is_monitored": false
     },
     {
       "nick": "timurun fillerinin bakicisi",
-      "troll_score": 49.2,
+      "troll_score": 36.5,
       "risk_level": "Şüpheli / Polarize Hesap",
       "badge_color": "yellow",
       "detected_cell": "Yargı, Güvenlik & Hamaset",
       "entry_count": 18,
       "metrics": {
         "topic_entropy": 3.61,
-        "topic_entropy_score": 0.0,
+        "stance_alignment": 30.0,
+        "smear_intensity": 27.8,
+        "vote_brigading": 65.0,
         "synchronicity_score": 50.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 27.8,
-        "link_bias": 100.0
+        "shift_regularity": 27.8
       },
       "evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "sokakta birlikte olan çifte beddua eden kadın",
         "çocuğuna annen o... biliyor musun diyen baba",
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
-        "türk kızından anında instagram alan koreli",
-        "evde kedi istemeyen kocasını ifşalayan kadın"
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
       ],
       "is_monitored": true
     },
     {
-      "nick": "1xw",
-      "troll_score": 47.5,
-      "risk_level": "Şüpheli / Polarize Hesap",
-      "badge_color": "yellow",
-      "detected_cell": "Ekonomi Savunması & Aklama",
-      "entry_count": 2,
+      "nick": "funkycrow",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 1,
       "metrics": {
-        "topic_entropy": 1.0,
-        "topic_entropy_score": 50.0,
-        "synchronicity_score": 50.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 0.0,
-        "link_bias": 0.0
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 100.0
       },
       "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "türkiye'nin brics üyeliği ve batı'nın paniği"
       ],
       "is_monitored": true
     },
     {
-      "nick": "948",
-      "troll_score": 47.5,
-      "risk_level": "Şüpheli / Polarize Hesap",
-      "badge_color": "yellow",
-      "detected_cell": "Ekonomi Savunması & Aklama",
-      "entry_count": 2,
+      "nick": "parantezicindekiadam",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
       "metrics": {
-        "topic_entropy": 1.0,
-        "topic_entropy_score": 50.0,
-        "synchronicity_score": 50.0,
-        "political_ratio": 100.0,
-        "shift_regularity": 0.0,
-        "link_bias": 0.0
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 100.0
       },
       "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "ekrem imamoğlu'nun roma gezisi faturası"
       ],
       "is_monitored": true
+    },
+    {
+      "nick": "szw",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 100.0
+      },
+      "evidence_topics": [
+        "ekrem imamoğlu'nun roma gezisi faturası"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "madanin",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 100.0
+      },
+      "evidence_topics": [
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "medyumay",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 100.0
+      },
+      "evidence_topics": [
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "ingiliz dili ve edebiyati",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 100.0
+      },
+      "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "jimmymartin",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 100.0
+      },
+      "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "kafadanilo",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 100.0
+      },
+      "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "kecuva",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 100.0
+      },
+      "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "meridyen6",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "olası israil türkiye savaşı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "hohem",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "olası israil türkiye savaşı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "viransce",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "olası israil türkiye savaşı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "ckcozr",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "olası israil türkiye savaşı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "large hail storm",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "olası israil türkiye savaşı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "aytoldi",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "olası israil türkiye savaşı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "elrohilisilrah",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "olası israil türkiye savaşı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "dogumctrl",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "olası israil türkiye savaşı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "baskabirtane",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "olası israil türkiye savaşı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "voyager3355",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "olası israil türkiye savaşı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "saksi cicegi",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "funeral winds",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "sozen",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "ascsagittarius",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "cikolataliportakal",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "hevamfuskiki",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "tinsel",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "shagrax",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "david ellefson",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "shinigami ryuk",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "anderson talisca"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "vzw",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "anderson talisca"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "better call sabire",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "anderson talisca"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "vatkalickt",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "anderson talisca"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "mesglsn sanirm bn yatiyrm",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "anderson talisca"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "kiloveremeyenkediannesi",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "anderson talisca"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "verybutverygoodman",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Ekonomi Savunması & Aklama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "anderson talisca"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "sosyaldeneydekicuzdanicebellezedenadam",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "anderson talisca"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "debe okurum",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "bedeni dışında özelliği olan kadın kalmaması"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "x4",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "bedeni dışında özelliği olan kadın kalmaması"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "charango",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "bedeni dışında özelliği olan kadın kalmaması"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "neutral true",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "bedeni dışında özelliği olan kadın kalmaması"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "cunoesse vittulainen",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "bedeni dışında özelliği olan kadın kalmaması"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "thoothamon",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "bedeni dışında özelliği olan kadın kalmaması"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "ucansarman",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "bedeni dışında özelliği olan kadın kalmaması"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "deli ali 667",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "bedeni dışında özelliği olan kadın kalmaması"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "karakanka",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "bedeni dışında özelliği olan kadın kalmaması"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "delivida",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "bedeni dışında özelliği olan kadın kalmaması"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "19o5",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "bilmemeninbilmisligi",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "raybanzib",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "ne rakisi sevim",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "burunsuz pinok",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "wishuwerehere",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "karizmatik bir nick olsun",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "ben buraya niye ciktim",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "feignant",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "peter4",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "ckmltyf",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "görülmüş en etkileyici tarihi yapı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "slowrocker",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "görülmüş en etkileyici tarihi yapı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "niltt",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "görülmüş en etkileyici tarihi yapı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "lonely tree",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "görülmüş en etkileyici tarihi yapı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "screenknife",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "görülmüş en etkileyici tarihi yapı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "the archmage",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "görülmüş en etkileyici tarihi yapı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "darwinisecdeyeyatiranadam",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "mason greenwood"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "entrollment",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "mason greenwood"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "lamusi",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "görülmüş en etkileyici tarihi yapı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "protego",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "mason greenwood"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "fyodorwell",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "mason greenwood"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "earl hacker",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "görülmüş en etkileyici tarihi yapı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "alf in yedigi kedi",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "görülmüş en etkileyici tarihi yapı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "kirkbirincikarakter",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "mason greenwood"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "celimsiz eklembacakli",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "mason greenwood"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "humanitariantragedy",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "mason greenwood"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "gearbox ag",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "mason greenwood"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "homoiskandinavus",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "mason greenwood"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "lapuente",
+      "troll_score": 20.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 100.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "mason greenwood"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "cocukluk askimsin 1905",
+      "troll_score": 5.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "rockstar games"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "sonundamezun",
+      "troll_score": 5.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "burçlara inanan insan"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "lacroix",
+      "troll_score": 5.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "ayrancı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "galatakulesindekielma",
+      "troll_score": 5.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 100.0
+      },
+      "evidence_topics": [
+        "yaprak dökümü"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "cengover26",
+      "troll_score": 5.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "kelimelik"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "engineer061",
+      "troll_score": 5.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "ddy666",
+      "troll_score": 5.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "görülmüş en etkileyici tarihi yapı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "falanks",
+      "troll_score": 5.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "otuz yaş üstü kariyerli kadınlar neden evlenmiyor"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "vladmicov",
+      "troll_score": 5.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "anderson talisca"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "youth gone wild",
+      "troll_score": 5.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "anderson talisca"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "yenal",
+      "troll_score": 5.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "arda güler"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "ondortelliuc",
+      "troll_score": 5.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "22 ağustos 2026 fenerbahçe konyaspor maçı"
+      ],
+      "is_monitored": false
+    },
+    {
+      "nick": "v0dka",
+      "troll_score": 5.0,
+      "risk_level": "Organik / Düşük Risk",
+      "badge_color": "green",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 0.0,
+        "vote_brigading": 0.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "arda güler"
+      ],
+      "is_monitored": false
     }
   ]
 }

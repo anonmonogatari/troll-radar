@@ -244,28 +244,33 @@ class EksiScraper:
         new_entries_count = 0
         topics_to_scan = []
 
+        from noise_filter import is_noise_topic
+
         # 1. Fetch Gündem topics
         gundem_html = self._fetch_url(f"https://{self.domain}/basliklar/gundem")
         if gundem_html:
             soup = BeautifulSoup(gundem_html, 'html.parser')
-            for a in soup.select('ul.topic-list > li > a')[:limit_topics]:
+            for a in soup.select('ul.topic-list > li > a'):
                 href = a.get('href', '')
                 title = a.text.strip()
-                # Clean entry count badge from title text (e.g. 'fenerbahçe 892' -> 'fenerbahçe')
                 clean_title = re.sub(r'\s+\d+$', '', title)
-                if href and clean_title:
+                if href and clean_title and not is_noise_topic(clean_title):
                     topics_to_scan.append({'title': clean_title, 'href': href})
+                if len(topics_to_scan) >= limit_topics:
+                    break
 
         # 2. Fetch Debe (Dünün en beğenilen entryleri)
         debe_html = self._fetch_url(f"https://{self.domain}/debe")
         if debe_html:
             soup = BeautifulSoup(debe_html, 'html.parser')
-            for a in soup.select('ul.topic-list > li > a, #topic > li > a')[:limit_topics]:
+            for a in soup.select('ul.topic-list > li > a, #topic > li > a'):
                 href = a.get('href', '')
                 title = a.text.strip()
                 clean_title = re.sub(r'\s+\d+$', '', title)
-                if href and clean_title and not any(t['href'] == href for t in topics_to_scan):
+                if href and clean_title and not is_noise_topic(clean_title) and not any(t['href'] == href for t in topics_to_scan):
                     topics_to_scan.append({'title': clean_title, 'href': href})
+                if len(topics_to_scan) >= limit_topics * 2:
+                    break
 
         # 3. For each topic, fetch most favorited / popular entries (?a=nice or ?a=popular)
         for t_info in topics_to_scan:
