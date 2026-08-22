@@ -65,9 +65,24 @@ def test_refined_engine():
     assert alignment == 0.0, f"Zıt görüşlü organik yazarlar eşleşti! Skor: {alignment}"
     print("  -> Karşıt görüşlü organik yazarlar başarıyla ayrıştırıldı (Söylem Uyumu = %0).")
 
-    # 4. TEST FULL TROLL DISCOVERY ENGINE
-    print("\n[4] Gelişmiş Troll Motoru Taraması...")
+    # 4. TEST VOTE BRIGADING HARD GATE (No fav ring = NOT a troll)
+    print("\n[4] Beğeni Halkası Olmayanların Baştan Elenmesi (Hard Gate) Testi...")
     engine = TrollDiscoveryEngine()
+    isolated_smear_entry = {
+        "id": "100",
+        "author": "bireysel_elestirmen",
+        "topic": "chp belediyelerinin konser harcamaları",
+        "content": "bence konser harcamaları israftır ve liyakatsiz bir karardır.",
+        "favorite_count": 0, # SIFIR BEĞENİ / HALKA YOK
+        "created_at": "2026-08-22T14:00:00"
+    }
+    eval_isolated = engine.evaluate_author("bireysel_elestirmen", [isolated_smear_entry], [isolated_smear_entry])
+    assert eval_isolated['troll_score'] == 0.0, f"Beğeni halkası olmayan hesap elenmedi: {eval_isolated['troll_score']}"
+    assert "Elendi" in eval_isolated['detected_cell'], "Hücre adında elendi ibaresi yok"
+    print("  -> Beğeni halkası olmayan yazar başarıyla elendi (Troll Skoru = %0.0).")
+
+    # 5. TEST FULL TROLL DISCOVERY ENGINE
+    print("\n[5] Gelişmiş Troll Motoru Taraması...")
     evaluations = engine.run_auto_discovery_scan(days=30)
     
     print(f"  -> Değerlendirilen Hedef Yazar: {len(evaluations)}")

@@ -147,6 +147,31 @@ class TrollDiscoveryEngine:
         synchronicity = self.calculate_temporal_synchronicity(relevant_entries, all_entries)
         shift_regularity = self.calculate_shift_regularity(timestamps)
 
+        # -------------------------------------------------------------
+        # MANDATORY HARD-GATE: VOTE BRIGADING / FAVORITING RING
+        # -------------------------------------------------------------
+        # An organized troll network CANNOT operate without an upvote/fav ring to push
+        # smear entries into Debe/Şükela. If no vote-brigading ring exists, immediately disqualify!
+        if vote_brigading < 30.0:
+            return {
+                "nick": nick,
+                "troll_score": 0.0,
+                "risk_level": "Organik / Beğeni Halkası Yok",
+                "badge_color": "green",
+                "detected_cell": "Bireysel (Beğeni Halkası Yok - Elendi)",
+                "entry_count": len(relevant_entries),
+                "is_monitored": False,
+                "metrics": {
+                    "topic_entropy": entropy,
+                    "stance_alignment": stance_alignment,
+                    "smear_intensity": smear_intensity,
+                    "vote_brigading": vote_brigading,
+                    "synchronicity_score": synchronicity,
+                    "shift_regularity": shift_regularity
+                },
+                "evidence_topics": []
+            }
+
         # 2. Weighted Political Astroturfing Troll Index (0 - 100)
         raw_score = (
             (stance_alignment * 0.30) +

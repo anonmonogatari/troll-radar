@@ -2,18 +2,54 @@
   "keywords": [
     {
       "word": "kadın",
-      "count": 35
+      "count": 36
+    },
+    {
+      "word": "iyi",
+      "count": 33
+    },
+    {
+      "word": "türkiye",
+      "count": 31
+    },
+    {
+      "word": "değil",
+      "count": 31
     },
     {
       "word": "fenerbahçe",
-      "count": 27
+      "count": 28
+    },
+    {
+      "word": "beyaz",
+      "count": 23
+    },
+    {
+      "word": "ayşe",
+      "count": 21
     },
     {
       "word": "arda",
       "count": 21
     },
     {
-      "word": "ilk",
+      "word": "erkek",
+      "count": 20
+    },
+    {
+      "word": "hesap",
+      "count": 20
+    },
+    {
+      "word": "yaş",
+      "count": 18
+    },
+    {
+      "word": "üstü",
+      "count": 18
+    },
+    {
+      "word": "kadınlar",
       "count": 17
     },
     {
@@ -21,11 +57,31 @@
       "count": 17
     },
     {
+      "word": "ilk",
+      "count": 17
+    },
+    {
+      "word": "gol",
+      "count": 17
+    },
+    {
       "word": "denize",
       "count": 17
     },
     {
+      "word": "kaç",
+      "count": 16
+    },
+    {
+      "word": "insan",
+      "count": 16
+    },
+    {
       "word": "girmek",
+      "count": 16
+    },
+    {
+      "word": "istemeyen",
       "count": 16
     },
     {
@@ -33,15 +89,23 @@
       "count": 16
     },
     {
-      "word": "türkiye",
+      "word": "muhammed",
       "count": 15
     },
     {
-      "word": "iyi",
+      "word": "israil",
       "count": 15
     },
     {
-      "word": "değil",
+      "word": "yaşında",
+      "count": 15
+    },
+    {
+      "word": "son",
+      "count": 15
+    },
+    {
+      "word": "hala",
       "count": 15
     },
     {
@@ -53,72 +117,8 @@
       "count": 15
     },
     {
-      "word": "istemeyen",
-      "count": 15
-    },
-    {
-      "word": "üstü",
-      "count": 14
-    },
-    {
-      "word": "kadınlar",
-      "count": 14
-    },
-    {
-      "word": "gol",
-      "count": 14
-    },
-    {
-      "word": "maçı",
-      "count": 14
-    },
-    {
       "word": "otuz",
-      "count": 13
-    },
-    {
-      "word": "yaş",
-      "count": 13
-    },
-    {
-      "word": "kariyerli",
-      "count": 13
-    },
-    {
-      "word": "neden",
-      "count": 13
-    },
-    {
-      "word": "erkeğin",
-      "count": 12
-    },
-    {
-      "word": "adam",
-      "count": 12
-    },
-    {
-      "word": "kişiyi",
-      "count": 12
-    },
-    {
-      "word": "etkileyici",
-      "count": 11
-    },
-    {
-      "word": "tarihi",
-      "count": 11
-    },
-    {
-      "word": "yapı",
-      "count": 11
-    },
-    {
-      "word": "yabancı",
-      "count": 11
-    },
-    {
-      "word": "izmir",
-      "count": 11
+      "count": 14
     }
   ]
 }

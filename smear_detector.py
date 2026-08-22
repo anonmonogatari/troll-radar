@@ -138,12 +138,12 @@ def calculate_vote_brigading_score(author_entries: List[Dict[str, Any]]) -> floa
         else:
             normal_favs.append(fav_count)
 
-    if not manipulation_favs:
+    if not manipulation_favs or sum(manipulation_favs) == 0:
         return 0.0
 
     avg_manipulation_fav = sum(manipulation_favs) / len(manipulation_favs)
     
-    # If manipulation entries consistently receive high favoriting (> 5-10 favs) in ring
+    # If manipulation entries consistently receive organized favoriting in ring
     if avg_manipulation_fav >= 15:
         return 95.0
     elif avg_manipulation_fav >= 8:
@@ -151,5 +151,5 @@ def calculate_vote_brigading_score(author_entries: List[Dict[str, Any]]) -> floa
     elif avg_manipulation_fav >= 4:
         return 65.0
     elif avg_manipulation_fav >= 1:
-        return 40.0
-    return 15.0
+        return 50.0
+    return 0.0

@@ -1,23 +1,67 @@
 {
   "keywords": [
     {
+      "word": "değil",
+      "count": 47
+    },
+    {
       "word": "kadın",
-      "count": 39
+      "count": 45
+    },
+    {
+      "word": "iyi",
+      "count": 40
+    },
+    {
+      "word": "türkiye",
+      "count": 36
     },
     {
       "word": "fenerbahçe",
+      "count": 28
+    },
+    {
+      "word": "insan",
       "count": 27
     },
     {
-      "word": "değil",
-      "count": 24
+      "word": "tam",
+      "count": 27
+    },
+    {
+      "word": "ilk",
+      "count": 27
     },
     {
       "word": "kadının",
-      "count": 24
+      "count": 26
+    },
+    {
+      "word": "beyaz",
+      "count": 23
+    },
+    {
+      "word": "açık",
+      "count": 22
     },
     {
       "word": "nun",
+      "count": 21
+    },
+    {
+      "word": "sadece",
+      "count": 21
+    },
+    {
+      "word": "hesap",
+      "count": 21
+    },
+    {
+      "word": "israil",
+      "count": 21
+    },
+    {
+      "word": "ayşe",
       "count": 21
     },
     {
@@ -25,100 +69,56 @@
       "count": 21
     },
     {
-      "word": "ilk",
+      "word": "erkek",
       "count": 20
     },
     {
-      "word": "iyi",
+      "word": "benim",
       "count": 19
     },
     {
-      "word": "türkiye",
+      "word": "tek",
       "count": 19
-    },
-    {
-      "word": "denize",
-      "count": 17
-    },
-    {
-      "word": "istemeyen",
-      "count": 16
-    },
-    {
-      "word": "girmek",
-      "count": 16
-    },
-    {
-      "word": "konyaspor",
-      "count": 16
-    },
-    {
-      "word": "ibb",
-      "count": 15
-    },
-    {
-      "word": "sadece",
-      "count": 15
-    },
-    {
-      "word": "gol",
-      "count": 15
-    },
-    {
-      "word": "maçı",
-      "count": 15
     },
     {
       "word": "savaşı",
-      "count": 15
-    },
-    {
-      "word": "üstü",
-      "count": 15
-    },
-    {
-      "word": "kadınlar",
-      "count": 15
-    },
-    {
-      "word": "talisca",
-      "count": 15
-    },
-    {
-      "word": "haşemalılarla",
-      "count": 15
-    },
-    {
-      "word": "kişiyi",
-      "count": 14
-    },
-    {
-      "word": "tam",
-      "count": 14
-    },
-    {
-      "word": "otuz",
-      "count": 14
+      "count": 19
     },
     {
       "word": "yaş",
-      "count": 14
+      "count": 19
     },
     {
-      "word": "kariyerli",
-      "count": 14
+      "word": "üstü",
+      "count": 19
     },
     {
-      "word": "neden",
-      "count": 14
+      "word": "güzel",
+      "count": 18
     },
     {
-      "word": "olası",
-      "count": 13
+      "word": "olduğunu",
+      "count": 18
     },
     {
-      "word": "ardından",
-      "count": 12
+      "word": "bana",
+      "count": 18
+    },
+    {
+      "word": "son",
+      "count": 18
+    },
+    {
+      "word": "hatta",
+      "count": 18
+    },
+    {
+      "word": "gol",
+      "count": 18
+    },
+    {
+      "word": "kadınlar",
+      "count": 18
     }
   ]
 }
