@@ -1,0 +1,351 @@
+{
+  "total": 27,
+  "authors": [
+    {
+      "nick": "timurun fillerinin bakicisi",
+      "display_name": "timurun fillerinin bakicisi",
+      "last_scraped_at": "2026-08-23T00:24:16.476975",
+      "last_entry_at": "2026-08-22T15:44:00",
+      "is_active": 1,
+      "period_entries": 6,
+      "coordinated_entries": 6,
+      "distinct_topics": 3,
+      "risk_score": 100.0,
+      "top_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
+      ]
+    },
+    {
+      "nick": "1xw",
+      "display_name": "1xw",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-22T21:14:00",
+      "is_active": 1,
+      "period_entries": 2,
+      "coordinated_entries": 1,
+      "distinct_topics": 2,
+      "risk_score": 23.0,
+      "top_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "nick": "948",
+      "display_name": "948",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-22T21:52:00",
+      "is_active": 1,
+      "period_entries": 2,
+      "coordinated_entries": 1,
+      "distinct_topics": 2,
+      "risk_score": 23.0,
+      "top_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "nick": "becathlon",
+      "display_name": "becathlon",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-22T15:47:00",
+      "is_active": 1,
+      "period_entries": 2,
+      "coordinated_entries": 2,
+      "distinct_topics": 2,
+      "risk_score": 38.0,
+      "top_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "nick": "bozaj",
+      "display_name": "bozaj",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-22T15:45:00",
+      "is_active": 1,
+      "period_entries": 2,
+      "coordinated_entries": 2,
+      "distinct_topics": 2,
+      "risk_score": 38.0,
+      "top_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "nick": "david ellefson",
+      "display_name": "david ellefson",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-22T07:43:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
+      "top_topics": [
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
+      ]
+    },
+    {
+      "nick": "enturi",
+      "display_name": "enturi",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-22T07:49:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
+      "top_topics": [
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
+      ]
+    },
+    {
+      "nick": "georgewalker",
+      "display_name": "georgewalker",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-22T07:55:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
+      "top_topics": [
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
+      ]
+    },
+    {
+      "nick": "dijitalkitap",
+      "display_name": "dijitalkitap",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-18T16:44:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "funkycrow",
+      "display_name": "funkycrow",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-17T10:00:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "givles",
+      "display_name": "givles",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-17T10:22:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "hackerbey",
+      "display_name": "hackerbey",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-21T14:15:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "hirvatistanli",
+      "display_name": "hirvatistanli",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-21T14:19:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "ingiliz dili ve edebiyati",
+      "display_name": "ingiliz dili ve edebiyati",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-21T14:24:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "jimmymartin",
+      "display_name": "jimmymartin",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-21T14:30:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "kafadanilo",
+      "display_name": "kafadanilo",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-21T14:37:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "kecuva",
+      "display_name": "kecuva",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-21T14:45:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "lacivertnokta",
+      "display_name": "lacivertnokta",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-21T08:19:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "localtime",
+      "display_name": "localtime",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-21T08:25:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "londrast",
+      "display_name": "londrast",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-21T08:32:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "madanin",
+      "display_name": "madanin",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-19T13:48:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "medyumay",
+      "display_name": "medyumay",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-19T13:54:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "miamix",
+      "display_name": "miamix",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-19T14:05:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "parantezicindekiadam",
+      "display_name": "parantezicindekiadam",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-18T16:20:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "playerman",
+      "display_name": "playerman",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-18T16:25:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "reactionshot",
+      "display_name": "reactionshot",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-18T16:31:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "szw",
+      "display_name": "szw",
+      "last_scraped_at": null,
+      "last_entry_at": "2026-08-18T16:38:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    }
+  ]
+}

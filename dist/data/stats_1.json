@@ -1,0 +1,21 @@
+{
+  "period_days": 1,
+  "total_entries": 17,
+  "coordinated_entries": 15,
+  "active_authors": 8,
+  "total_monitored_authors": 27,
+  "total_topics": 3,
+  "total_operations": 4,
+  "categories": {
+    "Ekonomi Savunması & Aklama": 6,
+    "Kültür Savaşı & Yaşam Tarzı": 6,
+    "Suni Gündem & Viral Çarpıtma": 5
+  },
+  "timeline": [
+    {
+      "day": "2026-08-22",
+      "total": 17,
+      "coordinated": 15
+    }
+  ]
+}

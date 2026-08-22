@@ -1,0 +1,630 @@
+{
+  "period_days": 30,
+  "narratives": [
+    {
+      "topic": "chp'li belediyelerin fahiş konser harcamaları",
+      "category": "Muhalefet & Belediye Karalama",
+      "entry_count": 6,
+      "author_count": 6,
+      "coord_count": 6,
+      "is_coordinated": true,
+      "first_seen": "2026-08-21T14:15:00",
+      "last_seen": "2026-08-21T14:45:00",
+      "summary": "Muhalefet partileri ve belediyeleri hedef alan organize dezenformasyon/eleştiri dalgası.",
+      "authors": [
+        "kafadanilo",
+        "jimmymartin",
+        "hackerbey",
+        "hirvatistanli",
+        "ingiliz dili ve edebiyati"
+      ],
+      "sample_entries": [
+        {
+          "author": "hackerbey",
+          "content": "belediyelerin kasasından sanatçılara aktarılan milyonlarca liralık skandaldır. hizmet üretmek yerine yandaş sanatçıları besliyorlar.",
+          "date_str": "21.08.2026 14:15",
+          "created_at": "2026-08-21T14:15:00",
+          "is_coordinated": 1,
+          "id": "185800014"
+        },
+        {
+          "author": "hirvatistanli",
+          "content": "halk zamlardan şikayet ederken chp'li belediyelerin tek bir gecelik konsere 69 milyon tl akıtması rezaletidir.",
+          "date_str": "21.08.2026 14:19",
+          "created_at": "2026-08-21T14:19:00",
+          "is_coordinated": 1,
+          "id": "185800015"
+        },
+        {
+          "author": "ingiliz dili ve edebiyati",
+          "content": "ibb ve abb'nin borç batağındayken şov peşinde koşmasının resmidir. hesap sorulmalıdır.",
+          "date_str": "21.08.2026 14:24",
+          "created_at": "2026-08-21T14:24:00",
+          "is_coordinated": 1,
+          "id": "185800016"
+        },
+        {
+          "author": "jimmymartin",
+          "content": "hizmet yok, yol yok, metro bozuk ama konser için sınırsız bütçe var. chp belediyeciliği tam olarak budur.",
+          "date_str": "21.08.2026 14:30",
+          "created_at": "2026-08-21T14:30:00",
+          "is_coordinated": 1,
+          "id": "185800017"
+        },
+        {
+          "author": "kafadanilo",
+          "content": "müfettişlerin acilen inceleme başlatması gereken astronomik harcamalardır. milletin parası çarçur ediliyor.",
+          "date_str": "21.08.2026 14:37",
+          "created_at": "2026-08-21T14:37:00",
+          "is_coordinated": 1,
+          "id": "185800018"
+        }
+      ]
+    },
+    {
+      "topic": "haşemalılarla aynı denize girmek istemeyen kadın",
+      "category": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 6,
+      "author_count": 5,
+      "coord_count": 6,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T11:43:00",
+      "last_seen": "2026-08-22T21:52:00",
+      "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 5 hesap tarafından eşzamanlı gündeme taşındı.",
+      "authors": [
+        "bozaj",
+        "1xw",
+        "becathlon",
+        "timurun fillerinin bakicisi"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "ilgili kadının videosu bu da dün haşemalı bir kadının isyanı sokak röportajında konuşan bir kadının dile getirdiği durum. ben camiye bikiniyle girmiyorsam, onlar da denize haşemayla girmesinler demiş. bu zihniyet 28 şubat kafasından bir adım ileri gidememiştir.",
+          "date_str": "22.08.2026 11:43",
+          "created_at": "2026-08-22T11:43:00",
+          "is_coordinated": 1,
+          "id": "185800000"
+        },
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "ilgili kadının videosubu da dün haşemalı bir kadının isyanısokak röportajında konuşan bir kadının dile getirdiği durum. ben camiye bikiniyle girmiyorsam, onlarda denize haşemayla girmesinler demiş.",
+          "date_str": "22.08.2026 11:43 ~ 12:56",
+          "created_at": "2026-08-22T11:43:00",
+          "is_coordinated": 1,
+          "id": "185834003"
+        },
+        {
+          "author": "bozaj",
+          "content": "milletin ne giydiğine karışmayı ilericilik sanan tipik faşist zihniyet örneğidir. kadının istediği gibi giyinme özgürlüğünü sadece kendilerine hak görüyorlar.",
+          "date_str": "22.08.2026 11:44",
+          "created_at": "2026-08-22T11:44:00",
+          "is_coordinated": 1,
+          "id": "185800001"
+        },
+        {
+          "author": "becathlon",
+          "content": "2026 yılında hala milletin kılığı kıyafetiyle uğraşan chp zihniyetinin dışa vurumudur. kimsenin kimseye karışma hakkı yoktur.",
+          "date_str": "22.08.2026 11:49",
+          "created_at": "2026-08-22T11:49:00",
+          "is_coordinated": 1,
+          "id": "185800002"
+        },
+        {
+          "author": "1xw",
+          "content": "laiklik kisvesi altında halkın dini değerlerine ve inançlı kadınlara yapılan saygısızlıktır. millet plajda ne giyeceğini size mi soracak?",
+          "date_str": "22.08.2026 21:14",
+          "created_at": "2026-08-22T21:14:00",
+          "is_coordinated": 1,
+          "id": "185800003"
+        }
+      ]
+    },
+    {
+      "topic": "ekrem imamoğlu'nun roma gezisi faturası",
+      "category": "Muhalefet & Belediye Karalama",
+      "entry_count": 5,
+      "author_count": 5,
+      "coord_count": 5,
+      "is_coordinated": true,
+      "first_seen": "2026-08-18T16:20:00",
+      "last_seen": "2026-08-18T16:44:00",
+      "summary": "Muhalefet partileri ve belediyeleri hedef alan organize dezenformasyon/eleştiri dalgası.",
+      "authors": [
+        "szw",
+        "parantezicindekiadam",
+        "reactionshot",
+        "dijitalkitap",
+        "playerman"
+      ],
+      "sample_entries": [
+        {
+          "author": "parantezicindekiadam",
+          "content": "45 gazeteciyi özel uçakla roma'ya lüks tatile götüren imamoğlu'nun istanbul halkının parasını nasıl saçtığının kanıtıdır.",
+          "date_str": "18.08.2026 16:20",
+          "created_at": "2026-08-18T16:20:00",
+          "is_coordinated": 1,
+          "id": "185800028"
+        },
+        {
+          "author": "playerman",
+          "content": "istanbul'da metrobüsler alev alırken roma'da keyif çatan büyükşehir belediye başkanlığı rezaletidir.",
+          "date_str": "18.08.2026 16:25",
+          "created_at": "2026-08-18T16:25:00",
+          "is_coordinated": 1,
+          "id": "185800029"
+        },
+        {
+          "author": "reactionshot",
+          "content": "israfı bitirdik deyip tarihin en büyük şahsi reklam harcamalarını yapan zihniyet.",
+          "date_str": "18.08.2026 16:31",
+          "created_at": "2026-08-18T16:31:00",
+          "is_coordinated": 1,
+          "id": "185800030"
+        },
+        {
+          "author": "szw",
+          "content": "kamu kaynaklarıyla şahsi siyasi kariyer parlatma operasyonudur. ibb bütçesi bu keyfi harcamalara kurban edilemez.",
+          "date_str": "18.08.2026 16:38",
+          "created_at": "2026-08-18T16:38:00",
+          "is_coordinated": 1,
+          "id": "185800031"
+        },
+        {
+          "author": "dijitalkitap",
+          "content": "belediye bütçesinden lüks oteller ve ziyafetler... hesap sorulunca da mağdur edebiyatı.",
+          "date_str": "18.08.2026 16:44",
+          "created_at": "2026-08-18T16:44:00",
+          "is_coordinated": 1,
+          "id": "185800032"
+        }
+      ]
+    },
+    {
+      "topic": "yabancı turistin türk esnafına isyan etmesi",
+      "category": "Ekonomi Savunması & Aklama",
+      "entry_count": 6,
+      "author_count": 5,
+      "coord_count": 4,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T15:44:00",
+      "last_seen": "2026-08-22T20:26:00",
+      "summary": "Pahalılık/turist/esnaf algısını çarpıtma ve ekonomik tepkileri hafifletme amacıyla 5 hesap tarafından organize paylaşıldı.",
+      "authors": [
+        "bozaj",
+        "1xw",
+        "becathlon",
+        "timurun fillerinin bakicisi"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "ilgili turistin videosu 1 nargileye istenen fiyat türkiye'ye tatile gelen bir yabancı turistin 'kimse artık hakkınızda iyi konuşmuyor. kaliteyi kaybediyorsunuz' diye başlayan isyanıdır. fırsatçı esnafın cezasını tüm ülke çekiyor.",
+          "date_str": "22.08.2026 15:44",
+          "created_at": "2026-08-22T15:44:00",
+          "is_coordinated": 1,
+          "id": "185800005"
+        },
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "ilgili turistin videosu1 nargileye istenen fiyattürkiye'ye tatile gelen bir yabancı turistin \"kimse artık hakkınızda iyi konuşmuyor. kaliteyi kaybediyorsunuz, itibarınız düşüyor\" diye başlayan ve esnaflara uzanan isyandır.",
+          "date_str": "22.08.2026 15:44 ~ 16:24",
+          "created_at": "2026-08-22T15:44:00",
+          "is_coordinated": 1,
+          "id": "185838093"
+        },
+        {
+          "author": "bozaj",
+          "content": "avrupa'da sokak ortasında bir kahveye 10 euro verirken sesi çıkmayanların türkiye'de üç kuruşluk hesaba algı yapması olayıdır. esnafımızı karalamak moda oldu.",
+          "date_str": "22.08.2026 15:45",
+          "created_at": "2026-08-22T15:45:00",
+          "is_coordinated": 1,
+          "id": "185800006"
+        },
+        {
+          "author": "becathlon",
+          "content": "fırsatçılık yapan münferit birkaç esnaf üzerinden bütün türkiye turizmini ve ekonomisini kötüleme çabasıdır. yunanistan'da katbekat fazlasını ödüyorlar.",
+          "date_str": "22.08.2026 15:47",
+          "created_at": "2026-08-22T15:47:00",
+          "is_coordinated": 1,
+          "id": "185800007"
+        },
+        {
+          "author": "1xw",
+          "content": "turizm sezonunda ülkeyi kötülemek için fonlu hesapların koro halinde paylaştığı videodur. algı operasyonlarına prim vermeyin.",
+          "date_str": "22.08.2026 17:49",
+          "created_at": "2026-08-22T17:49:00",
+          "is_coordinated": 0,
+          "id": "185800008"
+        }
+      ]
+    },
+    {
+      "topic": "ankara'da alman kurdundan kaçarken ölen çocuk",
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "entry_count": 5,
+      "author_count": 4,
+      "coord_count": 5,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T07:31:00",
+      "last_seen": "2026-08-22T07:55:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "enturi",
+        "david ellefson",
+        "georgewalker",
+        "timurun fillerinin bakicisi"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "olayın videosu başsavcılığın açıklaması. olay ankara'da yaşanmış. köpekten kaçarken fenalaşıp başını betona çarpan 15 yaşındaki çocuk hayatını kaybetmiş. mansur yavaş'ın sokak hayvanları konusundaki vurdumduymazlığı bir cana daha mal oldu.",
+          "date_str": "22.08.2026 07:31",
+          "created_at": "2026-08-22T07:31:00",
+          "is_coordinated": 1,
+          "id": "185800010"
+        },
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "olayın videosubaşsavcılığın olaya ilişkin açıklaması olay ankara'da yaşanmış.alman kurdu cinsi köpekten kaçarken fenalaşarak yere düşüp başını betona çarpan 15 yaşındaki çocuk hayatını kaybetmiş.",
+          "date_str": "22.08.2026 07:31 ~ 07:42",
+          "created_at": "2026-08-22T07:31:00",
+          "is_coordinated": 1,
+          "id": "185831198"
+        },
+        {
+          "author": "david ellefson",
+          "content": "belediyenin asli görevi sokakları güvenli kılmaktır. abb başkanı konser düzenlemekten sokaktaki vahşi köpek sorununu çözmeye vakit bulamıyor.",
+          "date_str": "22.08.2026 07:43",
+          "created_at": "2026-08-22T07:43:00",
+          "is_coordinated": 1,
+          "id": "185800011"
+        },
+        {
+          "author": "enturi",
+          "content": "mansur yavaş yönetiminin ankara'yı getirdiği durum içler acısı. sokaklar başıboş köpek terörüne teslim edilmiş durumda.",
+          "date_str": "22.08.2026 07:49",
+          "created_at": "2026-08-22T07:49:00",
+          "is_coordinated": 1,
+          "id": "185800012"
+        },
+        {
+          "author": "georgewalker",
+          "content": "bir çocuğun hayatı sokak köpekleri lobisinden daha mı değersiz? chp'li belediyeler görevini yapmıyor.",
+          "date_str": "22.08.2026 07:55",
+          "created_at": "2026-08-22T07:55:00",
+          "is_coordinated": 1,
+          "id": "185800013"
+        }
+      ]
+    },
+    {
+      "topic": "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+      "category": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 5,
+      "author_count": 4,
+      "coord_count": 5,
+      "is_coordinated": true,
+      "first_seen": "2026-08-21T08:05:00",
+      "last_seen": "2026-08-21T08:32:00",
+      "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
+      "authors": [
+        "lacivertnokta",
+        "londrast",
+        "timurun fillerinin bakicisi",
+        "localtime"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "olay anı videosu süleyman soylu'nun açıklaması. otobüste yolculuk yapan kadının terör estirmesi olayı. hareket halindeki otobüsten inmek istemiş.",
+          "date_str": "21.08.2026 08:05",
+          "created_at": "2026-08-21T08:05:00",
+          "is_coordinated": 1,
+          "id": "185800020"
+        },
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "olay anı videosusüleyman soylu olaya ilişkin açıklama yapmışşehirler arası otobüste yolculuk yapan kadının terör estirmesi olayı. hareket halindeki otobüsten inmek istemiş. izin verilmeyince kıyameti koparmış, tehditler savurmuş.",
+          "date_str": "21.08.2026 08:05 ~ 08:54",
+          "created_at": "2026-08-21T08:05:00",
+          "is_coordinated": 1,
+          "id": "185811875"
+        },
+        {
+          "author": "lacivertnokta",
+          "content": "süleyman soylu'yu karalamak için her türlü provokasyona sarılan muhalif trollerin algı operasyonudur. soylu anında yalanladı.",
+          "date_str": "21.08.2026 08:19",
+          "created_at": "2026-08-21T08:19:00",
+          "is_coordinated": 1,
+          "id": "185800021"
+        },
+        {
+          "author": "localtime",
+          "content": "soylu bakanımızın vatanseverliğini ve terörle mücadelesini çekemeyenlerin uydurduğu ucuz kumpastır.",
+          "date_str": "21.08.2026 08:25",
+          "created_at": "2026-08-21T08:25:00",
+          "is_coordinated": 1,
+          "id": "185800022"
+        },
+        {
+          "author": "londrast",
+          "content": "adli merciler gerekeni yapmıştır, yalan haber yayan hesaplar hakkında soruşturma açılmalıdır.",
+          "date_str": "21.08.2026 08:32",
+          "created_at": "2026-08-21T08:32:00",
+          "is_coordinated": 1,
+          "id": "185800023"
+        }
+      ]
+    },
+    {
+      "topic": "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+      "category": "Muhalefet & Belediye Karalama",
+      "entry_count": 5,
+      "author_count": 4,
+      "coord_count": 4,
+      "is_coordinated": true,
+      "first_seen": "2026-08-19T13:40:00",
+      "last_seen": "2026-08-19T20:46:00",
+      "summary": "Muhalefet partileri ve belediyeleri hedef alan organize dezenformasyon/eleştiri dalgası.",
+      "authors": [
+        "madanin",
+        "medyumay",
+        "miamix",
+        "timurun fillerinin bakicisi"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "terör örgütü elebaşının açıklamaları üzerine chp liderinin takındığı sessiz tavırdır. chp-dem ittifakının gizli protokolleri bir bir açığa çıkıyor.",
+          "date_str": "19.08.2026 13:40",
+          "created_at": "2026-08-19T13:40:00",
+          "is_coordinated": 1,
+          "id": "185800024"
+        },
+        {
+          "author": "madanin",
+          "content": "özgür özel'in terör uzantılarıyla kurduğu kirli pazarlıklar artık gizlenemez hale gelmiştir.",
+          "date_str": "19.08.2026 13:48",
+          "created_at": "2026-08-19T13:48:00",
+          "is_coordinated": 1,
+          "id": "185800025"
+        },
+        {
+          "author": "medyumay",
+          "content": "atatürk'ün kurduğu partiyi kimlerin oyuncağı haline getirdiklerini tüm türkiye ibretle izliyor.",
+          "date_str": "19.08.2026 13:54",
+          "created_at": "2026-08-19T13:54:00",
+          "is_coordinated": 1,
+          "id": "185800026"
+        },
+        {
+          "author": "miamix",
+          "content": "milli güvenlik meselesinde muhalefetin bu tavrı kabul edilemez.",
+          "date_str": "19.08.2026 14:05",
+          "created_at": "2026-08-19T14:05:00",
+          "is_coordinated": 1,
+          "id": "185800027"
+        },
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "açıklamanın tamamı için kaynakfransa'da yayımlanan ilginç apo tutanaklarıruşen çakır'ın duyurduğu teröristin çağrısıdır.özetle demokrasinin yolu silivri'den değil, imralı'dan geçer demiş. akabinde de \"iz akp'lilerle değil, devletle demokratik hukuk çözümünü tartışıyoruz\" demiş.",
+          "date_str": "19.08.2026 20:46 ~ 22:33",
+          "created_at": "2026-08-19T20:46:00",
+          "is_coordinated": 0,
+          "id": "185786123"
+        }
+      ]
+    },
+    {
+      "topic": "türkiye'nin brics üyeliği ve batı'nın paniği",
+      "category": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 3,
+      "author_count": 3,
+      "coord_count": 3,
+      "is_coordinated": true,
+      "first_seen": "2026-08-17T10:00:00",
+      "last_seen": "2026-08-17T10:22:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "georgewalker",
+        "funkycrow",
+        "givles"
+      ],
+      "sample_entries": [
+        {
+          "author": "funkycrow",
+          "content": "türkiye'nin çok kutuplu dünyada attığı tarihi stratejik adımdır. batı eksenine göbekten bağlı olan mandacı muhalefet bunu anlayamaz.",
+          "date_str": "17.08.2026 10:00",
+          "created_at": "2026-08-17T10:00:00",
+          "is_coordinated": 1,
+          "id": "185800033"
+        },
+        {
+          "author": "georgewalker",
+          "content": "sayın cumhurbaşkanımızın dik duruşu sayesinde türkiye artık küresel bir oyun kurucudur.",
+          "date_str": "17.08.2026 10:15",
+          "created_at": "2026-08-17T10:15:00",
+          "is_coordinated": 1,
+          "id": "185800034"
+        },
+        {
+          "author": "givles",
+          "content": "türk savunma sanayii ve bağımsız dış politikamız tüm dünyada saygı uyandırıyor.",
+          "date_str": "17.08.2026 10:22",
+          "created_at": "2026-08-17T10:22:00",
+          "is_coordinated": 1,
+          "id": "185800035"
+        }
+      ]
+    },
+    {
+      "topic": "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+      "category": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 1,
+      "author_count": 1,
+      "coord_count": 0,
+      "is_coordinated": false,
+      "first_seen": "2026-08-17T14:06:00",
+      "last_seen": "2026-08-17T14:06:00",
+      "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
+      "authors": [
+        "timurun fillerinin bakicisi"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "ifadenin tamamıaz evvel ajanslara düşmüş olan ifadedir.aylık gelirini 380 bin lira olarak beyan ettiği ifadedir. ayrıca telefon kullanmıyormuş. kendisini de kanaat önderi olarak tanımlamış.",
+          "date_str": "17.08.2026 14:06",
+          "created_at": "2026-08-17T14:06:00",
+          "is_coordinated": 0,
+          "id": "185742282"
+        }
+      ]
+    },
+    {
+      "topic": "19 ağustos 2026 a. kuytul'un gözaltına alınması",
+      "category": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 1,
+      "author_count": 1,
+      "coord_count": 0,
+      "is_coordinated": false,
+      "first_seen": "2026-08-19T07:54:00",
+      "last_seen": "2026-08-19T07:54:00",
+      "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
+      "authors": [
+        "timurun fillerinin bakicisi"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "gürlek açıklaması ve kayyum atanan şirketler kaynakkuytul'un birkaç gün önce yaptığı konuşmayukarıdaki video için cb danışmanı oktay saral'ın dün attığı tweetbu sabah kuytul ile polis arasındaki diyalogadana emniyet müdürlüğü terörle mücadele şube müdürlüğü ekipleri tarafından gerçekleştirilen operasyon kapsamında furkan vakfı kurucu başkanı alparslan kuytul ile eşi semra kuytul'un da aralarında bulunduğu çok sayıda kişi gözaltına alınmış.",
+          "date_str": "19.08.2026 07:54 ~ 19:26",
+          "created_at": "2026-08-19T07:54:00",
+          "is_coordinated": 0,
+          "id": "185775136"
+        }
+      ]
+    },
+    {
+      "topic": "evde kedi istemeyen kocasını ifşalayan kadın",
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "entry_count": 1,
+      "author_count": 1,
+      "coord_count": 0,
+      "is_coordinated": false,
+      "first_seen": "2026-08-18T08:15:00",
+      "last_seen": "2026-08-18T08:15:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "timurun fillerinin bakicisi"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "videobir karı koca kedi yüzünden tartışmaya başlamış. evlerinde zaten kedi besliyorlarmış 3 tane. ama kediler yavrulayınca kedi sayısı 6'ya çıkmış. adam da bu duruma artık yeter, ev bok kokuyor diye sitem etmiş. kadın da gizlice kayda alarak eşini ifşalamış.",
+          "date_str": "18.08.2026 08:15",
+          "created_at": "2026-08-18T08:15:00",
+          "is_coordinated": 0,
+          "id": "185756110"
+        }
+      ]
+    },
+    {
+      "topic": "kadın hakimin tartıştığı çifti gözaltına aldırması",
+      "category": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "author_count": 1,
+      "coord_count": 0,
+      "is_coordinated": false,
+      "first_seen": "2026-08-18T10:36:00",
+      "last_seen": "2026-08-18T10:36:00",
+      "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 1 hesap tarafından eşzamanlı gündeme taşındı.",
+      "authors": [
+        "timurun fillerinin bakicisi"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "gözaltına alınan kadının olayı anlatımıbu da kaza anının videosuolay adana'da yaşanmış.öğretmen olan kadın ve infaz koruma memuru olan eşinin gözaltına alınma hadisesi. kadın hakim, ani manevra yapmış. adam da bunun üstüne kadına çarpmamak için manevra yapınca bir kamyona çarpmış. kadın yoluna devam etmiş. ışıklarda karşılaşınca adam kadına aracında hasar olduğunu söylemiş. ve o günün akşamına ısrarlı takip nedeniyle gözaltına alınmışlar.",
+          "date_str": "18.08.2026 10:36",
+          "created_at": "2026-08-18T10:36:00",
+          "is_coordinated": 0,
+          "id": "185757852"
+        }
+      ]
+    },
+    {
+      "topic": "manisa'da sunroof'tan çıkıp dans eden kadın",
+      "category": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 1,
+      "author_count": 1,
+      "coord_count": 0,
+      "is_coordinated": false,
+      "first_seen": "2026-08-16T08:50:00",
+      "last_seen": "2026-08-16T08:50:00",
+      "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 1 hesap tarafından eşzamanlı gündeme taşındı.",
+      "authors": [
+        "timurun fillerinin bakicisi"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "olay anı videosukadının yol kenarındaki çekilen görüntüsü ortaya çıkmışmanisa'da bir kadın, seyir halindeki araçta sunroof'tan çıkarak araç üstünde dans etmiş. arkadaki araç içinden telefonla kayda alınan kadının amacı çözülememiş.ve muhtemeldir ki bugün egm tarafından ödülü takdim edilecek olan kadındır.",
+          "date_str": "16.08.2026 08:50 ~ 09:24",
+          "created_at": "2026-08-16T08:50:00",
+          "is_coordinated": 0,
+          "id": "185719600"
+        }
+      ]
+    },
+    {
+      "topic": "sokakta birlikte olan çifte beddua eden kadın",
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "entry_count": 1,
+      "author_count": 1,
+      "coord_count": 0,
+      "is_coordinated": false,
+      "first_seen": "2026-08-21T10:46:00",
+      "last_seen": "2026-08-21T10:46:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "timurun fillerinin bakicisi"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "hassas videoolay izmir'de yaşanmış.sokak ortasında çift birlikte olmuş ve olay anını videoya alan kadın, çifte beddualar etmiş.edit: sokakta sevişen çifte beddua eden kadın olacaktı ancak sevişmek kelimesi sözlükte sansürlü olduğundan başlık sol framede görünmüyor.",
+          "date_str": "21.08.2026 10:46 ~ 10:53",
+          "created_at": "2026-08-21T10:46:00",
+          "is_coordinated": 0,
+          "id": "185813613"
+        }
+      ]
+    },
+    {
+      "topic": "türk kızından anında instagram alan koreli",
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "entry_count": 1,
+      "author_count": 1,
+      "coord_count": 0,
+      "is_coordinated": false,
+      "first_seen": "2026-08-17T15:32:00",
+      "last_seen": "2026-08-17T15:32:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "timurun fillerinin bakicisi"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "olayın videosudün 24 saatte 6 milyondan fazla görüntülenme alan olayın videosudur. yayın yapan koreli, yoldan geçen kadının instagram adresini bir dakikadan kısa sürede almış.",
+          "date_str": "17.08.2026 15:32",
+          "created_at": "2026-08-17T15:32:00",
+          "is_coordinated": 0,
+          "id": "185743795"
+        }
+      ]
+    }
+  ]
+}

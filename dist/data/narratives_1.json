@@ -1,0 +1,182 @@
+{
+  "period_days": 1,
+  "narratives": [
+    {
+      "topic": "haşemalılarla aynı denize girmek istemeyen kadın",
+      "category": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 6,
+      "author_count": 5,
+      "coord_count": 6,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T11:43:00",
+      "last_seen": "2026-08-22T21:52:00",
+      "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 5 hesap tarafından eşzamanlı gündeme taşındı.",
+      "authors": [
+        "bozaj",
+        "1xw",
+        "becathlon",
+        "timurun fillerinin bakicisi"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "ilgili kadının videosu bu da dün haşemalı bir kadının isyanı sokak röportajında konuşan bir kadının dile getirdiği durum. ben camiye bikiniyle girmiyorsam, onlar da denize haşemayla girmesinler demiş. bu zihniyet 28 şubat kafasından bir adım ileri gidememiştir.",
+          "date_str": "22.08.2026 11:43",
+          "created_at": "2026-08-22T11:43:00",
+          "is_coordinated": 1,
+          "id": "185800000"
+        },
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "ilgili kadının videosubu da dün haşemalı bir kadının isyanısokak röportajında konuşan bir kadının dile getirdiği durum. ben camiye bikiniyle girmiyorsam, onlarda denize haşemayla girmesinler demiş.",
+          "date_str": "22.08.2026 11:43 ~ 12:56",
+          "created_at": "2026-08-22T11:43:00",
+          "is_coordinated": 1,
+          "id": "185834003"
+        },
+        {
+          "author": "bozaj",
+          "content": "milletin ne giydiğine karışmayı ilericilik sanan tipik faşist zihniyet örneğidir. kadının istediği gibi giyinme özgürlüğünü sadece kendilerine hak görüyorlar.",
+          "date_str": "22.08.2026 11:44",
+          "created_at": "2026-08-22T11:44:00",
+          "is_coordinated": 1,
+          "id": "185800001"
+        },
+        {
+          "author": "becathlon",
+          "content": "2026 yılında hala milletin kılığı kıyafetiyle uğraşan chp zihniyetinin dışa vurumudur. kimsenin kimseye karışma hakkı yoktur.",
+          "date_str": "22.08.2026 11:49",
+          "created_at": "2026-08-22T11:49:00",
+          "is_coordinated": 1,
+          "id": "185800002"
+        },
+        {
+          "author": "1xw",
+          "content": "laiklik kisvesi altında halkın dini değerlerine ve inançlı kadınlara yapılan saygısızlıktır. millet plajda ne giyeceğini size mi soracak?",
+          "date_str": "22.08.2026 21:14",
+          "created_at": "2026-08-22T21:14:00",
+          "is_coordinated": 1,
+          "id": "185800003"
+        }
+      ]
+    },
+    {
+      "topic": "yabancı turistin türk esnafına isyan etmesi",
+      "category": "Ekonomi Savunması & Aklama",
+      "entry_count": 6,
+      "author_count": 5,
+      "coord_count": 4,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T15:44:00",
+      "last_seen": "2026-08-22T20:26:00",
+      "summary": "Pahalılık/turist/esnaf algısını çarpıtma ve ekonomik tepkileri hafifletme amacıyla 5 hesap tarafından organize paylaşıldı.",
+      "authors": [
+        "bozaj",
+        "1xw",
+        "becathlon",
+        "timurun fillerinin bakicisi"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "ilgili turistin videosu 1 nargileye istenen fiyat türkiye'ye tatile gelen bir yabancı turistin 'kimse artık hakkınızda iyi konuşmuyor. kaliteyi kaybediyorsunuz' diye başlayan isyanıdır. fırsatçı esnafın cezasını tüm ülke çekiyor.",
+          "date_str": "22.08.2026 15:44",
+          "created_at": "2026-08-22T15:44:00",
+          "is_coordinated": 1,
+          "id": "185800005"
+        },
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "ilgili turistin videosu1 nargileye istenen fiyattürkiye'ye tatile gelen bir yabancı turistin \"kimse artık hakkınızda iyi konuşmuyor. kaliteyi kaybediyorsunuz, itibarınız düşüyor\" diye başlayan ve esnaflara uzanan isyandır.",
+          "date_str": "22.08.2026 15:44 ~ 16:24",
+          "created_at": "2026-08-22T15:44:00",
+          "is_coordinated": 1,
+          "id": "185838093"
+        },
+        {
+          "author": "bozaj",
+          "content": "avrupa'da sokak ortasında bir kahveye 10 euro verirken sesi çıkmayanların türkiye'de üç kuruşluk hesaba algı yapması olayıdır. esnafımızı karalamak moda oldu.",
+          "date_str": "22.08.2026 15:45",
+          "created_at": "2026-08-22T15:45:00",
+          "is_coordinated": 1,
+          "id": "185800006"
+        },
+        {
+          "author": "becathlon",
+          "content": "fırsatçılık yapan münferit birkaç esnaf üzerinden bütün türkiye turizmini ve ekonomisini kötüleme çabasıdır. yunanistan'da katbekat fazlasını ödüyorlar.",
+          "date_str": "22.08.2026 15:47",
+          "created_at": "2026-08-22T15:47:00",
+          "is_coordinated": 1,
+          "id": "185800007"
+        },
+        {
+          "author": "1xw",
+          "content": "turizm sezonunda ülkeyi kötülemek için fonlu hesapların koro halinde paylaştığı videodur. algı operasyonlarına prim vermeyin.",
+          "date_str": "22.08.2026 17:49",
+          "created_at": "2026-08-22T17:49:00",
+          "is_coordinated": 0,
+          "id": "185800008"
+        }
+      ]
+    },
+    {
+      "topic": "ankara'da alman kurdundan kaçarken ölen çocuk",
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "entry_count": 5,
+      "author_count": 4,
+      "coord_count": 5,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T07:31:00",
+      "last_seen": "2026-08-22T07:55:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "enturi",
+        "david ellefson",
+        "georgewalker",
+        "timurun fillerinin bakicisi"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "olayın videosu başsavcılığın açıklaması. olay ankara'da yaşanmış. köpekten kaçarken fenalaşıp başını betona çarpan 15 yaşındaki çocuk hayatını kaybetmiş. mansur yavaş'ın sokak hayvanları konusundaki vurdumduymazlığı bir cana daha mal oldu.",
+          "date_str": "22.08.2026 07:31",
+          "created_at": "2026-08-22T07:31:00",
+          "is_coordinated": 1,
+          "id": "185800010"
+        },
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "olayın videosubaşsavcılığın olaya ilişkin açıklaması olay ankara'da yaşanmış.alman kurdu cinsi köpekten kaçarken fenalaşarak yere düşüp başını betona çarpan 15 yaşındaki çocuk hayatını kaybetmiş.",
+          "date_str": "22.08.2026 07:31 ~ 07:42",
+          "created_at": "2026-08-22T07:31:00",
+          "is_coordinated": 1,
+          "id": "185831198"
+        },
+        {
+          "author": "david ellefson",
+          "content": "belediyenin asli görevi sokakları güvenli kılmaktır. abb başkanı konser düzenlemekten sokaktaki vahşi köpek sorununu çözmeye vakit bulamıyor.",
+          "date_str": "22.08.2026 07:43",
+          "created_at": "2026-08-22T07:43:00",
+          "is_coordinated": 1,
+          "id": "185800011"
+        },
+        {
+          "author": "enturi",
+          "content": "mansur yavaş yönetiminin ankara'yı getirdiği durum içler acısı. sokaklar başıboş köpek terörüne teslim edilmiş durumda.",
+          "date_str": "22.08.2026 07:49",
+          "created_at": "2026-08-22T07:49:00",
+          "is_coordinated": 1,
+          "id": "185800012"
+        },
+        {
+          "author": "georgewalker",
+          "content": "bir çocuğun hayatı sokak köpekleri lobisinden daha mı değersiz? chp'li belediyeler görevini yapmıyor.",
+          "date_str": "22.08.2026 07:55",
+          "created_at": "2026-08-22T07:55:00",
+          "is_coordinated": 1,
+          "id": "185800013"
+        }
+      ]
+    }
+  ]
+}

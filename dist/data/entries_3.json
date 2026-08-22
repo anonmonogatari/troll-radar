@@ -1,0 +1,511 @@
+{
+  "total": 30,
+  "entries": [
+    {
+      "id": "185800004",
+      "author": "948",
+      "topic": "haşemalılarla aynı denize girmek istemeyen kadın",
+      "topic_slug": "haşemalılarla-aynı-denize-girmek-istemeyen-kadın",
+      "content": "seküler yobazlığın en net yansımasıdır. avrupa'da bile özgürlüklere böyle düşmanlık görülmemiştir.",
+      "date_str": "22.08.2026 21:52",
+      "created_at": "2026-08-22T21:52:00",
+      "favorite_count": 10,
+      "comment_count": 0,
+      "category": "Kültür Savaşı & Yaşam Tarzı",
+      "sentiment": "negative",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800003",
+      "author": "1xw",
+      "topic": "haşemalılarla aynı denize girmek istemeyen kadın",
+      "topic_slug": "haşemalılarla-aynı-denize-girmek-istemeyen-kadın",
+      "content": "laiklik kisvesi altında halkın dini değerlerine ve inançlı kadınlara yapılan saygısızlıktır. millet plajda ne giyeceğini size mi soracak?",
+      "date_str": "22.08.2026 21:14",
+      "created_at": "2026-08-22T21:14:00",
+      "favorite_count": 9,
+      "comment_count": 4,
+      "category": "Kültür Savaşı & Yaşam Tarzı",
+      "sentiment": "neutral",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800009",
+      "author": "948",
+      "topic": "yabancı turistin türk esnafına isyan etmesi",
+      "topic_slug": "yabancı-turistin-türk-esnafına-isyan-etmesi",
+      "content": "tamamen organize bir karalama kampanyasıdır. türkiye hala akdeniz çanağındaki en kaliteli ve en uygun turizm ülkesidir.",
+      "date_str": "22.08.2026 20:26",
+      "created_at": "2026-08-22T20:26:00",
+      "favorite_count": 15,
+      "comment_count": 0,
+      "category": "Ekonomi Savunması & Aklama",
+      "sentiment": "neutral",
+      "external_links": [],
+      "is_coordinated": 0
+    },
+    {
+      "id": "185800008",
+      "author": "1xw",
+      "topic": "yabancı turistin türk esnafına isyan etmesi",
+      "topic_slug": "yabancı-turistin-türk-esnafına-isyan-etmesi",
+      "content": "turizm sezonunda ülkeyi kötülemek için fonlu hesapların koro halinde paylaştığı videodur. algı operasyonlarına prim vermeyin.",
+      "date_str": "22.08.2026 17:49",
+      "created_at": "2026-08-22T17:49:00",
+      "favorite_count": 14,
+      "comment_count": 4,
+      "category": "Ekonomi Savunması & Aklama",
+      "sentiment": "neutral",
+      "external_links": [],
+      "is_coordinated": 0
+    },
+    {
+      "id": "185800007",
+      "author": "becathlon",
+      "topic": "yabancı turistin türk esnafına isyan etmesi",
+      "topic_slug": "yabancı-turistin-türk-esnafına-isyan-etmesi",
+      "content": "fırsatçılık yapan münferit birkaç esnaf üzerinden bütün türkiye turizmini ve ekonomisini kötüleme çabasıdır. yunanistan'da katbekat fazlasını ödüyorlar.",
+      "date_str": "22.08.2026 15:47",
+      "created_at": "2026-08-22T15:47:00",
+      "favorite_count": 13,
+      "comment_count": 3,
+      "category": "Ekonomi Savunması & Aklama",
+      "sentiment": "neutral",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800006",
+      "author": "bozaj",
+      "topic": "yabancı turistin türk esnafına isyan etmesi",
+      "topic_slug": "yabancı-turistin-türk-esnafına-isyan-etmesi",
+      "content": "avrupa'da sokak ortasında bir kahveye 10 euro verirken sesi çıkmayanların türkiye'de üç kuruşluk hesaba algı yapması olayıdır. esnafımızı karalamak moda oldu.",
+      "date_str": "22.08.2026 15:45",
+      "created_at": "2026-08-22T15:45:00",
+      "favorite_count": 12,
+      "comment_count": 2,
+      "category": "Ekonomi Savunması & Aklama",
+      "sentiment": "neutral",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185838093",
+      "author": "timurun fillerinin bakicisi",
+      "topic": "yabancı turistin türk esnafına isyan etmesi",
+      "topic_slug": "yabanc-turistin-trk-esnafna-isyan-etmesi",
+      "content": "ilgili turistin videosu1 nargileye istenen fiyattürkiye'ye tatile gelen bir yabancı turistin \"kimse artık hakkınızda iyi konuşmuyor. kaliteyi kaybediyorsunuz, itibarınız düşüyor\" diye başlayan ve esnaflara uzanan isyandır.",
+      "date_str": "22.08.2026 15:44 ~ 16:24",
+      "created_at": "2026-08-22T15:44:00",
+      "favorite_count": 3,
+      "comment_count": 0,
+      "category": "Ekonomi Savunması & Aklama",
+      "sentiment": "negative",
+      "external_links": [
+        {
+          "text": "videosu",
+          "url": "https://turkinform.com.tr/turkiyeye-gelen-turistten-dikkat-ceken-elestiri-insanlari-bir-rahat-birakin-kaliteyi-kaybediyorsunuz"
+        },
+        {
+          "text": "istenen fiyat",
+          "url": "https://turkinform.com.tr/15-gunluk-tatilin-6-gununde-isyan-edip-evine-dondu-gelmeyin-kardesim-tatile-cikmayin"
+        }
+      ],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800005",
+      "author": "timurun fillerinin bakicisi",
+      "topic": "yabancı turistin türk esnafına isyan etmesi",
+      "topic_slug": "yabancı-turistin-türk-esnafına-isyan-etmesi",
+      "content": "ilgili turistin videosu 1 nargileye istenen fiyat türkiye'ye tatile gelen bir yabancı turistin 'kimse artık hakkınızda iyi konuşmuyor. kaliteyi kaybediyorsunuz' diye başlayan isyanıdır. fırsatçı esnafın cezasını tüm ülke çekiyor.",
+      "date_str": "22.08.2026 15:44",
+      "created_at": "2026-08-22T15:44:00",
+      "favorite_count": 11,
+      "comment_count": 1,
+      "category": "Ekonomi Savunması & Aklama",
+      "sentiment": "negative",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800002",
+      "author": "becathlon",
+      "topic": "haşemalılarla aynı denize girmek istemeyen kadın",
+      "topic_slug": "haşemalılarla-aynı-denize-girmek-istemeyen-kadın",
+      "content": "2026 yılında hala milletin kılığı kıyafetiyle uğraşan chp zihniyetinin dışa vurumudur. kimsenin kimseye karışma hakkı yoktur.",
+      "date_str": "22.08.2026 11:49",
+      "created_at": "2026-08-22T11:49:00",
+      "favorite_count": 8,
+      "comment_count": 3,
+      "category": "Kültür Savaşı & Yaşam Tarzı",
+      "sentiment": "neutral",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800001",
+      "author": "bozaj",
+      "topic": "haşemalılarla aynı denize girmek istemeyen kadın",
+      "topic_slug": "haşemalılarla-aynı-denize-girmek-istemeyen-kadın",
+      "content": "milletin ne giydiğine karışmayı ilericilik sanan tipik faşist zihniyet örneğidir. kadının istediği gibi giyinme özgürlüğünü sadece kendilerine hak görüyorlar.",
+      "date_str": "22.08.2026 11:44",
+      "created_at": "2026-08-22T11:44:00",
+      "favorite_count": 7,
+      "comment_count": 2,
+      "category": "Kültür Savaşı & Yaşam Tarzı",
+      "sentiment": "negative",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185834003",
+      "author": "timurun fillerinin bakicisi",
+      "topic": "haşemalılarla aynı denize girmek istemeyen kadın",
+      "topic_slug": "haemallarla-ayn-denize-girmek-istemeyen-kadn",
+      "content": "ilgili kadının videosubu da dün haşemalı bir kadının isyanısokak röportajında konuşan bir kadının dile getirdiği durum. ben camiye bikiniyle girmiyorsam, onlarda denize haşemayla girmesinler demiş.",
+      "date_str": "22.08.2026 11:43 ~ 12:56",
+      "created_at": "2026-08-22T11:43:00",
+      "favorite_count": 8,
+      "comment_count": 0,
+      "category": "Kültür Savaşı & Yaşam Tarzı",
+      "sentiment": "negative",
+      "external_links": [
+        {
+          "text": "videosu",
+          "url": "https://turkinform.com.tr/hasemali-ve-bikinili-kadinlarin-ayni-denize-girmesinden-rahatsiz-oldu-mahremse-kapali-yerlerde-girmeliler"
+        },
+        {
+          "text": "kadının isyanı",
+          "url": "https://turkinform.com.tr/denizde-tekne-yogunluguna-isyan-etti-artik-rahat-rahat-denize-giremiyorum-ayni-marina-gibi-oldu"
+        }
+      ],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800000",
+      "author": "timurun fillerinin bakicisi",
+      "topic": "haşemalılarla aynı denize girmek istemeyen kadın",
+      "topic_slug": "haşemalılarla-aynı-denize-girmek-istemeyen-kadın",
+      "content": "ilgili kadının videosu bu da dün haşemalı bir kadının isyanı sokak röportajında konuşan bir kadının dile getirdiği durum. ben camiye bikiniyle girmiyorsam, onlar da denize haşemayla girmesinler demiş. bu zihniyet 28 şubat kafasından bir adım ileri gidememiştir.",
+      "date_str": "22.08.2026 11:43",
+      "created_at": "2026-08-22T11:43:00",
+      "favorite_count": 6,
+      "comment_count": 1,
+      "category": "Kültür Savaşı & Yaşam Tarzı",
+      "sentiment": "negative",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800013",
+      "author": "georgewalker",
+      "topic": "ankara'da alman kurdundan kaçarken ölen çocuk",
+      "topic_slug": "ankara'da-alman-kurdundan-kaçarken-ölen-çocuk",
+      "content": "bir çocuğun hayatı sokak köpekleri lobisinden daha mı değersiz? chp'li belediyeler görevini yapmıyor.",
+      "date_str": "22.08.2026 07:55",
+      "created_at": "2026-08-22T07:55:00",
+      "favorite_count": 19,
+      "comment_count": 4,
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "sentiment": "neutral",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800012",
+      "author": "enturi",
+      "topic": "ankara'da alman kurdundan kaçarken ölen çocuk",
+      "topic_slug": "ankara'da-alman-kurdundan-kaçarken-ölen-çocuk",
+      "content": "mansur yavaş yönetiminin ankara'yı getirdiği durum içler acısı. sokaklar başıboş köpek terörüne teslim edilmiş durumda.",
+      "date_str": "22.08.2026 07:49",
+      "created_at": "2026-08-22T07:49:00",
+      "favorite_count": 18,
+      "comment_count": 3,
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "sentiment": "negative",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800011",
+      "author": "david ellefson",
+      "topic": "ankara'da alman kurdundan kaçarken ölen çocuk",
+      "topic_slug": "ankara'da-alman-kurdundan-kaçarken-ölen-çocuk",
+      "content": "belediyenin asli görevi sokakları güvenli kılmaktır. abb başkanı konser düzenlemekten sokaktaki vahşi köpek sorununu çözmeye vakit bulamıyor.",
+      "date_str": "22.08.2026 07:43",
+      "created_at": "2026-08-22T07:43:00",
+      "favorite_count": 17,
+      "comment_count": 2,
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "sentiment": "neutral",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185831198",
+      "author": "timurun fillerinin bakicisi",
+      "topic": "ankara'da alman kurdundan kaçarken ölen çocuk",
+      "topic_slug": "ankarada-alman-kurdundan-kaarken-len-ocuk",
+      "content": "olayın videosubaşsavcılığın olaya ilişkin açıklaması olay ankara'da yaşanmış.alman kurdu cinsi köpekten kaçarken fenalaşarak yere düşüp başını betona çarpan 15 yaşındaki çocuk hayatını kaybetmiş.",
+      "date_str": "22.08.2026 07:31 ~ 07:42",
+      "created_at": "2026-08-22T07:31:00",
+      "favorite_count": 17,
+      "comment_count": 0,
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "sentiment": "neutral",
+      "external_links": [
+        {
+          "text": "videosu",
+          "url": "https://turkinform.com.tr/kahreden-olay-kamerada-kopekten-kacarken-fenalasan-15-yasindaki-cocuk-hayatini-kaybetti"
+        },
+        {
+          "text": "açıklaması",
+          "url": "https://turkinform.com.tr/ankarada-kopekten-kacarken-hayatini-kaybeden-15-yasindaki-berat-yucelle-ilgili-yeni-gelisme"
+        }
+      ],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800010",
+      "author": "timurun fillerinin bakicisi",
+      "topic": "ankara'da alman kurdundan kaçarken ölen çocuk",
+      "topic_slug": "ankara'da-alman-kurdundan-kaçarken-ölen-çocuk",
+      "content": "olayın videosu başsavcılığın açıklaması. olay ankara'da yaşanmış. köpekten kaçarken fenalaşıp başını betona çarpan 15 yaşındaki çocuk hayatını kaybetmiş. mansur yavaş'ın sokak hayvanları konusundaki vurdumduymazlığı bir cana daha mal oldu.",
+      "date_str": "22.08.2026 07:31",
+      "created_at": "2026-08-22T07:31:00",
+      "favorite_count": 16,
+      "comment_count": 1,
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "sentiment": "neutral",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800019",
+      "author": "kecuva",
+      "topic": "chp'li belediyelerin fahiş konser harcamaları",
+      "topic_slug": "chp'li-belediyelerin-fahiş-konser-harcamaları",
+      "content": "şişirilmiş faturalarla kimlere kaynak aktarıldığı tek tek ortaya dökülmelidir.",
+      "date_str": "21.08.2026 14:45",
+      "created_at": "2026-08-21T14:45:00",
+      "favorite_count": 5,
+      "comment_count": 0,
+      "category": "Muhalefet & Belediye Karalama",
+      "sentiment": "neutral",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800018",
+      "author": "kafadanilo",
+      "topic": "chp'li belediyelerin fahiş konser harcamaları",
+      "topic_slug": "chp'li-belediyelerin-fahiş-konser-harcamaları",
+      "content": "müfettişlerin acilen inceleme başlatması gereken astronomik harcamalardır. milletin parası çarçur ediliyor.",
+      "date_str": "21.08.2026 14:37",
+      "created_at": "2026-08-21T14:37:00",
+      "favorite_count": 24,
+      "comment_count": 4,
+      "category": "Muhalefet & Belediye Karalama",
+      "sentiment": "neutral",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800017",
+      "author": "jimmymartin",
+      "topic": "chp'li belediyelerin fahiş konser harcamaları",
+      "topic_slug": "chp'li-belediyelerin-fahiş-konser-harcamaları",
+      "content": "hizmet yok, yol yok, metro bozuk ama konser için sınırsız bütçe var. chp belediyeciliği tam olarak budur.",
+      "date_str": "21.08.2026 14:30",
+      "created_at": "2026-08-21T14:30:00",
+      "favorite_count": 23,
+      "comment_count": 3,
+      "category": "Muhalefet & Belediye Karalama",
+      "sentiment": "neutral",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800016",
+      "author": "ingiliz dili ve edebiyati",
+      "topic": "chp'li belediyelerin fahiş konser harcamaları",
+      "topic_slug": "chp'li-belediyelerin-fahiş-konser-harcamaları",
+      "content": "ibb ve abb'nin borç batağındayken şov peşinde koşmasının resmidir. hesap sorulmalıdır.",
+      "date_str": "21.08.2026 14:24",
+      "created_at": "2026-08-21T14:24:00",
+      "favorite_count": 22,
+      "comment_count": 2,
+      "category": "Muhalefet & Belediye Karalama",
+      "sentiment": "neutral",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800015",
+      "author": "hirvatistanli",
+      "topic": "chp'li belediyelerin fahiş konser harcamaları",
+      "topic_slug": "chp'li-belediyelerin-fahiş-konser-harcamaları",
+      "content": "halk zamlardan şikayet ederken chp'li belediyelerin tek bir gecelik konsere 69 milyon tl akıtması rezaletidir.",
+      "date_str": "21.08.2026 14:19",
+      "created_at": "2026-08-21T14:19:00",
+      "favorite_count": 21,
+      "comment_count": 1,
+      "category": "Muhalefet & Belediye Karalama",
+      "sentiment": "negative",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800014",
+      "author": "hackerbey",
+      "topic": "chp'li belediyelerin fahiş konser harcamaları",
+      "topic_slug": "chp'li-belediyelerin-fahiş-konser-harcamaları",
+      "content": "belediyelerin kasasından sanatçılara aktarılan milyonlarca liralık skandaldır. hizmet üretmek yerine yandaş sanatçıları besliyorlar.",
+      "date_str": "21.08.2026 14:15",
+      "created_at": "2026-08-21T14:15:00",
+      "favorite_count": 20,
+      "comment_count": 0,
+      "category": "Muhalefet & Belediye Karalama",
+      "sentiment": "negative",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185813613",
+      "author": "timurun fillerinin bakicisi",
+      "topic": "sokakta birlikte olan çifte beddua eden kadın",
+      "topic_slug": "sokakta-birlikte-olan-ifte-beddua-eden-kadn",
+      "content": "hassas videoolay izmir'de yaşanmış.sokak ortasında çift birlikte olmuş ve olay anını videoya alan kadın, çifte beddualar etmiş.edit: sokakta sevişen çifte beddua eden kadın olacaktı ancak sevişmek kelimesi sözlükte sansürlü olduğundan başlık sol framede görünmüyor.",
+      "date_str": "21.08.2026 10:46 ~ 10:53",
+      "created_at": "2026-08-21T10:46:00",
+      "favorite_count": 2,
+      "comment_count": 0,
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "sentiment": "neutral",
+      "external_links": [
+        {
+          "text": "video",
+          "url": "https://turkinform.com.tr/izmirde-sokak-ortasinda-yaptiklari-pes-dedirtti-vatandas-isyan-etti"
+        }
+      ],
+      "is_coordinated": 0
+    },
+    {
+      "id": "185800023",
+      "author": "londrast",
+      "topic": "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+      "topic_slug": "soylu'nun-yeğeniyim-diyen-kadının-terör-estirmesi",
+      "content": "adli merciler gerekeni yapmıştır, yalan haber yayan hesaplar hakkında soruşturma açılmalıdır.",
+      "date_str": "21.08.2026 08:32",
+      "created_at": "2026-08-21T08:32:00",
+      "favorite_count": 9,
+      "comment_count": 4,
+      "category": "Yargı, Güvenlik & Hamaset",
+      "sentiment": "neutral",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800022",
+      "author": "localtime",
+      "topic": "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+      "topic_slug": "soylu'nun-yeğeniyim-diyen-kadının-terör-estirmesi",
+      "content": "soylu bakanımızın vatanseverliğini ve terörle mücadelesini çekemeyenlerin uydurduğu ucuz kumpastır.",
+      "date_str": "21.08.2026 08:25",
+      "created_at": "2026-08-21T08:25:00",
+      "favorite_count": 8,
+      "comment_count": 3,
+      "category": "Yargı, Güvenlik & Hamaset",
+      "sentiment": "negative",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800021",
+      "author": "lacivertnokta",
+      "topic": "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+      "topic_slug": "soylu'nun-yeğeniyim-diyen-kadının-terör-estirmesi",
+      "content": "süleyman soylu'yu karalamak için her türlü provokasyona sarılan muhalif trollerin algı operasyonudur. soylu anında yalanladı.",
+      "date_str": "21.08.2026 08:19",
+      "created_at": "2026-08-21T08:19:00",
+      "favorite_count": 7,
+      "comment_count": 2,
+      "category": "Yargı, Güvenlik & Hamaset",
+      "sentiment": "neutral",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185811875",
+      "author": "timurun fillerinin bakicisi",
+      "topic": "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+      "topic_slug": "soylunun-yeeniyim-diyen-kadnn-terr-estirmesi",
+      "content": "olay anı videosusüleyman soylu olaya ilişkin açıklama yapmışşehirler arası otobüste yolculuk yapan kadının terör estirmesi olayı. hareket halindeki otobüsten inmek istemiş. izin verilmeyince kıyameti koparmış, tehditler savurmuş.",
+      "date_str": "21.08.2026 08:05 ~ 08:54",
+      "created_at": "2026-08-21T08:05:00",
+      "favorite_count": 4,
+      "comment_count": 0,
+      "category": "Yargı, Güvenlik & Hamaset",
+      "sentiment": "negative",
+      "external_links": [
+        {
+          "text": "videosu",
+          "url": "https://turkinform.com.tr/otobuste-inmek-isteyen-kadin-sofore-boyle-bagirdi-ac-kapiyi-yemin-ederim-sizi-yasatmam"
+        },
+        {
+          "text": "açıklama yapmış",
+          "url": "https://turkinform.com.tr/soyludan-yegenim-iddiasina-sert-yanit-son-uc-yilda-hakkimda-4-bin-65-iftira-hakaret-ve-yalan-haber-yapildi"
+        }
+      ],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185800020",
+      "author": "timurun fillerinin bakicisi",
+      "topic": "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+      "topic_slug": "soylu'nun-yeğeniyim-diyen-kadının-terör-estirmesi",
+      "content": "olay anı videosu süleyman soylu'nun açıklaması. otobüste yolculuk yapan kadının terör estirmesi olayı. hareket halindeki otobüsten inmek istemiş.",
+      "date_str": "21.08.2026 08:05",
+      "created_at": "2026-08-21T08:05:00",
+      "favorite_count": 6,
+      "comment_count": 1,
+      "category": "Yargı, Güvenlik & Hamaset",
+      "sentiment": "negative",
+      "external_links": [],
+      "is_coordinated": 1
+    },
+    {
+      "id": "185793226",
+      "author": "timurun fillerinin bakicisi",
+      "topic": "çocuğuna annen o... biliyor musun diyen baba",
+      "topic_slug": "ocuuna-annen-o-biliyor-musun-diyen-baba",
+      "content": "küfür içerir videokadın, adamın whatsapp mesajlarını ifşalamışbu da olay sonrası adamın açıklaması \"orospu\" olacaktı ama malum sansür.boşanma aşamasındaki çiftin, araçta ettiği kavgada babanın kurduğu cümle.çocuğuna dönüp \"annen orospu biliyor musun\" demiş. etraftakiler adamı zorla araçtan uzaklaştırmış.",
+      "date_str": "20.08.2026 07:45 ~ 07:58",
+      "created_at": "2026-08-20T07:45:00",
+      "favorite_count": 3,
+      "comment_count": 0,
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "sentiment": "neutral",
+      "external_links": [
+        {
+          "text": "video",
+          "url": "https://turkinform.com.tr/esenyurtta-bosanma-asamasindaki-cift-cocuklarinin-gozu-onunde-birbirine-girdi"
+        },
+        {
+          "text": "mesajlarını ifşalamış",
+          "url": "https://turkinform.com.tr/esenyurtta-gundem-olan-goruntulerin-ardindan-yeni-gelisme-esi-koray-biberin-eskort-iddiasina-boyle-yanit-verdi"
+        },
+        {
+          "text": "açıklaması",
+          "url": "https://turkinform.com.tr/cocuklarinin-gozu-onundeki-kavganin-ardindan-konustu-evlatlarim-icin-sakin-kalmaya-calisiyorum"
+        }
+      ],
+      "is_coordinated": 0
+    }
+  ],
+  "limit": 1000,
+  "offset": 0
+}

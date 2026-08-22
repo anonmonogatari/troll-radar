@@ -1,0 +1,601 @@
+{
+  "network": {
+    "nodes": [
+      {
+        "id": "1xw",
+        "label": "1xw",
+        "entries": 2,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "948",
+        "label": "948",
+        "entries": 2,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "becathlon",
+        "label": "becathlon",
+        "entries": 2,
+        "coordinated": 2,
+        "radius": 12
+      },
+      {
+        "id": "bozaj",
+        "label": "bozaj",
+        "entries": 2,
+        "coordinated": 2,
+        "radius": 12
+      },
+      {
+        "id": "david ellefson",
+        "label": "david ellefson",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "dijitalkitap",
+        "label": "dijitalkitap",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "enturi",
+        "label": "enturi",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "funkycrow",
+        "label": "funkycrow",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "georgewalker",
+        "label": "georgewalker",
+        "entries": 2,
+        "coordinated": 2,
+        "radius": 12
+      },
+      {
+        "id": "givles",
+        "label": "givles",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "hackerbey",
+        "label": "hackerbey",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "hirvatistanli",
+        "label": "hirvatistanli",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "ingiliz dili ve edebiyati",
+        "label": "ingiliz dili ve edebiyati",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "jimmymartin",
+        "label": "jimmymartin",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "kafadanilo",
+        "label": "kafadanilo",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "kecuva",
+        "label": "kecuva",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "lacivertnokta",
+        "label": "lacivertnokta",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "localtime",
+        "label": "localtime",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "londrast",
+        "label": "londrast",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "madanin",
+        "label": "madanin",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "medyumay",
+        "label": "medyumay",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "miamix",
+        "label": "miamix",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "parantezicindekiadam",
+        "label": "parantezicindekiadam",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "playerman",
+        "label": "playerman",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "reactionshot",
+        "label": "reactionshot",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "szw",
+        "label": "szw",
+        "entries": 1,
+        "coordinated": 1,
+        "radius": 10
+      },
+      {
+        "id": "timurun fillerinin bakicisi",
+        "label": "timurun fillerinin bakicisi",
+        "entries": 18,
+        "coordinated": 9,
+        "radius": 24
+      }
+    ],
+    "links": [
+      {
+        "source": "madanin",
+        "target": "medyumay",
+        "weight": 1,
+        "topics": [
+          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+        ]
+      },
+      {
+        "source": "madanin",
+        "target": "miamix",
+        "weight": 1,
+        "topics": [
+          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+        ]
+      },
+      {
+        "source": "madanin",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+        ]
+      },
+      {
+        "source": "medyumay",
+        "target": "miamix",
+        "weight": 1,
+        "topics": [
+          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+        ]
+      },
+      {
+        "source": "medyumay",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+        ]
+      },
+      {
+        "source": "miamix",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+        ]
+      },
+      {
+        "source": "david ellefson",
+        "target": "enturi",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
+        "source": "enturi",
+        "target": "georgewalker",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
+        "source": "enturi",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
+        "source": "david ellefson",
+        "target": "georgewalker",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
+        "source": "david ellefson",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
+        "source": "georgewalker",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
+        "source": "kafadanilo",
+        "target": "kecuva",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "jimmymartin",
+        "target": "kafadanilo",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hackerbey",
+        "target": "kafadanilo",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hirvatistanli",
+        "target": "kafadanilo",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "ingiliz dili ve edebiyati",
+        "target": "kafadanilo",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "jimmymartin",
+        "target": "kecuva",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hackerbey",
+        "target": "kecuva",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hirvatistanli",
+        "target": "kecuva",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "ingiliz dili ve edebiyati",
+        "target": "kecuva",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hackerbey",
+        "target": "jimmymartin",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hirvatistanli",
+        "target": "jimmymartin",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "ingiliz dili ve edebiyati",
+        "target": "jimmymartin",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hackerbey",
+        "target": "hirvatistanli",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hackerbey",
+        "target": "ingiliz dili ve edebiyati",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hirvatistanli",
+        "target": "ingiliz dili ve edebiyati",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "parantezicindekiadam",
+        "target": "szw",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "reactionshot",
+        "target": "szw",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "dijitalkitap",
+        "target": "szw",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "playerman",
+        "target": "szw",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "parantezicindekiadam",
+        "target": "reactionshot",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "dijitalkitap",
+        "target": "parantezicindekiadam",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "parantezicindekiadam",
+        "target": "playerman",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "dijitalkitap",
+        "target": "reactionshot",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "playerman",
+        "target": "reactionshot",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "dijitalkitap",
+        "target": "playerman",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "becathlon",
+        "target": "bozaj",
+        "weight": 2,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın",
+          "yabancı turistin türk esnafına isyan etmesi"
+        ]
+      },
+      {
+        "source": "bozaj",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 2,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın",
+          "yabancı turistin türk esnafına isyan etmesi"
+        ]
+      },
+      {
+        "source": "becathlon",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 2,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın",
+          "yabancı turistin türk esnafına isyan etmesi"
+        ]
+      },
+      {
+        "source": "1xw",
+        "target": "948",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "lacivertnokta",
+        "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        ]
+      },
+      {
+        "source": "lacivertnokta",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        ]
+      },
+      {
+        "source": "lacivertnokta",
+        "target": "localtime",
+        "weight": 1,
+        "topics": [
+          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        ]
+      },
+      {
+        "source": "londrast",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        ]
+      },
+      {
+        "source": "localtime",
+        "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        ]
+      },
+      {
+        "source": "localtime",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        ]
+      },
+      {
+        "source": "funkycrow",
+        "target": "georgewalker",
+        "weight": 1,
+        "topics": [
+          "türkiye'nin brics üyeliği ve batı'nın paniği"
+        ]
+      },
+      {
+        "source": "georgewalker",
+        "target": "givles",
+        "weight": 1,
+        "topics": [
+          "türkiye'nin brics üyeliği ve batı'nın paniği"
+        ]
+      },
+      {
+        "source": "funkycrow",
+        "target": "givles",
+        "weight": 1,
+        "topics": [
+          "türkiye'nin brics üyeliği ve batı'nın paniği"
+        ]
+      }
+    ]
+  },
+  "coordinations": []
+}
