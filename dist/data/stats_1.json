@@ -1,24 +1,24 @@
 {
   "period_days": 1,
-  "total_entries": 213,
-  "coordinated_entries": 203,
-  "active_authors": 197,
+  "total_entries": 211,
+  "coordinated_entries": 201,
+  "active_authors": 195,
   "total_monitored_authors": 27,
   "total_topics": 22,
   "total_operations": 27,
   "categories": {
-    "Suni Gündem & Viral Çarpıtma": 116,
+    "Suni Gündem & Viral Çarpıtma": 115,
     "Kültür Savaşı & Yaşam Tarzı": 63,
     "Muhalefet & Belediye Karalama": 14,
-    "Dış Politika & Jeopolitik Savunma": 9,
+    "Dış Politika & Jeopolitik Savunma": 8,
     "Ekonomi Savunması & Aklama": 8,
     "Yargı, Güvenlik & Hamaset": 3
   },
   "timeline": [
     {
       "day": "2026-08-22",
-      "total": 213,
-      "coordinated": 203
+      "total": 211,
+      "coordinated": 201
     }
   ]
 }

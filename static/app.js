@@ -433,23 +433,23 @@ async function loadNarrativeBriefing() {
                         `).join('')}
                     </div>
 
-                    <!-- Chronological Sample Entry Quotes -->
+                    <!-- Chronological Sample Entry Quotes (Asynchronous Masonry Layout) -->
                     <div class="space-y-2 mt-3 pt-3 border-t border-white/5">
                         <h4 class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Tespit Edilen Koordineli Entry Alıntıları:</h4>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 items-start">
+                        <div class="columns-1 md:columns-2 gap-3">
                             ${n.sample_entries.map(s => `
-                                <div class="bg-dark-900/80 border border-white/5 rounded-xl p-3.5 space-y-2 hover:border-white/15 transition-all">
+                                <div class="break-inside-avoid mb-3 bg-dark-900/80 border border-white/5 rounded-xl p-3.5 space-y-2 hover:border-white/15 transition-all">
                                     <div class="flex items-center justify-between text-[11px]">
                                         <button onclick="openAuthorModal('${escapeHtml(s.author)}')" class="font-bold text-blue-400 hover:underline">
                                             @${escapeHtml(s.author)}
                                         </button>
-                                        <span class="text-slate-400 font-mono">${s.date_str || s.created_at.replace('T', ' ').substring(0, 16)}</span>
+                                        <span class="text-slate-400 font-mono text-[10px]">${s.date_str || s.created_at.replace('T', ' ').substring(0, 16)}</span>
                                     </div>
-                                    <p class="text-xs text-slate-300 italic leading-relaxed max-h-52 overflow-y-auto pr-1">
+                                    <p class="text-xs text-slate-300 italic leading-relaxed">
                                         "${escapeHtml(s.content)}"
                                     </p>
                                     <div class="flex items-center justify-between text-[10px] text-slate-400 pt-1 border-t border-white/5">
-                                        <a href="https://eksisozluk.com/entry/${s.id}" target="_blank" class="hover:text-blue-300">#${s.id}</a>
+                                        <a href="https://eksisozluk.com/entry/${s.id}" target="_blank" class="hover:text-blue-300 font-mono">#${s.id}</a>
                                         ${s.is_coordinated ? '<span class="text-red-400 font-semibold">⚡ Eşzamanlı</span>' : ''}
                                     </div>
                                 </div>

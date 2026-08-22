@@ -14,8 +14,8 @@
         "hirvatistanli"
       ],
       "top_evidence_topics": [
-        "ekrem imamoğlu'nun roma gezisi faturası",
-        "chp'li belediyelerin fahiş konser harcamaları"
+        "chp'li belediyelerin fahiş konser harcamaları",
+        "ekrem imamoğlu'nun roma gezisi faturası"
       ]
     }
   ],
@@ -130,9 +130,9 @@
         "stance_alignment": 30.0
       },
       "evidence_topics": [
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
       ],
       "is_monitored": true
     },
