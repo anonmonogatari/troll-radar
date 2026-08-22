@@ -20,11 +20,11 @@
         "bananazura"
       ],
       "top_evidence_topics": [
+        "evrim alasya",
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "victor osimhen",
         "ankara'da alman kurdundan kaçarken ölen çocuk",
-        "evrim alasya",
-        "komşu",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "komşu"
       ]
     },
     {
@@ -39,8 +39,8 @@
         "osbirci31"
       ],
       "top_evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları",
         "masterchef türkiye",
+        "chp'li belediyelerin fahiş konser harcamaları",
         "ekrem imamoğlu",
         "clint eastwood"
       ]
@@ -56,11 +56,10 @@
         "timurun fillerinin bakicisi"
       ],
       "top_evidence_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk",
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "çocuğuna annen o... biliyor musun diyen baba",
-        "sokakta birlikte olan çifte beddua eden kadın",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "ankara'da alman kurdundan kaçarken ölen çocuk",
+        "yabancı turistin türk esnafına isyan etmesi"
       ]
     },
     {
@@ -73,8 +72,8 @@
         "teenage"
       ],
       "top_evidence_topics": [
-        "sandviç alıp dolandırılmak",
         "masterchef türkiye",
+        "sandviç alıp dolandırılmak",
         "tolga akış"
       ]
     },
@@ -372,8 +371,8 @@
         "shift_regularity": 0.0
       },
       "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
     },
@@ -595,10 +594,10 @@
         "shift_regularity": 10.0
       },
       "evidence_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "çocuğuna annen o... biliyor musun diyen baba",
-        "sokakta birlikte olan çifte beddua eden kadın"
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi",
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
       ],
       "is_monitored": true
     },

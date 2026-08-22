@@ -1,6 +1,6 @@
 {
-  "total_evaluated": 16,
-  "high_confidence_trolls": 13,
+  "total_evaluated": 15,
+  "high_confidence_trolls": 11,
   "cells": [
     {
       "cell_name": "Kültür Savaşı & Yaşam Tarzı",
@@ -19,8 +19,8 @@
         "timurun fillerinin bakicisi"
       ],
       "top_evidence_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk",
         "haşemalılarla aynı denize girmek istemeyen kadın",
+        "ankara'da alman kurdundan kaçarken ölen çocuk",
         "yabancı turistin türk esnafına isyan etmesi"
       ]
     },
@@ -35,28 +35,6 @@
       "top_evidence_topics": [
         "haşemalılarla aynı denize girmek istemeyen kadın",
         "yabancı turistin türk esnafına isyan etmesi"
-      ]
-    },
-    {
-      "cell_name": "Muhalefet & Belediye Karalama",
-      "member_count": 1,
-      "average_troll_score": 94.0,
-      "members": [
-        "gunisiginda asili duran toz zerresi"
-      ],
-      "top_evidence_topics": [
-        "masterchef türkiye"
-      ]
-    },
-    {
-      "cell_name": "Genel Karalama & Algı Hücresi",
-      "member_count": 1,
-      "average_troll_score": 73.0,
-      "members": [
-        "realdreamer"
-      ],
-      "top_evidence_topics": [
-        "masterchef türkiye"
       ]
     }
   ],
@@ -81,26 +59,6 @@
         "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
-    },
-    {
-      "nick": "gunisiginda asili duran toz zerresi",
-      "troll_score": 94.0,
-      "risk_level": "Kesin Organize Troll",
-      "badge_color": "red",
-      "detected_cell": "Muhalefet & Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "stance_alignment": 100.0,
-        "smear_intensity": 100.0,
-        "vote_brigading": 95.0,
-        "synchronicity_score": 100.0,
-        "shift_regularity": 0.0
-      },
-      "evidence_topics": [
-        "masterchef türkiye"
-      ],
-      "is_monitored": false
     },
     {
       "nick": "givles",
@@ -286,26 +244,6 @@
       "is_monitored": true
     },
     {
-      "nick": "realdreamer",
-      "troll_score": 73.0,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Genel Karalama & Algı Hücresi",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "stance_alignment": 100.0,
-        "smear_intensity": 100.0,
-        "vote_brigading": 65.0,
-        "synchronicity_score": 0.0,
-        "shift_regularity": 0.0
-      },
-      "evidence_topics": [
-        "masterchef türkiye"
-      ],
-      "is_monitored": false
-    },
-    {
       "nick": "1xw",
       "troll_score": 71.2,
       "risk_level": "Yüksek Olasılıklı Troll",
@@ -347,6 +285,26 @@
         "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
+    },
+    {
+      "nick": "realdreamer",
+      "troll_score": 43.0,
+      "risk_level": "Şüpheli / Polarize Hesap",
+      "badge_color": "yellow",
+      "detected_cell": "Genel Karalama & Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "stance_alignment": 0.0,
+        "smear_intensity": 100.0,
+        "vote_brigading": 65.0,
+        "synchronicity_score": 0.0,
+        "shift_regularity": 0.0
+      },
+      "evidence_topics": [
+        "masterchef türkiye"
+      ],
+      "is_monitored": false
     },
     {
       "nick": "david ellefson",

@@ -809,6 +809,18 @@ function drawNetworkGraph(canvas, networkData) {
     render();
 }
 
+// Global Window Resize Listener to Keep Network Graph Sharp & Centered
+let resizeTimeout = null;
+window.addEventListener('resize', () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+        if (currentTab === 'network' && networkDataCache) {
+            const canvas = document.getElementById('networkCanvas');
+            if (canvas) drawNetworkGraph(canvas, networkDataCache);
+        }
+    }, 250);
+});
+
 // Global Keyboard Listener for Closing Modals with Escape
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {

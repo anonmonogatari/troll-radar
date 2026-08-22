@@ -859,7 +859,7 @@
       "day_name": "Cumartesi",
       "hour": 2,
       "hour_label": "02:00",
-      "count": 16
+      "count": 17
     },
     {
       "day_index": 5,
@@ -908,28 +908,28 @@
       "day_name": "Cumartesi",
       "hour": 9,
       "hour_label": "09:00",
-      "count": 7
+      "count": 8
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 10,
       "hour_label": "10:00",
-      "count": 3
+      "count": 9
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 11,
       "hour_label": "11:00",
-      "count": 19
+      "count": 24
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 12,
       "hour_label": "12:00",
-      "count": 16
+      "count": 21
     },
     {
       "day_index": 5,
@@ -957,14 +957,14 @@
       "day_name": "Cumartesi",
       "hour": 16,
       "hour_label": "16:00",
-      "count": 1
+      "count": 3
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 17,
       "hour_label": "17:00",
-      "count": 4
+      "count": 6
     },
     {
       "day_index": 5,
@@ -985,21 +985,21 @@
       "day_name": "Cumartesi",
       "hour": 20,
       "hour_label": "20:00",
-      "count": 12
+      "count": 16
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 21,
       "hour_label": "21:00",
-      "count": 17
+      "count": 19
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 22,
       "hour_label": "22:00",
-      "count": 26
+      "count": 31
     },
     {
       "day_index": 5,

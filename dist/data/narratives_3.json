@@ -4,19 +4,19 @@
     {
       "topic": "olası israil türkiye savaşı",
       "category": "Dış Politika & Jeopolitik Savunma",
-      "entry_count": 14,
-      "author_count": 14,
-      "coord_count": 14,
+      "entry_count": 15,
+      "author_count": 15,
+      "coord_count": 15,
       "is_coordinated": true,
       "first_seen": "2026-08-22T01:15:00",
       "last_seen": "2026-08-22T02:00:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "large hail storm",
-        "viransce",
         "meridyen6",
-        "hohem",
-        "ckcozr"
+        "ckcozr",
+        "viransce",
+        "large hail storm",
+        "hohem"
       ],
       "sample_entries": [
         {
@@ -72,10 +72,10 @@
       "last_seen": "2026-08-22T21:52:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 12 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "givles",
-        "bozaj",
         "nane kokusu",
-        "timurun fillerinin bakicisi"
+        "timurun fillerinin bakicisi",
+        "bozaj",
+        "givles"
       ],
       "sample_entries": [
         {
@@ -131,11 +131,11 @@
       "last_seen": "2026-08-22T04:23:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 11 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "engineer061",
-        "funeral winds",
+        "ascsagittarius",
         "saksi cicegi",
         "sozen",
-        "ascsagittarius"
+        "engineer061",
+        "funeral winds"
       ],
       "sample_entries": [
         {
@@ -181,6 +181,126 @@
       ]
     },
     {
+      "topic": "görülmüş en etkileyici tarihi yapı",
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "entry_count": 11,
+      "author_count": 11,
+      "coord_count": 10,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T01:25:00",
+      "last_seen": "2026-08-22T22:25:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "ddy666",
+        "lonely tree",
+        "slowrocker",
+        "ckmltyf",
+        "niltt"
+      ],
+      "sample_entries": [
+        {
+          "author": "ddy666",
+          "content": "tarihe ve tarihi yapılara çok ilgi duyarım. ülkemiz de bu anlamda gerçekten de cennet gibi hepimizin malumu. dünya mirası listesindeki divriği ulu camii'den tutun da ayasofya'ya, küçükken hikayesini ağzım açık dinlediğim kız kulesi'nden, sumela'ya. ishakpaşa sarayından, sagalassos'sa, nemrut'tan, assos'sa, kapadokya'ya kadar adını saymadığım o kadar çok muhteşem yapılar var ki hayranlık duyduğum. gezdiğim yerlerde gözümde canlanır o yapıların bir zamanlarki orijinal halleri. o sokaklarda binlerce yıl önce yürüyen insanlar, bizim sadece mermer halini görebildiğimiz ama ilk hali renkli olan o heykellerdeki muazzam işçilikler...başlığa dönecek olursak, benim için ilk sırada efes'teki yamaç evler, ikinci olarak da hierapolis antik havuz geliyor. efes zaten başlı başına çok etkileyici ama yamaç evler muhteşem bir kompozisyonun estetik kenar süsleri gibi. duvarlarındaki resimlerden mozaiklerine, zeminden ısıtmalı sisteminden bölgenin kendisine has özelliklerine kadar ayrı ele alınması gereken bir çok konu başlığı var bana göre. hierapolis de aynı şekilde. enfes bir açık hava müzesi. içine girince suyunun insanın ruhuna işleyen antik havuzunun suları... kulaklarda yankılanır o dönemin sesleri.günlerce aylarca gezsem bıkmayacağım yapılar bunlar. ve insanın ne kadar geçici ve istediğinde harikalar yaratacak kadar da dahi olduğunu, bu zıtlığın neler yaratabileceğini her defasında yüzümüze vuran eserler...tabi değerlerini biliyor muyuz bunların? tartışılır.",
+          "date_str": "22.08.2026 01:25 ~ 01:32",
+          "created_at": "2026-08-22T01:25:00",
+          "is_coordinated": 0,
+          "id": "185828777"
+        },
+        {
+          "author": "ckmltyf",
+          "content": "kars ani harabeleri… abi böyle bir şey yok ya",
+          "date_str": "22.08.2026 13:25",
+          "created_at": "2026-08-22T13:25:00",
+          "is_coordinated": 1,
+          "id": "185835847"
+        },
+        {
+          "author": "slowrocker",
+          "content": "gece taksim'den unkapanı'na doğru ilerlerken solda yükselen süleymaniye camii.",
+          "date_str": "22.08.2026 13:33",
+          "created_at": "2026-08-22T13:33:00",
+          "is_coordinated": 1,
+          "id": "185835984"
+        },
+        {
+          "author": "niltt",
+          "content": "ayasofya'nın 25 sene önceki müze halleri..o yukarıya çıkılan taş kısım vs.şahane bi etki bırakmıştı bende.mükemmeldi..geçen sene ayak kokusundan zor gezdimyok böyle bi rezillik ..",
+          "date_str": "22.08.2026 20:26",
+          "created_at": "2026-08-22T20:26:00",
+          "is_coordinated": 1,
+          "id": "185842413"
+        },
+        {
+          "author": "lonely tree",
+          "content": "hattuşa...boğazkale. bir zamanlar en kudretli devletti. vatandaşları zamanının en güçlü devletine mensuptu. başkentti. ticaret yapılıyordu. kütüphaneler vardı...tapınaklar vardı, kışlaları vardı.anitta geldi yakıp kül etti. şimdi geriye ne kaldı onlardan?düşüncelere dalmış bir şekilde 3 bin sene öncesini canlandırmaya çalışıyorum aklımda, her manzaraya bakışımda...senin güzellik sandığın şey, gençlik...güç zannettiğin şey, gençlik...yok olmaya mahkum olan, yok olur...görsel",
+          "date_str": "22.08.2026 20:48",
+          "created_at": "2026-08-22T20:48:00",
+          "is_coordinated": 1,
+          "id": "185842773"
+        }
+      ]
+    },
+    {
+      "topic": "kaç gündür içki içmiyorsun",
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "entry_count": 11,
+      "author_count": 11,
+      "coord_count": 10,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T01:26:00",
+      "last_seen": "2026-08-22T09:28:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "arzawa",
+        "acmemade",
+        "vladmicov",
+        "arsiz marketing",
+        "gitmiyorsun"
+      ],
+      "sample_entries": [
+        {
+          "author": "gitmiyorsun",
+          "content": "doğduğum günden beri.",
+          "date_str": "22.08.2026 01:26",
+          "created_at": "2026-08-22T01:26:00",
+          "is_coordinated": 0,
+          "id": "185828794"
+        },
+        {
+          "author": "arsiz marketing",
+          "content": "22 gundur sanirim .daha da agzima almayi dusumuyorum .22 gun once hesap gecirmasyoncu bir ocakbasina gittik sirkettekiler ile . rakiyi icmesini bilmeyem ben tabi basladik . ( bugune kadar icmedigim/denemedigim alkol kalmadi raki ile aram hic olmadi ) gelen garsona full duble cekiyorum ekip 8 kisi sadece 4 kisi iciyor 2 kisi neredeyse az geri kalan 2 kisi ben ve arkadas damacana hesabi atiyoruz .ilk yuzluk bitmis biz ikinci yuzlugu actirmisiz kafalar guzel iken .ikinci yuzluk bitmis kadeh soylemeye baslamisiz 2 ser tane daha .mekandan cikarken tanidik arkadasta masaya 10 shot enerji vodka soylemis onlar da su niyetine bitti .beni getiren arkadasin aracina bir kusmusum tum araba ici zift olmus gece gece araci yikamislar bir ton .kendi evimde de ayni hikaye heryer zift rezillik kendimi oldurmeye icmisim resmen .hayat boyu uzak kalabilir bana bilinci sekilde bokunu cikarttigim icin .",
+          "date_str": "22.08.2026 03:39",
+          "created_at": "2026-08-22T03:39:00",
+          "is_coordinated": 1,
+          "id": "185830353"
+        },
+        {
+          "author": "acmemade",
+          "content": "1 ay oldu ve artık nadiren içmeye karar verdim.",
+          "date_str": "22.08.2026 03:41",
+          "created_at": "2026-08-22T03:41:00",
+          "is_coordinated": 1,
+          "id": "185830363"
+        },
+        {
+          "author": "vladmicov",
+          "content": "28 yıldır",
+          "date_str": "22.08.2026 04:06",
+          "created_at": "2026-08-22T04:06:00",
+          "is_coordinated": 1,
+          "id": "185830493"
+        },
+        {
+          "author": "arzawa",
+          "content": "2612 gün olmuş.şaka maka, öyle böyle değil bu tarihten önceki son beş yılda,; her gün, 365 gün yazın yedi de kışın altı da başlayıp ne kadar içebilirsem içerdim, bu bazen 10-12 bira bazen 1 büyük bazen de bir küçük üstüne 4-5 bira şeklindeydi. devam etseydim yaşamazdım herhalde ama zaten bu koşullarda para da yetiremezdim.alkol bence rahatlıkla bırakılabilecek bir şey; size zarar veriyorsa bırakın.kırk yılda bir 1-2 duble içen birisi olsaydım bırakmazdım ama bunu başaramayan biriyseniz kökten borakın siz de.",
+          "date_str": "22.08.2026 05:44",
+          "created_at": "2026-08-22T05:44:00",
+          "is_coordinated": 1,
+          "id": "185830866"
+        }
+      ]
+    },
+    {
       "topic": "22 ağustos 2026 fenerbahçe konyaspor maçı",
       "category": "Ekonomi Savunması & Aklama",
       "entry_count": 10,
@@ -191,11 +311,11 @@
       "last_seen": "2026-08-22T20:41:00",
       "summary": "Pahalılık/turist/esnaf algısını çarpıtma ve ekonomik tepkileri hafifletme amacıyla 10 hesap tarafından organize paylaşıldı.",
       "authors": [
-        "7714714",
-        "rootifera",
         "mertolyon",
         "monofobik",
-        "ondortelliuc"
+        "ondortelliuc",
+        "rootifera",
+        "7714714"
       ],
       "sample_entries": [
         {
@@ -251,11 +371,11 @@
       "last_seen": "2026-08-22T11:44:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 10 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "cunoesse vittulainen",
-        "neutral true",
-        "debe okurum",
         "x4",
-        "charango"
+        "cunoesse vittulainen",
+        "charango",
+        "neutral true",
+        "debe okurum"
       ],
       "sample_entries": [
         {
@@ -311,10 +431,10 @@
       "last_seen": "2026-08-22T21:27:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "kedisininyumagi",
-        "delikanlininja",
         "edward leon",
+        "delikanlininja",
         "odoriko",
+        "kedisininyumagi",
         "lmrvnx"
       ],
       "sample_entries": [
@@ -361,6 +481,66 @@
       ]
     },
     {
+      "topic": "bir insanın sizi sevmediğini nasıl anlarsınız",
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "entry_count": 10,
+      "author_count": 10,
+      "coord_count": 10,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T10:00:00",
+      "last_seen": "2026-08-22T11:18:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "hard disk gibi adam",
+        "hilmi bunu begendi",
+        "yesindeed",
+        "to vbe or not to vbe",
+        "debe okurum"
+      ],
+      "sample_entries": [
+        {
+          "author": "debe okurum",
+          "content": "insanlar zamanla benden menfaat elde edemeyeceklerini anlayıp bana kötü davranıyorbaşta güzel kızlar hariç herkes normal davranıyor. sonra biraz tanıdıkça sanki hakkımda bir kanaat oluşuyor ve davranışları değişiyor. daha mesafeli, daha küçümseyici, daha umursamaz oluyorlar.hatta bazen beni görünce yüzü değişen, selam vermeye bile tenezzül etmeyen insanlar oluyor. bunların çoğu güzel bulduğum ilgi duyduğum kızlar oluyor. insan ister istemez \"acaba bende ne görüyorlar?\" diye düşünüyor.en kötüsü de bir süre sonra insan onların davranışlarını sorgulamayı bırakıp kendisini sorgulamaya başlıyor.belki gerçekten yetersizim, belki de yıllardır böyle muamele gördüğüm için insanların en ufak mesafesini bile küçümsenmek olarak yorumluyorum.ama hangisi olursa olsun insan kendisini sürekli değersiz hissettiren kişilerle dolu ortamlara girdikçe zamanla gerçekten değersiz olduğuna inanmaya başlıyor.",
+          "date_str": "22.08.2026 10:00",
+          "created_at": "2026-08-22T10:00:00",
+          "is_coordinated": 1,
+          "id": "185832441"
+        },
+        {
+          "author": "hilmi bunu begendi",
+          "content": "görmek istemediğiniz sürece anlayamazsınız. fakat gözünüz bir kez açıldı mı, yanınızdaki nefes alışından bile anlarsınız.",
+          "date_str": "22.08.2026 10:08",
+          "created_at": "2026-08-22T10:08:00",
+          "is_coordinated": 1,
+          "id": "185832549"
+        },
+        {
+          "author": "to vbe or not to vbe",
+          "content": "(bkz: zaman ayırmak) bu işin turnusoludur. seven kişi ne yapar ne eder zaman ayırır veya zaman yaratır.",
+          "date_str": "22.08.2026 10:15",
+          "created_at": "2026-08-22T10:15:00",
+          "is_coordinated": 1,
+          "id": "185832660"
+        },
+        {
+          "author": "hard disk gibi adam",
+          "content": "bunu anlama dürtüsünü doğurduysa, sevmiyordur.",
+          "date_str": "22.08.2026 10:18",
+          "created_at": "2026-08-22T10:18:00",
+          "is_coordinated": 1,
+          "id": "185832706"
+        },
+        {
+          "author": "yesindeed",
+          "content": "a bronx tale filmini izleyenler kilitli araba testini bilir. ben bunu gunumuze uyarladim ama sadece erkekler icin gecerli. kizlar icin bilmiyorum. bir kizin seni sevdigini ve onunla bir omur gecirebilecegini anlamak icin 2 kelime yeterli. \"karnim acikti.\"eger o kiz seni doyurmak icin secenekler aramaya ve sana sorular sormaya basliyorsa o kiz seni seviyordur ve bir omur gecirilir. ama bos bos suratina bakiyorsa, ne yapalim, disaridan siparis ver, mutfak orada, ben de cok aciktim falan diyorsa salla gitsin. cunku gercekten seven insan once sevdigini dusunur.",
+          "date_str": "22.08.2026 10:49",
+          "created_at": "2026-08-22T10:49:00",
+          "is_coordinated": 1,
+          "id": "185833143"
+        }
+      ]
+    },
+    {
       "topic": "bu saatte hala uyumama sebebi",
       "category": "Suni Gündem & Viral Çarpıtma",
       "entry_count": 10,
@@ -371,11 +551,11 @@
       "last_seen": "2026-08-22T03:28:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "heterodokss",
         "belgium in the rainn",
+        "heterodokss",
         "notthatsimplee",
-        "kendinegelotuzsundediler",
-        "augusto pinochet"
+        "augusto pinochet",
+        "kendinegelotuzsundediler"
       ],
       "sample_entries": [
         {
@@ -431,11 +611,11 @@
       "last_seen": "2026-08-22T12:54:00",
       "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
       "authors": [
-        "raybanzib",
-        "ne rakisi sevim",
         "burunsuz pinok",
+        "bilmemeninbilmisligi",
+        "raybanzib",
         "19o5",
-        "bilmemeninbilmisligi"
+        "ne rakisi sevim"
       ],
       "sample_entries": [
         {
@@ -481,6 +661,66 @@
       ]
     },
     {
+      "topic": "kadınların güzel gözüktüğünü sandığı şeyler",
+      "category": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 10,
+      "author_count": 10,
+      "coord_count": 10,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T11:47:00",
+      "last_seen": "2026-08-22T17:23:00",
+      "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 10 hesap tarafından eşzamanlı gündeme taşındı.",
+      "authors": [
+        "la columna rota",
+        "nahpeykerhapiyuttunnamussuzziver",
+        "supermike",
+        "melvinton",
+        "eeee sonra"
+      ],
+      "sample_entries": [
+        {
+          "author": "melvinton",
+          "content": "dudak dolgusu ve protez tırnak. ikisi de tiksindirici şeyler.",
+          "date_str": "22.08.2026 11:47",
+          "created_at": "2026-08-22T11:47:00",
+          "is_coordinated": 1,
+          "id": "185834071"
+        },
+        {
+          "author": "nahpeykerhapiyuttunnamussuzziver",
+          "content": "sallantılı küpe. bi dikkat edin, anlayacaksınız.",
+          "date_str": "22.08.2026 12:09",
+          "created_at": "2026-08-22T12:09:00",
+          "is_coordinated": 1,
+          "id": "185834436"
+        },
+        {
+          "author": "la columna rota",
+          "content": "takma kirpik...yelpaze gibi olanlarindan",
+          "date_str": "22.08.2026 12:10",
+          "created_at": "2026-08-22T12:10:00",
+          "is_coordinated": 1,
+          "id": "185834457"
+        },
+        {
+          "author": "supermike",
+          "content": "(bkz: botoks)",
+          "date_str": "22.08.2026 12:10",
+          "created_at": "2026-08-22T12:10:00",
+          "is_coordinated": 1,
+          "id": "185834459"
+        },
+        {
+          "author": "eeee sonra",
+          "content": "yine çoğunluğu erkeklerden mürekkep bir güruhun kadınlar ve onların bedenlerine ilişkin ahkam kestiği bir başlıktır.şu kadınları bi salınız efenim...",
+          "date_str": "22.08.2026 12:26",
+          "created_at": "2026-08-22T12:26:00",
+          "is_coordinated": 1,
+          "id": "185834738"
+        }
+      ]
+    },
+    {
       "topic": "mason greenwood",
       "category": "Suni Gündem & Viral Çarpıtma",
       "entry_count": 10,
@@ -491,10 +731,10 @@
       "last_seen": "2026-08-22T22:43:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "protego",
         "darwinisecdeyeyatiranadam",
-        "entrollment",
         "kirkbirincikarakter",
+        "protego",
+        "entrollment",
         "fyodorwell"
       ],
       "sample_entries": [
@@ -551,10 +791,10 @@
       "last_seen": "2026-08-22T22:22:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "the dark defender",
-        "octopusss",
-        "homoiskandinavus",
         "cars",
+        "octopusss",
+        "the dark defender",
+        "homoiskandinavus",
         "crowded house"
       ],
       "sample_entries": [
@@ -601,302 +841,62 @@
       ]
     },
     {
-      "topic": "anderson talisca",
+      "topic": "sürekli kendine hatırlatmak zorunda olduğun o söz",
       "category": "Suni Gündem & Viral Çarpıtma",
       "entry_count": 10,
       "author_count": 10,
-      "coord_count": 9,
+      "coord_count": 10,
       "is_coordinated": true,
-      "first_seen": "2026-08-22T04:02:00",
-      "last_seen": "2026-08-22T09:27:00",
+      "first_seen": "2026-08-22T20:51:00",
+      "last_seen": "2026-08-22T22:28:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "youth gone wild",
-        "better call sabire",
-        "vladmicov",
-        "shinigami ryuk",
-        "vzw"
+        "kara vasif karakol cemiyeti",
+        "eternalfire",
+        "akademi maestro",
+        "gandalfinasasi1",
+        "i have dreams"
       ],
       "sample_entries": [
         {
-          "author": "vladmicov",
-          "content": "fenerin acil durumlarda camı kıran 10 numarası. inşallah gönderilir zira bu adamın yapacağı istatistikleri çok ararlar.",
-          "date_str": "22.08.2026 04:02",
-          "created_at": "2026-08-22T04:02:00",
-          "is_coordinated": 0,
-          "id": "185830471"
-        },
-        {
-          "author": "youth gone wild",
-          "content": "en kritik maç öncesinde bunu gönderip hazırlık kampını sakatlığı sebebiyle kaçırmış vedat ve snorlax gibi dolaşan lukaku ile oynamayı düşünüyorsa ben cidden yapıya inanırım.böyle bir kararı anca yapı verir hatta \"ulan ayıp mı oluyor çok mu abartıyoruz\" falan diyebilirler.",
-          "date_str": "22.08.2026 06:36",
-          "created_at": "2026-08-22T06:36:00",
+          "author": "akademi maestro",
+          "content": "kâbus da rüya da aynı; ikisi de geçiyor ömür gibi, vakit gibi.",
+          "date_str": "22.08.2026 20:51",
+          "created_at": "2026-08-22T20:51:00",
           "is_coordinated": 1,
-          "id": "185830999"
+          "id": "185842834"
         },
         {
-          "author": "shinigami ryuk",
-          "content": "fenerbahçe taraftarı mülayim adam sevmez. alex bile yeri geldiğinde agresifleşen, yönetime, teknik direktöre tavır koyabilen, takım içinde sözünü dinlenen, sivri olmasa da diş gösterebilen bir karakterdi. onun yanıda olduğu için sezon sonu bir çok futbolcu yollandı. talisca ise geldiğinden beri vur ensesine al lokmasına takıldığı için üzerine çok yüklenildi. tek bir negatif röportajı yok, yedek kalmayı hiç sorun etmedi. penaltı kaçırdı, bazen haddinden fazla zorladı ama totalde takımı hep yarışta tuttu. son bir buçuk sezonda onun olmadığı dönemeçlerin hepsine sıçtı sıvadı bu takım.bu arada herif kariyer sezonunu fenerbahçe'de yaşıyor. görsel70 maçta 50 gol katkısı var adamın. kaldı ki bunların büyük kısmında sonradan girdi. attığı gollerin büyük kısmı da maç çözen goller. gönderilirse sebebi yabancı limiti olur fakat sezon boyunca yokluğunu çok ararız. akıllarda kaçırdığı penaltıyla kalması normal fakat çözdüğü maçlardan bahsedilmemesi ayıp. şahsen onun yerine verim alamadığımız diğer oyunculardan çıkılmasını tercih ederdim.",
-          "date_str": "22.08.2026 08:10 ~ 09:41",
-          "created_at": "2026-08-22T08:10:00",
+          "author": "eternalfire",
+          "content": "hiç kimsenin umurunda değilsin.",
+          "date_str": "22.08.2026 20:53",
+          "created_at": "2026-08-22T20:53:00",
           "is_coordinated": 1,
-          "id": "185831405"
+          "id": "185842867"
         },
         {
-          "author": "vzw",
-          "content": "fenerbahçeden kim gitsin istersin diye rakiplerine sorsalar1.kante 2. talisca 3.asensio derler biri gidiyor diğerini göndermeye çalışıyorlar, böyle devam aziz başkan",
-          "date_str": "22.08.2026 08:34",
-          "created_at": "2026-08-22T08:34:00",
+          "author": "kara vasif karakol cemiyeti",
+          "content": "başkaları hakkında beylik laflar sarf etme...önce sen ahlaklı ve dürüst olmalısın, önce kendi içini arındırmalısın.",
+          "date_str": "22.08.2026 20:57",
+          "created_at": "2026-08-22T20:57:00",
           "is_coordinated": 1,
-          "id": "185831574"
+          "id": "185842956"
         },
         {
-          "author": "better call sabire",
-          "content": "şu herifin attığı gollere bakıp 'gitmesin' diyen kim varsa skor taraftarıdır. bir futbolcunun sahada bu sik kafalı kadar gamsız, yürüyerek takılabilmesi için ya messi ya ronaldo olması lazım. ki onlar bile bu yaşta bu lavuktan fazla mücadele ediyor.sezon başından beri forvette bu yarakhasan değil de serdar dursun oynamış olsa kat kat iyi futbol olurdu sahada ve çok daha fazla gol atardık. bu beyimiz 90 dakika ceza yayında bekliyor ayağına top gelecek de, rakip stoper basmazsa kontrol edip dönecek de kaleye vuracak. baba sen bu kafandaki hikayeyi anca gornik bilmem neye karşı, arabistan'daki takımlara karşı filan yaparsın. sahaya mücadele etmek için çıkan hiçbir profesyonel rakip sana bu kadar alan vermez. zaten bu lavuğun ayağına gelen her topa rakip bundan önce hamle yapıyor, bu da ayağına sıkmışlar gibi 10dk yerlerde yatıyor. baskı yediğinde buna yerden veya havadan atılan hiçbir topu tutup da arkadaşına kazandırdığını görmedik.bu herife gelen her top ya direk rakibe geçiyor, es kaza kontrol edip dönebildiyse de kaleye vurup geçiyor. hayırdır olum seni messi ronaldo filan mısın her gelen topu kaleye vuracak? geçen seneden beri aynı şeyi yazıyoruz, rakibin bu herifi yakın savunduğu hiçbir maçta oyunu kontrol edemeyiz. anca işte kayseri, konya, rize mize maçlarında atar, onlarda da attığından fazla zararı olur 90 dakika içinde. tabelaya baksan 20 gol attı dersin ama takım oyununun içine sıçıp eli belinde bekledikten sonra alex'in, juninho'yu filan getir, bu yaşta boş beleş takımlara uzaktan şutla frikile filan onlar da atar 15-20 gol .",
-          "date_str": "22.08.2026 08:47 ~ 08:50",
-          "created_at": "2026-08-22T08:47:00",
+          "author": "gandalfinasasi1",
+          "content": "deveye diken insana siken yaranır.atasözleri ciddi bir sosyolojik birikimin ürünüdür, aynı anda dünyanın tüm coğrafyalarında birbirinden bağımsız insanlar aynı fikre ve düşünceye olası ve sıradan insan davranışları sebebiyle aynı bakış açısıyla bakabilirler.işte bu da onlardan biridir.insan; nezaketli, ince düşünceli ve kibarsa işin sonunda muhakkak ki kaybediyor ve bu şaşmıyor arkadaşlar.kimse kimseyi kandırmasın, insan doğası s*kilme ve hırpalanmadan keyif alıyor.",
+          "date_str": "22.08.2026 20:57",
+          "created_at": "2026-08-22T20:57:00",
           "is_coordinated": 1,
-          "id": "185831687"
-        }
-      ]
-    },
-    {
-      "topic": "arda güler",
-      "category": "Suni Gündem & Viral Çarpıtma",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 9,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T12:48:00",
-      "last_seen": "2026-08-22T22:42:00",
-      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
-      "authors": [
-        "femmelette",
-        "bilgiziyar faresi",
-        "rustu ciftyumruk",
-        "zibinnik",
-        "yenal"
-      ],
-      "sample_entries": [
-        {
-          "author": "yenal",
-          "content": "yani ben anlayamıyorum insanları. tutturmuşlar bir bellingham muhabbeti. adam ingiltereyi tek başına yarı finale taşıdı, tabi ki formdaysa 10 numara oynayacak. arda dünyanın en büyük kulübünde oynuyor. 8 de oynayabilecek 6 da oynayabilecek yeteneğe sahip. gereksiz yere dünya yıldızlarıyla kapris savaşına girmek yerine onlarla uyumlu olmaya çalışmalı ki kendisi de zaten bu yolda. hala madrid hala arda!!!",
-          "date_str": "22.08.2026 12:48",
-          "created_at": "2026-08-22T12:48:00",
-          "is_coordinated": 0,
-          "id": "185835102"
+          "id": "185842964"
         },
         {
-          "author": "rustu ciftyumruk",
-          "content": "bugün oynanayacak espanyol deplasmanında ilk 11de başlayacak aslan parçası.",
-          "date_str": "22.08.2026 21:34",
-          "created_at": "2026-08-22T21:34:00",
+          "author": "i have dreams",
+          "content": "“görelim mevla neyler, neylerse güzel eyler.”",
+          "date_str": "22.08.2026 21:44",
+          "created_at": "2026-08-22T21:44:00",
           "is_coordinated": 1,
-          "id": "185843626"
-        },
-        {
-          "author": "zibinnik",
-          "content": "bellingham, mbappe'yle anlaşamıyor. er geç bunu görecekler. bellingham'da mbappe'ye ara pas atacak kafa da yok zaten. mbappe gelmeden önce bellingham sahte 9 oynuyordu, şimdi o yollar kapalı. bırakın arda'yı 8 veya 6 oynatsınlar. arda yine ölümcül paslarını atmaya devam edecektir, siz rahat olun. bu sene sonunda da yeni sözleşmesini alacaktır. henüz 21 yaşında olduğunu unutuyorsunuz bazen.",
-          "date_str": "22.08.2026 22:11",
-          "created_at": "2026-08-22T22:11:00",
-          "is_coordinated": 1,
-          "id": "185844910"
-        },
-        {
-          "author": "femmelette",
-          "content": "futbolu sevenleri üzmüştür.diomande varken, arda 11'de. real'deki arda lobisi diomande'yi harcayacak:(",
-          "date_str": "22.08.2026 22:18",
-          "created_at": "2026-08-22T22:18:00",
-          "is_coordinated": 1,
-          "id": "185845127"
-        },
-        {
-          "author": "bilgiziyar faresi",
-          "content": "edit: asisti yapıştırdı bile. *hayırlı ve başarılı sezonların olsun evlat.mou hocanın öğrettiklerini unutma.sal gitsin asistleri bakalım.fb maçının ikinci yarısı ve real maçını artık paralel izleyeceğiz.",
-          "date_str": "22.08.2026 22:25 ~ 22:42",
-          "created_at": "2026-08-22T22:25:00",
-          "is_coordinated": 1,
-          "id": "185845339"
-        }
-      ]
-    },
-    {
-      "topic": "görülmüş en etkileyici tarihi yapı",
-      "category": "Suni Gündem & Viral Çarpıtma",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 9,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T01:25:00",
-      "last_seen": "2026-08-22T22:18:00",
-      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
-      "authors": [
-        "niltt",
-        "ckmltyf",
-        "slowrocker",
-        "ddy666",
-        "lonely tree"
-      ],
-      "sample_entries": [
-        {
-          "author": "ddy666",
-          "content": "tarihe ve tarihi yapılara çok ilgi duyarım. ülkemiz de bu anlamda gerçekten de cennet gibi hepimizin malumu. dünya mirası listesindeki divriği ulu camii'den tutun da ayasofya'ya, küçükken hikayesini ağzım açık dinlediğim kız kulesi'nden, sumela'ya. ishakpaşa sarayından, sagalassos'sa, nemrut'tan, assos'sa, kapadokya'ya kadar adını saymadığım o kadar çok muhteşem yapılar var ki hayranlık duyduğum. gezdiğim yerlerde gözümde canlanır o yapıların bir zamanlarki orijinal halleri. o sokaklarda binlerce yıl önce yürüyen insanlar, bizim sadece mermer halini görebildiğimiz ama ilk hali renkli olan o heykellerdeki muazzam işçilikler...başlığa dönecek olursak, benim için ilk sırada efes'teki yamaç evler, ikinci olarak da hierapolis antik havuz geliyor. efes zaten başlı başına çok etkileyici ama yamaç evler muhteşem bir kompozisyonun estetik kenar süsleri gibi. duvarlarındaki resimlerden mozaiklerine, zeminden ısıtmalı sisteminden bölgenin kendisine has özelliklerine kadar ayrı ele alınması gereken bir çok konu başlığı var bana göre. hierapolis de aynı şekilde. enfes bir açık hava müzesi. içine girince suyunun insanın ruhuna işleyen antik havuzunun suları... kulaklarda yankılanır o dönemin sesleri.günlerce aylarca gezsem bıkmayacağım yapılar bunlar. ve insanın ne kadar geçici ve istediğinde harikalar yaratacak kadar da dahi olduğunu, bu zıtlığın neler yaratabileceğini her defasında yüzümüze vuran eserler...tabi değerlerini biliyor muyuz bunların? tartışılır.",
-          "date_str": "22.08.2026 01:25 ~ 01:32",
-          "created_at": "2026-08-22T01:25:00",
-          "is_coordinated": 0,
-          "id": "185828777"
-        },
-        {
-          "author": "ckmltyf",
-          "content": "kars ani harabeleri… abi böyle bir şey yok ya",
-          "date_str": "22.08.2026 13:25",
-          "created_at": "2026-08-22T13:25:00",
-          "is_coordinated": 1,
-          "id": "185835847"
-        },
-        {
-          "author": "slowrocker",
-          "content": "gece taksim'den unkapanı'na doğru ilerlerken solda yükselen süleymaniye camii.",
-          "date_str": "22.08.2026 13:33",
-          "created_at": "2026-08-22T13:33:00",
-          "is_coordinated": 1,
-          "id": "185835984"
-        },
-        {
-          "author": "niltt",
-          "content": "ayasofya'nın 25 sene önceki müze halleri..o yukarıya çıkılan taş kısım vs.şahane bi etki bırakmıştı bende.mükemmeldi..geçen sene ayak kokusundan zor gezdimyok böyle bi rezillik ..",
-          "date_str": "22.08.2026 20:26",
-          "created_at": "2026-08-22T20:26:00",
-          "is_coordinated": 1,
-          "id": "185842413"
-        },
-        {
-          "author": "lonely tree",
-          "content": "hattuşa...boğazkale. bir zamanlar en kudretli devletti. vatandaşları zamanının en güçlü devletine mensuptu. başkentti. ticaret yapılıyordu. kütüphaneler vardı...tapınaklar vardı, kışlaları vardı.anitta geldi yakıp kül etti. şimdi geriye ne kaldı onlardan?düşüncelere dalmış bir şekilde 3 bin sene öncesini canlandırmaya çalışıyorum aklımda, her manzaraya bakışımda...senin güzellik sandığın şey, gençlik...güç zannettiğin şey, gençlik...yok olmaya mahkum olan, yok olur...görsel",
-          "date_str": "22.08.2026 20:48",
-          "created_at": "2026-08-22T20:48:00",
-          "is_coordinated": 1,
-          "id": "185842773"
-        }
-      ]
-    },
-    {
-      "topic": "kaç gündür içki içmiyorsun",
-      "category": "Suni Gündem & Viral Çarpıtma",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 9,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T01:26:00",
-      "last_seen": "2026-08-22T09:26:00",
-      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
-      "authors": [
-        "acmemade",
-        "gitmiyorsun",
-        "vladmicov",
-        "arsiz marketing",
-        "arzawa"
-      ],
-      "sample_entries": [
-        {
-          "author": "gitmiyorsun",
-          "content": "doğduğum günden beri.",
-          "date_str": "22.08.2026 01:26",
-          "created_at": "2026-08-22T01:26:00",
-          "is_coordinated": 0,
-          "id": "185828794"
-        },
-        {
-          "author": "arsiz marketing",
-          "content": "22 gundur sanirim .daha da agzima almayi dusumuyorum .22 gun once hesap gecirmasyoncu bir ocakbasina gittik sirkettekiler ile . rakiyi icmesini bilmeyem ben tabi basladik . ( bugune kadar icmedigim/denemedigim alkol kalmadi raki ile aram hic olmadi ) gelen garsona full duble cekiyorum ekip 8 kisi sadece 4 kisi iciyor 2 kisi neredeyse az geri kalan 2 kisi ben ve arkadas damacana hesabi atiyoruz .ilk yuzluk bitmis biz ikinci yuzlugu actirmisiz kafalar guzel iken .ikinci yuzluk bitmis kadeh soylemeye baslamisiz 2 ser tane daha .mekandan cikarken tanidik arkadasta masaya 10 shot enerji vodka soylemis onlar da su niyetine bitti .beni getiren arkadasin aracina bir kusmusum tum araba ici zift olmus gece gece araci yikamislar bir ton .kendi evimde de ayni hikaye heryer zift rezillik kendimi oldurmeye icmisim resmen .hayat boyu uzak kalabilir bana bilinci sekilde bokunu cikarttigim icin .",
-          "date_str": "22.08.2026 03:39",
-          "created_at": "2026-08-22T03:39:00",
-          "is_coordinated": 1,
-          "id": "185830353"
-        },
-        {
-          "author": "acmemade",
-          "content": "1 ay oldu ve artık nadiren içmeye karar verdim.",
-          "date_str": "22.08.2026 03:41",
-          "created_at": "2026-08-22T03:41:00",
-          "is_coordinated": 1,
-          "id": "185830363"
-        },
-        {
-          "author": "vladmicov",
-          "content": "28 yıldır",
-          "date_str": "22.08.2026 04:06",
-          "created_at": "2026-08-22T04:06:00",
-          "is_coordinated": 1,
-          "id": "185830493"
-        },
-        {
-          "author": "arzawa",
-          "content": "2612 gün olmuş.şaka maka, öyle böyle değil bu tarihten önceki son beş yılda,; her gün, 365 gün yazın yedi de kışın altı da başlayıp ne kadar içebilirsem içerdim, bu bazen 10-12 bira bazen 1 büyük bazen de bir küçük üstüne 4-5 bira şeklindeydi. devam etseydim yaşamazdım herhalde ama zaten bu koşullarda para da yetiremezdim.alkol bence rahatlıkla bırakılabilecek bir şey; size zarar veriyorsa bırakın.kırk yılda bir 1-2 duble içen birisi olsaydım bırakmazdım ama bunu başaramayan biriyseniz kökten borakın siz de.",
-          "date_str": "22.08.2026 05:44",
-          "created_at": "2026-08-22T05:44:00",
-          "is_coordinated": 1,
-          "id": "185830866"
-        }
-      ]
-    },
-    {
-      "topic": "kadınların hesap ödenirken sessiz kalması",
-      "category": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 8,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T10:04:00",
-      "last_seen": "2026-08-22T23:25:00",
-      "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 10 hesap tarafından eşzamanlı gündeme taşındı.",
-      "authors": [
-        "sira bize de gelir mi",
-        "karambolde golu atan adam",
-        "hayalethayaethayret",
-        "yagmuryagincayanindaolmayansemsiye",
-        "kojonotsuki"
-      ],
-      "sample_entries": [
-        {
-          "author": "kojonotsuki",
-          "content": "böyle başlıklara bayılıyorum. kavga sırasında köşede küt böreğini yiyen dayı videoları var ya, o tarz okuyorum bu başlıkları. kaos, kavga bu aralar bir numaralı neşe kaynağım, gibi.ciddi yorum zamanı. kendisi ödemeye çalışan da var, sessiz kalan da. o kadar sessiz ki bi teşekkür bile etmiyor. ne bileyim, asker cosplay gibi sağol da çekebilirsin, kulakların onu bile duymaya ihtiyacı var. spektrumun diğer ucunda gizlice kartını hazırlayıp avcuna yerleştiren var. spektrum çok geniş azizim anlayacağın.ben mi napıyorum? ben direkt ödeyip geçiyorum. biraz da zorbalıyorum.“bu ne debit kart mı keh keh keh”benim babam onu yemeğe çıkarmamı istemez. ben ödeyince o ödemeyince sinir oluyormuş. bu şekil bi genetik miras tabi ki ödeyip geçecek, başka napacak?",
-          "date_str": "22.08.2026 10:04",
-          "created_at": "2026-08-22T10:04:00",
-          "is_coordinated": 0,
-          "id": "185832495"
-        },
-        {
-          "author": "yagmuryagincayanindaolmayansemsiye",
-          "content": "şimdi ki flörtüm eski sevgilim dedi ki benim maddi durumum o zaman senin kadar iyi değildi. hesabı hep sen öderdin. ben çok ezilirdim. ödediğim bir hesap hariç hatırlamıyorum. o da 2 çorba için çoook acaip bir paraydı. araya ayıirılık girdi. şimdi tekrar deniyoruz. şu anda onun durumu çok iyi bense sürünmekle emeklemek arasındayım. hayat işte.",
-          "date_str": "22.08.2026 13:13 ~ 13:19",
-          "created_at": "2026-08-22T13:13:00",
-          "is_coordinated": 0,
-          "id": "185835605"
-        },
-        {
-          "author": "sira bize de gelir mi",
-          "content": "şu güne kadar okuduğum en mantıklı çıkarım sözlükten bi suser grisi nedeniyle oldu. özetle şöyle bir şey yazmıştı; eskiden hesap ödeme erkekler için sorun olmazdı ama şimdi o kadar çok dile geliyor ki sebebi sürekli farklı kişilerle buluşma yapılması. bu kadar.",
-          "date_str": "22.08.2026 21:30",
-          "created_at": "2026-08-22T21:30:00",
-          "is_coordinated": 1,
-          "id": "185843548"
-        },
-        {
-          "author": "karambolde golu atan adam",
-          "content": "en son kahvemi öderken elimi çekip zorla ödemişti, böyle insan da var ve hep olsun.",
-          "date_str": "22.08.2026 21:34",
-          "created_at": "2026-08-22T21:34:00",
-          "is_coordinated": 1,
-          "id": "185843648"
-        },
-        {
-          "author": "hayalethayaethayret",
-          "content": "biz kız sınıf arkadaşlarımızla bir yere gittiğimizde onlara da hesap ödetmezdik. hesap ödemek için- hangi durumda olursa olsun- bir kız bir erkek varsa hesabı erkek öder. biz böyle gördük. he kız çakallık mı yapıyor onu da bir kere yapabilir.",
-          "date_str": "22.08.2026 21:50",
-          "created_at": "2026-08-22T21:50:00",
-          "is_coordinated": 1,
-          "id": "185844158"
+          "id": "185843881"
         }
       ]
     }
