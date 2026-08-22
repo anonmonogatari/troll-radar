@@ -28,9 +28,9 @@
       ],
       "top_evidence_topics": [
         "chp'li belediyelerin fahiş konser harcamaları",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ]
     },
     {
@@ -44,9 +44,9 @@
         "948"
       ],
       "top_evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ]
     },
     {
@@ -59,8 +59,8 @@
       ],
       "top_evidence_topics": [
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "yabancı turistin türk esnafına isyan etmesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ]
     }
   ],
@@ -80,9 +80,9 @@
         "stance_alignment": 40.0
       },
       "evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "yabancı turistin türk esnafına isyan etmesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
     },
@@ -123,8 +123,8 @@
       },
       "evidence_topics": [
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "yabancı turistin türk esnafına isyan etmesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
     },
@@ -325,9 +325,9 @@
         "stance_alignment": 37.5
       },
       "evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "yabancı turistin türk esnafına isyan etmesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
     },
@@ -408,8 +408,8 @@
       },
       "evidence_topics": [
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "yabancı turistin türk esnafına isyan etmesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
     },

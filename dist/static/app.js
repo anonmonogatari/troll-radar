@@ -1041,54 +1041,96 @@ async function downloadExport(format) {
     
     // In local server mode with active backend
     if (isServerOnline) {
-        window.open(`/api/export?format=${format}&days=${currentDays}`, '_blank');
-        return;
-    }
-
-    // In static GitHub Pages mode
-    if (format === 'json') {
-        const jsonUrl = `./data/entries_${currentDays}.json`;
-        const a = document.createElement('a');
-        a.href = jsonUrl;
-        a.download = `troll_radar_entries_${currentDays}d.json`;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-    } else if (format === 'csv') {
         try {
-            const data = await fetchApi(`/api/entries?days=${currentDays}&limit=1000`, `./data/entries_${currentDays}.json`);
-            const entries = data.entries || [];
-            if (entries.length === 0) {
-                alert("İndirilecek entry bulunamadı.");
-                return;
-            }
-            const headers = ["id", "author", "topic", "category", "created_at", "favorite_count", "is_coordinated", "content"];
-            const csvRows = [headers.join(',')];
-            for (const e of entries) {
-                const row = [
-                    e.id,
-                    `"${(e.author || '').replace(/"/g, '""')}"`,
-                    `"${(e.topic || '').replace(/"/g, '""')}"`,
-                    `"${(e.category || '').replace(/"/g, '""')}"`,
-                    e.created_at,
-                    e.favorite_count || 0,
-                    e.is_coordinated ? 1 : 0,
-                    `"${(e.content || '').replace(/"/g, '""')}"`
-                ];
-                csvRows.push(row.join(','));
-            }
-            const blob = new Blob(["\uFEFF" + csvRows.join('\n')], { type: 'text/csv;charset=utf-8;' });
+            const res = await fetch(`/api/export?format=${format}&days=${currentDays}`);
+            if (!res.ok) throw new Error("Export fetch failed");
+            const blob = await res.blob();
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = `troll_radar_export_${currentDays}d.csv`;
+            a.download = format === 'csv' 
+                ? `troll_radar_istihbarat_raporu_${currentDays}d.csv`
+                : `troll_radar_istihbarat_bulteni_${currentDays}d.json`;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
             URL.revokeObjectURL(url);
-        } catch (err) {
-            console.error("CSV export error:", err);
+            return;
+        } catch (e) {
+            console.warn("Backend export fetch fallback:", e);
         }
+    }
+
+    // In static GitHub Pages mode (construct rich export bundle client-side)
+    try {
+        const stats = await fetchApi(`/api/stats?days=${currentDays}`, `./data/stats_${currentDays}.json`);
+        const narrativesData = await fetchApi(`/api/narratives?days=${currentDays}`, `./data/narratives_${currentDays}.json`);
+        const authorsData = await fetchApi(`/api/authors?days=${currentDays}`, `./data/authors_${currentDays}.json`);
+        const entriesData = await fetchApi(`/api/entries?days=${currentDays}&limit=2000`, `./data/entries_${currentDays}.json`);
+        
+        const narratives = narrativesData.narratives || [];
+        const authors = authorsData.authors || [];
+        const entries = entriesData.entries || [];
+
+        if (format === 'json') {
+            const bundle = {
+                rapor_basligi: "TrollRadar // Ekşi Sözlük İstihbarat ve Manipülasyon Raporu",
+                olusturulma_tarihi: new Date().toISOString(),
+                analiz_periyodu_gun: currentDays,
+                ozet_istatistikler: stats,
+                haftalik_istihbarat_bulteni: narratives,
+                hedef_ve_kesfedilen_yazarlar: authors,
+                incelenen_entryler: entries
+            };
+            const blob = new Blob([JSON.stringify(bundle, null, 2)], { type: 'application/json;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `troll_radar_istihbarat_bulteni_${currentDays}d.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        } else if (format === 'csv') {
+            let csvContent = "\uFEFF";
+            csvContent += "TROLLRADAR // EKŞİ SÖZLÜK İSTİHBARAT RAPORU\n";
+            csvContent += `Oluşturulma Tarihi,${new Date().toISOString()}\n`;
+            csvContent += `Analiz Periyodu (Gün),${currentDays}\n`;
+            csvContent += `Toplam Entry,${stats.total_entries_period || entries.length}\n`;
+            csvContent += `Koordineli Entry,${stats.coordinated_entries_period || 0}\n\n`;
+
+            csvContent += "--- BÖLÜM 1: HAFTALIK İSTİHBARAT BÜLTENİ & MANİPÜLASYON ODAKLARI ---\n";
+            csvContent += "Kategori,Başlık,Koordineli Entry,Aktif Yazarlar,Özet Değerlendirme\n";
+            narratives.forEach(n => {
+                csvContent += `"${(n.category || '').replace(/"/g, '""')}","${(n.title || '').replace(/"/g, '""')}",${n.coordinated_count || 0},"${(n.authors || []).join(', ')}","${(n.summary || '').replace(/"/g, '""')}"\n`;
+            });
+            csvContent += "\n";
+
+            csvContent += "--- BÖLÜM 2: HEDEF VE TESPİT EDİLEN YAZARLAR DOSYASI ---\n";
+            csvContent += "Yazar Adı,Risk Skoru,Dönem Entry,Koordineli Operasyon,Odak Konuları\n";
+            authors.forEach(a => {
+                csvContent += `"${a.nick}",%${a.risk_score || 0},${a.period_entries || 0},${a.coordinated_entries || 0},"${(a.top_topics || []).join(', ')}"\n`;
+            });
+            csvContent += "\n";
+
+            csvContent += "--- BÖLÜM 3: İNCELENEN ENTRY LİSTESİ ---\n";
+            csvContent += "ID,Yazar,Başlık,Kategori,Tarih,Favori,Koordineli,Metin\n";
+            entries.forEach(e => {
+                csvContent += `${e.id},"${(e.author || '').replace(/"/g, '""')}","${(e.topic || '').replace(/"/g, '""')}","${(e.category || '').replace(/"/g, '""')}",${e.created_at},${e.favorite_count || 0},${e.is_coordinated ? 'Evet' : 'Hayır'},"${(e.content || '').replace(/\n/g, ' ').replace(/"/g, '""')}"\n`;
+            });
+
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `troll_radar_istihbarat_raporu_${currentDays}d.csv`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+    } catch (err) {
+        console.error("Export build error:", err);
     }
 }
 

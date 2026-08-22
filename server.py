@@ -238,24 +238,90 @@ def get_scrape_status(job_id: str):
 
 @app.get("/api/export")
 def export_data(format: str = "json", days: int = 7):
-    """Exports entries as JSON or CSV."""
-    data = get_entries(days=days, limit=5000)
-    entries = data.get("entries", [])
+    """
+    Exports comprehensive intelligence briefing, target authors, and entries dataset as JSON or CSV.
+    """
+    stats = get_overview_stats(days=days)
+    narratives = get_top_manipulation_narratives(days=days)
+    authors = get_all_authors_summary(days=days)
+    entries_data = get_entries(days=days, limit=5000)
+    entries = entries_data.get("entries", [])
     
+    timestamp_str = datetime.now().strftime('%Y%m%d_%H%M')
+
     if format.lower() == "csv":
         import io
         import csv
         output = io.StringIO()
+        output.write('\ufeff') # UTF-8 BOM for Excel Turkish character compatibility
         writer = csv.writer(output)
-        writer.writerow(["ID", "Yazar", "Başlık", "Kategori", "Tarih", "Koordineli", "Metin"])
+        
+        # Section 1: Report Metadata
+        writer.writerow(["TROLLRADAR // EKŞİ SÖZLÜK İSTİHBARAT RAPORU"])
+        writer.writerow(["Oluşturulma Tarihi", datetime.now().isoformat()])
+        writer.writerow(["Analiz Periyodu (Gün)", days])
+        writer.writerow(["Toplam İncelenen Entry", stats.get('total_entries_period', len(entries))])
+        writer.writerow(["Koordineli Entry", stats.get('coordinated_entries_period', 0)])
+        writer.writerow(["İzlenen Yazar Sayısı", len(authors)])
+        writer.writerow([])
+
+        # Section 2: Weekly Intelligence Briefing (Narratives)
+        writer.writerow(["--- BÖLÜM 1: HAFTALIK İSTİHBARAT BÜLTENİ & MANİPÜLASYON ODAKLARI ---"])
+        writer.writerow(["Kategori / Hücre", "Başlık", "Koordineli Entry Sayısı", "Aktif Yazarlar", "Özet Değerlendirme"])
+        for n in narratives:
+            writer.writerow([
+                n.get('category', ''),
+                n.get('title', ''),
+                n.get('coordinated_count', 0),
+                ", ".join(n.get('authors', [])),
+                n.get('summary', '')
+            ])
+        writer.writerow([])
+
+        # Section 3: Target & Discovered Authors Dossier
+        writer.writerow(["--- BÖLÜM 2: HEDEF VE TESPİT EDİLEN YAZARLAR DOSYASI ---"])
+        writer.writerow(["Yazar Adı", "Risk / Troll Skoru", "Dönem Entry Sayısı", "Koordineli Operasyon", "Odak Konuları"])
+        for a in authors:
+            writer.writerow([
+                a.get('nick', ''),
+                f"%{a.get('risk_score', 0)}",
+                a.get('period_entries', 0),
+                a.get('coordinated_entries', 0),
+                ", ".join(a.get('top_topics', []))
+            ])
+        writer.writerow([])
+
+        # Section 4: Entries Dataset
+        writer.writerow(["--- BÖLÜM 3: İNCELENEN ENTRY LİSTESİ ---"])
+        writer.writerow(["Entry ID", "Yazar", "Başlık", "Kategori", "Tarih", "Favori", "Koordineli", "Metin"])
         for e in entries:
             writer.writerow([
-                e['id'], e['author'], e['topic'], e['category'],
-                e['created_at'], 'Evet' if e['is_coordinated'] else 'Hayır',
-                e['content'].replace('\n', ' ')
+                e.get('id', ''),
+                e.get('author', ''),
+                e.get('topic', ''),
+                e.get('category', ''),
+                e.get('created_at', ''),
+                e.get('favorite_count', 0),
+                'Evet' if e.get('is_coordinated') else 'Hayır',
+                (e.get('content') or '').replace('\n', ' ').replace('\r', '')
             ])
-        response = Response(content=output.getvalue(), media_type="text/csv")
-        response.headers["Content-Disposition"] = f"attachment; filename=troll_radar_export_{datetime.now().strftime('%Y%m%d')}.csv"
+
+        response = Response(content=output.getvalue(), media_type="text/csv; charset=utf-8")
+        response.headers["Content-Disposition"] = f"attachment; filename=troll_radar_istihbarat_raporu_{days}d_{timestamp_str}.csv"
         return response
     
-    return JSONResponse(entries)
+    # JSON Format
+    report_bundle = {
+        "rapor_basligi": "TrollRadar // Ekşi Sözlük İstihbarat ve Manipülasyon Raporu",
+        "olusturulma_tarihi": datetime.now().isoformat(),
+        "analiz_periyodu_gun": days,
+        "ozet_istatistikler": stats,
+        "haftalik_istihbarat_bulteni": narratives,
+        "hedef_ve_kesfedilen_yazarlar": authors,
+        "incelenen_entryler": entries
+    }
+    
+    json_str = json.dumps(report_bundle, ensure_ascii=False, indent=2)
+    response = Response(content=json_str, media_type="application/json; charset=utf-8")
+    response.headers["Content-Disposition"] = f"attachment; filename=troll_radar_istihbarat_bulteni_{days}d_{timestamp_str}.json"
+    return response
