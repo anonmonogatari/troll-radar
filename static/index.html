@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="tr" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekşi Sözlük Manipülasyon & TrollRadar İstihbarat Platformu</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            900: '#0a0d14',
+                            800: '#121826',
+                            700: '#1c2438',
+                            600: '#28344e'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="text-slate-100 min-h-screen pb-16">
+
+    <!-- Top Navigation / Header -->
+    <header class="sticky top-0 z-40 bg-dark-900/80 backdrop-blur-md border-b border-white/10 px-4 lg:px-8 py-3.5">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            
+            <!-- Logo & Brand -->
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-red-600 via-purple-600 to-blue-600 flex items-center justify-center shadow-lg shadow-red-500/20">
+                    <i data-lucide="radar" class="w-6 h-6 text-white animate-spin-slow"></i>
+                </div>
+                <div>
+                    <div class="flex items-center space-x-2">
+                        <h1 class="text-lg font-extrabold tracking-tight bg-gradient-to-r from-red-400 via-rose-300 to-blue-400 bg-clip-text text-transparent">
+                            TrollRadar // Ekşi Sözlük
+                        </h1>
+                        <span class="px-2 py-0.5 text-[10px] font-bold bg-red-500/20 text-red-400 border border-red-500/30 rounded-full flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-red-400 pulse-dot"></span> 27 HESAP TAKİPTE
+                        </span>
+                    </div>
+                    <p class="text-xs text-slate-400">Organize Algı & Manipülasyon Tespit Platformu</p>
+                </div>
+            </div>
+
+            <!-- Global Action Controls -->
+            <div class="flex flex-wrap items-center gap-3">
+                <!-- Lookback Range Selector -->
+                <div class="flex items-center bg-dark-800 border border-white/10 rounded-lg p-1 text-xs">
+                    <button onclick="changeDays(1)" class="range-btn px-2.5 py-1 rounded transition-all" data-days="1">Son 24S</button>
+                    <button onclick="changeDays(3)" class="range-btn px-2.5 py-1 rounded transition-all" data-days="3">Son 3 Gün</button>
+                    <button onclick="changeDays(7)" class="range-btn active bg-blue-600 text-white font-semibold px-2.5 py-1 rounded shadow" data-days="7">Son 1 Hafta</button>
+                    <button onclick="changeDays(30)" class="range-btn px-2.5 py-1 rounded transition-all" data-days="30">Son 30 Gün</button>
+                </div>
+
+                <!-- Live Scrape Trigger Button -->
+                <button onclick="openScrapeModal()" class="flex items-center gap-2 px-3.5 py-1.5 bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-500 hover:to-rose-500 text-white text-xs font-bold rounded-lg shadow-lg shadow-red-600/30 transition-all">
+                    <i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i>
+                    <span>Canlı Tara</span>
+                </button>
+
+                <!-- Export Data -->
+                <div class="relative group">
+                    <button class="flex items-center gap-1.5 px-3 py-1.5 bg-dark-800 hover:bg-dark-700 border border-white/10 text-slate-300 text-xs font-semibold rounded-lg transition-all">
+                        <i data-lucide="download" class="w-3.5 h-3.5"></i>
+                        <span>Dışa Aktar</span>
+                    </button>
+                    <div class="absolute right-0 mt-1 w-32 bg-dark-800 border border-white/10 rounded-lg shadow-2xl py-1 hidden group-hover:block z-50">
+                        <a href="/api/export?format=json&days=7" target="_blank" class="block px-3 py-1.5 text-xs text-slate-300 hover:bg-white/5 hover:text-white">JSON İndir</a>
+                        <a href="/api/export?format=csv&days=7" target="_blank" class="block px-3 py-1.5 text-xs text-slate-300 hover:bg-white/5 hover:text-white">CSV İndir</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-7xl mx-auto px-4 lg:px-8 mt-6 space-y-6">
+
+        <!-- KPI Metric Cards -->
+        <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            
+            <!-- Monitored Authors -->
+            <div class="glass-panel p-5 relative overflow-hidden group">
+                <div class="absolute -right-2 -bottom-2 opacity-10 group-hover:opacity-20 transition-opacity">
+                    <i data-lucide="users" class="w-24 h-24 text-blue-400"></i>
+                </div>
+                <div class="flex items-center justify-between text-slate-400 text-xs font-semibold uppercase tracking-wider mb-2">
+                    <span>Takip Edilen Liste</span>
+                    <i data-lucide="shield-alert" class="w-4 h-4 text-blue-400"></i>
+                </div>
+                <div class="flex items-baseline space-x-2">
+                    <span id="kpi-authors" class="text-3xl font-extrabold text-white">27</span>
+                    <span class="text-xs text-slate-400 font-mono">hesap / <span id="kpi-active-authors" class="text-blue-400 font-bold">27</span> aktif</span>
+                </div>
+                <p class="text-[11px] text-slate-400 mt-2 flex items-center gap-1">
+                    <i data-lucide="check-circle" class="w-3 h-3 text-emerald-400"></i> Tümü veritabanında kayıtlı
+                </p>
+            </div>
+
+            <!-- Total Analyzed Entries -->
+            <div class="glass-panel p-5 relative overflow-hidden group">
+                <div class="absolute -right-2 -bottom-2 opacity-10 group-hover:opacity-20 transition-opacity">
+                    <i data-lucide="file-text" class="w-24 h-24 text-emerald-400"></i>
+                </div>
+                <div class="flex items-center justify-between text-slate-400 text-xs font-semibold uppercase tracking-wider mb-2">
+                    <span>Periyot Entry Sayısı</span>
+                    <i data-lucide="trending-up" class="w-4 h-4 text-emerald-400"></i>
+                </div>
+                <div class="flex items-baseline space-x-2">
+                    <span id="kpi-entries" class="text-3xl font-extrabold text-white">...</span>
+                    <span class="text-xs text-emerald-400 font-semibold font-mono">entry incelendi</span>
+                </div>
+                <p class="text-[11px] text-slate-400 mt-2 flex items-center gap-1">
+                    <i data-lucide="hash" class="w-3 h-3 text-emerald-400"></i> <span id="kpi-topics-count">0</span> farklı başlık
+                </p>
+            </div>
+
+            <!-- Coordinated Manipulations Detected -->
+            <div class="glass-panel p-5 relative overflow-hidden group border-red-500/30">
+                <div class="absolute -right-2 -bottom-2 opacity-10 group-hover:opacity-20 transition-opacity">
+                    <i data-lucide="zap" class="w-24 h-24 text-red-400"></i>
+                </div>
+                <div class="flex items-center justify-between text-red-400 text-xs font-semibold uppercase tracking-wider mb-2">
+                    <span>Koordineli Operasyon</span>
+                    <span class="w-2 h-2 rounded-full bg-red-500 animate-ping"></span>
+                </div>
+                <div class="flex items-baseline space-x-2">
+                    <span id="kpi-coordinated" class="text-3xl font-extrabold text-red-400">...</span>
+                    <span class="text-xs text-red-300 font-mono">organize başlık</span>
+                </div>
+                <p class="text-[11px] text-slate-400 mt-2 flex items-center gap-1">
+                    <i data-lucide="alert-triangle" class="w-3 h-3 text-red-400"></i> Eşzamanlı girilen entryler
+                </p>
+            </div>
+
+            <!-- Top Narrative Focus -->
+            <div class="glass-panel p-5 relative overflow-hidden group">
+                <div class="absolute -right-2 -bottom-2 opacity-10 group-hover:opacity-20 transition-opacity">
+                    <i data-lucide="flame" class="w-24 h-24 text-amber-400"></i>
+                </div>
+                <div class="flex items-center justify-between text-slate-400 text-xs font-semibold uppercase tracking-wider mb-2">
+                    <span>Ana Manipülasyon Odağı</span>
+                    <i data-lucide="target" class="w-4 h-4 text-amber-400"></i>
+                </div>
+                <div class="truncate">
+                    <span id="kpi-top-category" class="text-lg font-bold text-amber-300 truncate block">Yükleniyor...</span>
+                </div>
+                <p class="text-[11px] text-slate-400 mt-2 truncate flex items-center gap-1">
+                    <i data-lucide="activity" class="w-3 h-3 text-amber-400"></i> En çok pompalanan tema
+                </p>
+            </div>
+
+        </section>
+
+        <!-- Navigation Tabs -->
+        <nav class="flex flex-wrap items-center gap-2 border-b border-white/10 pb-3">
+            <button onclick="switchTab('briefing')" id="tab-btn-briefing" class="nav-tab active flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold border border-transparent transition-all">
+                <i data-lucide="newspaper" class="w-4 h-4"></i>
+                <span>Haftalık İstihbarat Bülteni</span>
+            </button>
+            <button onclick="switchTab('analytics')" id="tab-btn-analytics" class="nav-tab flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold border border-transparent transition-all">
+                <i data-lucide="bar-chart-3" class="w-4 h-4"></i>
+                <span>Görsel Grafikler & Trendler</span>
+            </button>
+            <button onclick="switchTab('network')" id="tab-btn-network" class="nav-tab flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold border border-transparent transition-all">
+                <i data-lucide="share-2" class="w-4 h-4"></i>
+                <span>İş Birliği & Ağ Haritası</span>
+            </button>
+            <button onclick="switchTab('authors')" id="tab-btn-authors" class="nav-tab flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold border border-transparent transition-all">
+                <i data-lucide="users-round" class="w-4 h-4"></i>
+                <span>Hedef Yazar Kadrosu (27)</span>
+            </button>
+            <button onclick="switchTab('entries')" id="tab-btn-entries" class="nav-tab flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold border border-transparent transition-all">
+                <i data-lucide="search" class="w-4 h-4"></i>
+                <span>Entry Havuzu & Filtre</span>
+            </button>
+        </nav>
+
+        <!-- ==================== TAB 1: WEEKLY NARRATIVE BRIEFING ==================== -->
+        <section id="view-briefing" class="space-y-6">
+            
+            <!-- Summary Banner -->
+            <div class="glass-panel p-6 border-l-4 border-red-500 bg-gradient-to-r from-red-950/30 via-dark-800 to-dark-800">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <div class="flex items-center gap-2 text-red-400 text-xs font-bold uppercase tracking-widest mb-1">
+                            <i data-lucide="file-warning" class="w-4 h-4"></i>
+                            <span>Son 1 Hafta İstihbarat Değerlendirmesi</span>
+                        </div>
+                        <h2 class="text-xl font-extrabold text-white">Tespit Edilen Koordineli Algı & Manipülasyon Operasyonları</h2>
+                        <p class="text-sm text-slate-300 mt-2 max-w-4xl leading-relaxed">
+                            Belirtilen 27 hesabın son 1 haftalık entry akışı incelendiğinde; özellikle <strong class="text-white">toplumsal kutuplaştırma (yaşam tarzı/haşema-bikini)</strong>, <strong class="text-white">ekonomik kriz ve pahalılık algısını kırma (turist/esnaf savunması)</strong>, <strong class="text-white">CHP'li belediyeleri karalama (konser/israf iddiaları)</strong> ve <strong class="text-white">sokak hayvanları üzerinden suni gündem</strong> ekseninde dakikalar arayla organize başlıklar açıp koro halinde entry girdikleri tespit edilmiştir.
+                        </p>
+                    </div>
+                    <span class="hidden md:inline-flex px-3 py-1 bg-red-500/20 text-red-400 border border-red-500/30 rounded-lg text-xs font-bold">
+                        YÜKSEK RİSK
+                    </span>
+                </div>
+            </div>
+
+            <!-- Narratives List Container -->
+            <div id="narratives-container" class="space-y-4">
+                <!-- Rendered dynamically by JS -->
+                <div class="glass-panel p-8 text-center text-slate-400">
+                    <i data-lucide="loader-2" class="w-8 h-8 mx-auto animate-spin mb-3 text-blue-400"></i>
+                    <p>Manipülasyon temaları derleniyor...</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ==================== TAB 2: ANALYTICS & CHARTS ==================== -->
+        <section id="view-analytics" class="hidden space-y-6">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                
+                <!-- Daily Trendline & Spikes (2 cols) -->
+                <div class="lg:col-span-2 glass-panel p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-base font-bold text-white flex items-center gap-2">
+                                <i data-lucide="line-chart" class="w-4 h-4 text-blue-400"></i>
+                                Günlük Entry Yoğunluğu & Koordinasyon Patlamaları
+                            </h3>
+                            <p class="text-xs text-slate-400">Zaman içerisindeki organize operasyon zirveleri</p>
+                        </div>
+                    </div>
+                    <div class="h-64">
+                        <canvas id="timelineChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Manipulation Category Donut (1 col) -->
+                <div class="glass-panel p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-base font-bold text-white flex items-center gap-2">
+                                <i data-lucide="pie-chart" class="w-4 h-4 text-purple-400"></i>
+                                Manipülasyon Temaları
+                            </h3>
+                            <p class="text-xs text-slate-400">Kategorilere göre entry dağılımı</p>
+                        </div>
+                    </div>
+                    <div class="h-64 flex items-center justify-center">
+                        <canvas id="categoryChart"></canvas>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Posting Shift Heatmap (Day x Hour) -->
+            <div class="glass-panel p-6">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                    <div>
+                        <h3 class="text-base font-bold text-white flex items-center gap-2">
+                            <i data-lucide="clock" class="w-4 h-4 text-emerald-400"></i>
+                            Troll Mesai Çizelgesi (Haftalık Saat Dağılımı Isı Haritası)
+                        </h3>
+                        <p class="text-xs text-slate-400">Hedef hesapların gün ve saat bazında en aktif olduğu koordinasyon pencereleri</p>
+                    </div>
+                    <div class="flex items-center gap-2 text-xs text-slate-400">
+                        <span>Düşük</span>
+                        <div class="flex gap-1">
+                            <div class="w-3.5 h-3.5 rounded bg-slate-800"></div>
+                            <div class="w-3.5 h-3.5 rounded bg-blue-900"></div>
+                            <div class="w-3.5 h-3.5 rounded bg-indigo-600"></div>
+                            <div class="w-3.5 h-3.5 rounded bg-purple-500"></div>
+                            <div class="w-3.5 h-3.5 rounded bg-red-500"></div>
+                        </div>
+                        <span>Yoğun</span>
+                    </div>
+                </div>
+
+                <div id="heatmap-container" class="overflow-x-auto">
+                    <!-- Rendered dynamically -->
+                </div>
+            </div>
+
+            <!-- Top Keywords Cloud / List -->
+            <div class="glass-panel p-6">
+                <div class="mb-4">
+                    <h3 class="text-base font-bold text-white flex items-center gap-2">
+                        <i data-lucide="key" class="w-4 h-4 text-amber-400"></i>
+                        En Çok Tekrarlanan Anahtar Kelimeler & Vurgular
+                    </h3>
+                    <p class="text-xs text-slate-400">Entry metinleri ve başlıklarda öne çıkan kavramlar (Stopwords ayıklanmış)</p>
+                </div>
+                <div id="keywords-container" class="flex flex-wrap gap-2">
+                    <!-- Rendered dynamically -->
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ==================== TAB 3: NETWORK GRAPH ==================== -->
+        <section id="view-network" class="hidden space-y-6">
+            <div class="glass-panel p-6">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+                    <div>
+                        <h3 class="text-base font-bold text-white flex items-center gap-2">
+                            <i data-lucide="network" class="w-4 h-4 text-cyan-400"></i>
+                            Yazar İş Birliği & Koordinasyon Ağı
+                        </h3>
+                        <p class="text-xs text-slate-400">Aynı başlıklar altında eşzamanlı entry giren yazarların bağlantı yoğunluğu</p>
+                    </div>
+                    <div class="text-xs text-slate-400 flex items-center gap-4">
+                        <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-red-500"></span> Yüksek Koordinasyon</span>
+                        <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-blue-500"></span> Normal Hesap</span>
+                    </div>
+                </div>
+
+                <!-- Canvas container -->
+                <div class="relative w-full h-[520px] bg-dark-900/60 rounded-xl border border-white/5 overflow-hidden">
+                    <canvas id="networkCanvas" class="w-full h-full cursor-grab active:cursor-grabbing"></canvas>
+                    <div class="absolute bottom-3 left-3 bg-dark-800/90 border border-white/10 px-3 py-1.5 rounded-lg text-[11px] text-slate-400">
+                        💡 Düğümleri sürükleyebilir, üzerine gelerek detayları görebilirsiniz.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== TAB 4: AUTHORS LIST ==================== -->
+        <section id="view-authors" class="hidden space-y-6">
+            
+            <div class="glass-panel p-6">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+                    <div>
+                        <h3 class="text-base font-bold text-white flex items-center gap-2">
+                            <i data-lucide="users" class="w-4 h-4 text-blue-400"></i>
+                            Hedef Yazar Listesi (27 Hesap)
+                        </h3>
+                        <p class="text-xs text-slate-400">Hesap bazlı aktivite seviyesi, risk puanı ve son entry tarihleri</p>
+                    </div>
+                    
+                    <!-- Search within authors -->
+                    <div class="relative w-full sm:w-64">
+                        <i data-lucide="search" class="w-4 h-4 absolute left-3 top-2.5 text-slate-400"></i>
+                        <input type="text" id="author-search-input" oninput="filterAuthorCards()" placeholder="Yazar ara..." class="w-full bg-dark-900 border border-white/10 rounded-lg pl-9 pr-3 py-1.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500">
+                    </div>
+                </div>
+
+                <!-- Authors Grid -->
+                <div id="authors-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <!-- Rendered dynamically by JS -->
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ==================== TAB 5: ENTRY EXPLORER ==================== -->
+        <section id="view-entries" class="hidden space-y-6">
+            
+            <!-- Filters Row -->
+            <div class="glass-panel p-5">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                    
+                    <!-- Text Search -->
+                    <div class="relative">
+                        <label class="block text-[11px] font-semibold text-slate-400 mb-1">Metin / Başlık Ara</label>
+                        <div class="relative">
+                            <i data-lucide="search" class="w-3.5 h-3.5 absolute left-3 top-2.5 text-slate-400"></i>
+                            <input type="text" id="entry-search-input" onkeyup="if(event.key==='Enter') loadEntries()" placeholder="Kelime veya başlık..." class="w-full bg-dark-900 border border-white/10 rounded-lg pl-8 pr-3 py-1.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500">
+                        </div>
+                    </div>
+
+                    <!-- Category Filter -->
+                    <div>
+                        <label class="block text-[11px] font-semibold text-slate-400 mb-1">Kategori</label>
+                        <select id="entry-category-filter" onchange="loadEntries()" class="w-full bg-dark-900 border border-white/10 rounded-lg px-3 py-1.5 text-xs text-white focus:outline-none focus:border-blue-500">
+                            <option value="Tümü">Tüm Kategoriler</option>
+                            <option value="Kültür Savaşı & Yaşam Tarzı">Kültür Savaşı & Yaşam Tarzı</option>
+                            <option value="Muhalefet & Belediye Karalama">Muhalefet & Belediye Karalama</option>
+                            <option value="Ekonomi Savunması & Aklama">Ekonomi Savunması & Aklama</option>
+                            <option value="Yargı, Güvenlik & Hamaset">Yargı, Güvenlik & Hamaset</option>
+                            <option value="Suni Gündem & Viral Çarpıtma">Suni Gündem & Viral Çarpıtma</option>
+                            <option value="Dış Politika & Jeopolitik Savunma">Dış Politika & Jeopolitik Savunma</option>
+                        </select>
+                    </div>
+
+                    <!-- Author Filter -->
+                    <div>
+                        <label class="block text-[11px] font-semibold text-slate-400 mb-1">Yazar</label>
+                        <select id="entry-author-filter" onchange="loadEntries()" class="w-full bg-dark-900 border border-white/10 rounded-lg px-3 py-1.5 text-xs text-white focus:outline-none focus:border-blue-500">
+                            <option value="">Tüm 27 Yazar</option>
+                        </select>
+                    </div>
+
+                    <!-- Coordinated Only Toggle & Button -->
+                    <div class="flex items-end gap-2">
+                        <label class="flex items-center gap-2 bg-dark-900 border border-white/10 px-3 py-1.5 rounded-lg cursor-pointer flex-1">
+                            <input type="checkbox" id="entry-coordinated-toggle" onchange="loadEntries()" class="rounded bg-dark-800 text-red-500 focus:ring-0">
+                            <span class="text-xs font-semibold text-red-400">Sadece Koordineliler</span>
+                        </label>
+                        <button onclick="loadEntries()" class="px-3.5 py-1.5 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-xs font-bold transition-all">
+                            Filtrele
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Entries List Container -->
+            <div id="entries-container" class="space-y-3">
+                <!-- Rendered dynamically -->
+            </div>
+
+            <!-- Pagination -->
+            <div id="entries-pagination" class="flex items-center justify-between px-2 text-xs text-slate-400">
+                <span id="entries-count-label">0 entry listeleniyor</span>
+                <div class="flex gap-2">
+                    <button id="btn-prev-page" onclick="prevPage()" class="px-3 py-1 bg-dark-800 border border-white/10 rounded-lg hover:bg-dark-700 disabled:opacity-50">Önceki</button>
+                    <button id="btn-next-page" onclick="nextPage()" class="px-3 py-1 bg-dark-800 border border-white/10 rounded-lg hover:bg-dark-700 disabled:opacity-50">Sonraki</button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ==================== MODALS ==================== -->
+
+    <!-- Author Detail Dossier Modal -->
+    <div id="author-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 modal-overlay">
+        <div class="bg-dark-800 border border-white/10 rounded-2xl max-w-2xl w-full max-h-[85vh] flex flex-col shadow-2xl overflow-hidden">
+            <!-- Modal Header -->
+            <div class="p-5 border-b border-white/10 flex items-center justify-between bg-dark-900/50">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-full bg-red-500/20 text-red-400 border border-red-500/30 flex items-center justify-center font-bold text-sm">
+                        <i data-lucide="user-x" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                        <h3 id="modal-author-nick" class="text-base font-bold text-white">Yazar Adı</h3>
+                        <a id="modal-author-eksilink" href="#" target="_blank" class="text-xs text-blue-400 hover:underline flex items-center gap-1">
+                            <span>Ekşi Sözlük Profilini Aç</span>
+                            <i data-lucide="external-link" class="w-3 h-3"></i>
+                        </a>
+                    </div>
+                </div>
+                <button onclick="closeAuthorModal()" class="text-slate-400 hover:text-white p-1">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+
+            <!-- Modal Body -->
+            <div id="modal-author-body" class="p-5 space-y-4 overflow-y-auto flex-1 text-xs">
+                <!-- Dynamic Content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Live Scrape Modal -->
+    <div id="scrape-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 modal-overlay">
+        <div class="bg-dark-800 border border-white/10 rounded-2xl max-w-xl w-full flex flex-col shadow-2xl overflow-hidden">
+            
+            <div class="p-5 border-b border-white/10 flex items-center justify-between bg-dark-900/50">
+                <div class="flex items-center space-x-2">
+                    <i data-lucide="radar" class="w-5 h-5 text-red-500 animate-spin"></i>
+                    <h3 class="text-sm font-bold text-white">Ekşi Sözlük Canlı Tarama</h3>
+                </div>
+                <button onclick="closeScrapeModal()" class="text-slate-400 hover:text-white p-1">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+
+            <div class="p-5 space-y-4 text-xs">
+                
+                <div id="scrape-pre-form" class="space-y-4">
+                    <p class="text-slate-300">
+                        27 hedef yazarın Ekşi Sözlük üzerindeki en son entryleri Cloudflare bypass motoru ile taranacak ve analize dahil edilecektir.
+                    </p>
+
+                    <div class="space-y-2">
+                        <label class="block font-semibold text-slate-400">Taranacak Gün Sayısı</label>
+                        <select id="scrape-days-select" class="w-full bg-dark-900 border border-white/10 rounded-lg p-2 text-white">
+                            <option value="7" selected>Son 7 Gün (Önerilen)</option>
+                            <option value="3">Son 3 Gün (Hızlı)</option>
+                            <option value="1">Son 24 Saat</option>
+                            <option value="14">Son 14 Gün</option>
+                        </select>
+                    </div>
+
+                    <button onclick="triggerLiveScrape()" class="w-full py-2.5 bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-500 hover:to-rose-500 text-white font-bold rounded-lg shadow-lg shadow-red-600/30 transition-all flex items-center justify-center gap-2">
+                        <i data-lucide="play" class="w-4 h-4"></i>
+                        <span>Taramayı Başlat</span>
+                    </button>
+                </div>
+
+                <div id="scrape-progress-panel" class="hidden space-y-4">
+                    <div>
+                        <div class="flex justify-between text-xs font-semibold mb-1">
+                            <span id="scrape-status-text" class="text-slate-300">Taranıyor...</span>
+                            <span id="scrape-percent-text" class="text-blue-400 font-mono">0%</span>
+                        </div>
+                        <div class="w-full bg-dark-900 rounded-full h-2 overflow-hidden border border-white/10">
+                            <div id="scrape-progress-bar" class="bg-gradient-to-r from-red-500 to-blue-500 h-2 rounded-full transition-all duration-300" style="width: 0%"></div>
+                        </div>
+                    </div>
+
+                    <div class="bg-dark-900 border border-white/5 rounded-lg p-3 font-mono text-[11px] h-48 overflow-y-auto space-y-1 text-slate-400" id="scrape-terminal-logs">
+                        <!-- Terminal logs dynamically added here -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/static/app.js"></script>
+</body>
+</html>
