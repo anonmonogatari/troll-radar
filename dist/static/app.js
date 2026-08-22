@@ -669,7 +669,34 @@ function renderKeywords(keywords) {
     `).join('');
 }
 
-// ----------------- TAB 3: NETWORK GRAPH ----------------- //
+// ----------------- TAB 3: NETWORK GRAPH (FORCE-DIRECTED CLUSTER ENGINE) ----------------- //
+
+let networkMinWeight = 2; // Default to filtering noise to prevent spaghetti hairballs
+
+function setNetworkMinWeight(weight) {
+    networkMinWeight = weight;
+    [1, 2, 3].forEach(w => {
+        const btn = document.getElementById(`net-btn-w${w}`);
+        if (btn) {
+            if (w === weight) {
+                btn.className = "px-2 py-1 rounded text-[11px] font-semibold transition-all bg-blue-600 text-white shadow";
+            } else {
+                btn.className = "px-2 py-1 rounded text-[11px] font-semibold transition-all text-slate-400 hover:text-white";
+            }
+        }
+    });
+    const canvas = document.getElementById('networkCanvas');
+    if (canvas && networkDataCache) {
+        drawNetworkGraph(canvas, networkDataCache, true);
+    }
+}
+
+function resetNetworkPhysics() {
+    const canvas = document.getElementById('networkCanvas');
+    if (canvas && networkDataCache) {
+        drawNetworkGraph(canvas, networkDataCache, true);
+    }
+}
 
 async function loadNetwork() {
     const canvas = document.getElementById('networkCanvas');
@@ -684,91 +711,311 @@ async function loadNetwork() {
     }
 }
 
-function drawNetworkGraph(canvas, networkData) {
+let activeNetworkSim = null;
+
+function drawNetworkGraph(canvas, networkData, resetSimulation = false) {
     if (!networkData || !canvas) return;
     const ctx = canvas.getContext('2d');
     
-    // Set internal resolution
+    // Stop any previous running animation loop
+    if (activeNetworkSim && activeNetworkSim.stop) {
+        activeNetworkSim.stop();
+    }
+
+    // Set high-DPI internal resolution
     const rect = canvas.getBoundingClientRect();
-    canvas.width = rect.width * window.devicePixelRatio;
-    canvas.height = rect.height * window.devicePixelRatio;
-    ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+    const dpr = window.devicePixelRatio || 1;
+    canvas.width = rect.width * dpr;
+    canvas.height = rect.height * dpr;
+    ctx.scale(dpr, dpr);
 
     const width = rect.width;
     const height = rect.height;
+    const cx = width / 2;
+    const cy = height / 2;
 
+    // Filter links by minimum threshold
+    const activeLinks = (networkData.links || []).filter(l => l.weight >= networkMinWeight);
+
+    // Build adjacency map
+    const neighborMap = {};
+    networkData.nodes.forEach(n => { neighborMap[n.id] = new Set(); });
+    activeLinks.forEach(l => {
+        if (neighborMap[l.source]) neighborMap[l.source].add(l.target);
+        if (neighborMap[l.target]) neighborMap[l.target].add(l.source);
+    });
+
+    // Initialize nodes with clustered physics positions
     const nodes = networkData.nodes.map((n, i) => {
         const angle = (i / Math.max(1, networkData.nodes.length)) * Math.PI * 2;
-        const radius = Math.min(width, height) * 0.35;
+        const dist = 140 + (Math.random() - 0.5) * 80;
+        
+        let radius = 10;
+        let color = '#3b82f6';
+        let glowColor = 'rgba(59, 130, 246, 0.4)';
+        
+        if (n.coordinated >= 5) {
+            radius = 16;
+            color = '#ef4444';
+            glowColor = 'rgba(239, 68, 68, 0.6)';
+        } else if (n.coordinated >= 2) {
+            radius = 13;
+            color = '#f59e0b';
+            glowColor = 'rgba(245, 158, 11, 0.5)';
+        }
+
         return {
             ...n,
-            x: width / 2 + Math.cos(angle) * radius + (Math.random() - 0.5) * 30,
-            y: height / 2 + Math.sin(angle) * radius + (Math.random() - 0.5) * 30,
-            radius: n.radius || 12
+            x: cx + Math.cos(angle) * dist,
+            y: cy + Math.sin(angle) * dist,
+            vx: 0,
+            vy: 0,
+            radius: radius,
+            color: color,
+            glowColor: glowColor,
+            isHub: n.coordinated >= 4,
+            degree: neighborMap[n.id] ? neighborMap[n.id].size : 0
         };
     });
 
-    const links = networkData.links || [];
     let draggedNode = null;
     let hoveredNode = null;
+    let animId = null;
+    let simTicks = 0;
+    const MAX_TICKS = 220;
 
+    // Physics Step (Spring-Embedder Force Simulation)
+    function tickPhysics() {
+        const k = 110; // Ideal distance
+        const repulsionStrength = 3200;
+        const gravityStrength = 0.015;
+
+        // 1. Repulsion between all pairs
+        for (let i = 0; i < nodes.length; i++) {
+            for (let j = i + 1; j < nodes.length; j++) {
+                const a = nodes[i];
+                const b = nodes[j];
+                let dx = b.x - a.x;
+                let dy = b.y - a.y;
+                let dist = Math.sqrt(dx * dx + dy * dy);
+                if (dist < 1) { dist = 1; dx = Math.random() - 0.5; dy = Math.random() - 0.5; }
+
+                const force = repulsionStrength / (dist * dist);
+                const fx = (dx / dist) * force;
+                const fy = (dy / dist) * force;
+
+                if (a !== draggedNode) { a.vx -= fx; a.vy -= fy; }
+                if (b !== draggedNode) { b.vx += fx; b.vy += fy; }
+            }
+        }
+
+        // 2. Spring Attraction along links
+        activeLinks.forEach(l => {
+            const a = nodes.find(n => n.id === l.source);
+            const b = nodes.find(n => n.id === l.target);
+            if (!a || !b) return;
+
+            let dx = b.x - a.x;
+            let dy = b.y - a.y;
+            let dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < 1) dist = 1;
+
+            const springForce = (dist - k) * 0.035 * Math.min(2.5, 1 + (l.weight * 0.25));
+            const fx = (dx / dist) * springForce;
+            const fy = (dy / dist) * springForce;
+
+            if (a !== draggedNode) { a.vx += fx; a.vy += fy; }
+            if (b !== draggedNode) { b.vx -= fx; b.vy -= fy; }
+        });
+
+        // 3. Center Gravity & Boundary
+        nodes.forEach(n => {
+            if (n === draggedNode) return;
+            n.vx += (cx - n.x) * gravityStrength;
+            n.vy += (cy - n.y) * gravityStrength;
+
+            // Velocity damping
+            n.vx *= 0.82;
+            n.vy *= 0.82;
+
+            n.x += n.vx;
+            n.y += n.vy;
+
+            // Soft canvas bounds
+            const pad = n.radius + 20;
+            n.x = Math.max(pad, Math.min(width - pad, n.x));
+            n.y = Math.max(pad, Math.min(height - pad, n.y));
+        });
+    }
+
+    // Render Canvas Frame
     function render() {
         ctx.clearRect(0, 0, width, height);
 
+        const isHoverActive = !!hoveredNode;
+        const activeNeighbors = isHoverActive && neighborMap[hoveredNode.id] ? neighborMap[hoveredNode.id] : null;
+
         // Draw Links
-        links.forEach(l => {
+        activeLinks.forEach(l => {
             const s = nodes.find(n => n.id === l.source);
             const t = nodes.find(n => n.id === l.target);
             if (!s || !t) return;
 
+            const isConnectedToHovered = isHoverActive && (s.id === hoveredNode.id || t.id === hoveredNode.id);
+            
             ctx.beginPath();
             ctx.moveTo(s.x, s.y);
             ctx.lineTo(t.x, t.y);
-            ctx.strokeStyle = l.weight > 2 ? 'rgba(239, 68, 68, 0.45)' : 'rgba(59, 130, 246, 0.25)';
-            ctx.lineWidth = Math.min(5, 1 + l.weight);
+
+            if (isHoverActive) {
+                if (isConnectedToHovered) {
+                    ctx.strokeStyle = '#38bdf8';
+                    ctx.lineWidth = Math.min(6, 2 + l.weight * 1.2);
+                    ctx.shadowColor = '#38bdf8';
+                    ctx.shadowBlur = 10;
+                } else {
+                    ctx.strokeStyle = 'rgba(255, 255, 255, 0.04)';
+                    ctx.lineWidth = 1;
+                    ctx.shadowBlur = 0;
+                }
+            } else {
+                ctx.shadowBlur = 0;
+                if (l.weight >= 3) {
+                    ctx.strokeStyle = 'rgba(239, 68, 68, 0.55)';
+                    ctx.lineWidth = 2.5;
+                } else if (l.weight >= 2) {
+                    ctx.strokeStyle = 'rgba(245, 158, 11, 0.40)';
+                    ctx.lineWidth = 1.8;
+                } else {
+                    ctx.strokeStyle = 'rgba(59, 130, 246, 0.20)';
+                    ctx.lineWidth = 1.0;
+                }
+            }
+
             ctx.stroke();
+            ctx.shadowBlur = 0; // reset
         });
 
         // Draw Nodes
         nodes.forEach(n => {
-            const isHovered = hoveredNode && hoveredNode.id === n.id;
+            const isHovered = isHoverActive && hoveredNode.id === n.id;
+            const isNeighbor = activeNeighbors && activeNeighbors.has(n.id);
+            const isDimmed = isHoverActive && !isHovered && !isNeighbor;
+
+            ctx.save();
+            if (isDimmed) {
+                ctx.globalAlpha = 0.18;
+            } else {
+                ctx.globalAlpha = 1.0;
+            }
+
+            // Glow on Hub / Hovered
+            if (isHovered || (n.isHub && !isDimmed)) {
+                ctx.shadowColor = n.glowColor;
+                ctx.shadowBlur = isHovered ? 16 : 10;
+            }
+
             ctx.beginPath();
             ctx.arc(n.x, n.y, isHovered ? n.radius + 4 : n.radius, 0, Math.PI * 2);
-            ctx.fillStyle = n.coordinated > 0 ? '#ef4444' : '#3b82f6';
+            ctx.fillStyle = isHovered ? '#38bdf8' : n.color;
             ctx.fill();
-            ctx.lineWidth = isHovered ? 3 : 2;
-            ctx.strokeStyle = isHovered ? '#60a5fa' : '#ffffff';
-            ctx.stroke();
 
-            // Label
-            ctx.font = isHovered ? 'bold 11px Plus Jakarta Sans' : '10px Plus Jakarta Sans';
-            ctx.fillStyle = isHovered ? '#60a5fa' : '#f1f5f9';
-            ctx.textAlign = 'center';
-            ctx.fillText(`@${n.label}`, n.x, n.y + n.radius + 14);
+            ctx.lineWidth = isHovered ? 3 : (n.isHub ? 2.5 : 1.5);
+            ctx.strokeStyle = isHovered ? '#ffffff' : (isNeighbor ? '#38bdf8' : 'rgba(255, 255, 255, 0.4)');
+            ctx.stroke();
+            ctx.shadowBlur = 0;
+
+            // Node Labels
+            const showLabel = isHovered || isNeighbor || n.isHub || !isHoverActive;
+            if (showLabel) {
+                ctx.font = (isHovered || n.isHub) ? 'bold 11px Plus Jakarta Sans' : '10px Plus Jakarta Sans';
+                ctx.fillStyle = isHovered ? '#ffffff' : (isNeighbor ? '#38bdf8' : (n.isHub ? '#fca5a5' : '#94a3b8'));
+                ctx.textAlign = 'center';
+                ctx.fillText(`@${n.label}`, n.x, n.y + n.radius + 13);
+            }
+
+            ctx.restore();
         });
 
-        // Hover Tooltip
+        // HUD Tooltip Card for Hovered Node
         if (hoveredNode) {
-            const text = `@${hoveredNode.label} (${hoveredNode.entries} entry, ${hoveredNode.coordinated} koordineli)`;
-            ctx.font = '11px Plus Jakarta Sans';
-            const textWidth = ctx.measureText(text).width;
-            
-            const tx = Math.max(10, Math.min(width - textWidth - 20, hoveredNode.x - textWidth / 2));
-            const ty = Math.max(25, hoveredNode.y - hoveredNode.radius - 12);
+            const peers = activeLinks
+                .filter(l => l.source === hoveredNode.id || l.target === hoveredNode.id)
+                .map(l => {
+                    const peerId = l.source === hoveredNode.id ? l.target : l.source;
+                    return { nick: peerId, weight: l.weight };
+                })
+                .sort((a, b) => b.weight - a.weight);
 
-            ctx.fillStyle = 'rgba(15, 23, 42, 0.92)';
-            ctx.strokeStyle = 'rgba(255, 255, 255, 0.15)';
-            ctx.lineWidth = 1;
+            const titleText = `@${hoveredNode.label}`;
+            const subText = `${hoveredNode.entries || 0} Entry • ${hoveredNode.coordinated || 0} Koordineli`;
+            const peerText = peers.length > 0 
+                ? `Ortak Hücre: ${peers.slice(0, 2).map(p => `@${p.nick} (${p.weight}x)`).join(', ')}`
+                : 'Ayrık Hücre Bağlantısı';
+
+            ctx.font = 'bold 12px Plus Jakarta Sans';
+            const w1 = ctx.measureText(titleText).width;
+            ctx.font = '10px Plus Jakarta Sans';
+            const w2 = ctx.measureText(subText).width;
+            const w3 = ctx.measureText(peerText).width;
+            const cardW = Math.max(160, Math.max(w1, Math.max(w2, w3)) + 24);
+            const cardH = 68;
+
+            let tx = hoveredNode.x - cardW / 2;
+            let ty = hoveredNode.y - hoveredNode.radius - cardH - 12;
+
+            // Keep within bounds
+            tx = Math.max(15, Math.min(width - cardW - 15, tx));
+            if (ty < 15) ty = hoveredNode.y + hoveredNode.radius + 20;
+
+            // Draw HUD Box
+            ctx.fillStyle = 'rgba(15, 23, 42, 0.95)';
+            ctx.strokeStyle = 'rgba(56, 189, 248, 0.4)';
+            ctx.lineWidth = 1.5;
             ctx.beginPath();
-            ctx.roundRect(tx - 8, ty - 16, textWidth + 16, 22, 6);
+            ctx.roundRect(tx, ty, cardW, cardH, 10);
             ctx.fill();
             ctx.stroke();
 
-            ctx.fillStyle = '#ffffff';
+            // Text
+            ctx.fillStyle = '#38bdf8';
+            ctx.font = 'bold 12px Plus Jakarta Sans';
             ctx.textAlign = 'left';
-            ctx.fillText(text, tx, ty);
+            ctx.fillText(titleText, tx + 12, ty + 20);
+
+            ctx.fillStyle = '#f1f5f9';
+            ctx.font = '10px Plus Jakarta Sans';
+            ctx.fillText(subText, tx + 12, ty + 38);
+
+            ctx.fillStyle = '#94a3b8';
+            ctx.font = '9px Plus Jakarta Sans';
+            ctx.fillText(peerText, tx + 12, ty + 54);
         }
     }
+
+    // Animation Physics Loop
+    function loop() {
+        if (simTicks < MAX_TICKS || draggedNode) {
+            tickPhysics();
+            simTicks++;
+        }
+        render();
+        animId = requestAnimationFrame(loop);
+    }
+
+    // Pre-simulate 80 iterations instantly for instant clean layout
+    for (let i = 0; i < 80; i++) {
+        tickPhysics();
+    }
+    simTicks = 80;
+
+    loop();
+
+    activeNetworkSim = {
+        stop: () => {
+            if (animId) cancelAnimationFrame(animId);
+        }
+    };
 
     function getMousePos(evt) {
         const r = canvas.getBoundingClientRect();
@@ -782,14 +1029,17 @@ function drawNetworkGraph(canvas, networkData) {
         return nodes.find(n => {
             const dx = n.x - pos.x;
             const dy = n.y - pos.y;
-            return Math.sqrt(dx * dx + dy * dy) <= (n.radius + 6);
+            return Math.sqrt(dx * dx + dy * dy) <= (n.radius + 8);
         });
     }
 
-    // Canvas Events
+    // Canvas Mouse Events
     canvas.onmousedown = (e) => {
         const pos = getMousePos(e);
         draggedNode = findNodeAt(pos);
+        if (draggedNode) {
+            simTicks = 0; // awaken simulation
+        }
     };
 
     canvas.onmousemove = (e) => {
@@ -797,18 +1047,19 @@ function drawNetworkGraph(canvas, networkData) {
         if (draggedNode) {
             draggedNode.x = pos.x;
             draggedNode.y = pos.y;
-            render();
+            draggedNode.vx = 0;
+            draggedNode.vy = 0;
+            simTicks = 0;
         } else {
-            const prevHovered = hoveredNode;
+            const prev = hoveredNode;
             hoveredNode = findNodeAt(pos);
-            if (prevHovered !== hoveredNode) {
+            if (prev !== hoveredNode) {
                 canvas.style.cursor = hoveredNode ? 'pointer' : 'grab';
-                render();
             }
         }
     };
 
-    canvas.onmouseup = (e) => {
+    canvas.onmouseup = () => {
         if (draggedNode) {
             draggedNode = null;
         }
@@ -821,8 +1072,6 @@ function drawNetworkGraph(canvas, networkData) {
             openAuthorModal(clicked.id);
         }
     };
-
-    render();
 }
 
 // Global Window Resize Listener to Keep Network Graph Sharp & Centered

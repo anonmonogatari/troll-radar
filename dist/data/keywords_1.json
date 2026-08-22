@@ -25,16 +25,16 @@
       "count": 34
     },
     {
-      "word": "türk",
-      "count": 33
-    },
-    {
       "word": "alman",
       "count": 33
     },
     {
       "word": "denize",
       "count": 33
+    },
+    {
+      "word": "türk",
+      "count": 32
     },
     {
       "word": "girmek",
@@ -73,10 +73,6 @@
       "count": 29
     },
     {
-      "word": "türkiye",
-      "count": 28
-    },
-    {
       "word": "iyi",
       "count": 28
     },
@@ -87,6 +83,10 @@
     {
       "word": "fenerbahçe",
       "count": 28
+    },
+    {
+      "word": "türkiye",
+      "count": 26
     },
     {
       "word": "kadınların",
