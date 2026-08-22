@@ -9,21 +9,25 @@ MANUFACTURED_TOPIC_PATTERNS = [
     r'(belediye|ibb|abb)\s+.*(bütçe|vurgun|peşkeş|israf|liyakatsiz|yolsuzluk|konser)',
     r'(ihale|rant|vurgun|hortum|rüşvet)\s+(skandal|ağ|iddia)',
     r'şahsi\s+(reklam|ikbal|servet|uçak|şov)',
+    r'(yeğeniyim|akrabasıyım)\s+diyen.*(terör|tehdit|olay)',
     r'terör\s+(iltisak|bağlantı|kadrolaşma)',
     r'gizli\s+(protokol|anlaşma|ortaklık)',
     r'paralar\s+nereye\s+gitti',
     
-    # Manufactured Culture War & Lifestyle Outrage
+    # Manufactured Culture War, Cult & Lifestyle Outrage
     r'haşemal[ıi]\s+(kadın|teyze|deniz|havuz)',
     r'camiye\s+(bikini|ayakkabı|içki)',
     r'(laik|seküler)\s+(yobaz|faşizm|saldırı|tahammülsüzlük)',
     r'inançlı\s+insanlara\s+(baskı|hakaret|saldırı)',
     r'28\s+şubat\s+(kafa|zihniyet|hortla)',
+    r'(kuytul|alihan kuriş|tarikat|cemaat).*(gözaltı|ifade|skandal)',
     
-    # Deceptive Spin & Manufactured Defenses
+    # Deceptive Spin, Economic & Polarization Outrage
+    r'turist.*(esnaf|isyan|fiyat|kazık)',
     r'avrupa\'da\s+(daha\s+pahalı|katbekat)',
     r'fırsatçı\s+esnaf',
-    r'türkiye\'yi\s+(karalama|çekemeyenler|bölmek)'
+    r'türkiye\'yi\s+(karalama|çekemeyenler|bölmek)',
+    r'öcalan.*(özgür özel|chp|çağrı)'
 ]
 
 compiled_manufactured_patterns = [re.compile(p, re.IGNORECASE) for p in MANUFACTURED_TOPIC_PATTERNS]

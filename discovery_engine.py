@@ -60,6 +60,7 @@ class TrollDiscoveryEngine:
         # Analyze positions on manufactured topics
         inception_count = 0
         early_swarm_count = 0
+        coord_count = sum(1 for e in relevant_entries if e.get('is_coordinated'))
         manufactured_topics_participated = []
         cell_tags = []
 
@@ -75,7 +76,6 @@ class TrollDiscoveryEngine:
 
             # Check entry rank/position in this topic
             topic_entries = topic_timeline_map.get(topic, [])
-            # Find index of this entry in the sorted topic entries
             try:
                 entry_index = next(idx for idx, te in enumerate(topic_entries) if te['id'] == e['id'])
             except StopIteration:
@@ -90,11 +90,11 @@ class TrollDiscoveryEngine:
                 early_swarm_count += 1
 
         # -------------------------------------------------------------
-        # MANDATORY HARD-GATE: MANUFACTURED TOPIC ENGAGEMENT
+        # MANDATORY HARD-GATE: MANUFACTURED TOPIC ENGAGEMENT & COORDINATION
         # -------------------------------------------------------------
-        # If an author NEVER opened a manufactured topic and NEVER participated in the
-        # first 5 entries of a smear topic, they are an ORGANIC user (Score = 0.0)!
-        if early_swarm_count == 0:
+        # If an author NEVER opened a manufactured topic, NEVER participated in early swarms
+        # and has 0 coordinated entries, they are an ORGANIC user (Score = 0.0)!
+        if early_swarm_count == 0 and coord_count == 0:
             return {
                 "nick": nick,
                 "troll_score": 0.0,
@@ -113,45 +113,26 @@ class TrollDiscoveryEngine:
                 "evidence_topics": []
             }
 
-        # Calculate Ratios
+        # Concentration & Footprint Scaling
         total_relevant = len(relevant_entries)
-        inception_ratio = round((inception_count / max(1, total_relevant)) * 100, 1)
-        early_swarm_ratio = round((early_swarm_count / max(1, total_relevant)) * 100, 1)
-        manufactured_focus_ratio = round((len(manufactured_topics_participated) / max(1, total_relevant)) * 100, 1)
+        incept_scale = min(100.0, inception_count * 50.0)
+        swarm_scale = min(100.0, (early_swarm_count / max(1, total_relevant)) * 100.0)
+        coord_scale = min(100.0, (coord_count / max(1, total_relevant)) * 100.0)
+        
+        # Absolute footprint boost for ring leaders / heavy operators
+        volume_boost = min(30.0, coord_count * 5.0 + inception_count * 10.0) if (inception_count > 1 or coord_count > 3) else 0.0
 
         vote_brigading = calculate_vote_brigading_score(relevant_entries)
         stance_alignment = calculate_narrative_alignment(relevant_entries, all_entries)
 
-        # -------------------------------------------------------------
-        # MANDATORY HARD-GATE: VOTE BRIGADING
-        # -------------------------------------------------------------
-        if vote_brigading < 30.0:
-            return {
-                "nick": nick,
-                "troll_score": 0.0,
-                "risk_level": "Organik",
-                "badge_color": "green",
-                "detected_cell": "Organik (Elendi)",
-                "entry_count": len(relevant_entries),
-                "is_monitored": False,
-                "metrics": {
-                    "inception_count": inception_count,
-                    "early_swarm_count": early_swarm_count,
-                    "manufactured_focus_ratio": manufactured_focus_ratio,
-                    "vote_brigading": vote_brigading,
-                    "stance_alignment": stance_alignment
-                },
-                "evidence_topics": []
-            }
-
-        # Weighted Troll Index
+        # Weighted Calibrated Troll Index
         raw_score = (
-            (inception_ratio * 0.40) +
-            (early_swarm_ratio * 0.35) +
-            (vote_brigading * 0.15) +
-            (stance_alignment * 0.10)
+            (incept_scale * 0.30) +
+            (swarm_scale * 0.30) +
+            (coord_scale * 0.25) +
+            (vote_brigading * 0.15)
         )
-        troll_score = round(max(0.0, min(100.0, raw_score)), 1)
+        troll_score = round(max(0.0, min(100.0, raw_score + volume_boost)), 1)
 
         # Risk Classification (Short and clean)
         if troll_score >= 70:
@@ -167,7 +148,7 @@ class TrollDiscoveryEngine:
             risk_level = "Organik"
             badge_color = "green"
 
-        top_cell = Counter(cell_tags).most_common(1)[0][0] if cell_tags else "Algı Operasyonu"
+        top_cell = Counter(cell_tags).most_common(1)[0][0] if cell_tags else "Belediye Karalama"
 
         return {
             "nick": nick,
@@ -179,7 +160,7 @@ class TrollDiscoveryEngine:
             "metrics": {
                 "inception_count": inception_count,
                 "early_swarm_count": early_swarm_count,
-                "manufactured_focus_ratio": early_swarm_ratio,
+                "manufactured_focus_ratio": round((early_swarm_count / max(1, total_relevant)) * 100, 1),
                 "vote_brigading": vote_brigading,
                 "stance_alignment": stance_alignment
             },

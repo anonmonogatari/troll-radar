@@ -2,35 +2,23 @@
   "keywords": [
     {
       "word": "kadın",
-      "count": 36
-    },
-    {
-      "word": "iyi",
-      "count": 34
-    },
-    {
-      "word": "değil",
-      "count": 29
+      "count": 35
     },
     {
       "word": "fenerbahçe",
       "count": 28
     },
     {
-      "word": "türkiye",
-      "count": 26
+      "word": "değil",
+      "count": 27
+    },
+    {
+      "word": "iyi",
+      "count": 25
     },
     {
       "word": "kadınların",
       "count": 24
-    },
-    {
-      "word": "insan",
-      "count": 23
-    },
-    {
-      "word": "güzel",
-      "count": 23
     },
     {
       "word": "beyaz",
@@ -38,6 +26,10 @@
     },
     {
       "word": "erkek",
+      "count": 21
+    },
+    {
+      "word": "güzel",
       "count": 21
     },
     {
@@ -49,8 +41,8 @@
       "count": 20
     },
     {
-      "word": "üstü",
-      "count": 18
+      "word": "türkiye",
+      "count": 19
     },
     {
       "word": "kadınlar",
@@ -67,10 +59,6 @@
     {
       "word": "nasıl",
       "count": 18
-    },
-    {
-      "word": "yaş",
-      "count": 17
     },
     {
       "word": "kadının",
@@ -93,6 +81,14 @@
       "count": 16
     },
     {
+      "word": "yaş",
+      "count": 16
+    },
+    {
+      "word": "üstü",
+      "count": 16
+    },
+    {
       "word": "girmek",
       "count": 16
     },
@@ -105,19 +101,23 @@
       "count": 16
     },
     {
-      "word": "yaşında",
-      "count": 15
-    },
-    {
-      "word": "son",
-      "count": 15
-    },
-    {
       "word": "zaman",
       "count": 15
     },
     {
+      "word": "insan",
+      "count": 15
+    },
+    {
       "word": "hala",
+      "count": 15
+    },
+    {
+      "word": "talisca",
+      "count": 15
+    },
+    {
+      "word": "insanın",
       "count": 15
     }
   ]
