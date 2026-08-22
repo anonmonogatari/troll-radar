@@ -25,11 +25,11 @@
         "miamix"
       ],
       "top_evidence_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk",
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+        "yabancı turistin türk esnafına isyan etmesi",
         "birleştirilmesi talep edilen başlıklar",
-        "ekrem imamoğlu'nun roma gezisi faturası"
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ]
     },
     {
@@ -45,11 +45,11 @@
         "funkycrow"
       ],
       "top_evidence_topics": [
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "haşemalılarla aynı denize girmek istemeyen kadın",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+        "yabancı turistin türk esnafına isyan etmesi",
+        "chp'li belediyelerin fahiş konser harcamaları"
       ]
     },
     {
@@ -62,10 +62,10 @@
         "szw"
       ],
       "top_evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "yabancı turistin türk esnafına isyan etmesi",
-        "ekrem imamoğlu'nun roma gezisi faturası"
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "ekrem imamoğlu'nun roma gezisi faturası",
+        "yabancı turistin türk esnafına isyan etmesi"
       ]
     },
     {
@@ -77,8 +77,8 @@
         "948"
       ],
       "top_evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "yabancı turistin türk esnafına isyan etmesi",
         "haşemalılarla aynı denize girmek istemeyen kadın"
       ]
@@ -100,10 +100,10 @@
         "stance_alignment": 22.2
       },
       "evidence_topics": [
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
@@ -122,10 +122,10 @@
         "stance_alignment": 20.0
       },
       "evidence_topics": [
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "birleştirilmesi talep edilen başlıklar",
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi"
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
@@ -144,10 +144,10 @@
         "stance_alignment": 18.2
       },
       "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "yabancı turistin türk esnafına isyan etmesi",
-        "chp'li belediyelerin fahiş konser harcamaları"
+        "chp'li belediyelerin fahiş konser harcamaları",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
@@ -166,10 +166,10 @@
         "stance_alignment": 16.7
       },
       "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "yabancı turistin türk esnafına isyan etmesi",
-        "ekrem imamoğlu'nun roma gezisi faturası"
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "ekrem imamoğlu'nun roma gezisi faturası",
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
@@ -188,10 +188,10 @@
         "stance_alignment": 13.3
       },
       "evidence_topics": [
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+        "yabancı turistin türk esnafına isyan etmesi",
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ],
       "is_monitored": true
     },
@@ -210,10 +210,10 @@
         "stance_alignment": 20.0
       },
       "evidence_topics": [
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+        "yabancı turistin türk esnafına isyan etmesi",
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ],
       "is_monitored": true
     },
@@ -232,10 +232,10 @@
         "stance_alignment": 7.1
       },
       "evidence_topics": [
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+        "yabancı turistin türk esnafına isyan etmesi",
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ],
       "is_monitored": true
     },
@@ -254,9 +254,9 @@
         "stance_alignment": 20.0
       },
       "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "yabancı turistin türk esnafına isyan etmesi",
-        "chp'li belediyelerin fahiş konser harcamaları"
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
@@ -275,10 +275,10 @@
         "stance_alignment": 18.2
       },
       "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "yabancı turistin türk esnafına isyan etmesi",
-        "ekrem imamoğlu'nun roma gezisi faturası"
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "ekrem imamoğlu'nun roma gezisi faturası",
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
@@ -297,10 +297,10 @@
         "stance_alignment": 7.7
       },
       "evidence_topics": [
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+        "yabancı turistin türk esnafına isyan etmesi",
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ],
       "is_monitored": true
     },
@@ -319,10 +319,10 @@
         "stance_alignment": 15.4
       },
       "evidence_topics": [
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
-        "ekrem imamoğlu'nun roma gezisi faturası",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        "yabancı turistin türk esnafına isyan etmesi",
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
+        "ekrem imamoğlu'nun roma gezisi faturası"
       ],
       "is_monitored": true
     },
@@ -360,8 +360,8 @@
         "stance_alignment": 7.7
       },
       "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
@@ -381,8 +381,8 @@
         "stance_alignment": 23.1
       },
       "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
@@ -402,10 +402,10 @@
         "stance_alignment": 7.1
       },
       "evidence_topics": [
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+        "yabancı turistin türk esnafına isyan etmesi",
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ],
       "is_monitored": true
     },
@@ -424,10 +424,10 @@
         "stance_alignment": 16.7
       },
       "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "yabancı turistin türk esnafına isyan etmesi",
-        "chp'li belediyelerin fahiş konser harcamaları"
+        "chp'li belediyelerin fahiş konser harcamaları",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
@@ -446,8 +446,8 @@
         "stance_alignment": 16.7
       },
       "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
@@ -467,8 +467,8 @@
         "stance_alignment": 23.1
       },
       "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "yabancı turistin türk esnafına isyan etmesi",
         "haşemalılarla aynı denize girmek istemeyen kadın"
       ],
@@ -489,8 +489,8 @@
         "stance_alignment": 25.0
       },
       "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
@@ -510,9 +510,9 @@
         "stance_alignment": 11.1
       },
       "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "yabancı turistin türk esnafına isyan etmesi",
-        "chp'li belediyelerin fahiş konser harcamaları"
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
@@ -531,10 +531,10 @@
         "stance_alignment": 7.7
       },
       "evidence_topics": [
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "yabancı turistin türk esnafına isyan etmesi",
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
+        "chp'li belediyelerin fahiş konser harcamaları"
       ],
       "is_monitored": true
     },
@@ -553,10 +553,10 @@
         "stance_alignment": 7.1
       },
       "evidence_topics": [
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+        "yabancı turistin türk esnafına isyan etmesi",
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ],
       "is_monitored": true
     },
@@ -576,8 +576,8 @@
       },
       "evidence_topics": [
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "yabancı turistin türk esnafına isyan etmesi",
-        "ekrem imamoğlu'nun roma gezisi faturası"
+        "ekrem imamoğlu'nun roma gezisi faturası",
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
@@ -596,10 +596,10 @@
         "stance_alignment": 7.7
       },
       "evidence_topics": [
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "yabancı turistin türk esnafına isyan etmesi",
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
+        "chp'li belediyelerin fahiş konser harcamaları"
       ],
       "is_monitored": true
     },

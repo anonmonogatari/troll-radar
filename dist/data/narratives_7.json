@@ -12,10 +12,10 @@
       "last_seen": "2026-08-22T22:16:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 26 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "givles",
         "nane kokusu",
-        "timurun fillerinin bakicisi",
-        "bozaj"
+        "bozaj",
+        "givles",
+        "timurun fillerinin bakicisi"
       ],
       "sample_entries": [
         {
@@ -71,9 +71,9 @@
       "last_seen": "2026-08-22T20:55:00",
       "summary": "Pahalılık/turist/esnaf algısını çarpıtma ve ekonomik tepkileri hafifletme amacıyla 25 hesap tarafından organize paylaşıldı.",
       "authors": [
+        "bozaj",
         "givles",
-        "timurun fillerinin bakicisi",
-        "bozaj"
+        "timurun fillerinin bakicisi"
       ],
       "sample_entries": [
         {
@@ -129,10 +129,10 @@
       "last_seen": "2026-08-22T18:50:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "givles",
         "becathlon",
-        "timurun fillerinin bakicisi",
-        "bozaj"
+        "bozaj",
+        "givles",
+        "timurun fillerinin bakicisi"
       ],
       "sample_entries": [
         {
@@ -188,11 +188,11 @@
       "last_seen": "2026-08-18T14:08:00",
       "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
       "authors": [
-        "givles",
-        "becathlon",
-        "enturi",
         "bozaj",
-        "timurun fillerinin bakicisi"
+        "becathlon",
+        "timurun fillerinin bakicisi",
+        "givles",
+        "enturi"
       ],
       "sample_entries": [
         {
@@ -248,10 +248,10 @@
       "last_seen": "2026-08-21T10:06:00",
       "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
       "authors": [
-        "givles",
         "becathlon",
-        "timurun fillerinin bakicisi",
-        "bozaj"
+        "bozaj",
+        "givles",
+        "timurun fillerinin bakicisi"
       ],
       "sample_entries": [
         {
@@ -307,11 +307,11 @@
       "last_seen": "2026-08-16T11:05:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 24 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "givles",
-        "becathlon",
-        "enturi",
         "bozaj",
-        "timurun fillerinin bakicisi"
+        "becathlon",
+        "timurun fillerinin bakicisi",
+        "givles",
+        "enturi"
       ],
       "sample_entries": [
         {
@@ -367,11 +367,11 @@
       "last_seen": "2026-08-21T14:40:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 24 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "givles",
-        "kafadanilo",
-        "bozaj",
         "kecuva",
-        "timurun fillerinin bakicisi"
+        "bozaj",
+        "kafadanilo",
+        "timurun fillerinin bakicisi",
+        "givles"
       ],
       "sample_entries": [
         {
@@ -427,11 +427,11 @@
       "last_seen": "2026-08-18T08:28:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "givles",
+        "david ellefson",
         "becathlon",
-        "enturi",
         "timurun fillerinin bakicisi",
-        "david ellefson"
+        "givles",
+        "enturi"
       ],
       "sample_entries": [
         {
@@ -487,11 +487,11 @@
       "last_seen": "2026-08-22T02:11:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "ckcozr",
+        "hohem",
         "large hail storm",
         "viransce",
         "meridyen6",
-        "hohem"
+        "ckcozr"
       ],
       "sample_entries": [
         {
@@ -547,11 +547,11 @@
       "last_seen": "2026-08-18T09:56:00",
       "summary": "Muhalefet partileri ve belediyeleri hedef alan organize dezenformasyon/eleştiri dalgası.",
       "authors": [
-        "givles",
-        "becathlon",
-        "enturi",
         "bozaj",
-        "timurun fillerinin bakicisi"
+        "becathlon",
+        "timurun fillerinin bakicisi",
+        "givles",
+        "enturi"
       ],
       "sample_entries": [
         {
@@ -607,11 +607,11 @@
       "last_seen": "2026-08-20T22:01:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "givles",
-        "becathlon",
-        "kafadanilo",
         "bozaj",
-        "timurun fillerinin bakicisi"
+        "kafadanilo",
+        "becathlon",
+        "timurun fillerinin bakicisi",
+        "givles"
       ],
       "sample_entries": [
         {
@@ -667,11 +667,11 @@
       "last_seen": "2026-08-18T09:26:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 14 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "givles",
-        "becathlon",
-        "enturi",
         "bozaj",
-        "timurun fillerinin bakicisi"
+        "becathlon",
+        "timurun fillerinin bakicisi",
+        "givles",
+        "enturi"
       ],
       "sample_entries": [
         {
@@ -727,11 +727,11 @@
       "last_seen": "2026-08-22T21:53:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "gulbesekerisevdimde",
-        "annenin terlik isabet ettiremedigi evlat",
-        "gunisiginda asili duran toz zerresi",
+        "realdreamer",
         "mentolin",
-        "realdreamer"
+        "gunisiginda asili duran toz zerresi",
+        "annenin terlik isabet ettiremedigi evlat",
+        "gulbesekerisevdimde"
       ],
       "sample_entries": [
         {
@@ -788,10 +788,10 @@
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
         "kiy",
+        "lechef",
         "liligum",
         "veerle",
-        "kudayaltay",
-        "lechef"
+        "kudayaltay"
       ],
       "sample_entries": [
         {
@@ -847,11 +847,11 @@
       "last_seen": "2026-08-19T11:00:00",
       "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
       "authors": [
+        "timurun fillerinin bakicisi",
         "becathlon",
-        "enturi",
         "londrast",
-        "madanin",
-        "timurun fillerinin bakicisi"
+        "enturi",
+        "madanin"
       ],
       "sample_entries": [
         {

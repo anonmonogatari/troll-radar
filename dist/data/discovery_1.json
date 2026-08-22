@@ -1,5 +1,5 @@
 {
-  "total_evaluated": 187,
+  "total_evaluated": 185,
   "high_confidence_trolls": 2,
   "cells": [
     {
@@ -16,8 +16,8 @@
         "georgewalker"
       ],
       "top_evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
       ]
     },
     {
@@ -28,8 +28,8 @@
         "timurun fillerinin bakicisi"
       ],
       "top_evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
       ]
     }
   ],
@@ -126,8 +126,8 @@
         "stance_alignment": 60.0
       },
       "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
@@ -367,40 +367,6 @@
         "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
-    },
-    {
-      "nick": "sozen",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "ascsagittarius",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
     },
     {
       "nick": "cikolataliportakal",
