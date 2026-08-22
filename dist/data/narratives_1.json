@@ -12,10 +12,10 @@
       "last_seen": "2026-08-22T21:52:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 12 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "nane kokusu",
         "bozaj",
         "timurun fillerinin bakicisi",
-        "givles"
+        "givles",
+        "nane kokusu"
       ],
       "sample_entries": [
         {
@@ -72,10 +72,10 @@
       "summary": "Pahalılık/turist/esnaf algısını çarpıtma ve ekonomik tepkileri hafifletme amacıyla 10 hesap tarafından organize paylaşıldı.",
       "authors": [
         "rootifera",
-        "7714714",
         "ondortelliuc",
-        "mertolyon",
-        "monofobik"
+        "7714714",
+        "monofobik",
+        "mertolyon"
       ],
       "sample_entries": [
         {
@@ -131,11 +131,11 @@
       "last_seen": "2026-08-22T11:44:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 10 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
+        "x4",
         "neutral true",
         "cunoesse vittulainen",
-        "debe okurum",
         "charango",
-        "x4"
+        "debe okurum"
       ],
       "sample_entries": [
         {
@@ -191,11 +191,11 @@
       "last_seen": "2026-08-22T21:27:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "odoriko",
         "delikanlininja",
         "kedisininyumagi",
-        "edward leon",
-        "lmrvnx"
+        "odoriko",
+        "lmrvnx",
+        "edward leon"
       ],
       "sample_entries": [
         {
@@ -251,9 +251,9 @@
       "last_seen": "2026-08-22T11:18:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "hilmi bunu begendi",
-        "yesindeed",
         "to vbe or not to vbe",
+        "yesindeed",
+        "hilmi bunu begendi",
         "hard disk gibi adam",
         "debe okurum"
       ],
@@ -311,11 +311,11 @@
       "last_seen": "2026-08-22T03:28:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
+        "notthatsimplee",
         "augusto pinochet",
-        "kendinegelotuzsundediler",
-        "heterodokss",
         "belgium in the rainn",
-        "notthatsimplee"
+        "heterodokss",
+        "kendinegelotuzsundediler"
       ],
       "sample_entries": [
         {
@@ -371,11 +371,11 @@
       "last_seen": "2026-08-22T22:25:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "slowrocker",
-        "niltt",
-        "lonely tree",
+        "ckmltyf",
         "screenknife",
-        "ckmltyf"
+        "lonely tree",
+        "slowrocker",
+        "niltt"
       ],
       "sample_entries": [
         {
@@ -431,11 +431,11 @@
       "last_seen": "2026-08-22T12:54:00",
       "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
       "authors": [
-        "burunsuz pinok",
-        "ne rakisi sevim",
         "raybanzib",
+        "burunsuz pinok",
+        "19o5",
         "bilmemeninbilmisligi",
-        "19o5"
+        "ne rakisi sevim"
       ],
       "sample_entries": [
         {
@@ -491,11 +491,11 @@
       "last_seen": "2026-08-22T17:23:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 10 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "eeee sonra",
+        "la columna rota",
         "melvinton",
+        "eeee sonra",
         "supermike",
-        "nahpeykerhapiyuttunnamussuzziver",
-        "la columna rota"
+        "nahpeykerhapiyuttunnamussuzziver"
       ],
       "sample_entries": [
         {
@@ -551,10 +551,10 @@
       "last_seen": "2026-08-22T09:28:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "arsiz marketing",
         "vladmicov",
-        "acmemade",
         "arzawa",
+        "arsiz marketing",
+        "acmemade",
         "materialsengineer"
       ],
       "sample_entries": [
@@ -612,10 +612,10 @@
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
         "protego",
-        "darwinisecdeyeyatiranadam",
         "entrollment",
-        "kirkbirincikarakter",
-        "fyodorwell"
+        "fyodorwell",
+        "darwinisecdeyeyatiranadam",
+        "kirkbirincikarakter"
       ],
       "sample_entries": [
         {
@@ -671,11 +671,11 @@
       "last_seen": "2026-08-22T22:22:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "homoiskandinavus",
-        "octopusss",
         "cars",
+        "crowded house",
+        "octopusss",
         "the dark defender",
-        "crowded house"
+        "homoiskandinavus"
       ],
       "sample_entries": [
         {
@@ -721,66 +721,6 @@
       ]
     },
     {
-      "topic": "olası israil türkiye savaşı",
-      "category": "Dış Politika & Jeopolitik Savunma",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 10,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T01:35:00",
-      "last_seen": "2026-08-22T02:00:00",
-      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
-      "authors": [
-        "baskabirtane",
-        "aytoldi",
-        "elrohilisilrah",
-        "dogumctrl",
-        "voyager3355"
-      ],
-      "sample_entries": [
-        {
-          "author": "aytoldi",
-          "content": "gerçekleşmeyecek olan savaştır.",
-          "date_str": "22.08.2026 01:35",
-          "created_at": "2026-08-22T01:35:00",
-          "is_coordinated": 1,
-          "id": "185828910"
-        },
-        {
-          "author": "elrohilisilrah",
-          "content": "ohal lazim secim varmis",
-          "date_str": "22.08.2026 01:40 ~ 01:42",
-          "created_at": "2026-08-22T01:40:00",
-          "is_coordinated": 1,
-          "id": "185828997"
-        },
-        {
-          "author": "dogumctrl",
-          "content": "savaşın sonucunu kestirmeye çalışmak kıraathane geyiğinden öteye gitmez. mesele hiçbir zaman silahların niceliği, niteliği ya da ülkelerin nüfusu ve kurduğu ittifaklar olmadı, olamaz da. bunun tarihteki en somut örneği çanakkale'dir. savaş, doğası gereği öngörülemez bir strateji oyunudur.olası bir israil-türkiye savaşını geçtim, olası bir türkiye-burundi savaşına bile sonuna kadar karşıyım. 2026 yılında konuşmamız gereken tek şey, bu koca yaşlı şişko yuvamızı teknoloji çatısı altında nasıl iyileştireceğimiz olmalı. zira dünya devletlerinin ortak geleceği ve kazanımı ancak bu vizyona bağlı.",
-          "date_str": "22.08.2026 01:48",
-          "created_at": "2026-08-22T01:48:00",
-          "is_coordinated": 1,
-          "id": "185829120"
-        },
-        {
-          "author": "baskabirtane",
-          "content": "önümüzdeki 1–10 yıl içinde türkiye'nin filistin ve mescid-i aksa üzerinde hâkimiyet kuracağı, ve yunanistanın bazı adalarını hakimiyetine katacağı yönünde jeopolitik senaryolar bulunmaktadır tıpkı kıbrıs barış harekatı gibi. bu iddiaların, bölgenin son 2.000 yıllık tarihini bilen daha doğrusu hakim olan çeşitli yabancı istihbarat teşkilatları bilmektedir. özetlemek gerekirse erdoğan öyle veya böyle ondan öncekiler gibi yapması gerekeni yapacaktır. erdoğan filistin meselesini çözecek ondan sonraki kuşak ise yunanistan meselesini çözecektir tabi bu italyan istihbaratına göre 40 yıl gibi süre alıcaktır.",
-          "date_str": "22.08.2026 01:50",
-          "created_at": "2026-08-22T01:50:00",
-          "is_coordinated": 1,
-          "id": "185829153"
-        },
-        {
-          "author": "voyager3355",
-          "content": "tarihin herhangi bir zamanında benzeri olmamis olan bir vaka haline gelecektir..(yahudi ile turk savaşı anlaminda)hatta ve hatta 1940 li yıllarda kurulmuş bir düzmece ulke ile (her ne kadar eskiden hatta biz yokken buralarda var olsalar bile mezopotamya da) 1071 de resmi olarak, oncesinde de fiili olarak anadolu da yaşayan bir halkın birkaç ziyonist tarafindan bir şekilde yenilebilir olmasi bile kendi icinde bir şekilde utopyadirmaalesef bir şekilde sorun hep içimizdeki bozguncular olacaktir. umarım olmaz denen şeydir.olursa bir şekilde sonucu uzaktan basitçe belli olamayabilecek bir savastir.ici boşaltılmış bir ulke... kendini sultan sanan uzun. ekonomik kriz altinda mahvolmuş halk. sanki düşününce atam'in kurtuluş savaşı başlangıcındaki bulduğu vaziyete geri döndük. sorun ise bir ataturk yok su an.",
-          "date_str": "22.08.2026 01:50",
-          "created_at": "2026-08-22T01:50:00",
-          "is_coordinated": 1,
-          "id": "185829168"
-        }
-      ]
-    },
-    {
       "topic": "otuz yaş üstü kariyerli kadınlar neden evlenmiyor",
       "category": "Kültür Savaşı & Yaşam Tarzı",
       "entry_count": 10,
@@ -791,11 +731,11 @@
       "last_seen": "2026-08-22T04:23:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 10 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
+        "saksi cicegi",
         "funeral winds",
         "sozen",
         "cikolataliportakal",
-        "ascsagittarius",
-        "saksi cicegi"
+        "ascsagittarius"
       ],
       "sample_entries": [
         {
@@ -851,11 +791,11 @@
       "last_seen": "2026-08-22T22:28:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "eternalfire",
-        "gandalfinasasi1",
-        "kara vasif karakol cemiyeti",
         "i have dreams",
-        "akademi maestro"
+        "eternalfire",
+        "akademi maestro",
+        "gandalfinasasi1",
+        "kara vasif karakol cemiyeti"
       ],
       "sample_entries": [
         {
@@ -897,6 +837,66 @@
           "created_at": "2026-08-22T21:44:00",
           "is_coordinated": 1,
           "id": "185843881"
+        }
+      ]
+    },
+    {
+      "topic": "anderson talisca",
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "entry_count": 10,
+      "author_count": 10,
+      "coord_count": 9,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T04:02:00",
+      "last_seen": "2026-08-22T09:27:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "vladmicov",
+        "youth gone wild",
+        "vzw",
+        "better call sabire",
+        "shinigami ryuk"
+      ],
+      "sample_entries": [
+        {
+          "author": "vladmicov",
+          "content": "fenerin acil durumlarda camı kıran 10 numarası. inşallah gönderilir zira bu adamın yapacağı istatistikleri çok ararlar.",
+          "date_str": "22.08.2026 04:02",
+          "created_at": "2026-08-22T04:02:00",
+          "is_coordinated": 0,
+          "id": "185830471"
+        },
+        {
+          "author": "youth gone wild",
+          "content": "en kritik maç öncesinde bunu gönderip hazırlık kampını sakatlığı sebebiyle kaçırmış vedat ve snorlax gibi dolaşan lukaku ile oynamayı düşünüyorsa ben cidden yapıya inanırım.böyle bir kararı anca yapı verir hatta \"ulan ayıp mı oluyor çok mu abartıyoruz\" falan diyebilirler.",
+          "date_str": "22.08.2026 06:36",
+          "created_at": "2026-08-22T06:36:00",
+          "is_coordinated": 1,
+          "id": "185830999"
+        },
+        {
+          "author": "shinigami ryuk",
+          "content": "fenerbahçe taraftarı mülayim adam sevmez. alex bile yeri geldiğinde agresifleşen, yönetime, teknik direktöre tavır koyabilen, takım içinde sözünü dinlenen, sivri olmasa da diş gösterebilen bir karakterdi. onun yanıda olduğu için sezon sonu bir çok futbolcu yollandı. talisca ise geldiğinden beri vur ensesine al lokmasına takıldığı için üzerine çok yüklenildi. tek bir negatif röportajı yok, yedek kalmayı hiç sorun etmedi. penaltı kaçırdı, bazen haddinden fazla zorladı ama totalde takımı hep yarışta tuttu. son bir buçuk sezonda onun olmadığı dönemeçlerin hepsine sıçtı sıvadı bu takım.bu arada herif kariyer sezonunu fenerbahçe'de yaşıyor. görsel70 maçta 50 gol katkısı var adamın. kaldı ki bunların büyük kısmında sonradan girdi. attığı gollerin büyük kısmı da maç çözen goller. gönderilirse sebebi yabancı limiti olur fakat sezon boyunca yokluğunu çok ararız. akıllarda kaçırdığı penaltıyla kalması normal fakat çözdüğü maçlardan bahsedilmemesi ayıp. şahsen onun yerine verim alamadığımız diğer oyunculardan çıkılmasını tercih ederdim.",
+          "date_str": "22.08.2026 08:10 ~ 09:41",
+          "created_at": "2026-08-22T08:10:00",
+          "is_coordinated": 1,
+          "id": "185831405"
+        },
+        {
+          "author": "vzw",
+          "content": "fenerbahçeden kim gitsin istersin diye rakiplerine sorsalar1.kante 2. talisca 3.asensio derler biri gidiyor diğerini göndermeye çalışıyorlar, böyle devam aziz başkan",
+          "date_str": "22.08.2026 08:34",
+          "created_at": "2026-08-22T08:34:00",
+          "is_coordinated": 1,
+          "id": "185831574"
+        },
+        {
+          "author": "better call sabire",
+          "content": "şu herifin attığı gollere bakıp 'gitmesin' diyen kim varsa skor taraftarıdır. bir futbolcunun sahada bu sik kafalı kadar gamsız, yürüyerek takılabilmesi için ya messi ya ronaldo olması lazım. ki onlar bile bu yaşta bu lavuktan fazla mücadele ediyor.sezon başından beri forvette bu yarakhasan değil de serdar dursun oynamış olsa kat kat iyi futbol olurdu sahada ve çok daha fazla gol atardık. bu beyimiz 90 dakika ceza yayında bekliyor ayağına top gelecek de, rakip stoper basmazsa kontrol edip dönecek de kaleye vuracak. baba sen bu kafandaki hikayeyi anca gornik bilmem neye karşı, arabistan'daki takımlara karşı filan yaparsın. sahaya mücadele etmek için çıkan hiçbir profesyonel rakip sana bu kadar alan vermez. zaten bu lavuğun ayağına gelen her topa rakip bundan önce hamle yapıyor, bu da ayağına sıkmışlar gibi 10dk yerlerde yatıyor. baskı yediğinde buna yerden veya havadan atılan hiçbir topu tutup da arkadaşına kazandırdığını görmedik.bu herife gelen her top ya direk rakibe geçiyor, es kaza kontrol edip dönebildiyse de kaleye vurup geçiyor. hayırdır olum seni messi ronaldo filan mısın her gelen topu kaleye vuracak? geçen seneden beri aynı şeyi yazıyoruz, rakibin bu herifi yakın savunduğu hiçbir maçta oyunu kontrol edemeyiz. anca işte kayseri, konya, rize mize maçlarında atar, onlarda da attığından fazla zararı olur 90 dakika içinde. tabelaya baksan 20 gol attı dersin ama takım oyununun içine sıçıp eli belinde bekledikten sonra alex'in, juninho'yu filan getir, bu yaşta boş beleş takımlara uzaktan şutla frikile filan onlar da atar 15-20 gol .",
+          "date_str": "22.08.2026 08:47 ~ 08:50",
+          "created_at": "2026-08-22T08:47:00",
+          "is_coordinated": 1,
+          "id": "185831687"
         }
       ]
     }

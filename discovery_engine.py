@@ -98,9 +98,9 @@ class TrollDiscoveryEngine:
             return {
                 "nick": nick,
                 "troll_score": 0.0,
-                "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+                "risk_level": "Organik",
                 "badge_color": "green",
-                "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+                "detected_cell": "Organik (Elendi)",
                 "entry_count": len(relevant_entries),
                 "is_monitored": False,
                 "metrics": {
@@ -129,9 +129,9 @@ class TrollDiscoveryEngine:
             return {
                 "nick": nick,
                 "troll_score": 0.0,
-                "risk_level": "Organik / Beğeni Halkası Yok",
+                "risk_level": "Organik",
                 "badge_color": "green",
-                "detected_cell": "Bireysel (Beğeni Halkası Yok - Elendi)",
+                "detected_cell": "Organik (Elendi)",
                 "entry_count": len(relevant_entries),
                 "is_monitored": False,
                 "metrics": {
@@ -153,21 +153,21 @@ class TrollDiscoveryEngine:
         )
         troll_score = round(max(0.0, min(100.0, raw_score)), 1)
 
-        # Risk Classification
+        # Risk Classification (Short and clean)
         if troll_score >= 70:
-            risk_level = "Kesin Kurgu Başlık Trollü"
+            risk_level = "Kesin Troll"
             badge_color = "red"
         elif troll_score >= 50:
-            risk_level = "İlk Dalga Köpürtücü Troll"
+            risk_level = "İlk Dalga"
             badge_color = "orange"
         elif troll_score >= 30:
-            risk_level = "Şüpheli Algı Katılımcısı"
+            risk_level = "Şüpheli"
             badge_color = "yellow"
         else:
-            risk_level = "Düşük Risk / Organik"
+            risk_level = "Organik"
             badge_color = "green"
 
-        top_cell = Counter(cell_tags).most_common(1)[0][0] if cell_tags else "Genel Karalama Hücresi"
+        top_cell = Counter(cell_tags).most_common(1)[0][0] if cell_tags else "Algı Operasyonu"
 
         return {
             "nick": nick,

@@ -1,5 +1,5 @@
 {
-  "total": 215,
+  "total": 214,
   "entries": [
     {
       "id": "185847076",
@@ -3295,21 +3295,6 @@
           "url": "https://soz.lk/i/wlwks6j9"
         }
       ],
-      "is_coordinated": 1
-    },
-    {
-      "id": "185828910",
-      "author": "aytoldi",
-      "topic": "olası israil türkiye savaşı",
-      "topic_slug": "olas-israil-trkiye-sava",
-      "content": "gerçekleşmeyecek olan savaştır.",
-      "date_str": "22.08.2026 01:35",
-      "created_at": "2026-08-22T01:35:00",
-      "favorite_count": 2,
-      "comment_count": 0,
-      "category": "Dış Politika & Jeopolitik Savunma",
-      "sentiment": "neutral",
-      "external_links": [],
       "is_coordinated": 1
     }
   ],

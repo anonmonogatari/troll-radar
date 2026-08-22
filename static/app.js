@@ -227,66 +227,67 @@ function renderDiscoveryCandidates(candidates) {
 
     tbody.innerHTML = candidates.map(c => {
         const score = c.troll_score || 0;
-        let barColor = 'bg-emerald-500';
-        let badgeBg = 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30';
+        let barColor = 'bg-slate-700';
+        let badgeBg = 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30';
         
-        if (score >= 80) {
+        if (score >= 70) {
             barColor = 'bg-red-500';
             badgeBg = 'bg-red-500/20 text-red-400 border-red-500/30';
-        } else if (score >= 60) {
+        } else if (score >= 50) {
             barColor = 'bg-orange-500';
             badgeBg = 'bg-orange-500/20 text-orange-400 border-orange-500/30';
-        } else if (score >= 40) {
+        } else if (score >= 30) {
             barColor = 'bg-yellow-500';
             badgeBg = 'bg-yellow-500/20 text-yellow-300 border-yellow-500/30';
         }
 
         const m = c.metrics || {};
+        const isOrganic = score === 0 || c.risk_level === 'Organik';
 
         return `
-            <tr class="hover:bg-white/[0.02] transition-colors">
-                <td class="py-3 px-3">
-                    <button onclick="openAuthorModal('${escapeHtml(c.nick)}')" class="font-bold text-white hover:text-blue-400 font-mono flex items-center gap-1.5">
-                        <i data-lucide="user" class="w-3.5 h-3.5 text-slate-400"></i>
-                        <span>@${escapeHtml(c.nick)}</span>
+            <tr class="hover:bg-white/[0.03] transition-colors border-b border-white/5">
+                <td class="py-3 px-3 whitespace-nowrap">
+                    <button onclick="openAuthorModal('${escapeHtml(c.nick)}')" class="font-bold text-white hover:text-blue-400 font-mono text-xs flex items-center gap-1.5 transition-colors">
+                        <i data-lucide="user" class="w-3.5 h-3.5 text-slate-500 shrink-0"></i>
+                        <span class="truncate max-w-[170px]" title="@${escapeHtml(c.nick)}">@${escapeHtml(c.nick)}</span>
                     </button>
                 </td>
-                <td class="py-3 px-3">
+                <td class="py-3 px-3 whitespace-nowrap">
                     <div class="flex items-center gap-2">
-                        <div class="w-16 bg-dark-900 rounded-full h-1.5 overflow-hidden border border-white/5">
+                        <div class="w-14 bg-dark-900 rounded-full h-1.5 overflow-hidden border border-white/5">
                             <div class="${barColor} h-1.5 rounded-full" style="width: ${score}%"></div>
                         </div>
-                        <span class="font-bold font-mono text-white text-[11px]">%${score}</span>
+                        <span class="font-bold font-mono ${isOrganic ? 'text-slate-400' : 'text-white'} text-[11px]">%${score}</span>
                     </div>
-                    <span class="text-[9px] px-1.5 py-0.5 rounded border ${badgeBg} inline-block mt-1 font-semibold">
+                    <span class="text-[9px] px-1.5 py-0.5 rounded border ${badgeBg} inline-block mt-1 font-semibold whitespace-nowrap">
                         ${escapeHtml(c.risk_level)}
                     </span>
                 </td>
-                <td class="py-3 px-3 text-slate-300">
-                    <span class="px-2 py-0.5 bg-purple-500/10 text-purple-300 border border-purple-500/20 rounded text-[10px] font-semibold">
+                <td class="py-3 px-3 whitespace-nowrap">
+                    <span class="px-2 py-0.5 ${isOrganic ? 'bg-slate-800 text-slate-400 border-white/5' : 'bg-purple-500/15 text-purple-300 border-purple-500/25'} border rounded text-[10px] font-semibold inline-block">
                         ${escapeHtml(c.detected_cell)}
                     </span>
                 </td>
-                <td class="py-3 px-3 font-mono text-purple-300 font-bold">
+                <td class="py-3 px-3 font-mono ${m.inception_count > 0 ? 'text-purple-300 font-bold' : 'text-slate-500'} whitespace-nowrap">
                     ${m.inception_count || 0} başlık
                 </td>
-                <td class="py-3 px-3 font-mono text-red-300 font-semibold">
-                    ${m.early_swarm_count || 0} entry (%${m.manufactured_focus_ratio || 0})
+                <td class="py-3 px-3 font-mono ${m.early_swarm_count > 0 ? 'text-red-300 font-semibold' : 'text-slate-500'} whitespace-nowrap">
+                    ${m.early_swarm_count || 0} entry <span class="text-[10px] text-slate-500">(%${m.manufactured_focus_ratio || 0})</span>
                 </td>
-                <td class="py-3 px-3 font-mono text-amber-300 font-semibold">
+                <td class="py-3 px-3 font-mono ${m.vote_brigading > 0 ? 'text-amber-300 font-semibold' : 'text-slate-500'} whitespace-nowrap">
                     %${m.vote_brigading || 0}
                 </td>
-                <td class="py-3 px-3 font-mono text-blue-300 font-semibold">
+                <td class="py-3 px-3 font-mono ${m.stance_alignment > 0 ? 'text-blue-300 font-semibold' : 'text-slate-500'} whitespace-nowrap">
                     %${m.stance_alignment || 0}
                 </td>
-                <td class="py-3 px-3 text-right">
+                <td class="py-3 px-3 text-right whitespace-nowrap">
                     ${c.is_monitored ? `
-                        <button onclick="unpromoteCandidate('${escapeHtml(c.nick)}')" class="px-2.5 py-1 bg-red-500/15 hover:bg-red-500/30 border border-red-500/40 text-red-400 hover:text-red-300 rounded text-[10px] font-bold transition-all flex items-center justify-end gap-1 ml-auto">
+                        <button onclick="unpromoteCandidate('${escapeHtml(c.nick)}')" class="px-2.5 py-1 bg-red-500/15 hover:bg-red-500/25 border border-red-500/35 text-red-400 hover:text-red-300 rounded text-[10px] font-bold transition-all inline-flex items-center gap-1">
                             <i data-lucide="user-minus" class="w-3 h-3"></i>
                             <span>İzlemeden Çıkar</span>
                         </button>
                     ` : `
-                        <button onclick="promoteCandidate('${escapeHtml(c.nick)}')" class="px-2.5 py-1 bg-dark-900 hover:bg-dark-700 border border-white/10 text-blue-400 hover:text-white rounded text-[10px] font-semibold transition-all flex items-center justify-end gap-1 ml-auto">
+                        <button onclick="promoteCandidate('${escapeHtml(c.nick)}')" class="px-2.5 py-1 bg-dark-900 hover:bg-dark-700 border border-white/10 text-blue-400 hover:text-white rounded text-[10px] font-semibold transition-all inline-flex items-center gap-1">
                             <i data-lucide="user-plus" class="w-3 h-3"></i>
                             <span>+ İzlemeye Al</span>
                         </button>

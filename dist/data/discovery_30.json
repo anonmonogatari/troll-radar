@@ -3,7 +3,7 @@
   "high_confidence_trolls": 1,
   "cells": [
     {
-      "cell_name": "Muhalefet & Belediye Karalama Hücresi",
+      "cell_name": "Belediye Karalama",
       "member_count": 5,
       "average_troll_score": 67.2,
       "members": [
@@ -14,8 +14,8 @@
         "hirvatistanli"
       ],
       "top_evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları",
-        "ekrem imamoğlu'nun roma gezisi faturası"
+        "ekrem imamoğlu'nun roma gezisi faturası",
+        "chp'li belediyelerin fahiş konser harcamaları"
       ]
     }
   ],
@@ -23,9 +23,9 @@
     {
       "nick": "hackerbey",
       "troll_score": 99.2,
-      "risk_level": "Kesin Kurgu Başlık Trollü",
+      "risk_level": "Kesin Troll",
       "badge_color": "red",
-      "detected_cell": "Muhalefet & Belediye Karalama Hücresi",
+      "detected_cell": "Belediye Karalama",
       "entry_count": 1,
       "metrics": {
         "inception_count": 1,
@@ -42,9 +42,9 @@
     {
       "nick": "playerman",
       "troll_score": 59.2,
-      "risk_level": "İlk Dalga Köpürtücü Troll",
+      "risk_level": "İlk Dalga",
       "badge_color": "orange",
-      "detected_cell": "Muhalefet & Belediye Karalama Hücresi",
+      "detected_cell": "Belediye Karalama",
       "entry_count": 1,
       "metrics": {
         "inception_count": 0,
@@ -61,9 +61,9 @@
     {
       "nick": "reactionshot",
       "troll_score": 59.2,
-      "risk_level": "İlk Dalga Köpürtücü Troll",
+      "risk_level": "İlk Dalga",
       "badge_color": "orange",
-      "detected_cell": "Muhalefet & Belediye Karalama Hücresi",
+      "detected_cell": "Belediye Karalama",
       "entry_count": 1,
       "metrics": {
         "inception_count": 0,
@@ -80,9 +80,9 @@
     {
       "nick": "dijitalkitap",
       "troll_score": 59.2,
-      "risk_level": "İlk Dalga Köpürtücü Troll",
+      "risk_level": "İlk Dalga",
       "badge_color": "orange",
-      "detected_cell": "Muhalefet & Belediye Karalama Hücresi",
+      "detected_cell": "Belediye Karalama",
       "entry_count": 1,
       "metrics": {
         "inception_count": 0,
@@ -99,9 +99,9 @@
     {
       "nick": "hirvatistanli",
       "troll_score": 59.2,
-      "risk_level": "İlk Dalga Köpürtücü Troll",
+      "risk_level": "İlk Dalga",
       "badge_color": "orange",
-      "detected_cell": "Muhalefet & Belediye Karalama Hücresi",
+      "detected_cell": "Belediye Karalama",
       "entry_count": 1,
       "metrics": {
         "inception_count": 0,
@@ -118,9 +118,9 @@
     {
       "nick": "timurun fillerinin bakicisi",
       "troll_score": 27.2,
-      "risk_level": "Düşük Risk / Organik",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Kültür Savaşı & Kutuplaştırma Hücresi",
+      "detected_cell": "Kültür Savaşı",
       "entry_count": 18,
       "metrics": {
         "inception_count": 3,
@@ -130,18 +130,18 @@
         "stance_alignment": 30.0
       },
       "evidence_topics": [
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+        "haşemalılarla aynı denize girmek istemeyen kadın"
       ],
       "is_monitored": true
     },
     {
       "nick": "funkycrow",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -156,9 +156,9 @@
     {
       "nick": "georgewalker",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 2,
       "is_monitored": true,
       "metrics": {
@@ -173,9 +173,9 @@
     {
       "nick": "givles",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 2,
       "is_monitored": true,
       "metrics": {
@@ -190,9 +190,9 @@
     {
       "nick": "parantezicindekiadam",
       "troll_score": 0.0,
-      "risk_level": "Organik / Beğeni Halkası Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Bireysel (Beğeni Halkası Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -207,9 +207,9 @@
     {
       "nick": "szw",
       "troll_score": 0.0,
-      "risk_level": "Organik / Beğeni Halkası Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Bireysel (Beğeni Halkası Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -224,9 +224,9 @@
     {
       "nick": "madanin",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -241,9 +241,9 @@
     {
       "nick": "medyumay",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -258,9 +258,9 @@
     {
       "nick": "miamix",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 2,
       "is_monitored": true,
       "metrics": {
@@ -275,9 +275,9 @@
     {
       "nick": "lacivertnokta",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -292,9 +292,9 @@
     {
       "nick": "localtime",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -309,9 +309,9 @@
     {
       "nick": "londrast",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 2,
       "is_monitored": true,
       "metrics": {
@@ -326,9 +326,9 @@
     {
       "nick": "ingiliz dili ve edebiyati",
       "troll_score": 0.0,
-      "risk_level": "Organik / Beğeni Halkası Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Bireysel (Beğeni Halkası Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -343,9 +343,9 @@
     {
       "nick": "jimmymartin",
       "troll_score": 0.0,
-      "risk_level": "Organik / Beğeni Halkası Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Bireysel (Beğeni Halkası Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -360,9 +360,9 @@
     {
       "nick": "kafadanilo",
       "troll_score": 0.0,
-      "risk_level": "Organik / Beğeni Halkası Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Bireysel (Beğeni Halkası Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -377,9 +377,9 @@
     {
       "nick": "kecuva",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -394,9 +394,9 @@
     {
       "nick": "david ellefson",
       "troll_score": 0.0,
-      "risk_level": "Organik / Beğeni Halkası Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Bireysel (Beğeni Halkası Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -411,9 +411,9 @@
     {
       "nick": "enturi",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 2,
       "is_monitored": true,
       "metrics": {
@@ -428,9 +428,9 @@
     {
       "nick": "bozaj",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 3,
       "is_monitored": true,
       "metrics": {
@@ -445,9 +445,9 @@
     {
       "nick": "becathlon",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 3,
       "is_monitored": true,
       "metrics": {
@@ -462,9 +462,9 @@
     {
       "nick": "1xw",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 2,
       "is_monitored": true,
       "metrics": {
@@ -479,9 +479,9 @@
     {
       "nick": "948",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 2,
       "is_monitored": true,
       "metrics": {

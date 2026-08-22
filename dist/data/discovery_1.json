@@ -3,15 +3,15 @@
   "high_confidence_trolls": 0,
   "cells": [
     {
-      "cell_name": "Kültür Savaşı & Kutuplaştırma Hücresi",
+      "cell_name": "Kültür Savaşı",
       "member_count": 1,
       "average_troll_score": 47.8,
       "members": [
         "timurun fillerinin bakicisi"
       ],
       "top_evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
       ]
     }
   ],
@@ -19,9 +19,9 @@
     {
       "nick": "timurun fillerinin bakicisi",
       "troll_score": 47.8,
-      "risk_level": "Şüpheli Algı Katılımcısı",
+      "risk_level": "Şüpheli",
       "badge_color": "yellow",
-      "detected_cell": "Kültür Savaşı & Kutuplaştırma Hücresi",
+      "detected_cell": "Kültür Savaşı",
       "entry_count": 6,
       "metrics": {
         "inception_count": 2,
@@ -39,9 +39,9 @@
     {
       "nick": "david ellefson",
       "troll_score": 0.0,
-      "risk_level": "Organik / Beğeni Halkası Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Bireysel (Beğeni Halkası Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -56,9 +56,9 @@
     {
       "nick": "enturi",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 2,
       "is_monitored": true,
       "metrics": {
@@ -73,9 +73,9 @@
     {
       "nick": "georgewalker",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -90,9 +90,9 @@
     {
       "nick": "bozaj",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 3,
       "is_monitored": true,
       "metrics": {
@@ -107,9 +107,9 @@
     {
       "nick": "givles",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -124,9 +124,9 @@
     {
       "nick": "miamix",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -141,9 +141,9 @@
     {
       "nick": "becathlon",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 3,
       "is_monitored": true,
       "metrics": {
@@ -158,9 +158,9 @@
     {
       "nick": "londrast",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
@@ -175,9 +175,9 @@
     {
       "nick": "1xw",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 2,
       "is_monitored": true,
       "metrics": {
@@ -192,9 +192,9 @@
     {
       "nick": "948",
       "troll_score": 0.0,
-      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "risk_level": "Organik",
       "badge_color": "green",
-      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "detected_cell": "Organik (Elendi)",
       "entry_count": 2,
       "is_monitored": true,
       "metrics": {

@@ -78,15 +78,15 @@ def is_manufactured_troll_topic(topic_title: str, content: str = "") -> Tuple[bo
 
     for pattern in compiled_manufactured_patterns:
         if pattern.search(full_text):
-            # Classify cell type
+            # Classify cell type (short and clean)
             if any(k in full_text for k in ['konser', 'roma', 'belediye', 'ibb', 'abb', 'israf', 'peşkeş', 'vurgun', 'ihale']):
-                return True, "Muhalefet & Belediye Karalama Hücresi"
+                return True, "Belediye Karalama"
             elif any(k in full_text for k in ['haşema', 'bikini', 'camiye', 'laik yobaz', 'şeriat', '28 şubat']):
-                return True, "Kültür Savaşı & Kutuplaştırma Hücresi"
+                return True, "Kültür Savaşı"
             elif any(k in full_text for k in ['avrupa', 'fırsatçı esnaf', 'pahalılık', 'turist']):
-                return True, "Ekonomi Aklama & Savunma Hücresi"
+                return True, "Ekonomi Aklama"
             elif any(k in full_text for k in ['terör', 'iltisak', 'protokol', 'gizli']):
-                return True, "Yargı, Güvenlik & Hamaset Hücresi"
-            return True, "Kurgu İftira & Algı Hücresi"
+                return True, "Yargı / Güvenlik"
+            return True, "Algı Operasyonu"
 
-    return False, "Organik Konu"
+    return False, "Organik"

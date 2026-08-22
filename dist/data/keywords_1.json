@@ -10,7 +10,7 @@
     },
     {
       "word": "türkiye",
-      "count": 31
+      "count": 30
     },
     {
       "word": "değil",
@@ -89,10 +89,6 @@
       "count": 17
     },
     {
-      "word": "israil",
-      "count": 16
-    },
-    {
       "word": "zaman",
       "count": 16
     },
@@ -111,6 +107,10 @@
     {
       "word": "konyaspor",
       "count": 16
+    },
+    {
+      "word": "israil",
+      "count": 15
     },
     {
       "word": "yaşında",
