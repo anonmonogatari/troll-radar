@@ -669,7 +669,7 @@ function renderKeywords(keywords) {
     `).join('');
 }
 
-// ----------------- TAB 3: NETWORK GRAPH (CLEAN CIRCULAR ORBITAL RADAR) ----------------- //
+// ----------------- TAB 3: NETWORK GRAPH (CLEAN CIRCULAR NETWORK MAP) ----------------- //
 
 async function loadNetwork() {
     const canvas = document.getElementById('networkCanvas');
@@ -699,16 +699,16 @@ function drawNetworkGraph(canvas, networkData) {
     const height = rect.height;
     const cx = width / 2;
     const cy = height / 2;
-    const radius = Math.min(width * 0.35, height * 0.38 - 35);
+    const radius = Math.min(width * 0.34, height * 0.38 - 30);
 
-    // Sort nodes to cluster active coordinators next to each other along the ring
+    // Sort nodes to place active coordinators logically along the ring
     const rawNodes = [...networkData.nodes].sort((a, b) => (b.coordinated || 0) - (a.coordinated || 0));
     const totalNodes = rawNodes.length;
 
-    // All links with clean thin hairline curves
+    // All links
     const activeLinks = networkData.links || [];
 
-    // Calculate node positions along the clean circular radar ring
+    // Calculate node positions along the clean circular ring
     const nodes = rawNodes.map((n, i) => {
         const angle = (i / totalNodes) * Math.PI * 2 - Math.PI / 2;
         const x = cx + Math.cos(angle) * radius;
@@ -749,10 +749,10 @@ function drawNetworkGraph(canvas, networkData) {
     function render() {
         ctx.clearRect(0, 0, width, height);
 
-        // 1. Subtle Background Concentric Rings (Static)
-        ctx.strokeStyle = 'rgba(255, 255, 255, 0.035)';
+        // 1. Draw Subtle Concentric Guide Rings
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.03)';
         ctx.lineWidth = 1;
-        [0.35, 0.70, 1.0].forEach(factor => {
+        [0.4, 0.7, 1.0].forEach(factor => {
             ctx.beginPath();
             ctx.arc(cx, cy, radius * factor, 0, Math.PI * 2);
             ctx.stroke();
@@ -761,7 +761,7 @@ function drawNetworkGraph(canvas, networkData) {
         const isHoverActive = !!hoveredNode;
         const activeNeighbors = isHoverActive ? neighborMap.get(hoveredNode.id) : null;
 
-        // 2. Draw Ultra-Thin Curved Links (Hairline 0.5px)
+        // 2. Draw Ultra-Thin Minimalist Curved Links (Quadratic Bezier Curves)
         activeLinks.forEach(l => {
             const s = nodeMap.get(l.source);
             const t = nodeMap.get(l.target);
@@ -769,7 +769,7 @@ function drawNetworkGraph(canvas, networkData) {
 
             const isConnected = isHoverActive && (s.id === hoveredNode.id || t.id === hoveredNode.id);
             
-            // Curve gently bends towards center (0.45 strength)
+            // Curve gently bends towards center
             const cpx = cx * 0.45 + (s.x + t.x) * 0.275;
             const cpy = cy * 0.45 + (s.y + t.y) * 0.275;
 
@@ -787,19 +787,19 @@ function drawNetworkGraph(canvas, networkData) {
                     ctx.shadowBlur = 0;
                 }
             } else {
-                ctx.lineWidth = 0.5; // Ultra thin hairline
+                ctx.lineWidth = 0.5; // Ultra thin minimal hairline
                 if (l.weight >= 3) {
                     ctx.strokeStyle = 'rgba(239, 68, 68, 0.20)';
                 } else if (l.weight >= 2) {
                     ctx.strokeStyle = 'rgba(245, 158, 11, 0.14)';
                 } else {
-                    ctx.strokeStyle = 'rgba(59, 130, 246, 0.06)';
+                    ctx.strokeStyle = 'rgba(59, 130, 246, 0.07)';
                 }
                 ctx.stroke();
             }
         });
 
-        // 3. Draw Clean Orbital Nodes
+        // 3. Draw Clean Circular Nodes
         nodes.forEach(n => {
             const isHovered = isHoverActive && hoveredNode.id === n.id;
             const isNeighbor = activeNeighbors && activeNeighbors.has(n.id);
@@ -807,7 +807,7 @@ function drawNetworkGraph(canvas, networkData) {
 
             ctx.save();
             if (isDimmed) {
-                ctx.globalAlpha = 0.20;
+                ctx.globalAlpha = 0.12;
             } else {
                 ctx.globalAlpha = 1.0;
             }
@@ -830,7 +830,7 @@ function drawNetworkGraph(canvas, networkData) {
             ctx.stroke();
             ctx.shadowBlur = 0;
 
-            // 4. Radial Outward Label Alignment
+            // Radial Outward Label Alignment (Never Overlaps!)
             const cosA = Math.cos(n.angle);
             const sinA = Math.sin(n.angle);
             const labelOffset = curRadius + 7;
@@ -853,7 +853,7 @@ function drawNetworkGraph(canvas, networkData) {
             ctx.restore();
         });
 
-        // 5. Sleek Minimalist Center HUD on Hover
+        // 4. Center HUD on Hover
         if (hoveredNode) {
             const peers = activeLinks
                 .filter(l => l.source === hoveredNode.id || l.target === hoveredNode.id)
@@ -863,12 +863,12 @@ function drawNetworkGraph(canvas, networkData) {
                 })
                 .sort((a, b) => b.weight - a.weight);
 
-            const cardW = 220;
+            const cardW = 230;
             const cardH = 82;
             const hx = cx - cardW / 2;
             const hy = cy - cardH / 2;
 
-            // Frosted Center HUD
+            // Frosted Center HUD Card
             ctx.fillStyle = 'rgba(15, 23, 42, 0.94)';
             ctx.strokeStyle = 'rgba(56, 189, 248, 0.4)';
             ctx.lineWidth = 1;
@@ -896,6 +896,7 @@ function drawNetworkGraph(canvas, networkData) {
         }
     }
 
+    // Initial render
     render();
 
     function getMousePos(evt) {
@@ -910,23 +911,29 @@ function drawNetworkGraph(canvas, networkData) {
         return nodes.find(n => {
             const dx = n.x - pos.x;
             const dy = n.y - pos.y;
-            return Math.sqrt(dx * dx + dy * dy) <= (n.dotRadius + 9);
+            // Also check hit radius including outward label area
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            return dist <= (n.dotRadius + 12);
         });
     }
 
-    // Fast Responsive Hover & Click
+    // Fast Event-driven Hover
     canvas.onmousemove = (e) => {
         const pos = getMousePos(e);
         const prev = hoveredNode;
         hoveredNode = findNodeAt(pos);
         if (prev !== hoveredNode) {
             canvas.style.cursor = hoveredNode ? 'pointer' : 'default';
+            render(); // Fast re-render only when hover state changes!
         }
     };
 
     canvas.onmouseleave = () => {
-        hoveredNode = null;
-        canvas.style.cursor = 'default';
+        if (hoveredNode !== null) {
+            hoveredNode = null;
+            canvas.style.cursor = 'default';
+            render();
+        }
     };
 
     canvas.onclick = (e) => {
