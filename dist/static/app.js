@@ -601,39 +601,54 @@ function renderHeatmap(cells) {
     if (!container) return;
 
     const dayNames = ["Pzt", "Sal", "Çar", "Per", "Cum", "Cmt", "Paz"];
-    const hours = Array.from({ length: 24 }, (_, i) => `${i}:00`);
+    const hours = Array.from({ length: 24 }, (_, i) => String(i).padStart(2, '0'));
 
     let maxVal = Math.max(...cells.map(c => c.count), 1);
 
     let html = `
-        <div class="min-w-[600px] grid grid-cols-25 gap-1 text-[10px]">
-            <div class="col-span-1"></div>
-            ${hours.map(h => `<div class="text-center text-slate-500 font-mono">${h}</div>`).join('')}
+        <div class="heatmap-wrapper">
+            <div class="heatmap-grid text-[10px]">
+                <!-- Top-Left Corner Header -->
+                <div class="text-[10px] text-slate-500 font-bold uppercase tracking-wider text-center">Gün</div>
+                
+                <!-- 24 Hour Column Headers -->
+                ${hours.map(h => `
+                    <div class="text-center text-slate-400 font-mono text-[10px] py-1 select-none font-semibold">${h}</div>
+                `).join('')}
     `;
 
     for (let d = 0; d < 7; d++) {
-        html += `<div class="font-bold text-slate-400 py-1">${dayNames[d]}</div>`;
+        html += `
+            <div class="font-bold text-slate-300 font-mono text-[11px] py-1 text-center bg-dark-900/80 rounded border border-white/5 select-none">
+                ${dayNames[d]}
+            </div>
+        `;
+
         for (let h = 0; h < 24; h++) {
             const cell = cells.find(c => c.day_index === d && c.hour === h) || { count: 0 };
             const intensity = cell.count / maxVal;
             
-            let bg = 'bg-slate-800/40';
+            let bg = 'bg-slate-900/60 text-slate-600';
             if (cell.count > 0) {
-                if (intensity > 0.75) bg = 'bg-red-500 shadow-sm shadow-red-500/50';
-                else if (intensity > 0.5) bg = 'bg-purple-600';
-                else if (intensity > 0.25) bg = 'bg-indigo-600';
-                else bg = 'bg-blue-900/80';
+                if (intensity >= 0.75) bg = 'bg-red-500 text-white font-bold shadow-md shadow-red-500/30';
+                else if (intensity >= 0.50) bg = 'bg-purple-600 text-white font-semibold shadow-sm shadow-purple-600/20';
+                else if (intensity >= 0.25) bg = 'bg-indigo-600 text-white font-medium';
+                else bg = 'bg-blue-900/90 text-blue-200 font-medium';
             }
 
             html += `
-                <div class="heatmap-cell ${bg} flex items-center justify-center text-[9px] font-mono text-white/90 cursor-pointer" title="${dayNames[d]} ${h}:00 - ${cell.count} Entry">
+                <div class="heatmap-cell ${bg} flex items-center justify-center text-[10px] font-mono select-none cursor-pointer" 
+                     title="${dayNames[d]} ${String(h).padStart(2, '0')}:00 - Toplam ${cell.count} Entry">
                     ${cell.count > 0 ? cell.count : ''}
                 </div>
             `;
         }
     }
 
-    html += `</div>`;
+    html += `
+            </div>
+        </div>
+    `;
     container.innerHTML = html;
 }
 
