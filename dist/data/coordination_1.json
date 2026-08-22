@@ -61,22 +61,14 @@
     "links": [
       {
         "source": "enturi",
-        "target": "timurun fillerinin bakicisi",
+        "target": "georgewalker",
         "weight": 1,
         "topics": [
           "ankara'da alman kurdundan kaçarken ölen çocuk"
         ]
       },
       {
-        "source": "david ellefson",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
-        ]
-      },
-      {
-        "source": "georgewalker",
+        "source": "enturi",
         "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
@@ -92,8 +84,8 @@
         ]
       },
       {
-        "source": "enturi",
-        "target": "georgewalker",
+        "source": "georgewalker",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "ankara'da alman kurdundan kaçarken ölen çocuk"
@@ -102,6 +94,14 @@
       {
         "source": "david ellefson",
         "target": "georgewalker",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
+        "source": "david ellefson",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "ankara'da alman kurdundan kaçarken ölen çocuk"
@@ -118,7 +118,7 @@
       },
       {
         "source": "becathlon",
-        "target": "timurun fillerinin bakicisi",
+        "target": "bozaj",
         "weight": 2,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın",
@@ -127,7 +127,7 @@
       },
       {
         "source": "becathlon",
-        "target": "bozaj",
+        "target": "timurun fillerinin bakicisi",
         "weight": 2,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın",

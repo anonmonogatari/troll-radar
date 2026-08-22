@@ -1,0 +1,194 @@
+{
+  "total_evaluated": 8,
+  "high_confidence_trolls": 1,
+  "cells": [
+    {
+      "cell_name": "Kültür Savaşı & Yaşam Tarzı",
+      "member_count": 3,
+      "average_troll_score": 67.0,
+      "members": [
+        "timurun fillerinin bakicisi",
+        "bozaj",
+        "becathlon"
+      ],
+      "top_evidence_topics": [
+        "ankara'da alman kurdundan kaçarken ölen çocuk",
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "cell_name": "Genel Algı Hücresi",
+      "member_count": 3,
+      "average_troll_score": 62.5,
+      "members": [
+        "david ellefson",
+        "enturi",
+        "georgewalker"
+      ],
+      "top_evidence_topics": [
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "nick": "timurun fillerinin bakicisi",
+      "troll_score": 76.0,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 6,
+      "metrics": {
+        "topic_entropy": 1.58,
+        "topic_entropy_score": 63.9,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 100.0
+      },
+      "evidence_topics": [
+        "ankara'da alman kurdundan kaçarken ölen çocuk",
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "nick": "david ellefson",
+      "troll_score": 62.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Genel Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
+      ]
+    },
+    {
+      "nick": "enturi",
+      "troll_score": 62.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Genel Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
+      ]
+    },
+    {
+      "nick": "georgewalker",
+      "troll_score": 62.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Genel Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
+      ]
+    },
+    {
+      "nick": "bozaj",
+      "troll_score": 62.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 2,
+      "metrics": {
+        "topic_entropy": 1.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "nick": "becathlon",
+      "troll_score": 62.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 2,
+      "metrics": {
+        "topic_entropy": 1.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "nick": "1xw",
+      "troll_score": 47.5,
+      "risk_level": "Şüpheli / Polarize Hesap",
+      "badge_color": "yellow",
+      "detected_cell": "Ekonomi Savunması & Aklama",
+      "entry_count": 2,
+      "metrics": {
+        "topic_entropy": 1.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 50.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "nick": "948",
+      "troll_score": 47.5,
+      "risk_level": "Şüpheli / Polarize Hesap",
+      "badge_color": "yellow",
+      "detected_cell": "Ekonomi Savunması & Aklama",
+      "entry_count": 2,
+      "metrics": {
+        "topic_entropy": 1.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 50.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    }
+  ]
+}

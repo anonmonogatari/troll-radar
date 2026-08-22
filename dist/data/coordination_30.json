@@ -193,30 +193,6 @@
     ],
     "links": [
       {
-        "source": "miamix",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
-        ]
-      },
-      {
-        "source": "medyumay",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
-        ]
-      },
-      {
-        "source": "madanin",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
-        ]
-      },
-      {
         "source": "medyumay",
         "target": "miamix",
         "weight": 1,
@@ -225,8 +201,8 @@
         ]
       },
       {
-        "source": "madanin",
-        "target": "miamix",
+        "source": "medyumay",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
@@ -241,23 +217,39 @@
         ]
       },
       {
+        "source": "miamix",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+        ]
+      },
+      {
+        "source": "madanin",
+        "target": "miamix",
+        "weight": 1,
+        "topics": [
+          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+        ]
+      },
+      {
+        "source": "madanin",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+        ]
+      },
+      {
         "source": "enturi",
-        "target": "timurun fillerinin bakicisi",
+        "target": "georgewalker",
         "weight": 1,
         "topics": [
           "ankara'da alman kurdundan kaçarken ölen çocuk"
         ]
       },
       {
-        "source": "david ellefson",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
-        ]
-      },
-      {
-        "source": "georgewalker",
+        "source": "enturi",
         "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
@@ -273,8 +265,8 @@
         ]
       },
       {
-        "source": "enturi",
-        "target": "georgewalker",
+        "source": "georgewalker",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "ankara'da alman kurdundan kaçarken ölen çocuk"
@@ -289,43 +281,11 @@
         ]
       },
       {
-        "source": "hackerbey",
-        "target": "ingiliz dili ve edebiyati",
+        "source": "david ellefson",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "hirvatistanli",
-        "target": "ingiliz dili ve edebiyati",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "ingiliz dili ve edebiyati",
-        "target": "kafadanilo",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "ingiliz dili ve edebiyati",
-        "target": "jimmymartin",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "ingiliz dili ve edebiyati",
-        "target": "kecuva",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
         ]
       },
       {
@@ -338,7 +298,7 @@
       },
       {
         "source": "hackerbey",
-        "target": "kafadanilo",
+        "target": "ingiliz dili ve edebiyati",
         "weight": 1,
         "topics": [
           "chp'li belediyelerin fahiş konser harcamaları"
@@ -361,8 +321,16 @@
         ]
       },
       {
-        "source": "hirvatistanli",
+        "source": "hackerbey",
         "target": "kafadanilo",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hirvatistanli",
+        "target": "ingiliz dili ve edebiyati",
         "weight": 1,
         "topics": [
           "chp'li belediyelerin fahiş konser harcamaları"
@@ -378,6 +346,46 @@
       },
       {
         "source": "hirvatistanli",
+        "target": "kecuva",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hirvatistanli",
+        "target": "kafadanilo",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "ingiliz dili ve edebiyati",
+        "target": "jimmymartin",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "ingiliz dili ve edebiyati",
+        "target": "kecuva",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "ingiliz dili ve edebiyati",
+        "target": "kafadanilo",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "jimmymartin",
         "target": "kecuva",
         "weight": 1,
         "topics": [
@@ -401,14 +409,6 @@
         ]
       },
       {
-        "source": "jimmymartin",
-        "target": "kecuva",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
         "source": "dijitalkitap",
         "target": "reactionshot",
         "weight": 1,
@@ -417,8 +417,24 @@
         ]
       },
       {
-        "source": "parantezicindekiadam",
-        "target": "reactionshot",
+        "source": "dijitalkitap",
+        "target": "playerman",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "dijitalkitap",
+        "target": "szw",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "dijitalkitap",
+        "target": "parantezicindekiadam",
         "weight": 1,
         "topics": [
           "ekrem imamoğlu'nun roma gezisi faturası"
@@ -441,40 +457,8 @@
         ]
       },
       {
-        "source": "dijitalkitap",
-        "target": "parantezicindekiadam",
-        "weight": 1,
-        "topics": [
-          "ekrem imamoğlu'nun roma gezisi faturası"
-        ]
-      },
-      {
-        "source": "dijitalkitap",
-        "target": "playerman",
-        "weight": 1,
-        "topics": [
-          "ekrem imamoğlu'nun roma gezisi faturası"
-        ]
-      },
-      {
-        "source": "dijitalkitap",
-        "target": "szw",
-        "weight": 1,
-        "topics": [
-          "ekrem imamoğlu'nun roma gezisi faturası"
-        ]
-      },
-      {
         "source": "parantezicindekiadam",
-        "target": "playerman",
-        "weight": 1,
-        "topics": [
-          "ekrem imamoğlu'nun roma gezisi faturası"
-        ]
-      },
-      {
-        "source": "parantezicindekiadam",
-        "target": "szw",
+        "target": "reactionshot",
         "weight": 1,
         "topics": [
           "ekrem imamoğlu'nun roma gezisi faturası"
@@ -482,6 +466,22 @@
       },
       {
         "source": "playerman",
+        "target": "szw",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "parantezicindekiadam",
+        "target": "playerman",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "parantezicindekiadam",
         "target": "szw",
         "weight": 1,
         "topics": [
@@ -499,7 +499,7 @@
       },
       {
         "source": "becathlon",
-        "target": "timurun fillerinin bakicisi",
+        "target": "bozaj",
         "weight": 2,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın",
@@ -508,7 +508,7 @@
       },
       {
         "source": "becathlon",
-        "target": "bozaj",
+        "target": "timurun fillerinin bakicisi",
         "weight": 2,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın",
@@ -524,7 +524,7 @@
         ]
       },
       {
-        "source": "lacivertnokta",
+        "source": "localtime",
         "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
@@ -533,7 +533,15 @@
       },
       {
         "source": "localtime",
-        "target": "timurun fillerinin bakicisi",
+        "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        ]
+      },
+      {
+        "source": "lacivertnokta",
+        "target": "localtime",
         "weight": 1,
         "topics": [
           "soylu'nun yeğeniyim diyen kadının terör estirmesi"
@@ -549,7 +557,7 @@
       },
       {
         "source": "lacivertnokta",
-        "target": "localtime",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "soylu'nun yeğeniyim diyen kadının terör estirmesi"
@@ -564,11 +572,11 @@
         ]
       },
       {
-        "source": "localtime",
-        "target": "londrast",
+        "source": "funkycrow",
+        "target": "georgewalker",
         "weight": 1,
         "topics": [
-          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+          "türkiye'nin brics üyeliği ve batı'nın paniği"
         ]
       },
       {
@@ -582,14 +590,6 @@
       {
         "source": "georgewalker",
         "target": "givles",
-        "weight": 1,
-        "topics": [
-          "türkiye'nin brics üyeliği ve batı'nın paniği"
-        ]
-      },
-      {
-        "source": "funkycrow",
-        "target": "georgewalker",
         "weight": 1,
         "topics": [
           "türkiye'nin brics üyeliği ve batı'nın paniği"

@@ -58,6 +58,18 @@ def export_static_site(output_dir: str = "dist"):
         with open(data_out_path / f"heatmap_{days}.json", "w", encoding="utf-8") as f:
             json.dump({"heatmap": heatmap}, f, ensure_ascii=False, indent=2)
 
+        from discovery_engine import TrollDiscoveryEngine
+        disc_engine = TrollDiscoveryEngine()
+        evaluations = disc_engine.run_auto_discovery_scan(days=days)
+        cells = disc_engine.cluster_troll_cells(evaluations)
+        with open(data_out_path / f"discovery_{days}.json", "w", encoding="utf-8") as f:
+            json.dump({
+                "total_evaluated": len(evaluations),
+                "high_confidence_trolls": len([e for e in evaluations if e['troll_score'] >= 70]),
+                "cells": cells,
+                "candidates": evaluations
+            }, f, ensure_ascii=False, indent=2)
+
         keywords = extract_top_keywords(days=days, top_n=30)
         with open(data_out_path / f"keywords_{days}.json", "w", encoding="utf-8") as f:
             json.dump({"keywords": keywords}, f, ensure_ascii=False, indent=2)

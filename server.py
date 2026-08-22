@@ -132,6 +132,39 @@ def get_keywords(days: int = 7, limit: int = 30):
     """Returns top keywords across entries."""
     return {"keywords": extract_top_keywords(days=days, top_n=limit)}
 
+# ----------------- AUTO DISCOVERY ENDPOINTS ----------------- #
+
+@app.get("/api/discovery/candidates")
+def get_discovery_candidates(days: int = 30):
+    """Returns auto-evaluated authors with detailed multi-dimensional radar scores."""
+    from discovery_engine import TrollDiscoveryEngine
+    engine = TrollDiscoveryEngine()
+    evaluations = engine.run_auto_discovery_scan(days=days)
+    cells = engine.cluster_troll_cells(evaluations)
+    
+    return {
+        "total_evaluated": len(evaluations),
+        "high_confidence_trolls": len([e for e in evaluations if e['troll_score'] >= 70]),
+        "cells": cells,
+        "candidates": evaluations
+    }
+
+@app.post("/api/discovery/scan")
+def trigger_discovery_scan(days: int = 30):
+    """Triggers complete auto-discovery and scoring run."""
+    from discovery_engine import TrollDiscoveryEngine
+    engine = TrollDiscoveryEngine()
+    evaluations = engine.run_auto_discovery_scan(days=days)
+    cells = engine.cluster_troll_cells(evaluations)
+    return {"status": "success", "evaluated_count": len(evaluations), "cells_count": len(cells)}
+
+@app.post("/api/discovery/promote/{nick}")
+def promote_author_to_watchlist(nick: str):
+    """Promotes an auto-discovered troll into the primary watchlist."""
+    from database import promote_discovered_troll
+    success = promote_discovered_troll(nick)
+    return {"status": "success" if success else "failed", "nick": nick}
+
 # ----------------- BACKGROUND SCRAPING ----------------- #
 
 def background_scraper_task(job_id: str, authors: List[str], days: int, domain: Optional[str]):

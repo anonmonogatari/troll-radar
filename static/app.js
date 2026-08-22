@@ -54,6 +54,7 @@ async function initApp() {
     await loadOverviewStats();
     await loadNarrativeBriefing();
     await loadAuthors();
+    loadDiscovery();
     loadAnalytics();
     loadNetwork();
     loadEntries();
@@ -70,7 +71,7 @@ function switchTab(tabId) {
     if (activeBtn) activeBtn.classList.add('active');
 
     // Show / Hide Views
-    ['briefing', 'analytics', 'network', 'authors', 'entries'].forEach(v => {
+    ['briefing', 'discovery', 'analytics', 'network', 'authors', 'entries'].forEach(v => {
         const el = document.getElementById(`view-${v}`);
         if (el) {
             if (v === tabId) {
@@ -81,7 +82,9 @@ function switchTab(tabId) {
         }
     });
 
-    if (tabId === 'analytics') {
+    if (tabId === 'discovery') {
+        loadDiscovery();
+    } else if (tabId === 'analytics') {
         loadAnalytics();
     } else if (tabId === 'network') {
         loadNetwork();
@@ -138,6 +141,158 @@ async function loadOverviewStats() {
         return data;
     } catch (err) {
         console.error("Failed to load overview stats:", err);
+    }
+}
+
+// ----------------- TAB 0: AUTOMATED DISCOVERY & SCORING ----------------- //
+
+async function loadDiscovery() {
+    try {
+        const data = await fetchApi(`/api/discovery/candidates?days=${currentDays}`, `./data/discovery_${currentDays}.json`);
+        renderDiscoveryCells(data.cells || []);
+        renderDiscoveryCandidates(data.candidates || []);
+    } catch (err) {
+        console.error("Failed to load discovery data:", err);
+    }
+}
+
+function renderDiscoveryCells(cells) {
+    const grid = document.getElementById('discovery-cells-grid');
+    if (!grid) return;
+
+    if (cells.length === 0) {
+        grid.innerHTML = `<p class="text-xs text-slate-500">Henüz belirgin bir troll hücresi ayrışmadı.</p>`;
+        return;
+    }
+
+    grid.innerHTML = cells.map(c => `
+        <div class="bg-dark-900/80 border border-purple-500/20 rounded-xl p-4 space-y-3 hover:border-purple-500/40 transition-all">
+            <div class="flex items-start justify-between">
+                <div>
+                    <span class="text-[10px] uppercase font-bold text-purple-400 tracking-wider">Hücre Grubu</span>
+                    <h4 class="text-sm font-bold text-white">${escapeHtml(c.cell_name)}</h4>
+                </div>
+                <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-purple-500/20 text-purple-300 border border-purple-500/30 font-mono">
+                    Ort. ${c.average_troll_score}%
+                </span>
+            </div>
+
+            <div class="text-xs text-slate-300">
+                <span class="text-[11px] text-slate-400 block mb-1">Dahil Olan Hesaplar (${c.member_count}):</span>
+                <div class="flex flex-wrap gap-1">
+                    ${c.members.map(m => `
+                        <button onclick="openAuthorModal('${escapeHtml(m)}')" class="px-2 py-0.5 bg-dark-800 border border-white/5 rounded text-[10px] text-purple-300 hover:text-white font-mono">
+                            @${escapeHtml(m)}
+                        </button>
+                    `).join('')}
+                </div>
+            </div>
+
+            <div class="border-t border-white/5 pt-2 text-[11px] text-slate-400">
+                <span class="block text-[10px] text-slate-500">Hedef Başlıklar:</span>
+                <p class="truncate text-slate-300 mt-0.5">${c.top_evidence_topics.slice(0, 2).map(t => '#' + escapeHtml(t)).join(', ')}</p>
+            </div>
+        </div>
+    `).join('');
+
+    lucide.createIcons();
+}
+
+function renderDiscoveryCandidates(candidates) {
+    const tbody = document.getElementById('discovery-candidates-tbody');
+    if (!tbody) return;
+
+    if (candidates.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="8" class="text-center py-6 text-slate-500">Aday hesap bulunamadı.</td></tr>`;
+        return;
+    }
+
+    tbody.innerHTML = candidates.map(c => {
+        const score = c.troll_score || 0;
+        let barColor = 'bg-emerald-500';
+        let badgeBg = 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30';
+        
+        if (score >= 80) {
+            barColor = 'bg-red-500';
+            badgeBg = 'bg-red-500/20 text-red-400 border-red-500/30';
+        } else if (score >= 60) {
+            barColor = 'bg-orange-500';
+            badgeBg = 'bg-orange-500/20 text-orange-400 border-orange-500/30';
+        } else if (score >= 40) {
+            barColor = 'bg-yellow-500';
+            badgeBg = 'bg-yellow-500/20 text-yellow-300 border-yellow-500/30';
+        }
+
+        const m = c.metrics || {};
+
+        return `
+            <tr class="hover:bg-white/[0.02] transition-colors">
+                <td class="py-3 px-3">
+                    <button onclick="openAuthorModal('${escapeHtml(c.nick)}')" class="font-bold text-white hover:text-blue-400 font-mono flex items-center gap-1.5">
+                        <i data-lucide="user" class="w-3.5 h-3.5 text-slate-400"></i>
+                        <span>@${escapeHtml(c.nick)}</span>
+                    </button>
+                </td>
+                <td class="py-3 px-3">
+                    <div class="flex items-center gap-2">
+                        <div class="w-16 bg-dark-900 rounded-full h-1.5 overflow-hidden border border-white/5">
+                            <div class="${barColor} h-1.5 rounded-full" style="width: ${score}%"></div>
+                        </div>
+                        <span class="font-bold font-mono text-white text-[11px]">${score}%</span>
+                    </div>
+                    <span class="text-[9px] px-1.5 py-0.5 rounded border ${badgeBg} inline-block mt-1 font-semibold">
+                        ${escapeHtml(c.risk_level)}
+                    </span>
+                </td>
+                <td class="py-3 px-3 text-slate-300">
+                    <span class="px-2 py-0.5 bg-purple-500/10 text-purple-300 border border-purple-500/20 rounded text-[10px] font-semibold">
+                        ${escapeHtml(c.detected_cell)}
+                    </span>
+                </td>
+                <td class="py-3 px-3 font-mono text-slate-300 font-semibold">
+                    ${m.synchronicity_score || 0}%
+                </td>
+                <td class="py-3 px-3 font-mono text-slate-300">
+                    <span title="Düşük olması troll eğilimini gösterir">${m.topic_entropy || 0} H(x)</span>
+                </td>
+                <td class="py-3 px-3 font-mono text-slate-300">
+                    ${m.political_ratio || 0}%
+                </td>
+                <td class="py-3 px-3 font-mono text-slate-300">
+                    ${m.shift_regularity || 0}%
+                </td>
+                <td class="py-3 px-3 text-right">
+                    <button onclick="promoteCandidate('${escapeHtml(c.nick)}')" class="px-2.5 py-1 bg-dark-900 hover:bg-dark-700 border border-white/10 text-blue-400 hover:text-white rounded text-[10px] font-semibold transition-all">
+                        + İzlemeye Al
+                    </button>
+                </td>
+            </tr>
+        `;
+    }).join('');
+
+    lucide.createIcons();
+}
+
+async function triggerDiscoveryScan() {
+    try {
+        await fetch(`/api/discovery/scan?days=${currentDays}`, { method: 'POST' });
+        await loadDiscovery();
+    } catch (e) {
+        console.error("Scan error:", e);
+    }
+}
+
+async function promoteCandidate(nick) {
+    try {
+        const res = await fetch(`/api/discovery/promote/${encodeURIComponent(nick)}`, { method: 'POST' });
+        const data = await res.json();
+        if (data.status === 'success') {
+            alert(`@${nick} başarıyla ana izleme listesine eklendi!`);
+            loadAuthors();
+            loadDiscovery();
+        }
+    } catch (e) {
+        console.error("Promote error:", e);
     }
 }
 

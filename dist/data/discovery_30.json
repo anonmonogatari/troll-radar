@@ -1,0 +1,607 @@
+{
+  "total_evaluated": 27,
+  "high_confidence_trolls": 17,
+  "cells": [
+    {
+      "cell_name": "Muhalefet & Belediye Karalama",
+      "member_count": 11,
+      "average_troll_score": 77.5,
+      "members": [
+        "parantezicindekiadam",
+        "playerman",
+        "reactionshot",
+        "szw",
+        "dijitalkitap",
+        "hackerbey",
+        "hirvatistanli",
+        "ingiliz dili ve edebiyati",
+        "jimmymartin",
+        "kafadanilo",
+        "kecuva"
+      ],
+      "top_evidence_topics": [
+        "ekrem imamoğlu'nun roma gezisi faturası",
+        "chp'li belediyelerin fahiş konser harcamaları"
+      ]
+    },
+    {
+      "cell_name": "Yargı, Güvenlik & Hamaset",
+      "member_count": 6,
+      "average_troll_score": 70.0,
+      "members": [
+        "madanin",
+        "medyumay",
+        "miamix",
+        "lacivertnokta",
+        "localtime",
+        "londrast"
+      ],
+      "top_evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+      ]
+    },
+    {
+      "cell_name": "Dış Politika & Jeopolitik Savunma",
+      "member_count": 3,
+      "average_troll_score": 75.0,
+      "members": [
+        "funkycrow",
+        "givles",
+        "georgewalker"
+      ],
+      "top_evidence_topics": [
+        "türkiye'nin brics üyeliği ve batı'nın paniği",
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
+      ]
+    },
+    {
+      "cell_name": "Genel Algı Hücresi",
+      "member_count": 2,
+      "average_troll_score": 62.5,
+      "members": [
+        "david ellefson",
+        "enturi"
+      ],
+      "top_evidence_topics": [
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
+      ]
+    },
+    {
+      "cell_name": "Kültür Savaşı & Yaşam Tarzı",
+      "member_count": 2,
+      "average_troll_score": 62.5,
+      "members": [
+        "bozaj",
+        "becathlon"
+      ],
+      "top_evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "nick": "funkycrow",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "türkiye'nin brics üyeliği ve batı'nın paniği"
+      ]
+    },
+    {
+      "nick": "givles",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "türkiye'nin brics üyeliği ve batı'nın paniği"
+      ]
+    },
+    {
+      "nick": "parantezicindekiadam",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "ekrem imamoğlu'nun roma gezisi faturası"
+      ]
+    },
+    {
+      "nick": "playerman",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "ekrem imamoğlu'nun roma gezisi faturası"
+      ]
+    },
+    {
+      "nick": "reactionshot",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "ekrem imamoğlu'nun roma gezisi faturası"
+      ]
+    },
+    {
+      "nick": "szw",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "ekrem imamoğlu'nun roma gezisi faturası"
+      ]
+    },
+    {
+      "nick": "dijitalkitap",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "ekrem imamoğlu'nun roma gezisi faturası"
+      ]
+    },
+    {
+      "nick": "madanin",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+      ]
+    },
+    {
+      "nick": "medyumay",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+      ]
+    },
+    {
+      "nick": "miamix",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+      ]
+    },
+    {
+      "nick": "hackerbey",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları"
+      ]
+    },
+    {
+      "nick": "hirvatistanli",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları"
+      ]
+    },
+    {
+      "nick": "ingiliz dili ve edebiyati",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları"
+      ]
+    },
+    {
+      "nick": "jimmymartin",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları"
+      ]
+    },
+    {
+      "nick": "kafadanilo",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları"
+      ]
+    },
+    {
+      "nick": "kecuva",
+      "troll_score": 77.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Muhalefet & Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 100.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları"
+      ]
+    },
+    {
+      "nick": "georgewalker",
+      "troll_score": 70.0,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 2,
+      "metrics": {
+        "topic_entropy": 1.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 50.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "türkiye'nin brics üyeliği ve batı'nın paniği",
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
+      ]
+    },
+    {
+      "nick": "lacivertnokta",
+      "troll_score": 62.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+      ]
+    },
+    {
+      "nick": "localtime",
+      "troll_score": 62.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+      ]
+    },
+    {
+      "nick": "londrast",
+      "troll_score": 62.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+      ]
+    },
+    {
+      "nick": "david ellefson",
+      "troll_score": 62.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Genel Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
+      ]
+    },
+    {
+      "nick": "enturi",
+      "troll_score": 62.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Genel Algı Hücresi",
+      "entry_count": 1,
+      "metrics": {
+        "topic_entropy": 0.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
+      ]
+    },
+    {
+      "nick": "bozaj",
+      "troll_score": 62.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 2,
+      "metrics": {
+        "topic_entropy": 1.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "nick": "becathlon",
+      "troll_score": 62.5,
+      "risk_level": "Yüksek Olasılıklı Troll",
+      "badge_color": "orange",
+      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 2,
+      "metrics": {
+        "topic_entropy": 1.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 100.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "nick": "timurun fillerinin bakicisi",
+      "troll_score": 49.2,
+      "risk_level": "Şüpheli / Polarize Hesap",
+      "badge_color": "yellow",
+      "detected_cell": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 18,
+      "metrics": {
+        "topic_entropy": 3.61,
+        "topic_entropy_score": 0.0,
+        "synchronicity_score": 50.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 27.8,
+        "link_bias": 100.0
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "çocuğuna annen o... biliyor musun diyen baba",
+        "evde kedi istemeyen kocasını ifşalayan kadın"
+      ]
+    },
+    {
+      "nick": "1xw",
+      "troll_score": 47.5,
+      "risk_level": "Şüpheli / Polarize Hesap",
+      "badge_color": "yellow",
+      "detected_cell": "Ekonomi Savunması & Aklama",
+      "entry_count": 2,
+      "metrics": {
+        "topic_entropy": 1.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 50.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "nick": "948",
+      "troll_score": 47.5,
+      "risk_level": "Şüpheli / Polarize Hesap",
+      "badge_color": "yellow",
+      "detected_cell": "Ekonomi Savunması & Aklama",
+      "entry_count": 2,
+      "metrics": {
+        "topic_entropy": 1.0,
+        "topic_entropy_score": 50.0,
+        "synchronicity_score": 50.0,
+        "political_ratio": 100.0,
+        "shift_regularity": 0.0,
+        "link_bias": 0.0
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    }
+  ]
+}

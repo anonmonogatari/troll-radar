@@ -63,6 +63,25 @@ def init_db():
             )
         """)
 
+        # Discovered Trolls Table
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS discovered_trolls (
+                nick TEXT PRIMARY KEY,
+                troll_score REAL DEFAULT 0.0,
+                risk_level TEXT DEFAULT 'Normal',
+                detected_cell TEXT DEFAULT 'Genel',
+                topic_entropy REAL DEFAULT 0.0,
+                synchronicity_score REAL DEFAULT 0.0,
+                political_ratio REAL DEFAULT 0.0,
+                shift_regularity REAL DEFAULT 0.0,
+                link_bias REAL DEFAULT 0.0,
+                entry_count INTEGER DEFAULT 0,
+                evidence_topics TEXT DEFAULT '[]',
+                discovered_at TEXT,
+                is_monitored INTEGER DEFAULT 0
+            )
+        """)
+
         # Scrape Logs Table
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS scrape_jobs (
@@ -303,3 +322,35 @@ def get_overview_stats(days: int = 7) -> Dict[str, Any]:
         "categories": categories,
         "timeline": timeline
     }
+
+def get_discovered_trolls_summary() -> List[Dict[str, Any]]:
+    """Retrieves all auto-discovered trolls from SQLite."""
+    with get_db() as conn:
+        cursor = conn.cursor()
+        rows = cursor.execute("""
+            SELECT * FROM discovered_trolls
+            ORDER BY troll_score DESC
+        """).fetchall()
+        
+        results = []
+        for r in rows:
+            d = dict(r)
+            try:
+                d['evidence_topics'] = json.loads(d.get('evidence_topics', '[]'))
+            except Exception:
+                d['evidence_topics'] = []
+            results.append(d)
+        return results
+
+def promote_discovered_troll(nick: str) -> bool:
+    """Adds a discovered troll to the actively monitored authors table."""
+    with get_db() as conn:
+        cursor = conn.cursor()
+        cursor.execute("""
+            INSERT INTO authors (nick, display_name, is_active)
+            VALUES (?, ?, 1)
+            ON CONFLICT(nick) DO UPDATE SET is_active = 1
+        """, (nick, nick))
+        cursor.execute("UPDATE discovered_trolls SET is_monitored = 1 WHERE nick = ?", (nick,))
+        conn.commit()
+        return True
