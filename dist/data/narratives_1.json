@@ -12,8 +12,8 @@
       "last_seen": "2026-08-22T22:16:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 26 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "nane kokusu",
         "givles",
+        "nane kokusu",
         "timurun fillerinin bakicisi",
         "bozaj"
       ],
@@ -130,9 +130,9 @@
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
         "givles",
+        "becathlon",
         "timurun fillerinin bakicisi",
-        "bozaj",
-        "becathlon"
+        "bozaj"
       ],
       "sample_entries": [
         {
@@ -188,11 +188,11 @@
       "last_seen": "2026-08-22T20:41:00",
       "summary": "Pahalılık/turist/esnaf algısını çarpıtma ve ekonomik tepkileri hafifletme amacıyla 10 hesap tarafından organize paylaşıldı.",
       "authors": [
-        "rootifera",
-        "monofobik",
-        "ondortelliuc",
         "7714714",
-        "mertolyon"
+        "ondortelliuc",
+        "mertolyon",
+        "monofobik",
+        "rootifera"
       ],
       "sample_entries": [
         {
@@ -248,11 +248,11 @@
       "last_seen": "2026-08-22T11:44:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 10 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
+        "neutral true",
         "cunoesse vittulainen",
         "charango",
         "debe okurum",
-        "x4",
-        "neutral true"
+        "x4"
       ],
       "sample_entries": [
         {
@@ -308,10 +308,10 @@
       "last_seen": "2026-08-22T21:27:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
+        "kedisininyumagi",
         "odoriko",
         "lmrvnx",
         "delikanlininja",
-        "kedisininyumagi",
         "edward leon"
       ],
       "sample_entries": [
@@ -370,8 +370,8 @@
       "authors": [
         "to vbe or not to vbe",
         "debe okurum",
-        "yesindeed",
         "hilmi bunu begendi",
+        "yesindeed",
         "hard disk gibi adam"
       ],
       "sample_entries": [
@@ -418,66 +418,6 @@
       ]
     },
     {
-      "topic": "birini sevmekten vazgeçmek",
-      "category": "Muhalefet & Belediye Karalama",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 10,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T02:11:00",
-      "last_seen": "2026-08-22T22:31:00",
-      "summary": "Muhalefet partileri ve belediyeleri hedef alan organize dezenformasyon/eleştiri dalgası.",
-      "authors": [
-        "bunutartisabiliriz",
-        "keremtunaa",
-        "kill me back",
-        "apollondafni",
-        "to vbe or not to vbe"
-      ],
-      "sample_entries": [
-        {
-          "author": "apollondafni",
-          "content": "bazen sağlığınız için alacağınız en doğru karardır: mesela kahveyi sevmeyi bıraksam içmeyeceğim, böylece şu anda olduğu gibi midem - sanki ölecekmişim gibi - ağrımayacak.kahveden sadece vazgeçmeyi değil, tiksinmeyi diliyorum.* uzun lafın kısası birini veya bir şeyi sevmekten vazgeçmek kimi zaman hayal ettiğinizden bile daha iyidir.",
-          "date_str": "22.08.2026 02:11",
-          "created_at": "2026-08-22T02:11:00",
-          "is_coordinated": 1,
-          "id": "185829508"
-        },
-        {
-          "author": "kill me back",
-          "content": "youtube",
-          "date_str": "22.08.2026 03:25",
-          "created_at": "2026-08-22T03:25:00",
-          "is_coordinated": 1,
-          "id": "185830230"
-        },
-        {
-          "author": "keremtunaa",
-          "content": "birine dağ olursunuz ama o size kar bile olamaz. birine yar olursunuz o size yar olmaktan imtina eder. bir çok yanlışını affeder, çocukça yönlerine sabredersiniz. 100 hatasını affedersiniz, o sizi yargılamak için tek bir hatanızı bekler. siz meraktan ölürsünüz, yazı nasıl geçti, kışı nasıl geçti, gittiği yerde iyi mi diye dert edersiniz. o başınıza en ufak bir musibet gelip düşmenizi bekler. böyle birisi sevilmez arkadaşlar. sevmek, iyi olma halini isteme ve sürekli merakta kalmaktır. bunlar yoksa sevgi yoktur. vazgeçeceksiniz. o çoktan vazgeçmiş size ne oluyor?",
-          "date_str": "22.08.2026 05:12",
-          "created_at": "2026-08-22T05:12:00",
-          "is_coordinated": 1,
-          "id": "185830764"
-        },
-        {
-          "author": "bunutartisabiliriz",
-          "content": "olur oyle, bir anda bazen, isiklarin sonmesi gibi...",
-          "date_str": "22.08.2026 13:28",
-          "created_at": "2026-08-22T13:28:00",
-          "is_coordinated": 1,
-          "id": "185835903"
-        },
-        {
-          "author": "to vbe or not to vbe",
-          "content": "“pes ettiğimden değil, olmayacağını gözüme soka soka gösterdiğin için vazgeçtim.”milena'ya mektuplar - *",
-          "date_str": "22.08.2026 13:50",
-          "created_at": "2026-08-22T13:50:00",
-          "is_coordinated": 1,
-          "id": "185836249"
-        }
-      ]
-    },
-    {
       "topic": "bu saatte hala uyumama sebebi",
       "category": "Suni Gündem & Viral Çarpıtma",
       "entry_count": 10,
@@ -488,10 +428,10 @@
       "last_seen": "2026-08-22T03:28:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "augusto pinochet",
-        "heterodokss",
         "belgium in the rainn",
         "notthatsimplee",
+        "heterodokss",
+        "augusto pinochet",
         "kendinegelotuzsundediler"
       ],
       "sample_entries": [
@@ -548,11 +488,11 @@
       "last_seen": "2026-08-22T22:25:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
+        "lonely tree",
         "slowrocker",
         "ckmltyf",
         "screenknife",
-        "niltt",
-        "lonely tree"
+        "niltt"
       ],
       "sample_entries": [
         {
@@ -608,10 +548,10 @@
       "last_seen": "2026-08-22T12:54:00",
       "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
       "authors": [
-        "burunsuz pinok",
         "19o5",
         "ne rakisi sevim",
         "bilmemeninbilmisligi",
+        "burunsuz pinok",
         "raybanzib"
       ],
       "sample_entries": [
@@ -668,11 +608,11 @@
       "last_seen": "2026-08-22T17:23:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 10 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "supermike",
         "la columna rota",
         "melvinton",
-        "nahpeykerhapiyuttunnamussuzziver",
-        "eeee sonra"
+        "eeee sonra",
+        "supermike",
+        "nahpeykerhapiyuttunnamussuzziver"
       ],
       "sample_entries": [
         {
@@ -729,10 +669,10 @@
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
         "arzawa",
-        "acmemade",
+        "vladmicov",
         "materialsengineer",
-        "arsiz marketing",
-        "vladmicov"
+        "acmemade",
+        "arsiz marketing"
       ],
       "sample_entries": [
         {
@@ -788,11 +728,11 @@
       "last_seen": "2026-08-22T22:43:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "protego",
+        "entrollment",
+        "fyodorwell",
         "darwinisecdeyeyatiranadam",
         "kirkbirincikarakter",
-        "entrollment",
-        "fyodorwell"
+        "protego"
       ],
       "sample_entries": [
         {
@@ -848,11 +788,11 @@
       "last_seen": "2026-08-22T22:22:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "homoiskandinavus",
-        "crowded house",
         "cars",
+        "octopusss",
+        "homoiskandinavus",
         "the dark defender",
-        "octopusss"
+        "crowded house"
       ],
       "sample_entries": [
         {
@@ -894,6 +834,66 @@
           "created_at": "2026-08-22T22:08:00",
           "is_coordinated": 1,
           "id": "185844832"
+        }
+      ]
+    },
+    {
+      "topic": "sürekli kendine hatırlatmak zorunda olduğun o söz",
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "entry_count": 10,
+      "author_count": 10,
+      "coord_count": 10,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T20:51:00",
+      "last_seen": "2026-08-22T22:28:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "i have dreams",
+        "gandalfinasasi1",
+        "akademi maestro",
+        "kara vasif karakol cemiyeti",
+        "eternalfire"
+      ],
+      "sample_entries": [
+        {
+          "author": "akademi maestro",
+          "content": "kâbus da rüya da aynı; ikisi de geçiyor ömür gibi, vakit gibi.",
+          "date_str": "22.08.2026 20:51",
+          "created_at": "2026-08-22T20:51:00",
+          "is_coordinated": 1,
+          "id": "185842834"
+        },
+        {
+          "author": "eternalfire",
+          "content": "hiç kimsenin umurunda değilsin.",
+          "date_str": "22.08.2026 20:53",
+          "created_at": "2026-08-22T20:53:00",
+          "is_coordinated": 1,
+          "id": "185842867"
+        },
+        {
+          "author": "kara vasif karakol cemiyeti",
+          "content": "başkaları hakkında beylik laflar sarf etme...önce sen ahlaklı ve dürüst olmalısın, önce kendi içini arındırmalısın.",
+          "date_str": "22.08.2026 20:57",
+          "created_at": "2026-08-22T20:57:00",
+          "is_coordinated": 1,
+          "id": "185842956"
+        },
+        {
+          "author": "gandalfinasasi1",
+          "content": "deveye diken insana siken yaranır.atasözleri ciddi bir sosyolojik birikimin ürünüdür, aynı anda dünyanın tüm coğrafyalarında birbirinden bağımsız insanlar aynı fikre ve düşünceye olası ve sıradan insan davranışları sebebiyle aynı bakış açısıyla bakabilirler.işte bu da onlardan biridir.insan; nezaketli, ince düşünceli ve kibarsa işin sonunda muhakkak ki kaybediyor ve bu şaşmıyor arkadaşlar.kimse kimseyi kandırmasın, insan doğası s*kilme ve hırpalanmadan keyif alıyor.",
+          "date_str": "22.08.2026 20:57",
+          "created_at": "2026-08-22T20:57:00",
+          "is_coordinated": 1,
+          "id": "185842964"
+        },
+        {
+          "author": "i have dreams",
+          "content": "“görelim mevla neyler, neylerse güzel eyler.”",
+          "date_str": "22.08.2026 21:44",
+          "created_at": "2026-08-22T21:44:00",
+          "is_coordinated": 1,
+          "id": "185843881"
         }
       ]
     }

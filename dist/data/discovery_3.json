@@ -27,10 +27,10 @@
         "funkycrow"
       ],
       "top_evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
         "yabancı turistin türk esnafına isyan etmesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "chp'li belediyelerin fahiş konser harcamaları"
       ]
     },
     {
@@ -44,8 +44,8 @@
         "948"
       ],
       "top_evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
         "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ]
     },
@@ -58,8 +58,8 @@
         "medyumay"
       ],
       "top_evidence_topics": [
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "yabancı turistin türk esnafına isyan etmesi",
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ]
     }
@@ -80,8 +80,8 @@
         "stance_alignment": 40.0
       },
       "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
         "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
@@ -101,8 +101,8 @@
         "stance_alignment": 33.3
       },
       "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları",
         "yabancı turistin türk esnafına isyan etmesi",
+        "chp'li belediyelerin fahiş konser harcamaları",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
@@ -122,8 +122,8 @@
         "stance_alignment": 14.3
       },
       "evidence_topics": [
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "yabancı turistin türk esnafına isyan etmesi",
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
@@ -203,8 +203,8 @@
         "stance_alignment": 33.3
       },
       "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları",
         "yabancı turistin türk esnafına isyan etmesi",
+        "chp'li belediyelerin fahiş konser harcamaları",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
@@ -284,8 +284,8 @@
         "stance_alignment": 28.6
       },
       "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları",
         "yabancı turistin türk esnafına isyan etmesi",
+        "chp'li belediyelerin fahiş konser harcamaları",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
@@ -325,8 +325,8 @@
         "stance_alignment": 37.5
       },
       "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
         "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
@@ -386,8 +386,8 @@
         "stance_alignment": 14.3
       },
       "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları",
         "yabancı turistin türk esnafına isyan etmesi",
+        "chp'li belediyelerin fahiş konser harcamaları",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
@@ -407,8 +407,8 @@
         "stance_alignment": 14.3
       },
       "evidence_topics": [
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "yabancı turistin türk esnafına isyan etmesi",
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
@@ -448,8 +448,8 @@
         "stance_alignment": 20.0
       },
       "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları",
         "yabancı turistin türk esnafına isyan etmesi",
+        "chp'li belediyelerin fahiş konser harcamaları",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
@@ -469,8 +469,8 @@
         "stance_alignment": 14.3
       },
       "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları",
         "yabancı turistin türk esnafına isyan etmesi",
+        "chp'li belediyelerin fahiş konser harcamaları",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ],
       "is_monitored": true
@@ -706,8 +706,8 @@
         "stance_alignment": 0.0
       },
       "evidence_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "yabancı turistin türk esnafına isyan etmesi",
+        "ankara'da alman kurdundan kaçarken ölen çocuk"
       ],
       "is_monitored": true
     },

@@ -21,10 +21,6 @@
       "count": 35
     },
     {
-      "word": "değil",
-      "count": 34
-    },
-    {
       "word": "alman",
       "count": 33
     },
@@ -69,12 +65,12 @@
       "count": 30
     },
     {
-      "word": "ölen",
+      "word": "değil",
       "count": 29
     },
     {
-      "word": "iyi",
-      "count": 28
+      "word": "ölen",
+      "count": 29
     },
     {
       "word": "kurdundan",
@@ -85,12 +81,16 @@
       "count": 28
     },
     {
-      "word": "kadınların",
+      "word": "iyi",
       "count": 26
     },
     {
-      "word": "türkiye",
+      "word": "kadınların",
       "count": 25
+    },
+    {
+      "word": "türkiye",
+      "count": 23
     },
     {
       "word": "nasıl",
@@ -105,19 +105,19 @@
       "count": 23
     },
     {
-      "word": "erkek",
-      "count": 21
-    },
-    {
-      "word": "insan",
-      "count": 21
-    },
-    {
       "word": "arda",
       "count": 21
     },
     {
-      "word": "olur",
+      "word": "sizi",
+      "count": 20
+    },
+    {
+      "word": "hesap",
+      "count": 20
+    },
+    {
+      "word": "insan",
       "count": 20
     }
   ]

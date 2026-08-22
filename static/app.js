@@ -671,33 +671,6 @@ function renderKeywords(keywords) {
 
 // ----------------- TAB 3: NETWORK GRAPH (CLEAN CIRCULAR ORBITAL RADAR) ----------------- //
 
-let networkMinWeight = 1; // Show all connections cleanly with ultra-thin curved lines
-
-function setNetworkMinWeight(weight) {
-    networkMinWeight = weight;
-    [1, 2, 3].forEach(w => {
-        const btn = document.getElementById(`net-btn-w${w}`);
-        if (btn) {
-            if (w === weight) {
-                btn.className = "px-2 py-1 rounded text-[11px] font-semibold transition-all bg-blue-600 text-white shadow";
-            } else {
-                btn.className = "px-2 py-1 rounded text-[11px] font-semibold transition-all text-slate-400 hover:text-white";
-            }
-        }
-    });
-    const canvas = document.getElementById('networkCanvas');
-    if (canvas && networkDataCache) {
-        drawNetworkGraph(canvas, networkDataCache);
-    }
-}
-
-function resetNetworkPhysics() {
-    const canvas = document.getElementById('networkCanvas');
-    if (canvas && networkDataCache) {
-        drawNetworkGraph(canvas, networkDataCache);
-    }
-}
-
 async function loadNetwork() {
     const canvas = document.getElementById('networkCanvas');
     if (!canvas) return;
@@ -711,16 +684,9 @@ async function loadNetwork() {
     }
 }
 
-let activeNetworkAnimation = null;
-
 function drawNetworkGraph(canvas, networkData) {
     if (!networkData || !canvas) return;
     const ctx = canvas.getContext('2d');
-    
-    // Stop any existing animation loop
-    if (activeNetworkAnimation && activeNetworkAnimation.stop) {
-        activeNetworkAnimation.stop();
-    }
 
     // Set High-DPI Resolution
     const rect = canvas.getBoundingClientRect();
@@ -739,9 +705,8 @@ function drawNetworkGraph(canvas, networkData) {
     const rawNodes = [...networkData.nodes].sort((a, b) => (b.coordinated || 0) - (a.coordinated || 0));
     const totalNodes = rawNodes.length;
 
-    // Filter active links based on min weight
-    const allLinks = networkData.links || [];
-    const activeLinks = allLinks.filter(l => l.weight >= networkMinWeight);
+    // All links with clean thin hairline curves
+    const activeLinks = networkData.links || [];
 
     // Calculate node positions along the clean circular radar ring
     const nodes = rawNodes.map((n, i) => {
@@ -780,13 +745,11 @@ function drawNetworkGraph(canvas, networkData) {
     });
 
     let hoveredNode = null;
-    let radarAngle = 0;
-    let animId = null;
 
     function render() {
         ctx.clearRect(0, 0, width, height);
 
-        // 1. Draw Subtle Radar Background Rings
+        // 1. Subtle Background Concentric Rings (Static)
         ctx.strokeStyle = 'rgba(255, 255, 255, 0.035)';
         ctx.lineWidth = 1;
         [0.35, 0.70, 1.0].forEach(factor => {
@@ -795,32 +758,10 @@ function drawNetworkGraph(canvas, networkData) {
             ctx.stroke();
         });
 
-        // Radar Crosshairs
-        ctx.beginPath();
-        ctx.moveTo(cx - radius * 1.05, cy); ctx.lineTo(cx + radius * 1.05, cy);
-        ctx.moveTo(cx, cy - radius * 1.05); ctx.lineTo(cx, cy + radius * 1.05);
-        ctx.stroke();
-
-        // 2. Fast Sweeping Radar Scan Line
-        radarAngle += 0.025;
-        if (radarAngle > Math.PI * 2) radarAngle -= Math.PI * 2;
-        
-        ctx.save();
-        ctx.beginPath();
-        ctx.moveTo(cx, cy);
-        ctx.arc(cx, cy, radius * 1.02, radarAngle - 0.25, radarAngle);
-        ctx.closePath();
-        const sweepGrad = ctx.createRadialGradient(cx, cy, 0, cx, cy, radius);
-        sweepGrad.addColorStop(0, 'rgba(56, 189, 248, 0.0)');
-        sweepGrad.addColorStop(1, 'rgba(56, 189, 248, 0.06)');
-        ctx.fillStyle = sweepGrad;
-        ctx.fill();
-        ctx.restore();
-
         const isHoverActive = !!hoveredNode;
         const activeNeighbors = isHoverActive ? neighborMap.get(hoveredNode.id) : null;
 
-        // 3. Draw Ultra-Thin Curved Links (Quadratic Bezier Curves toward Center)
+        // 2. Draw Ultra-Thin Curved Links (Hairline 0.5px)
         activeLinks.forEach(l => {
             const s = nodeMap.get(l.source);
             const t = nodeMap.get(l.target);
@@ -846,19 +787,19 @@ function drawNetworkGraph(canvas, networkData) {
                     ctx.shadowBlur = 0;
                 }
             } else {
-                ctx.lineWidth = 0.6; // Ultra thin hairline!
+                ctx.lineWidth = 0.5; // Ultra thin hairline
                 if (l.weight >= 3) {
-                    ctx.strokeStyle = 'rgba(239, 68, 68, 0.22)';
+                    ctx.strokeStyle = 'rgba(239, 68, 68, 0.20)';
                 } else if (l.weight >= 2) {
-                    ctx.strokeStyle = 'rgba(245, 158, 11, 0.16)';
+                    ctx.strokeStyle = 'rgba(245, 158, 11, 0.14)';
                 } else {
-                    ctx.strokeStyle = 'rgba(59, 130, 246, 0.08)';
+                    ctx.strokeStyle = 'rgba(59, 130, 246, 0.06)';
                 }
                 ctx.stroke();
             }
         });
 
-        // 4. Draw Clean Orbital Nodes
+        // 3. Draw Clean Orbital Nodes
         nodes.forEach(n => {
             const isHovered = isHoverActive && hoveredNode.id === n.id;
             const isNeighbor = activeNeighbors && activeNeighbors.has(n.id);
@@ -866,7 +807,7 @@ function drawNetworkGraph(canvas, networkData) {
 
             ctx.save();
             if (isDimmed) {
-                ctx.globalAlpha = 0.22;
+                ctx.globalAlpha = 0.20;
             } else {
                 ctx.globalAlpha = 1.0;
             }
@@ -889,7 +830,7 @@ function drawNetworkGraph(canvas, networkData) {
             ctx.stroke();
             ctx.shadowBlur = 0;
 
-            // 5. Radial Outward Label Alignment (Never Overlaps!)
+            // 4. Radial Outward Label Alignment
             const cosA = Math.cos(n.angle);
             const sinA = Math.sin(n.angle);
             const labelOffset = curRadius + 7;
@@ -912,7 +853,7 @@ function drawNetworkGraph(canvas, networkData) {
             ctx.restore();
         });
 
-        // 6. Sleek Minimalist Center Radar HUD on Hover
+        // 5. Sleek Minimalist Center HUD on Hover
         if (hoveredNode) {
             const peers = activeLinks
                 .filter(l => l.source === hoveredNode.id || l.target === hoveredNode.id)
@@ -928,7 +869,7 @@ function drawNetworkGraph(canvas, networkData) {
             const hy = cy - cardH / 2;
 
             // Frosted Center HUD
-            ctx.fillStyle = 'rgba(15, 23, 42, 0.92)';
+            ctx.fillStyle = 'rgba(15, 23, 42, 0.94)';
             ctx.strokeStyle = 'rgba(56, 189, 248, 0.4)';
             ctx.lineWidth = 1;
             ctx.beginPath();
@@ -955,18 +896,7 @@ function drawNetworkGraph(canvas, networkData) {
         }
     }
 
-    function animLoop() {
-        render();
-        animId = requestAnimationFrame(animLoop);
-    }
-
-    animLoop();
-
-    activeNetworkAnimation = {
-        stop: () => {
-            if (animId) cancelAnimationFrame(animId);
-        }
-    };
+    render();
 
     function getMousePos(evt) {
         const r = canvas.getBoundingClientRect();
