@@ -976,38 +976,41 @@ function closeExportMenu() {
 async function downloadExport(format) {
     closeExportMenu();
     
-    // In local server mode with active backend
-    if (isServerOnline) {
+    const isStaticHost = window.location.hostname.includes('github.io') || window.location.protocol === 'file:';
+
+    // 1. In Live Server Mode (FastAPI Backend)
+    if (!isStaticHost) {
         try {
             const res = await fetch(`/api/export?format=${format}&days=${currentDays}`);
-            if (!res.ok) throw new Error("Export fetch failed");
-            const blob = await res.blob();
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = format === 'csv' 
-                ? `troll_radar_istihbarat_raporu_${currentDays}d.csv`
-                : `troll_radar_istihbarat_bulteni_${currentDays}d.json`;
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(url);
-            return;
+            if (res.ok) {
+                const blob = await res.blob();
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = format === 'csv' 
+                    ? `troll_radar_istihbarat_raporu_${currentDays}d.csv`
+                    : `troll_radar_istihbarat_bulteni_${currentDays}d.json`;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                setTimeout(() => URL.revokeObjectURL(url), 1000);
+                return;
+            }
         } catch (e) {
-            console.warn("Backend export fetch fallback:", e);
+            console.warn("Live export fetch fallback:", e);
         }
     }
 
-    // In static GitHub Pages mode (construct rich export bundle client-side)
+    // 2. In Static GitHub Pages Mode (or fallback)
     try {
         const stats = await fetchApi(`/api/stats?days=${currentDays}`, `./data/stats_${currentDays}.json`);
         const narrativesData = await fetchApi(`/api/narratives?days=${currentDays}`, `./data/narratives_${currentDays}.json`);
         const authorsData = await fetchApi(`/api/authors?days=${currentDays}`, `./data/authors_${currentDays}.json`);
         const entriesData = await fetchApi(`/api/entries?days=${currentDays}&limit=2000`, `./data/entries_${currentDays}.json`);
         
-        const narratives = narrativesData.narratives || [];
-        const authors = authorsData.authors || [];
-        const entries = entriesData.entries || [];
+        const narratives = (narrativesData && narrativesData.narratives) || [];
+        const authors = (authorsData && authorsData.authors) || [];
+        const entries = (entriesData && entriesData.entries) || [];
 
         if (format === 'json') {
             const bundle = {
@@ -1027,14 +1030,14 @@ async function downloadExport(format) {
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
-            URL.revokeObjectURL(url);
+            setTimeout(() => URL.revokeObjectURL(url), 1000);
         } else if (format === 'csv') {
             let csvContent = "\uFEFF";
             csvContent += "TROLLRADAR // EKŞİ SÖZLÜK İSTİHBARAT RAPORU\n";
             csvContent += `Oluşturulma Tarihi,${new Date().toISOString()}\n`;
             csvContent += `Analiz Periyodu (Gün),${currentDays}\n`;
-            csvContent += `Toplam Entry,${stats.total_entries_period || entries.length}\n`;
-            csvContent += `Koordineli Entry,${stats.coordinated_entries_period || 0}\n\n`;
+            csvContent += `Toplam Entry,${(stats && stats.total_entries_period) || entries.length}\n`;
+            csvContent += `Koordineli Entry,${(stats && stats.coordinated_entries_period) || 0}\n\n`;
 
             csvContent += "--- BÖLÜM 1: HAFTALIK İSTİHBARAT BÜLTENİ & MANİPÜLASYON ODAKLARI ---\n";
             csvContent += "Kategori,Başlık,Koordineli Entry,Aktif Yazarlar,Özet Değerlendirme\n";
@@ -1064,7 +1067,7 @@ async function downloadExport(format) {
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
-            URL.revokeObjectURL(url);
+            setTimeout(() => URL.revokeObjectURL(url), 1000);
         }
     } catch (err) {
         console.error("Export build error:", err);
