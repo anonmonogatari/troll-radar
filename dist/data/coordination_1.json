@@ -89,31 +89,7 @@
         ]
       },
       {
-        "source": "mertolyon",
-        "target": "monofobik",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
-        "source": "hipergami",
-        "target": "mertolyon",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
-        "source": "500t yolcusu",
-        "target": "mertolyon",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
-        "source": "mertolyon",
+        "source": "gurbetci taraftar",
         "target": "rootifera",
         "weight": 1,
         "topics": [
@@ -121,7 +97,7 @@
         ]
       },
       {
-        "source": "mertolyon",
+        "source": "gurbetci taraftar",
         "target": "nofarlug",
         "weight": 1,
         "topics": [
@@ -137,112 +113,8 @@
         ]
       },
       {
-        "source": "mertolyon",
-        "target": "rusya",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
-        "source": "hipergami",
-        "target": "monofobik",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
-        "source": "500t yolcusu",
-        "target": "monofobik",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
-        "source": "monofobik",
-        "target": "rootifera",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
-        "source": "monofobik",
-        "target": "nofarlug",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
         "source": "gurbetci taraftar",
-        "target": "monofobik",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
-        "source": "monofobik",
         "target": "rusya",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
-        "source": "500t yolcusu",
-        "target": "hipergami",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
-        "source": "hipergami",
-        "target": "rootifera",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
-        "source": "hipergami",
-        "target": "nofarlug",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
-        "source": "gurbetci taraftar",
-        "target": "hipergami",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
-        "source": "hipergami",
-        "target": "rusya",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
-        "source": "500t yolcusu",
-        "target": "rootifera",
-        "weight": 1,
-        "topics": [
-          "22 ağustos 2026 fenerbahçe konyaspor maçı"
-        ]
-      },
-      {
-        "source": "500t yolcusu",
-        "target": "nofarlug",
         "weight": 1,
         "topics": [
           "22 ağustos 2026 fenerbahçe konyaspor maçı"
@@ -257,8 +129,16 @@
         ]
       },
       {
-        "source": "500t yolcusu",
-        "target": "rusya",
+        "source": "gurbetci taraftar",
+        "target": "monofobik",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "gurbetci taraftar",
+        "target": "hipergami",
         "weight": 1,
         "topics": [
           "22 ağustos 2026 fenerbahçe konyaspor maçı"
@@ -273,7 +153,7 @@
         ]
       },
       {
-        "source": "gurbetci taraftar",
+        "source": "mertolyon",
         "target": "rootifera",
         "weight": 1,
         "topics": [
@@ -289,7 +169,31 @@
         ]
       },
       {
-        "source": "gurbetci taraftar",
+        "source": "500t yolcusu",
+        "target": "rootifera",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "monofobik",
+        "target": "rootifera",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "hipergami",
+        "target": "rootifera",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "mertolyon",
         "target": "nofarlug",
         "weight": 1,
         "topics": [
@@ -305,7 +209,31 @@
         ]
       },
       {
-        "source": "gurbetci taraftar",
+        "source": "500t yolcusu",
+        "target": "nofarlug",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "monofobik",
+        "target": "nofarlug",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "hipergami",
+        "target": "nofarlug",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "mertolyon",
         "target": "rusya",
         "weight": 1,
         "topics": [
@@ -313,8 +241,192 @@
         ]
       },
       {
+        "source": "500t yolcusu",
+        "target": "mertolyon",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "mertolyon",
+        "target": "monofobik",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "hipergami",
+        "target": "mertolyon",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "500t yolcusu",
+        "target": "rusya",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "monofobik",
+        "target": "rusya",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "hipergami",
+        "target": "rusya",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "500t yolcusu",
+        "target": "monofobik",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "500t yolcusu",
+        "target": "hipergami",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "hipergami",
+        "target": "monofobik",
+        "weight": 1,
+        "topics": [
+          "22 ağustos 2026 fenerbahçe konyaspor maçı"
+        ]
+      },
+      {
+        "source": "sosyaldeneydekicuzdanicebellezedenadam",
+        "target": "vzw",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
         "source": "better call sabire",
-        "target": "shinigami ryuk",
+        "target": "vzw",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "vzw",
+        "target": "youth gone wild",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "kiloveremeyenkediannesi",
+        "target": "vzw",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "vatkalickt",
+        "target": "vzw",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "verybutverygoodman",
+        "target": "vzw",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "mesglsn sanirm bn yatiyrm",
+        "target": "vzw",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "shinigami ryuk",
+        "target": "vzw",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "better call sabire",
+        "target": "sosyaldeneydekicuzdanicebellezedenadam",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "sosyaldeneydekicuzdanicebellezedenadam",
+        "target": "youth gone wild",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "kiloveremeyenkediannesi",
+        "target": "sosyaldeneydekicuzdanicebellezedenadam",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "sosyaldeneydekicuzdanicebellezedenadam",
+        "target": "vatkalickt",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "sosyaldeneydekicuzdanicebellezedenadam",
+        "target": "verybutverygoodman",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "mesglsn sanirm bn yatiyrm",
+        "target": "sosyaldeneydekicuzdanicebellezedenadam",
+        "weight": 1,
+        "topics": [
+          "anderson talisca"
+        ]
+      },
+      {
+        "source": "shinigami ryuk",
+        "target": "sosyaldeneydekicuzdanicebellezedenadam",
         "weight": 1,
         "topics": [
           "anderson talisca"
@@ -354,14 +466,6 @@
       },
       {
         "source": "better call sabire",
-        "target": "sosyaldeneydekicuzdanicebellezedenadam",
-        "weight": 1,
-        "topics": [
-          "anderson talisca"
-        ]
-      },
-      {
-        "source": "better call sabire",
         "target": "mesglsn sanirm bn yatiyrm",
         "weight": 1,
         "topics": [
@@ -370,63 +474,7 @@
       },
       {
         "source": "better call sabire",
-        "target": "vzw",
-        "weight": 1,
-        "topics": [
-          "anderson talisca"
-        ]
-      },
-      {
-        "source": "shinigami ryuk",
-        "target": "youth gone wild",
-        "weight": 1,
-        "topics": [
-          "anderson talisca"
-        ]
-      },
-      {
-        "source": "kiloveremeyenkediannesi",
         "target": "shinigami ryuk",
-        "weight": 1,
-        "topics": [
-          "anderson talisca"
-        ]
-      },
-      {
-        "source": "shinigami ryuk",
-        "target": "vatkalickt",
-        "weight": 1,
-        "topics": [
-          "anderson talisca"
-        ]
-      },
-      {
-        "source": "shinigami ryuk",
-        "target": "verybutverygoodman",
-        "weight": 1,
-        "topics": [
-          "anderson talisca"
-        ]
-      },
-      {
-        "source": "shinigami ryuk",
-        "target": "sosyaldeneydekicuzdanicebellezedenadam",
-        "weight": 1,
-        "topics": [
-          "anderson talisca"
-        ]
-      },
-      {
-        "source": "mesglsn sanirm bn yatiyrm",
-        "target": "shinigami ryuk",
-        "weight": 1,
-        "topics": [
-          "anderson talisca"
-        ]
-      },
-      {
-        "source": "shinigami ryuk",
-        "target": "vzw",
         "weight": 1,
         "topics": [
           "anderson talisca"
@@ -457,14 +505,6 @@
         ]
       },
       {
-        "source": "sosyaldeneydekicuzdanicebellezedenadam",
-        "target": "youth gone wild",
-        "weight": 1,
-        "topics": [
-          "anderson talisca"
-        ]
-      },
-      {
         "source": "mesglsn sanirm bn yatiyrm",
         "target": "youth gone wild",
         "weight": 1,
@@ -473,7 +513,7 @@
         ]
       },
       {
-        "source": "vzw",
+        "source": "shinigami ryuk",
         "target": "youth gone wild",
         "weight": 1,
         "topics": [
@@ -491,14 +531,6 @@
       {
         "source": "kiloveremeyenkediannesi",
         "target": "verybutverygoodman",
-        "weight": 1,
-        "topics": [
-          "anderson talisca"
-        ]
-      },
-      {
-        "source": "kiloveremeyenkediannesi",
-        "target": "sosyaldeneydekicuzdanicebellezedenadam",
         "weight": 1,
         "topics": [
           "anderson talisca"
@@ -514,7 +546,7 @@
       },
       {
         "source": "kiloveremeyenkediannesi",
-        "target": "vzw",
+        "target": "shinigami ryuk",
         "weight": 1,
         "topics": [
           "anderson talisca"
@@ -529,14 +561,6 @@
         ]
       },
       {
-        "source": "sosyaldeneydekicuzdanicebellezedenadam",
-        "target": "vatkalickt",
-        "weight": 1,
-        "topics": [
-          "anderson talisca"
-        ]
-      },
-      {
         "source": "mesglsn sanirm bn yatiyrm",
         "target": "vatkalickt",
         "weight": 1,
@@ -545,16 +569,8 @@
         ]
       },
       {
-        "source": "vatkalickt",
-        "target": "vzw",
-        "weight": 1,
-        "topics": [
-          "anderson talisca"
-        ]
-      },
-      {
-        "source": "sosyaldeneydekicuzdanicebellezedenadam",
-        "target": "verybutverygoodman",
+        "source": "shinigami ryuk",
+        "target": "vatkalickt",
         "weight": 1,
         "topics": [
           "anderson talisca"
@@ -569,8 +585,8 @@
         ]
       },
       {
-        "source": "verybutverygoodman",
-        "target": "vzw",
+        "source": "shinigami ryuk",
+        "target": "verybutverygoodman",
         "weight": 1,
         "topics": [
           "anderson talisca"
@@ -578,48 +594,15 @@
       },
       {
         "source": "mesglsn sanirm bn yatiyrm",
-        "target": "sosyaldeneydekicuzdanicebellezedenadam",
+        "target": "shinigami ryuk",
         "weight": 1,
         "topics": [
           "anderson talisca"
-        ]
-      },
-      {
-        "source": "sosyaldeneydekicuzdanicebellezedenadam",
-        "target": "vzw",
-        "weight": 1,
-        "topics": [
-          "anderson talisca"
-        ]
-      },
-      {
-        "source": "mesglsn sanirm bn yatiyrm",
-        "target": "vzw",
-        "weight": 1,
-        "topics": [
-          "anderson talisca"
-        ]
-      },
-      {
-        "source": "enturi",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 2,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk",
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "georgewalker",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
         ]
       },
       {
         "source": "david ellefson",
-        "target": "timurun fillerinin bakicisi",
+        "target": "georgewalker",
         "weight": 1,
         "topics": [
           "ankara'da alman kurdundan kaçarken ölen çocuk"
@@ -628,6 +611,14 @@
       {
         "source": "enturi",
         "target": "georgewalker",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
+        "source": "georgewalker",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "ankara'da alman kurdundan kaçarken ölen çocuk"
@@ -643,22 +634,23 @@
       },
       {
         "source": "david ellefson",
-        "target": "georgewalker",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "ankara'da alman kurdundan kaçarken ölen çocuk"
         ]
       },
       {
-        "source": "cool story la fontaine",
-        "target": "femmelette",
-        "weight": 1,
+        "source": "enturi",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 2,
         "topics": [
-          "arda güler"
+          "ankara'da alman kurdundan kaçarken ölen çocuk",
+          "haşemalılarla aynı denize girmek istemeyen kadın"
         ]
       },
       {
-        "source": "femmelette",
+        "source": "bilgiziyar faresi",
         "target": "rustu ciftyumruk",
         "weight": 1,
         "topics": [
@@ -667,127 +659,7 @@
       },
       {
         "source": "crystal mind",
-        "target": "femmelette",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "andonyadis",
-        "target": "femmelette",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "femmelette",
-        "target": "zibinnik",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "femmelette",
-        "target": "mr monarch",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "femmelette",
-        "target": "v0dka",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "bilgiziyar faresi",
-        "target": "femmelette",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "cool story la fontaine",
         "target": "rustu ciftyumruk",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "cool story la fontaine",
-        "target": "crystal mind",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "andonyadis",
-        "target": "cool story la fontaine",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "cool story la fontaine",
-        "target": "zibinnik",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "cool story la fontaine",
-        "target": "mr monarch",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "cool story la fontaine",
-        "target": "v0dka",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "bilgiziyar faresi",
-        "target": "cool story la fontaine",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "crystal mind",
-        "target": "rustu ciftyumruk",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "andonyadis",
-        "target": "rustu ciftyumruk",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "rustu ciftyumruk",
-        "target": "zibinnik",
         "weight": 1,
         "topics": [
           "arda güler"
@@ -802,6 +674,30 @@
         ]
       },
       {
+        "source": "andonyadis",
+        "target": "rustu ciftyumruk",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "cool story la fontaine",
+        "target": "rustu ciftyumruk",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "femmelette",
+        "target": "rustu ciftyumruk",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
         "source": "rustu ciftyumruk",
         "target": "v0dka",
         "weight": 1,
@@ -810,40 +706,8 @@
         ]
       },
       {
-        "source": "bilgiziyar faresi",
-        "target": "rustu ciftyumruk",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "andonyadis",
-        "target": "crystal mind",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "crystal mind",
+        "source": "rustu ciftyumruk",
         "target": "zibinnik",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "crystal mind",
-        "target": "mr monarch",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "crystal mind",
-        "target": "v0dka",
         "weight": 1,
         "topics": [
           "arda güler"
@@ -858,24 +722,8 @@
         ]
       },
       {
-        "source": "andonyadis",
-        "target": "zibinnik",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "andonyadis",
+        "source": "bilgiziyar faresi",
         "target": "mr monarch",
-        "weight": 1,
-        "topics": [
-          "arda güler"
-        ]
-      },
-      {
-        "source": "andonyadis",
-        "target": "v0dka",
         "weight": 1,
         "topics": [
           "arda güler"
@@ -890,7 +738,191 @@
         ]
       },
       {
+        "source": "bilgiziyar faresi",
+        "target": "cool story la fontaine",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "bilgiziyar faresi",
+        "target": "femmelette",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "bilgiziyar faresi",
+        "target": "v0dka",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "bilgiziyar faresi",
+        "target": "zibinnik",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "crystal mind",
+        "target": "mr monarch",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "andonyadis",
+        "target": "crystal mind",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "cool story la fontaine",
+        "target": "crystal mind",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "crystal mind",
+        "target": "femmelette",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "crystal mind",
+        "target": "v0dka",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "crystal mind",
+        "target": "zibinnik",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "andonyadis",
+        "target": "mr monarch",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "cool story la fontaine",
+        "target": "mr monarch",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "femmelette",
+        "target": "mr monarch",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
         "source": "mr monarch",
+        "target": "v0dka",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "mr monarch",
+        "target": "zibinnik",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "andonyadis",
+        "target": "cool story la fontaine",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "andonyadis",
+        "target": "femmelette",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "andonyadis",
+        "target": "v0dka",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "andonyadis",
+        "target": "zibinnik",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "cool story la fontaine",
+        "target": "femmelette",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "cool story la fontaine",
+        "target": "v0dka",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "cool story la fontaine",
+        "target": "zibinnik",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "femmelette",
+        "target": "v0dka",
+        "weight": 1,
+        "topics": [
+          "arda güler"
+        ]
+      },
+      {
+        "source": "femmelette",
         "target": "zibinnik",
         "weight": 1,
         "topics": [
@@ -906,40 +938,48 @@
         ]
       },
       {
-        "source": "bilgiziyar faresi",
-        "target": "zibinnik",
+        "source": "neutral true",
+        "target": "ucansarman",
         "weight": 1,
         "topics": [
-          "arda güler"
+          "bedeni dışında özelliği olan kadın kalmaması"
         ]
       },
       {
-        "source": "mr monarch",
-        "target": "v0dka",
+        "source": "delivida",
+        "target": "neutral true",
         "weight": 1,
         "topics": [
-          "arda güler"
+          "bedeni dışında özelliği olan kadın kalmaması"
         ]
       },
       {
-        "source": "bilgiziyar faresi",
-        "target": "mr monarch",
+        "source": "neutral true",
+        "target": "thoothamon",
         "weight": 1,
         "topics": [
-          "arda güler"
+          "bedeni dışında özelliği olan kadın kalmaması"
         ]
       },
       {
-        "source": "bilgiziyar faresi",
-        "target": "v0dka",
+        "source": "cunoesse vittulainen",
+        "target": "neutral true",
         "weight": 1,
         "topics": [
-          "arda güler"
+          "bedeni dışında özelliği olan kadın kalmaması"
         ]
       },
       {
-        "source": "thoothamon",
-        "target": "x4",
+        "source": "debe okurum",
+        "target": "neutral true",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "deli ali 667",
+        "target": "neutral true",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
@@ -947,6 +987,22 @@
       },
       {
         "source": "karakanka",
+        "target": "neutral true",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "charango",
+        "target": "neutral true",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "neutral true",
         "target": "x4",
         "weight": 1,
         "topics": [
@@ -955,7 +1011,15 @@
       },
       {
         "source": "delivida",
-        "target": "x4",
+        "target": "ucansarman",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "thoothamon",
+        "target": "ucansarman",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
@@ -963,7 +1027,15 @@
       },
       {
         "source": "cunoesse vittulainen",
-        "target": "x4",
+        "target": "ucansarman",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "debe okurum",
+        "target": "ucansarman",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
@@ -971,7 +1043,15 @@
       },
       {
         "source": "deli ali 667",
-        "target": "x4",
+        "target": "ucansarman",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "karakanka",
+        "target": "ucansarman",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
@@ -979,7 +1059,7 @@
       },
       {
         "source": "charango",
-        "target": "x4",
+        "target": "ucansarman",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
@@ -994,8 +1074,16 @@
         ]
       },
       {
-        "source": "neutral true",
-        "target": "x4",
+        "source": "delivida",
+        "target": "thoothamon",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "cunoesse vittulainen",
+        "target": "delivida",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
@@ -1003,15 +1091,15 @@
       },
       {
         "source": "debe okurum",
-        "target": "x4",
+        "target": "delivida",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
         ]
       },
       {
-        "source": "karakanka",
-        "target": "thoothamon",
+        "source": "deli ali 667",
+        "target": "delivida",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
@@ -1019,7 +1107,23 @@
       },
       {
         "source": "delivida",
-        "target": "thoothamon",
+        "target": "karakanka",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "charango",
+        "target": "delivida",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "delivida",
+        "target": "x4",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
@@ -1034,7 +1138,23 @@
         ]
       },
       {
+        "source": "debe okurum",
+        "target": "thoothamon",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
         "source": "deli ali 667",
+        "target": "thoothamon",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "karakanka",
         "target": "thoothamon",
         "weight": 1,
         "topics": [
@@ -1051,31 +1171,7 @@
       },
       {
         "source": "thoothamon",
-        "target": "ucansarman",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "neutral true",
-        "target": "thoothamon",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "debe okurum",
-        "target": "thoothamon",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "delivida",
-        "target": "karakanka",
+        "target": "x4",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
@@ -1083,95 +1179,7 @@
       },
       {
         "source": "cunoesse vittulainen",
-        "target": "karakanka",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "deli ali 667",
-        "target": "karakanka",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "charango",
-        "target": "karakanka",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "karakanka",
-        "target": "ucansarman",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "karakanka",
-        "target": "neutral true",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "debe okurum",
-        "target": "karakanka",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "cunoesse vittulainen",
-        "target": "delivida",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "deli ali 667",
-        "target": "delivida",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "charango",
-        "target": "delivida",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "delivida",
-        "target": "ucansarman",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "delivida",
-        "target": "neutral true",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "debe okurum",
-        "target": "delivida",
+        "target": "debe okurum",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
@@ -1180,6 +1188,14 @@
       {
         "source": "cunoesse vittulainen",
         "target": "deli ali 667",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "cunoesse vittulainen",
+        "target": "karakanka",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
@@ -1195,23 +1211,47 @@
       },
       {
         "source": "cunoesse vittulainen",
-        "target": "ucansarman",
+        "target": "x4",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
         ]
       },
       {
-        "source": "cunoesse vittulainen",
-        "target": "neutral true",
+        "source": "debe okurum",
+        "target": "deli ali 667",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
         ]
       },
       {
-        "source": "cunoesse vittulainen",
+        "source": "debe okurum",
+        "target": "karakanka",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "charango",
         "target": "debe okurum",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "debe okurum",
+        "target": "x4",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "deli ali 667",
+        "target": "karakanka",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
@@ -1227,23 +1267,7 @@
       },
       {
         "source": "deli ali 667",
-        "target": "ucansarman",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "deli ali 667",
-        "target": "neutral true",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "debe okurum",
-        "target": "deli ali 667",
+        "target": "x4",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
@@ -1251,7 +1275,15 @@
       },
       {
         "source": "charango",
-        "target": "ucansarman",
+        "target": "karakanka",
+        "weight": 1,
+        "topics": [
+          "bedeni dışında özelliği olan kadın kalmaması"
+        ]
+      },
+      {
+        "source": "karakanka",
+        "target": "x4",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
@@ -1259,58 +1291,10 @@
       },
       {
         "source": "charango",
-        "target": "neutral true",
+        "target": "x4",
         "weight": 1,
         "topics": [
           "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "charango",
-        "target": "debe okurum",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "neutral true",
-        "target": "ucansarman",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "debe okurum",
-        "target": "ucansarman",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "debe okurum",
-        "target": "neutral true",
-        "weight": 1,
-        "topics": [
-          "bedeni dışında özelliği olan kadın kalmaması"
-        ]
-      },
-      {
-        "source": "edward leon",
-        "target": "omlet nerde stalin bey",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "delikanlininja",
-        "target": "omlet nerde stalin bey",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
         ]
       },
       {
@@ -1330,6 +1314,22 @@
         ]
       },
       {
+        "source": "hallorann",
+        "target": "omlet nerde stalin bey",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "delikanlininja",
+        "target": "omlet nerde stalin bey",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
         "source": "kedisininyumagi",
         "target": "omlet nerde stalin bey",
         "weight": 1,
@@ -1338,15 +1338,7 @@
         ]
       },
       {
-        "source": "lmrvnx",
-        "target": "omlet nerde stalin bey",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "hallorann",
+        "source": "edward leon",
         "target": "omlet nerde stalin bey",
         "weight": 1,
         "topics": [
@@ -1370,120 +1362,8 @@
         ]
       },
       {
-        "source": "delikanlininja",
-        "target": "edward leon",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "edward leon",
-        "target": "pinna",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "edward leon",
-        "target": "odoriko",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "edward leon",
-        "target": "kedisininyumagi",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "edward leon",
-        "target": "lmrvnx",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "edward leon",
-        "target": "hallorann",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "edward leon",
-        "target": "ipek2020s",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "edward leon",
-        "target": "militaristadam",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "delikanlininja",
-        "target": "pinna",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "delikanlininja",
-        "target": "odoriko",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "delikanlininja",
-        "target": "kedisininyumagi",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "delikanlininja",
-        "target": "lmrvnx",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "delikanlininja",
-        "target": "hallorann",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "delikanlininja",
-        "target": "ipek2020s",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "delikanlininja",
-        "target": "militaristadam",
+        "source": "lmrvnx",
+        "target": "omlet nerde stalin bey",
         "weight": 1,
         "topics": [
           "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
@@ -1498,6 +1378,22 @@
         ]
       },
       {
+        "source": "hallorann",
+        "target": "pinna",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "delikanlininja",
+        "target": "pinna",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
         "source": "kedisininyumagi",
         "target": "pinna",
         "weight": 1,
@@ -1506,15 +1402,7 @@
         ]
       },
       {
-        "source": "lmrvnx",
-        "target": "pinna",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "hallorann",
+        "source": "edward leon",
         "target": "pinna",
         "weight": 1,
         "topics": [
@@ -1538,6 +1426,30 @@
         ]
       },
       {
+        "source": "lmrvnx",
+        "target": "pinna",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "hallorann",
+        "target": "odoriko",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "delikanlininja",
+        "target": "odoriko",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
         "source": "kedisininyumagi",
         "target": "odoriko",
         "weight": 1,
@@ -1546,15 +1458,7 @@
         ]
       },
       {
-        "source": "lmrvnx",
-        "target": "odoriko",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "hallorann",
+        "source": "edward leon",
         "target": "odoriko",
         "weight": 1,
         "topics": [
@@ -1578,56 +1482,32 @@
         ]
       },
       {
-        "source": "kedisininyumagi",
-        "target": "lmrvnx",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "hallorann",
-        "target": "kedisininyumagi",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "ipek2020s",
-        "target": "kedisininyumagi",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "kedisininyumagi",
-        "target": "militaristadam",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "hallorann",
-        "target": "lmrvnx",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
-        "source": "ipek2020s",
-        "target": "lmrvnx",
-        "weight": 1,
-        "topics": [
-          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
-        ]
-      },
-      {
         "source": "lmrvnx",
-        "target": "militaristadam",
+        "target": "odoriko",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "delikanlininja",
+        "target": "hallorann",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "hallorann",
+        "target": "kedisininyumagi",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "edward leon",
+        "target": "hallorann",
         "weight": 1,
         "topics": [
           "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
@@ -1650,6 +1530,110 @@
         ]
       },
       {
+        "source": "hallorann",
+        "target": "lmrvnx",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "delikanlininja",
+        "target": "kedisininyumagi",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "delikanlininja",
+        "target": "edward leon",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "delikanlininja",
+        "target": "ipek2020s",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "delikanlininja",
+        "target": "militaristadam",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "delikanlininja",
+        "target": "lmrvnx",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "edward leon",
+        "target": "kedisininyumagi",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "ipek2020s",
+        "target": "kedisininyumagi",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "kedisininyumagi",
+        "target": "militaristadam",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "kedisininyumagi",
+        "target": "lmrvnx",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "edward leon",
+        "target": "ipek2020s",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "edward leon",
+        "target": "militaristadam",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
+        "source": "edward leon",
+        "target": "lmrvnx",
+        "weight": 1,
+        "topics": [
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
+        ]
+      },
+      {
         "source": "ipek2020s",
         "target": "militaristadam",
         "weight": 1,
@@ -1658,88 +1642,24 @@
         ]
       },
       {
-        "source": "freedostum",
-        "target": "hard disk gibi adam",
+        "source": "ipek2020s",
+        "target": "lmrvnx",
         "weight": 1,
         "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
         ]
       },
       {
-        "source": "hard disk gibi adam",
-        "target": "satranc sampiyonu",
+        "source": "lmrvnx",
+        "target": "militaristadam",
         "weight": 1,
         "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "hard disk gibi adam",
-        "target": "kozmik yazar",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "hard disk gibi adam",
-        "target": "hilmi bunu begendi",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "hard disk gibi adam",
-        "target": "kiyveni",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "hard disk gibi adam",
-        "target": "yesindeed",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "hard disk gibi adam",
-        "target": "to vbe or not to vbe",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "debe okurum",
-        "target": "hard disk gibi adam",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
+          "beyaz saçlı ve beyaz sakallı 40 yaşında erkek"
         ]
       },
       {
         "source": "bir sigara yaksam biter mi dertler",
-        "target": "hard disk gibi adam",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "freedostum",
-        "target": "satranc sampiyonu",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "freedostum",
-        "target": "kozmik yazar",
+        "target": "freedostum",
         "weight": 1,
         "topics": [
           "bir insanın sizi sevmediğini nasıl anlarsınız"
@@ -1755,14 +1675,6 @@
       },
       {
         "source": "freedostum",
-        "target": "kiyveni",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "freedostum",
         "target": "yesindeed",
         "weight": 1,
         "topics": [
@@ -1771,7 +1683,39 @@
       },
       {
         "source": "freedostum",
+        "target": "satranc sampiyonu",
+        "weight": 1,
+        "topics": [
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
+        ]
+      },
+      {
+        "source": "freedostum",
         "target": "to vbe or not to vbe",
+        "weight": 1,
+        "topics": [
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
+        ]
+      },
+      {
+        "source": "freedostum",
+        "target": "hard disk gibi adam",
+        "weight": 1,
+        "topics": [
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
+        ]
+      },
+      {
+        "source": "freedostum",
+        "target": "kiyveni",
+        "weight": 1,
+        "topics": [
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
+        ]
+      },
+      {
+        "source": "freedostum",
+        "target": "kozmik yazar",
         "weight": 1,
         "topics": [
           "bir insanın sizi sevmediğini nasıl anlarsınız"
@@ -1787,142 +1731,6 @@
       },
       {
         "source": "bir sigara yaksam biter mi dertler",
-        "target": "freedostum",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "kozmik yazar",
-        "target": "satranc sampiyonu",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "hilmi bunu begendi",
-        "target": "satranc sampiyonu",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "kiyveni",
-        "target": "satranc sampiyonu",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "satranc sampiyonu",
-        "target": "yesindeed",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "satranc sampiyonu",
-        "target": "to vbe or not to vbe",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "debe okurum",
-        "target": "satranc sampiyonu",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "bir sigara yaksam biter mi dertler",
-        "target": "satranc sampiyonu",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "hilmi bunu begendi",
-        "target": "kozmik yazar",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "kiyveni",
-        "target": "kozmik yazar",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "kozmik yazar",
-        "target": "yesindeed",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "kozmik yazar",
-        "target": "to vbe or not to vbe",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "debe okurum",
-        "target": "kozmik yazar",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "bir sigara yaksam biter mi dertler",
-        "target": "kozmik yazar",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "hilmi bunu begendi",
-        "target": "kiyveni",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "hilmi bunu begendi",
-        "target": "yesindeed",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "hilmi bunu begendi",
-        "target": "to vbe or not to vbe",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "debe okurum",
         "target": "hilmi bunu begendi",
         "weight": 1,
         "topics": [
@@ -1931,14 +1739,6 @@
       },
       {
         "source": "bir sigara yaksam biter mi dertler",
-        "target": "hilmi bunu begendi",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "kiyveni",
         "target": "yesindeed",
         "weight": 1,
         "topics": [
@@ -1946,7 +1746,15 @@
         ]
       },
       {
-        "source": "kiyveni",
+        "source": "bir sigara yaksam biter mi dertler",
+        "target": "satranc sampiyonu",
+        "weight": 1,
+        "topics": [
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
+        ]
+      },
+      {
+        "source": "bir sigara yaksam biter mi dertler",
         "target": "to vbe or not to vbe",
         "weight": 1,
         "topics": [
@@ -1954,8 +1762,8 @@
         ]
       },
       {
-        "source": "debe okurum",
-        "target": "kiyveni",
+        "source": "bir sigara yaksam biter mi dertler",
+        "target": "hard disk gibi adam",
         "weight": 1,
         "topics": [
           "bir insanın sizi sevmediğini nasıl anlarsınız"
@@ -1970,40 +1778,8 @@
         ]
       },
       {
-        "source": "to vbe or not to vbe",
-        "target": "yesindeed",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "debe okurum",
-        "target": "yesindeed",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
         "source": "bir sigara yaksam biter mi dertler",
-        "target": "yesindeed",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "debe okurum",
-        "target": "to vbe or not to vbe",
-        "weight": 1,
-        "topics": [
-          "bir insanın sizi sevmediğini nasıl anlarsınız"
-        ]
-      },
-      {
-        "source": "bir sigara yaksam biter mi dertler",
-        "target": "to vbe or not to vbe",
+        "target": "kozmik yazar",
         "weight": 1,
         "topics": [
           "bir insanın sizi sevmediğini nasıl anlarsınız"
@@ -2018,336 +1794,232 @@
         ]
       },
       {
-        "source": "belgium in the rainn",
-        "target": "heterodokss",
+        "source": "hilmi bunu begendi",
+        "target": "yesindeed",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "belgium in the rainn",
-        "target": "notthatsimplee",
+        "source": "hilmi bunu begendi",
+        "target": "satranc sampiyonu",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "belgium in the rainn",
-        "target": "o9",
+        "source": "hilmi bunu begendi",
+        "target": "to vbe or not to vbe",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "belgium in the rainn",
-        "target": "rabbitx",
+        "source": "hard disk gibi adam",
+        "target": "hilmi bunu begendi",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "augusto pinochet",
-        "target": "belgium in the rainn",
+        "source": "hilmi bunu begendi",
+        "target": "kiyveni",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "belgium in the rainn",
-        "target": "funeral winds",
+        "source": "hilmi bunu begendi",
+        "target": "kozmik yazar",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "29lu",
-        "target": "belgium in the rainn",
+        "source": "debe okurum",
+        "target": "hilmi bunu begendi",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "angelinapectoris",
-        "target": "belgium in the rainn",
+        "source": "satranc sampiyonu",
+        "target": "yesindeed",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "belgium in the rainn",
-        "target": "kendinegelotuzsundediler",
+        "source": "to vbe or not to vbe",
+        "target": "yesindeed",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "heterodokss",
-        "target": "notthatsimplee",
+        "source": "hard disk gibi adam",
+        "target": "yesindeed",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "heterodokss",
-        "target": "o9",
+        "source": "kiyveni",
+        "target": "yesindeed",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "heterodokss",
-        "target": "rabbitx",
+        "source": "kozmik yazar",
+        "target": "yesindeed",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "augusto pinochet",
-        "target": "heterodokss",
+        "source": "debe okurum",
+        "target": "yesindeed",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "funeral winds",
-        "target": "heterodokss",
+        "source": "satranc sampiyonu",
+        "target": "to vbe or not to vbe",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "29lu",
-        "target": "heterodokss",
+        "source": "hard disk gibi adam",
+        "target": "satranc sampiyonu",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "angelinapectoris",
-        "target": "heterodokss",
+        "source": "kiyveni",
+        "target": "satranc sampiyonu",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "heterodokss",
-        "target": "kendinegelotuzsundediler",
+        "source": "kozmik yazar",
+        "target": "satranc sampiyonu",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "notthatsimplee",
-        "target": "o9",
+        "source": "debe okurum",
+        "target": "satranc sampiyonu",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "notthatsimplee",
-        "target": "rabbitx",
+        "source": "hard disk gibi adam",
+        "target": "to vbe or not to vbe",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "augusto pinochet",
-        "target": "notthatsimplee",
+        "source": "kiyveni",
+        "target": "to vbe or not to vbe",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "funeral winds",
-        "target": "notthatsimplee",
+        "source": "kozmik yazar",
+        "target": "to vbe or not to vbe",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "29lu",
-        "target": "notthatsimplee",
+        "source": "debe okurum",
+        "target": "to vbe or not to vbe",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "angelinapectoris",
-        "target": "notthatsimplee",
+        "source": "hard disk gibi adam",
+        "target": "kiyveni",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "kendinegelotuzsundediler",
-        "target": "notthatsimplee",
+        "source": "hard disk gibi adam",
+        "target": "kozmik yazar",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "o9",
-        "target": "rabbitx",
+        "source": "debe okurum",
+        "target": "hard disk gibi adam",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "augusto pinochet",
-        "target": "o9",
+        "source": "kiyveni",
+        "target": "kozmik yazar",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "funeral winds",
-        "target": "o9",
+        "source": "debe okurum",
+        "target": "kiyveni",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
-        "source": "29lu",
-        "target": "o9",
+        "source": "debe okurum",
+        "target": "kozmik yazar",
         "weight": 1,
         "topics": [
-          "bu saatte hala uyumama sebebi"
-        ]
-      },
-      {
-        "source": "angelinapectoris",
-        "target": "o9",
-        "weight": 1,
-        "topics": [
-          "bu saatte hala uyumama sebebi"
-        ]
-      },
-      {
-        "source": "kendinegelotuzsundediler",
-        "target": "o9",
-        "weight": 1,
-        "topics": [
-          "bu saatte hala uyumama sebebi"
-        ]
-      },
-      {
-        "source": "augusto pinochet",
-        "target": "rabbitx",
-        "weight": 1,
-        "topics": [
-          "bu saatte hala uyumama sebebi"
-        ]
-      },
-      {
-        "source": "funeral winds",
-        "target": "rabbitx",
-        "weight": 1,
-        "topics": [
-          "bu saatte hala uyumama sebebi"
-        ]
-      },
-      {
-        "source": "29lu",
-        "target": "rabbitx",
-        "weight": 1,
-        "topics": [
-          "bu saatte hala uyumama sebebi"
-        ]
-      },
-      {
-        "source": "angelinapectoris",
-        "target": "rabbitx",
-        "weight": 1,
-        "topics": [
-          "bu saatte hala uyumama sebebi"
-        ]
-      },
-      {
-        "source": "kendinegelotuzsundediler",
-        "target": "rabbitx",
-        "weight": 1,
-        "topics": [
-          "bu saatte hala uyumama sebebi"
-        ]
-      },
-      {
-        "source": "augusto pinochet",
-        "target": "funeral winds",
-        "weight": 1,
-        "topics": [
-          "bu saatte hala uyumama sebebi"
-        ]
-      },
-      {
-        "source": "29lu",
-        "target": "augusto pinochet",
-        "weight": 1,
-        "topics": [
-          "bu saatte hala uyumama sebebi"
-        ]
-      },
-      {
-        "source": "angelinapectoris",
-        "target": "augusto pinochet",
-        "weight": 1,
-        "topics": [
-          "bu saatte hala uyumama sebebi"
-        ]
-      },
-      {
-        "source": "augusto pinochet",
-        "target": "kendinegelotuzsundediler",
-        "weight": 1,
-        "topics": [
-          "bu saatte hala uyumama sebebi"
+          "bir insanın sizi sevmediğini nasıl anlarsınız"
         ]
       },
       {
         "source": "29lu",
         "target": "funeral winds",
-        "weight": 1,
-        "topics": [
-          "bu saatte hala uyumama sebebi"
-        ]
-      },
-      {
-        "source": "angelinapectoris",
-        "target": "funeral winds",
-        "weight": 1,
-        "topics": [
-          "bu saatte hala uyumama sebebi"
-        ]
-      },
-      {
-        "source": "funeral winds",
-        "target": "kendinegelotuzsundediler",
         "weight": 1,
         "topics": [
           "bu saatte hala uyumama sebebi"
@@ -2363,7 +2035,135 @@
       },
       {
         "source": "29lu",
+        "target": "rabbitx",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "29lu",
+        "target": "augusto pinochet",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "29lu",
         "target": "kendinegelotuzsundediler",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "29lu",
+        "target": "heterodokss",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "29lu",
+        "target": "o9",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "29lu",
+        "target": "belgium in the rainn",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "29lu",
+        "target": "notthatsimplee",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "angelinapectoris",
+        "target": "funeral winds",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "funeral winds",
+        "target": "rabbitx",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "augusto pinochet",
+        "target": "funeral winds",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "funeral winds",
+        "target": "kendinegelotuzsundediler",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "funeral winds",
+        "target": "heterodokss",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "funeral winds",
+        "target": "o9",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "belgium in the rainn",
+        "target": "funeral winds",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "funeral winds",
+        "target": "notthatsimplee",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "angelinapectoris",
+        "target": "rabbitx",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "angelinapectoris",
+        "target": "augusto pinochet",
         "weight": 1,
         "topics": [
           "bu saatte hala uyumama sebebi"
@@ -2378,8 +2178,216 @@
         ]
       },
       {
+        "source": "angelinapectoris",
+        "target": "heterodokss",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "angelinapectoris",
+        "target": "o9",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "angelinapectoris",
+        "target": "belgium in the rainn",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "angelinapectoris",
+        "target": "notthatsimplee",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "augusto pinochet",
+        "target": "rabbitx",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "kendinegelotuzsundediler",
+        "target": "rabbitx",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "heterodokss",
+        "target": "rabbitx",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "o9",
+        "target": "rabbitx",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "belgium in the rainn",
+        "target": "rabbitx",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "notthatsimplee",
+        "target": "rabbitx",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "augusto pinochet",
+        "target": "kendinegelotuzsundediler",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "augusto pinochet",
+        "target": "heterodokss",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "augusto pinochet",
+        "target": "o9",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "augusto pinochet",
+        "target": "belgium in the rainn",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "augusto pinochet",
+        "target": "notthatsimplee",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "heterodokss",
+        "target": "kendinegelotuzsundediler",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "kendinegelotuzsundediler",
+        "target": "o9",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "belgium in the rainn",
+        "target": "kendinegelotuzsundediler",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "kendinegelotuzsundediler",
+        "target": "notthatsimplee",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "heterodokss",
+        "target": "o9",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "belgium in the rainn",
+        "target": "heterodokss",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "heterodokss",
+        "target": "notthatsimplee",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "belgium in the rainn",
+        "target": "o9",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "notthatsimplee",
+        "target": "o9",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
+        "source": "belgium in the rainn",
+        "target": "notthatsimplee",
+        "weight": 1,
+        "topics": [
+          "bu saatte hala uyumama sebebi"
+        ]
+      },
+      {
         "source": "ckmltyf",
         "target": "slowrocker",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "bergtatt",
+        "target": "the archmage",
         "weight": 1,
         "topics": [
           "görülmüş en etkileyici tarihi yapı"
@@ -2394,24 +2402,8 @@
         ]
       },
       {
-        "source": "lonely tree",
-        "target": "screenknife",
-        "weight": 1,
-        "topics": [
-          "görülmüş en etkileyici tarihi yapı"
-        ]
-      },
-      {
-        "source": "alf in yedigi kedi",
-        "target": "lonely tree",
-        "weight": 1,
-        "topics": [
-          "görülmüş en etkileyici tarihi yapı"
-        ]
-      },
-      {
-        "source": "bergtatt",
-        "target": "lonely tree",
+        "source": "niltt",
+        "target": "the archmage",
         "weight": 1,
         "topics": [
           "görülmüş en etkileyici tarihi yapı"
@@ -2419,23 +2411,7 @@
       },
       {
         "source": "lamusi",
-        "target": "lonely tree",
-        "weight": 1,
-        "topics": [
-          "görülmüş en etkileyici tarihi yapı"
-        ]
-      },
-      {
-        "source": "earl hacker",
-        "target": "lonely tree",
-        "weight": 1,
-        "topics": [
-          "görülmüş en etkileyici tarihi yapı"
-        ]
-      },
-      {
-        "source": "lonely tree",
-        "target": "niltt",
+        "target": "the archmage",
         "weight": 1,
         "topics": [
           "görülmüş en etkileyici tarihi yapı"
@@ -2458,22 +2434,6 @@
         ]
       },
       {
-        "source": "bergtatt",
-        "target": "the archmage",
-        "weight": 1,
-        "topics": [
-          "görülmüş en etkileyici tarihi yapı"
-        ]
-      },
-      {
-        "source": "lamusi",
-        "target": "the archmage",
-        "weight": 1,
-        "topics": [
-          "görülmüş en etkileyici tarihi yapı"
-        ]
-      },
-      {
         "source": "earl hacker",
         "target": "the archmage",
         "weight": 1,
@@ -2482,16 +2442,8 @@
         ]
       },
       {
-        "source": "niltt",
-        "target": "the archmage",
-        "weight": 1,
-        "topics": [
-          "görülmüş en etkileyici tarihi yapı"
-        ]
-      },
-      {
-        "source": "alf in yedigi kedi",
-        "target": "screenknife",
+        "source": "bergtatt",
+        "target": "lonely tree",
         "weight": 1,
         "topics": [
           "görülmüş en etkileyici tarihi yapı"
@@ -2499,30 +2451,22 @@
       },
       {
         "source": "bergtatt",
-        "target": "screenknife",
+        "target": "niltt",
         "weight": 1,
         "topics": [
           "görülmüş en etkileyici tarihi yapı"
         ]
       },
       {
-        "source": "lamusi",
-        "target": "screenknife",
+        "source": "bergtatt",
+        "target": "lamusi",
         "weight": 1,
         "topics": [
           "görülmüş en etkileyici tarihi yapı"
         ]
       },
       {
-        "source": "earl hacker",
-        "target": "screenknife",
-        "weight": 1,
-        "topics": [
-          "görülmüş en etkileyici tarihi yapı"
-        ]
-      },
-      {
-        "source": "niltt",
+        "source": "bergtatt",
         "target": "screenknife",
         "weight": 1,
         "topics": [
@@ -2538,38 +2482,6 @@
         ]
       },
       {
-        "source": "alf in yedigi kedi",
-        "target": "lamusi",
-        "weight": 1,
-        "topics": [
-          "görülmüş en etkileyici tarihi yapı"
-        ]
-      },
-      {
-        "source": "alf in yedigi kedi",
-        "target": "earl hacker",
-        "weight": 1,
-        "topics": [
-          "görülmüş en etkileyici tarihi yapı"
-        ]
-      },
-      {
-        "source": "alf in yedigi kedi",
-        "target": "niltt",
-        "weight": 1,
-        "topics": [
-          "görülmüş en etkileyici tarihi yapı"
-        ]
-      },
-      {
-        "source": "bergtatt",
-        "target": "lamusi",
-        "weight": 1,
-        "topics": [
-          "görülmüş en etkileyici tarihi yapı"
-        ]
-      },
-      {
         "source": "bergtatt",
         "target": "earl hacker",
         "weight": 1,
@@ -2578,8 +2490,32 @@
         ]
       },
       {
-        "source": "bergtatt",
+        "source": "lonely tree",
         "target": "niltt",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "lamusi",
+        "target": "lonely tree",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "lonely tree",
+        "target": "screenknife",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "alf in yedigi kedi",
+        "target": "lonely tree",
         "weight": 1,
         "topics": [
           "görülmüş en etkileyici tarihi yapı"
@@ -2587,7 +2523,7 @@
       },
       {
         "source": "earl hacker",
-        "target": "lamusi",
+        "target": "lonely tree",
         "weight": 1,
         "topics": [
           "görülmüş en etkileyici tarihi yapı"
@@ -2602,11 +2538,83 @@
         ]
       },
       {
+        "source": "niltt",
+        "target": "screenknife",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "alf in yedigi kedi",
+        "target": "niltt",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
         "source": "earl hacker",
         "target": "niltt",
         "weight": 1,
         "topics": [
           "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "lamusi",
+        "target": "screenknife",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "alf in yedigi kedi",
+        "target": "lamusi",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "earl hacker",
+        "target": "lamusi",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "alf in yedigi kedi",
+        "target": "screenknife",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "earl hacker",
+        "target": "screenknife",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "alf in yedigi kedi",
+        "target": "earl hacker",
+        "weight": 1,
+        "topics": [
+          "görülmüş en etkileyici tarihi yapı"
+        ]
+      },
+      {
+        "source": "becathlon",
+        "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
         ]
       },
       {
@@ -2620,7 +2628,31 @@
       },
       {
         "source": "becathlon",
-        "target": "londrast",
+        "target": "givles",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "becathlon",
+        "target": "enturi",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "becathlon",
+        "target": "nane kokusu",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "becathlon",
+        "target": "miamix",
         "weight": 1,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın"
@@ -2636,31 +2668,7 @@
       },
       {
         "source": "becathlon",
-        "target": "givles",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "becathlon",
-        "target": "miamix",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "becathlon",
         "target": "yaren",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "becathlon",
-        "target": "enturi",
         "weight": 1,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın"
@@ -2676,7 +2684,87 @@
         ]
       },
       {
-        "source": "becathlon",
+        "source": "bozaj",
+        "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "givles",
+        "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "enturi",
+        "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "londrast",
+        "target": "nane kokusu",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "londrast",
+        "target": "miamix",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "biseydiycemben",
+        "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "londrast",
+        "target": "yaren",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "londrast",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "bozaj",
+        "target": "givles",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "bozaj",
+        "target": "enturi",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "bozaj",
         "target": "nane kokusu",
         "weight": 1,
         "topics": [
@@ -2685,7 +2773,7 @@
       },
       {
         "source": "bozaj",
-        "target": "londrast",
+        "target": "miamix",
         "weight": 1,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın"
@@ -2701,31 +2789,7 @@
       },
       {
         "source": "bozaj",
-        "target": "givles",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "bozaj",
-        "target": "miamix",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "bozaj",
         "target": "yaren",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "bozaj",
-        "target": "enturi",
         "weight": 1,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın"
@@ -2741,16 +2805,8 @@
         ]
       },
       {
-        "source": "bozaj",
-        "target": "nane kokusu",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "biseydiycemben",
-        "target": "londrast",
+        "source": "enturi",
+        "target": "givles",
         "weight": 1,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın"
@@ -2758,47 +2814,15 @@
       },
       {
         "source": "givles",
-        "target": "londrast",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "londrast",
-        "target": "miamix",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "londrast",
-        "target": "yaren",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "enturi",
-        "target": "londrast",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "londrast",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "londrast",
         "target": "nane kokusu",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "givles",
+        "target": "miamix",
         "weight": 1,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın"
@@ -2813,16 +2837,32 @@
         ]
       },
       {
-        "source": "biseydiycemben",
-        "target": "miamix",
+        "source": "givles",
+        "target": "yaren",
         "weight": 1,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın"
         ]
       },
       {
-        "source": "biseydiycemben",
-        "target": "yaren",
+        "source": "givles",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "enturi",
+        "target": "nane kokusu",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "enturi",
+        "target": "miamix",
         "weight": 1,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın"
@@ -2837,56 +2877,8 @@
         ]
       },
       {
-        "source": "biseydiycemben",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "biseydiycemben",
-        "target": "nane kokusu",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "givles",
-        "target": "miamix",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "givles",
-        "target": "yaren",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
         "source": "enturi",
-        "target": "givles",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "givles",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "givles",
-        "target": "nane kokusu",
+        "target": "yaren",
         "weight": 1,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın"
@@ -2894,6 +2886,22 @@
       },
       {
         "source": "miamix",
+        "target": "nane kokusu",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "biseydiycemben",
+        "target": "nane kokusu",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "nane kokusu",
         "target": "yaren",
         "weight": 1,
         "topics": [
@@ -2901,7 +2909,15 @@
         ]
       },
       {
-        "source": "enturi",
+        "source": "nane kokusu",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "biseydiycemben",
         "target": "miamix",
         "weight": 1,
         "topics": [
@@ -2910,7 +2926,7 @@
       },
       {
         "source": "miamix",
-        "target": "timurun fillerinin bakicisi",
+        "target": "yaren",
         "weight": 1,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın"
@@ -2918,15 +2934,23 @@
       },
       {
         "source": "miamix",
-        "target": "nane kokusu",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın"
         ]
       },
       {
-        "source": "enturi",
+        "source": "biseydiycemben",
         "target": "yaren",
+        "weight": 1,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "biseydiycemben",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın"
@@ -2941,30 +2965,6 @@
         ]
       },
       {
-        "source": "nane kokusu",
-        "target": "yaren",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "enturi",
-        "target": "nane kokusu",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
-        "source": "nane kokusu",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın"
-        ]
-      },
-      {
         "source": "1xw",
         "target": "948",
         "weight": 1,
@@ -2973,7 +2973,7 @@
         ]
       },
       {
-        "source": "burunsuz pinok",
+        "source": "feignant",
         "target": "karizmatik bir nick olsun",
         "weight": 1,
         "topics": [
@@ -2981,31 +2981,7 @@
         ]
       },
       {
-        "source": "burunsuz pinok",
-        "target": "wishuwerehere",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "ben buraya niye ciktim",
-        "target": "burunsuz pinok",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "bilmemeninbilmisligi",
-        "target": "burunsuz pinok",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "burunsuz pinok",
+        "source": "karizmatik bir nick olsun",
         "target": "peter4",
         "weight": 1,
         "topics": [
@@ -3014,30 +2990,22 @@
       },
       {
         "source": "burunsuz pinok",
-        "target": "raybanzib",
+        "target": "karizmatik bir nick olsun",
         "weight": 1,
         "topics": [
           "izmir'de tartıştığı kişiyi boğarak öldüren cani"
         ]
       },
       {
-        "source": "19o5",
-        "target": "burunsuz pinok",
+        "source": "ben buraya niye ciktim",
+        "target": "karizmatik bir nick olsun",
         "weight": 1,
         "topics": [
           "izmir'de tartıştığı kişiyi boğarak öldüren cani"
         ]
       },
       {
-        "source": "burunsuz pinok",
-        "target": "feignant",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "burunsuz pinok",
+        "source": "karizmatik bir nick olsun",
         "target": "ne rakisi sevim",
         "weight": 1,
         "topics": [
@@ -3046,15 +3014,7 @@
       },
       {
         "source": "karizmatik bir nick olsun",
-        "target": "wishuwerehere",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "ben buraya niye ciktim",
-        "target": "karizmatik bir nick olsun",
+        "target": "raybanzib",
         "weight": 1,
         "topics": [
           "izmir'de tartıştığı kişiyi boğarak öldüren cani"
@@ -3070,15 +3030,7 @@
       },
       {
         "source": "karizmatik bir nick olsun",
-        "target": "peter4",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "karizmatik bir nick olsun",
-        "target": "raybanzib",
+        "target": "wishuwerehere",
         "weight": 1,
         "topics": [
           "izmir'de tartıştığı kişiyi boğarak öldüren cani"
@@ -3094,15 +3046,191 @@
       },
       {
         "source": "feignant",
-        "target": "karizmatik bir nick olsun",
+        "target": "peter4",
         "weight": 1,
         "topics": [
           "izmir'de tartıştığı kişiyi boğarak öldüren cani"
         ]
       },
       {
-        "source": "karizmatik bir nick olsun",
+        "source": "burunsuz pinok",
+        "target": "feignant",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ben buraya niye ciktim",
+        "target": "feignant",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "feignant",
         "target": "ne rakisi sevim",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "feignant",
+        "target": "raybanzib",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "bilmemeninbilmisligi",
+        "target": "feignant",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "feignant",
+        "target": "wishuwerehere",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "19o5",
+        "target": "feignant",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "burunsuz pinok",
+        "target": "peter4",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ben buraya niye ciktim",
+        "target": "peter4",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ne rakisi sevim",
+        "target": "peter4",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "peter4",
+        "target": "raybanzib",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "bilmemeninbilmisligi",
+        "target": "peter4",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "peter4",
+        "target": "wishuwerehere",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "19o5",
+        "target": "peter4",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ben buraya niye ciktim",
+        "target": "burunsuz pinok",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "burunsuz pinok",
+        "target": "ne rakisi sevim",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "burunsuz pinok",
+        "target": "raybanzib",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "bilmemeninbilmisligi",
+        "target": "burunsuz pinok",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "burunsuz pinok",
+        "target": "wishuwerehere",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "19o5",
+        "target": "burunsuz pinok",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ben buraya niye ciktim",
+        "target": "ne rakisi sevim",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ben buraya niye ciktim",
+        "target": "raybanzib",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ben buraya niye ciktim",
+        "target": "bilmemeninbilmisligi",
         "weight": 1,
         "topics": [
           "izmir'de tartıştığı kişiyi boğarak öldüren cani"
@@ -3117,7 +3245,31 @@
         ]
       },
       {
+        "source": "19o5",
+        "target": "ben buraya niye ciktim",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ne rakisi sevim",
+        "target": "raybanzib",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
         "source": "bilmemeninbilmisligi",
+        "target": "ne rakisi sevim",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "ne rakisi sevim",
         "target": "wishuwerehere",
         "weight": 1,
         "topics": [
@@ -3125,8 +3277,16 @@
         ]
       },
       {
-        "source": "peter4",
-        "target": "wishuwerehere",
+        "source": "19o5",
+        "target": "ne rakisi sevim",
+        "weight": 1,
+        "topics": [
+          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
+        ]
+      },
+      {
+        "source": "bilmemeninbilmisligi",
+        "target": "raybanzib",
         "weight": 1,
         "topics": [
           "izmir'de tartıştığı kişiyi boğarak öldüren cani"
@@ -3142,46 +3302,6 @@
       },
       {
         "source": "19o5",
-        "target": "wishuwerehere",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "feignant",
-        "target": "wishuwerehere",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "ne rakisi sevim",
-        "target": "wishuwerehere",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "ben buraya niye ciktim",
-        "target": "bilmemeninbilmisligi",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "ben buraya niye ciktim",
-        "target": "peter4",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "ben buraya niye ciktim",
         "target": "raybanzib",
         "weight": 1,
         "topics": [
@@ -3189,40 +3309,8 @@
         ]
       },
       {
-        "source": "19o5",
-        "target": "ben buraya niye ciktim",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "ben buraya niye ciktim",
-        "target": "feignant",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "ben buraya niye ciktim",
-        "target": "ne rakisi sevim",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
         "source": "bilmemeninbilmisligi",
-        "target": "peter4",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "bilmemeninbilmisligi",
-        "target": "raybanzib",
+        "target": "wishuwerehere",
         "weight": 1,
         "topics": [
           "izmir'de tartıştığı kişiyi boğarak öldüren cani"
@@ -3237,111 +3325,23 @@
         ]
       },
       {
-        "source": "bilmemeninbilmisligi",
-        "target": "feignant",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "bilmemeninbilmisligi",
-        "target": "ne rakisi sevim",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "peter4",
-        "target": "raybanzib",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
         "source": "19o5",
-        "target": "peter4",
+        "target": "wishuwerehere",
         "weight": 1,
         "topics": [
           "izmir'de tartıştığı kişiyi boğarak öldüren cani"
         ]
       },
       {
-        "source": "feignant",
-        "target": "peter4",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "ne rakisi sevim",
-        "target": "peter4",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "19o5",
-        "target": "raybanzib",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "feignant",
-        "target": "raybanzib",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "ne rakisi sevim",
-        "target": "raybanzib",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "19o5",
-        "target": "feignant",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "19o5",
-        "target": "ne rakisi sevim",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "feignant",
-        "target": "ne rakisi sevim",
-        "weight": 1,
-        "topics": [
-          "izmir'de tartıştığı kişiyi boğarak öldüren cani"
-        ]
-      },
-      {
-        "source": "la columna rota",
-        "target": "nahpeykerhapiyuttunnamussuzziver",
+        "source": "eeee sonra",
+        "target": "melvinton",
         "weight": 1,
         "topics": [
           "kadınların güzel gözüktüğünü sandığı şeyler"
         ]
       },
       {
-        "source": "la columna rota",
+        "source": "eeee sonra",
         "target": "supermike",
         "weight": 1,
         "topics": [
@@ -3349,7 +3349,7 @@
         ]
       },
       {
-        "source": "la columna rota",
+        "source": "eeee sonra",
         "target": "mantikli insanin sesi",
         "weight": 1,
         "topics": [
@@ -3357,8 +3357,8 @@
         ]
       },
       {
-        "source": "la columna rota",
-        "target": "melvinton",
+        "source": "eeee sonra",
+        "target": "nahpeykerhapiyuttunnamussuzziver",
         "weight": 1,
         "topics": [
           "kadınların güzel gözüktüğünü sandığı şeyler"
@@ -3373,6 +3373,46 @@
         ]
       },
       {
+        "source": "melvinton",
+        "target": "supermike",
+        "weight": 1,
+        "topics": [
+          "kadınların güzel gözüktüğünü sandığı şeyler"
+        ]
+      },
+      {
+        "source": "mantikli insanin sesi",
+        "target": "melvinton",
+        "weight": 1,
+        "topics": [
+          "kadınların güzel gözüktüğünü sandığı şeyler"
+        ]
+      },
+      {
+        "source": "melvinton",
+        "target": "nahpeykerhapiyuttunnamussuzziver",
+        "weight": 1,
+        "topics": [
+          "kadınların güzel gözüktüğünü sandığı şeyler"
+        ]
+      },
+      {
+        "source": "la columna rota",
+        "target": "melvinton",
+        "weight": 1,
+        "topics": [
+          "kadınların güzel gözüktüğünü sandığı şeyler"
+        ]
+      },
+      {
+        "source": "mantikli insanin sesi",
+        "target": "supermike",
+        "weight": 1,
+        "topics": [
+          "kadınların güzel gözüktüğünü sandığı şeyler"
+        ]
+      },
+      {
         "source": "nahpeykerhapiyuttunnamussuzziver",
         "target": "supermike",
         "weight": 1,
@@ -3381,47 +3421,7 @@
         ]
       },
       {
-        "source": "mantikli insanin sesi",
-        "target": "nahpeykerhapiyuttunnamussuzziver",
-        "weight": 1,
-        "topics": [
-          "kadınların güzel gözüktüğünü sandığı şeyler"
-        ]
-      },
-      {
-        "source": "melvinton",
-        "target": "nahpeykerhapiyuttunnamussuzziver",
-        "weight": 1,
-        "topics": [
-          "kadınların güzel gözüktüğünü sandığı şeyler"
-        ]
-      },
-      {
-        "source": "eeee sonra",
-        "target": "nahpeykerhapiyuttunnamussuzziver",
-        "weight": 1,
-        "topics": [
-          "kadınların güzel gözüktüğünü sandığı şeyler"
-        ]
-      },
-      {
-        "source": "mantikli insanin sesi",
-        "target": "supermike",
-        "weight": 1,
-        "topics": [
-          "kadınların güzel gözüktüğünü sandığı şeyler"
-        ]
-      },
-      {
-        "source": "melvinton",
-        "target": "supermike",
-        "weight": 1,
-        "topics": [
-          "kadınların güzel gözüktüğünü sandığı şeyler"
-        ]
-      },
-      {
-        "source": "eeee sonra",
+        "source": "la columna rota",
         "target": "supermike",
         "weight": 1,
         "topics": [
@@ -3430,14 +3430,14 @@
       },
       {
         "source": "mantikli insanin sesi",
-        "target": "melvinton",
+        "target": "nahpeykerhapiyuttunnamussuzziver",
         "weight": 1,
         "topics": [
           "kadınların güzel gözüktüğünü sandığı şeyler"
         ]
       },
       {
-        "source": "eeee sonra",
+        "source": "la columna rota",
         "target": "mantikli insanin sesi",
         "weight": 1,
         "topics": [
@@ -3445,24 +3445,16 @@
         ]
       },
       {
-        "source": "eeee sonra",
-        "target": "melvinton",
+        "source": "la columna rota",
+        "target": "nahpeykerhapiyuttunnamussuzziver",
         "weight": 1,
         "topics": [
           "kadınların güzel gözüktüğünü sandığı şeyler"
         ]
       },
       {
-        "source": "boncuksurat",
-        "target": "sozlukcunuz",
-        "weight": 1,
-        "topics": [
-          "kadınların güzel gözüktüğünü sandığı şeyler"
-        ]
-      },
-      {
-        "source": "kirmizi baslikli at kafasi",
-        "target": "sozlukcunuz",
+        "source": "hepinizsalaksiniz",
+        "target": "kirmizi baslikli at kafasi",
         "weight": 1,
         "topics": [
           "kadınların güzel gözüktüğünü sandığı şeyler"
@@ -3471,14 +3463,6 @@
       {
         "source": "hepinizsalaksiniz",
         "target": "sozlukcunuz",
-        "weight": 1,
-        "topics": [
-          "kadınların güzel gözüktüğünü sandığı şeyler"
-        ]
-      },
-      {
-        "source": "boncuksurat",
-        "target": "kirmizi baslikli at kafasi",
         "weight": 1,
         "topics": [
           "kadınların güzel gözüktüğünü sandığı şeyler"
@@ -3493,11 +3477,35 @@
         ]
       },
       {
-        "source": "hepinizsalaksiniz",
+        "source": "kirmizi baslikli at kafasi",
+        "target": "sozlukcunuz",
+        "weight": 1,
+        "topics": [
+          "kadınların güzel gözüktüğünü sandığı şeyler"
+        ]
+      },
+      {
+        "source": "boncuksurat",
         "target": "kirmizi baslikli at kafasi",
         "weight": 1,
         "topics": [
           "kadınların güzel gözüktüğünü sandığı şeyler"
+        ]
+      },
+      {
+        "source": "boncuksurat",
+        "target": "sozlukcunuz",
+        "weight": 1,
+        "topics": [
+          "kadınların güzel gözüktüğünü sandığı şeyler"
+        ]
+      },
+      {
+        "source": "hadesincokyasaderiz",
+        "target": "malihon",
+        "weight": 1,
+        "topics": [
+          "kadınların hesap ödenirken sessiz kalması"
         ]
       },
       {
@@ -3509,7 +3517,39 @@
         ]
       },
       {
-        "source": "binbilipbirsoran",
+        "source": "hadesincokyasaderiz",
+        "target": "sira bize de gelir mi",
+        "weight": 1,
+        "topics": [
+          "kadınların hesap ödenirken sessiz kalması"
+        ]
+      },
+      {
+        "source": "hadesincokyasaderiz",
+        "target": "karambolde golu atan adam",
+        "weight": 1,
+        "topics": [
+          "kadınların hesap ödenirken sessiz kalması"
+        ]
+      },
+      {
+        "source": "atletico mardin",
+        "target": "hadesincokyasaderiz",
+        "weight": 1,
+        "topics": [
+          "kadınların hesap ödenirken sessiz kalması"
+        ]
+      },
+      {
+        "source": "hadesincokyasaderiz",
+        "target": "watchhandlearn",
+        "weight": 1,
+        "topics": [
+          "kadınların hesap ödenirken sessiz kalması"
+        ]
+      },
+      {
+        "source": "hadesincokyasaderiz",
         "target": "hayalethayaethayret",
         "weight": 1,
         "topics": [
@@ -3525,8 +3565,56 @@
         ]
       },
       {
-        "source": "binbilipbirsoran",
+        "source": "malihon",
+        "target": "sira bize de gelir mi",
+        "weight": 1,
+        "topics": [
+          "kadınların hesap ödenirken sessiz kalması"
+        ]
+      },
+      {
+        "source": "karambolde golu atan adam",
+        "target": "malihon",
+        "weight": 1,
+        "topics": [
+          "kadınların hesap ödenirken sessiz kalması"
+        ]
+      },
+      {
+        "source": "atletico mardin",
+        "target": "malihon",
+        "weight": 1,
+        "topics": [
+          "kadınların hesap ödenirken sessiz kalması"
+        ]
+      },
+      {
+        "source": "malihon",
         "target": "watchhandlearn",
+        "weight": 1,
+        "topics": [
+          "kadınların hesap ödenirken sessiz kalması"
+        ]
+      },
+      {
+        "source": "hayalethayaethayret",
+        "target": "malihon",
+        "weight": 1,
+        "topics": [
+          "kadınların hesap ödenirken sessiz kalması"
+        ]
+      },
+      {
+        "source": "binbilipbirsoran",
+        "target": "sira bize de gelir mi",
+        "weight": 1,
+        "topics": [
+          "kadınların hesap ödenirken sessiz kalması"
+        ]
+      },
+      {
+        "source": "binbilipbirsoran",
+        "target": "karambolde golu atan adam",
         "weight": 1,
         "topics": [
           "kadınların hesap ödenirken sessiz kalması"
@@ -3542,7 +3630,7 @@
       },
       {
         "source": "binbilipbirsoran",
-        "target": "sira bize de gelir mi",
+        "target": "watchhandlearn",
         "weight": 1,
         "topics": [
           "kadınların hesap ödenirken sessiz kalması"
@@ -3550,119 +3638,7 @@
       },
       {
         "source": "binbilipbirsoran",
-        "target": "karambolde golu atan adam",
-        "weight": 1,
-        "topics": [
-          "kadınların hesap ödenirken sessiz kalması"
-        ]
-      },
-      {
-        "source": "hadesincokyasaderiz",
         "target": "hayalethayaethayret",
-        "weight": 1,
-        "topics": [
-          "kadınların hesap ödenirken sessiz kalması"
-        ]
-      },
-      {
-        "source": "hadesincokyasaderiz",
-        "target": "malihon",
-        "weight": 1,
-        "topics": [
-          "kadınların hesap ödenirken sessiz kalması"
-        ]
-      },
-      {
-        "source": "hadesincokyasaderiz",
-        "target": "watchhandlearn",
-        "weight": 1,
-        "topics": [
-          "kadınların hesap ödenirken sessiz kalması"
-        ]
-      },
-      {
-        "source": "atletico mardin",
-        "target": "hadesincokyasaderiz",
-        "weight": 1,
-        "topics": [
-          "kadınların hesap ödenirken sessiz kalması"
-        ]
-      },
-      {
-        "source": "hadesincokyasaderiz",
-        "target": "sira bize de gelir mi",
-        "weight": 1,
-        "topics": [
-          "kadınların hesap ödenirken sessiz kalması"
-        ]
-      },
-      {
-        "source": "hadesincokyasaderiz",
-        "target": "karambolde golu atan adam",
-        "weight": 1,
-        "topics": [
-          "kadınların hesap ödenirken sessiz kalması"
-        ]
-      },
-      {
-        "source": "hayalethayaethayret",
-        "target": "malihon",
-        "weight": 1,
-        "topics": [
-          "kadınların hesap ödenirken sessiz kalması"
-        ]
-      },
-      {
-        "source": "hayalethayaethayret",
-        "target": "watchhandlearn",
-        "weight": 1,
-        "topics": [
-          "kadınların hesap ödenirken sessiz kalması"
-        ]
-      },
-      {
-        "source": "atletico mardin",
-        "target": "hayalethayaethayret",
-        "weight": 1,
-        "topics": [
-          "kadınların hesap ödenirken sessiz kalması"
-        ]
-      },
-      {
-        "source": "hayalethayaethayret",
-        "target": "sira bize de gelir mi",
-        "weight": 1,
-        "topics": [
-          "kadınların hesap ödenirken sessiz kalması"
-        ]
-      },
-      {
-        "source": "hayalethayaethayret",
-        "target": "karambolde golu atan adam",
-        "weight": 1,
-        "topics": [
-          "kadınların hesap ödenirken sessiz kalması"
-        ]
-      },
-      {
-        "source": "malihon",
-        "target": "watchhandlearn",
-        "weight": 1,
-        "topics": [
-          "kadınların hesap ödenirken sessiz kalması"
-        ]
-      },
-      {
-        "source": "atletico mardin",
-        "target": "malihon",
-        "weight": 1,
-        "topics": [
-          "kadınların hesap ödenirken sessiz kalması"
-        ]
-      },
-      {
-        "source": "malihon",
-        "target": "sira bize de gelir mi",
         "weight": 1,
         "topics": [
           "kadınların hesap ödenirken sessiz kalması"
@@ -3670,7 +3646,7 @@
       },
       {
         "source": "karambolde golu atan adam",
-        "target": "malihon",
+        "target": "sira bize de gelir mi",
         "weight": 1,
         "topics": [
           "kadınların hesap ödenirken sessiz kalması"
@@ -3678,7 +3654,7 @@
       },
       {
         "source": "atletico mardin",
-        "target": "watchhandlearn",
+        "target": "sira bize de gelir mi",
         "weight": 1,
         "topics": [
           "kadınların hesap ödenirken sessiz kalması"
@@ -3693,15 +3669,7 @@
         ]
       },
       {
-        "source": "karambolde golu atan adam",
-        "target": "watchhandlearn",
-        "weight": 1,
-        "topics": [
-          "kadınların hesap ödenirken sessiz kalması"
-        ]
-      },
-      {
-        "source": "atletico mardin",
+        "source": "hayalethayaethayret",
         "target": "sira bize de gelir mi",
         "weight": 1,
         "topics": [
@@ -3718,70 +3686,46 @@
       },
       {
         "source": "karambolde golu atan adam",
-        "target": "sira bize de gelir mi",
+        "target": "watchhandlearn",
         "weight": 1,
         "topics": [
           "kadınların hesap ödenirken sessiz kalması"
         ]
       },
       {
-        "source": "arzawa",
-        "target": "materialsengineer",
+        "source": "hayalethayaethayret",
+        "target": "karambolde golu atan adam",
         "weight": 1,
         "topics": [
-          "kaç gündür içki içmiyorsun"
+          "kadınların hesap ödenirken sessiz kalması"
         ]
       },
       {
-        "source": "acmemade",
-        "target": "arzawa",
+        "source": "atletico mardin",
+        "target": "watchhandlearn",
         "weight": 1,
         "topics": [
-          "kaç gündür içki içmiyorsun"
+          "kadınların hesap ödenirken sessiz kalması"
         ]
       },
       {
-        "source": "arzawa",
-        "target": "vladmicov",
+        "source": "atletico mardin",
+        "target": "hayalethayaethayret",
         "weight": 1,
         "topics": [
-          "kaç gündür içki içmiyorsun"
+          "kadınların hesap ödenirken sessiz kalması"
         ]
       },
       {
-        "source": "arsiz marketing",
-        "target": "arzawa",
+        "source": "hayalethayaethayret",
+        "target": "watchhandlearn",
         "weight": 1,
         "topics": [
-          "kaç gündür içki içmiyorsun"
-        ]
-      },
-      {
-        "source": "acmemade",
-        "target": "materialsengineer",
-        "weight": 1,
-        "topics": [
-          "kaç gündür içki içmiyorsun"
-        ]
-      },
-      {
-        "source": "materialsengineer",
-        "target": "vladmicov",
-        "weight": 1,
-        "topics": [
-          "kaç gündür içki içmiyorsun"
+          "kadınların hesap ödenirken sessiz kalması"
         ]
       },
       {
         "source": "arsiz marketing",
-        "target": "materialsengineer",
-        "weight": 1,
-        "topics": [
-          "kaç gündür içki içmiyorsun"
-        ]
-      },
-      {
-        "source": "acmemade",
         "target": "vladmicov",
         "weight": 1,
         "topics": [
@@ -3798,6 +3742,22 @@
       },
       {
         "source": "arsiz marketing",
+        "target": "arzawa",
+        "weight": 1,
+        "topics": [
+          "kaç gündür içki içmiyorsun"
+        ]
+      },
+      {
+        "source": "arsiz marketing",
+        "target": "materialsengineer",
+        "weight": 1,
+        "topics": [
+          "kaç gündür içki içmiyorsun"
+        ]
+      },
+      {
+        "source": "acmemade",
         "target": "vladmicov",
         "weight": 1,
         "topics": [
@@ -3805,24 +3765,48 @@
         ]
       },
       {
-        "source": "cave art",
-        "target": "kaymakam halil hilmi",
+        "source": "arzawa",
+        "target": "vladmicov",
         "weight": 1,
         "topics": [
           "kaç gündür içki içmiyorsun"
         ]
       },
       {
-        "source": "kaymakam halil hilmi",
+        "source": "materialsengineer",
+        "target": "vladmicov",
+        "weight": 1,
+        "topics": [
+          "kaç gündür içki içmiyorsun"
+        ]
+      },
+      {
+        "source": "acmemade",
+        "target": "arzawa",
+        "weight": 1,
+        "topics": [
+          "kaç gündür içki içmiyorsun"
+        ]
+      },
+      {
+        "source": "acmemade",
+        "target": "materialsengineer",
+        "weight": 1,
+        "topics": [
+          "kaç gündür içki içmiyorsun"
+        ]
+      },
+      {
+        "source": "arzawa",
+        "target": "materialsengineer",
+        "weight": 1,
+        "topics": [
+          "kaç gündür içki içmiyorsun"
+        ]
+      },
+      {
+        "source": "dark focus",
         "target": "myboltttt",
-        "weight": 1,
-        "topics": [
-          "kaç gündür içki içmiyorsun"
-        ]
-      },
-      {
-        "source": "kaymakam halil hilmi",
-        "target": "puffats",
         "weight": 1,
         "topics": [
           "kaç gündür içki içmiyorsun"
@@ -3831,22 +3815,6 @@
       {
         "source": "dark focus",
         "target": "kaymakam halil hilmi",
-        "weight": 1,
-        "topics": [
-          "kaç gündür içki içmiyorsun"
-        ]
-      },
-      {
-        "source": "cave art",
-        "target": "myboltttt",
-        "weight": 1,
-        "topics": [
-          "kaç gündür içki içmiyorsun"
-        ]
-      },
-      {
-        "source": "cave art",
-        "target": "puffats",
         "weight": 1,
         "topics": [
           "kaç gündür içki içmiyorsun"
@@ -3861,6 +3829,30 @@
         ]
       },
       {
+        "source": "dark focus",
+        "target": "puffats",
+        "weight": 1,
+        "topics": [
+          "kaç gündür içki içmiyorsun"
+        ]
+      },
+      {
+        "source": "kaymakam halil hilmi",
+        "target": "myboltttt",
+        "weight": 1,
+        "topics": [
+          "kaç gündür içki içmiyorsun"
+        ]
+      },
+      {
+        "source": "cave art",
+        "target": "myboltttt",
+        "weight": 1,
+        "topics": [
+          "kaç gündür içki içmiyorsun"
+        ]
+      },
+      {
         "source": "myboltttt",
         "target": "puffats",
         "weight": 1,
@@ -3869,15 +3861,15 @@
         ]
       },
       {
-        "source": "dark focus",
-        "target": "myboltttt",
+        "source": "cave art",
+        "target": "kaymakam halil hilmi",
         "weight": 1,
         "topics": [
           "kaç gündür içki içmiyorsun"
         ]
       },
       {
-        "source": "dark focus",
+        "source": "kaymakam halil hilmi",
         "target": "puffats",
         "weight": 1,
         "topics": [
@@ -3885,143 +3877,15 @@
         ]
       },
       {
-        "source": "darwinisecdeyeyatiranadam",
-        "target": "kirkbirincikarakter",
+        "source": "cave art",
+        "target": "puffats",
         "weight": 1,
         "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "darwinisecdeyeyatiranadam",
-        "target": "humanitariantragedy",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "celimsiz eklembacakli",
-        "target": "darwinisecdeyeyatiranadam",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "darwinisecdeyeyatiranadam",
-        "target": "homoiskandinavus",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "darwinisecdeyeyatiranadam",
-        "target": "gearbox ag",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "darwinisecdeyeyatiranadam",
-        "target": "lapuente",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "darwinisecdeyeyatiranadam",
-        "target": "protego",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "darwinisecdeyeyatiranadam",
-        "target": "entrollment",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "darwinisecdeyeyatiranadam",
-        "target": "fyodorwell",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "humanitariantragedy",
-        "target": "kirkbirincikarakter",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "celimsiz eklembacakli",
-        "target": "kirkbirincikarakter",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "homoiskandinavus",
-        "target": "kirkbirincikarakter",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
+          "kaç gündür içki içmiyorsun"
         ]
       },
       {
         "source": "gearbox ag",
-        "target": "kirkbirincikarakter",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "kirkbirincikarakter",
-        "target": "lapuente",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "kirkbirincikarakter",
-        "target": "protego",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "entrollment",
-        "target": "kirkbirincikarakter",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "fyodorwell",
-        "target": "kirkbirincikarakter",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "celimsiz eklembacakli",
         "target": "humanitariantragedy",
         "weight": 1,
         "topics": [
@@ -4030,14 +3894,6 @@
       },
       {
         "source": "homoiskandinavus",
-        "target": "humanitariantragedy",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "gearbox ag",
         "target": "humanitariantragedy",
         "weight": 1,
         "topics": [
@@ -4053,6 +3909,14 @@
         ]
       },
       {
+        "source": "celimsiz eklembacakli",
+        "target": "humanitariantragedy",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
         "source": "humanitariantragedy",
         "target": "protego",
         "weight": 1,
@@ -4061,8 +3925,24 @@
         ]
       },
       {
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "humanitariantragedy",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
         "source": "entrollment",
         "target": "humanitariantragedy",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "humanitariantragedy",
+        "target": "kirkbirincikarakter",
         "weight": 1,
         "topics": [
           "mason greenwood"
@@ -4077,8 +3957,16 @@
         ]
       },
       {
-        "source": "celimsiz eklembacakli",
+        "source": "gearbox ag",
         "target": "homoiskandinavus",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "gearbox ag",
+        "target": "lapuente",
         "weight": 1,
         "topics": [
           "mason greenwood"
@@ -4093,15 +3981,7 @@
         ]
       },
       {
-        "source": "celimsiz eklembacakli",
-        "target": "lapuente",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "celimsiz eklembacakli",
+        "source": "gearbox ag",
         "target": "protego",
         "weight": 1,
         "topics": [
@@ -4109,16 +3989,16 @@
         ]
       },
       {
-        "source": "celimsiz eklembacakli",
-        "target": "entrollment",
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "gearbox ag",
         "weight": 1,
         "topics": [
           "mason greenwood"
         ]
       },
       {
-        "source": "celimsiz eklembacakli",
-        "target": "fyodorwell",
+        "source": "entrollment",
+        "target": "gearbox ag",
         "weight": 1,
         "topics": [
           "mason greenwood"
@@ -4126,7 +4006,15 @@
       },
       {
         "source": "gearbox ag",
-        "target": "homoiskandinavus",
+        "target": "kirkbirincikarakter",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "fyodorwell",
+        "target": "gearbox ag",
         "weight": 1,
         "topics": [
           "mason greenwood"
@@ -4141,6 +4029,14 @@
         ]
       },
       {
+        "source": "celimsiz eklembacakli",
+        "target": "homoiskandinavus",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
         "source": "homoiskandinavus",
         "target": "protego",
         "weight": 1,
@@ -4149,8 +4045,24 @@
         ]
       },
       {
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "homoiskandinavus",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
         "source": "entrollment",
         "target": "homoiskandinavus",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "homoiskandinavus",
+        "target": "kirkbirincikarakter",
         "weight": 1,
         "topics": [
           "mason greenwood"
@@ -4165,32 +4077,8 @@
         ]
       },
       {
-        "source": "gearbox ag",
+        "source": "celimsiz eklembacakli",
         "target": "lapuente",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "gearbox ag",
-        "target": "protego",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "entrollment",
-        "target": "gearbox ag",
-        "weight": 1,
-        "topics": [
-          "mason greenwood"
-        ]
-      },
-      {
-        "source": "fyodorwell",
-        "target": "gearbox ag",
         "weight": 1,
         "topics": [
           "mason greenwood"
@@ -4205,7 +4093,23 @@
         ]
       },
       {
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "lapuente",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
         "source": "entrollment",
+        "target": "lapuente",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "kirkbirincikarakter",
         "target": "lapuente",
         "weight": 1,
         "topics": [
@@ -4221,7 +4125,63 @@
         ]
       },
       {
+        "source": "celimsiz eklembacakli",
+        "target": "protego",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "celimsiz eklembacakli",
+        "target": "darwinisecdeyeyatiranadam",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "celimsiz eklembacakli",
+        "target": "entrollment",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "celimsiz eklembacakli",
+        "target": "kirkbirincikarakter",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "celimsiz eklembacakli",
+        "target": "fyodorwell",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "protego",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
         "source": "entrollment",
+        "target": "protego",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "kirkbirincikarakter",
         "target": "protego",
         "weight": 1,
         "topics": [
@@ -4231,6 +4191,38 @@
       {
         "source": "fyodorwell",
         "target": "protego",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "entrollment",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "kirkbirincikarakter",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "darwinisecdeyeyatiranadam",
+        "target": "fyodorwell",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "entrollment",
+        "target": "kirkbirincikarakter",
         "weight": 1,
         "topics": [
           "mason greenwood"
@@ -4239,6 +4231,14 @@
       {
         "source": "entrollment",
         "target": "fyodorwell",
+        "weight": 1,
+        "topics": [
+          "mason greenwood"
+        ]
+      },
+      {
+        "source": "fyodorwell",
+        "target": "kirkbirincikarakter",
         "weight": 1,
         "topics": [
           "mason greenwood"
@@ -4286,22 +4286,6 @@
       },
       {
         "source": "cars",
-        "target": "frank begbie",
-        "weight": 1,
-        "topics": [
-          "muhammed kerem aktürkoğlu"
-        ]
-      },
-      {
-        "source": "frank begbie",
-        "target": "poseidon7",
-        "weight": 1,
-        "topics": [
-          "muhammed kerem aktürkoğlu"
-        ]
-      },
-      {
-        "source": "frank begbie",
         "target": "homoiskandinavus",
         "weight": 1,
         "topics": [
@@ -4310,15 +4294,15 @@
       },
       {
         "source": "erdklc",
-        "target": "frank begbie",
+        "target": "homoiskandinavus",
         "weight": 1,
         "topics": [
           "muhammed kerem aktürkoğlu"
         ]
       },
       {
-        "source": "frank begbie",
-        "target": "hayatdevamediyormu",
+        "source": "hayatdevamediyormu",
+        "target": "homoiskandinavus",
         "weight": 1,
         "topics": [
           "muhammed kerem aktürkoğlu"
@@ -4326,23 +4310,23 @@
       },
       {
         "source": "alpeska",
-        "target": "frank begbie",
-        "weight": 1,
-        "topics": [
-          "muhammed kerem aktürkoğlu"
-        ]
-      },
-      {
-        "source": "cars",
-        "target": "poseidon7",
-        "weight": 1,
-        "topics": [
-          "muhammed kerem aktürkoğlu"
-        ]
-      },
-      {
-        "source": "cars",
         "target": "homoiskandinavus",
+        "weight": 1,
+        "topics": [
+          "muhammed kerem aktürkoğlu"
+        ]
+      },
+      {
+        "source": "frank begbie",
+        "target": "homoiskandinavus",
+        "weight": 1,
+        "topics": [
+          "muhammed kerem aktürkoğlu"
+        ]
+      },
+      {
+        "source": "homoiskandinavus",
+        "target": "poseidon7",
         "weight": 1,
         "topics": [
           "muhammed kerem aktürkoğlu"
@@ -4373,56 +4357,16 @@
         ]
       },
       {
-        "source": "homoiskandinavus",
+        "source": "cars",
+        "target": "frank begbie",
+        "weight": 1,
+        "topics": [
+          "muhammed kerem aktürkoğlu"
+        ]
+      },
+      {
+        "source": "cars",
         "target": "poseidon7",
-        "weight": 1,
-        "topics": [
-          "muhammed kerem aktürkoğlu"
-        ]
-      },
-      {
-        "source": "erdklc",
-        "target": "poseidon7",
-        "weight": 1,
-        "topics": [
-          "muhammed kerem aktürkoğlu"
-        ]
-      },
-      {
-        "source": "hayatdevamediyormu",
-        "target": "poseidon7",
-        "weight": 1,
-        "topics": [
-          "muhammed kerem aktürkoğlu"
-        ]
-      },
-      {
-        "source": "alpeska",
-        "target": "poseidon7",
-        "weight": 1,
-        "topics": [
-          "muhammed kerem aktürkoğlu"
-        ]
-      },
-      {
-        "source": "erdklc",
-        "target": "homoiskandinavus",
-        "weight": 1,
-        "topics": [
-          "muhammed kerem aktürkoğlu"
-        ]
-      },
-      {
-        "source": "hayatdevamediyormu",
-        "target": "homoiskandinavus",
-        "weight": 1,
-        "topics": [
-          "muhammed kerem aktürkoğlu"
-        ]
-      },
-      {
-        "source": "alpeska",
-        "target": "homoiskandinavus",
         "weight": 1,
         "topics": [
           "muhammed kerem aktürkoğlu"
@@ -4445,6 +4389,22 @@
         ]
       },
       {
+        "source": "erdklc",
+        "target": "frank begbie",
+        "weight": 1,
+        "topics": [
+          "muhammed kerem aktürkoğlu"
+        ]
+      },
+      {
+        "source": "erdklc",
+        "target": "poseidon7",
+        "weight": 1,
+        "topics": [
+          "muhammed kerem aktürkoğlu"
+        ]
+      },
+      {
         "source": "alpeska",
         "target": "hayatdevamediyormu",
         "weight": 1,
@@ -4453,7 +4413,279 @@
         ]
       },
       {
+        "source": "frank begbie",
+        "target": "hayatdevamediyormu",
+        "weight": 1,
+        "topics": [
+          "muhammed kerem aktürkoğlu"
+        ]
+      },
+      {
+        "source": "hayatdevamediyormu",
+        "target": "poseidon7",
+        "weight": 1,
+        "topics": [
+          "muhammed kerem aktürkoğlu"
+        ]
+      },
+      {
+        "source": "alpeska",
+        "target": "frank begbie",
+        "weight": 1,
+        "topics": [
+          "muhammed kerem aktürkoğlu"
+        ]
+      },
+      {
+        "source": "alpeska",
+        "target": "poseidon7",
+        "weight": 1,
+        "topics": [
+          "muhammed kerem aktürkoğlu"
+        ]
+      },
+      {
+        "source": "frank begbie",
+        "target": "poseidon7",
+        "weight": 1,
+        "topics": [
+          "muhammed kerem aktürkoğlu"
+        ]
+      },
+      {
+        "source": "eternalfire",
+        "target": "tonymontana0909",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "eternalfire",
+        "target": "terminator zaim",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "eternalfire",
+        "target": "gandalfinasasi1",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
         "source": "angelloffdarkness",
+        "target": "eternalfire",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "eternalfire",
+        "target": "kara vasif karakol cemiyeti",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "eternalfire",
+        "target": "i have dreams",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "akademi maestro",
+        "target": "eternalfire",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "eternalfire",
+        "target": "podarkes",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "eternalfire",
+        "target": "haydavrepehlivan",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "terminator zaim",
+        "target": "tonymontana0909",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "gandalfinasasi1",
+        "target": "tonymontana0909",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "angelloffdarkness",
+        "target": "tonymontana0909",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "kara vasif karakol cemiyeti",
+        "target": "tonymontana0909",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "i have dreams",
+        "target": "tonymontana0909",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "akademi maestro",
+        "target": "tonymontana0909",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "podarkes",
+        "target": "tonymontana0909",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "haydavrepehlivan",
+        "target": "tonymontana0909",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "gandalfinasasi1",
+        "target": "terminator zaim",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "angelloffdarkness",
+        "target": "terminator zaim",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "kara vasif karakol cemiyeti",
+        "target": "terminator zaim",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "i have dreams",
+        "target": "terminator zaim",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "akademi maestro",
+        "target": "terminator zaim",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "podarkes",
+        "target": "terminator zaim",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "haydavrepehlivan",
+        "target": "terminator zaim",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "angelloffdarkness",
+        "target": "gandalfinasasi1",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "gandalfinasasi1",
+        "target": "kara vasif karakol cemiyeti",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "gandalfinasasi1",
+        "target": "i have dreams",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "akademi maestro",
+        "target": "gandalfinasasi1",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "gandalfinasasi1",
+        "target": "podarkes",
+        "weight": 1,
+        "topics": [
+          "sürekli kendine hatırlatmak zorunda olduğun o söz"
+        ]
+      },
+      {
+        "source": "gandalfinasasi1",
         "target": "haydavrepehlivan",
         "weight": 1,
         "topics": [
@@ -4470,7 +4702,7 @@
       },
       {
         "source": "angelloffdarkness",
-        "target": "eternalfire",
+        "target": "i have dreams",
         "weight": 1,
         "topics": [
           "sürekli kendine hatırlatmak zorunda olduğun o söz"
@@ -4486,30 +4718,6 @@
       },
       {
         "source": "angelloffdarkness",
-        "target": "gandalfinasasi1",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "angelloffdarkness",
-        "target": "i have dreams",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "angelloffdarkness",
-        "target": "terminator zaim",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "angelloffdarkness",
         "target": "podarkes",
         "weight": 1,
         "topics": [
@@ -4518,95 +4726,7 @@
       },
       {
         "source": "angelloffdarkness",
-        "target": "tonymontana0909",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "haydavrepehlivan",
-        "target": "kara vasif karakol cemiyeti",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "eternalfire",
         "target": "haydavrepehlivan",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "akademi maestro",
-        "target": "haydavrepehlivan",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "gandalfinasasi1",
-        "target": "haydavrepehlivan",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "haydavrepehlivan",
-        "target": "i have dreams",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "haydavrepehlivan",
-        "target": "terminator zaim",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "haydavrepehlivan",
-        "target": "podarkes",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "haydavrepehlivan",
-        "target": "tonymontana0909",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "eternalfire",
-        "target": "kara vasif karakol cemiyeti",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "akademi maestro",
-        "target": "kara vasif karakol cemiyeti",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "gandalfinasasi1",
-        "target": "kara vasif karakol cemiyeti",
         "weight": 1,
         "topics": [
           "sürekli kendine hatırlatmak zorunda olduğun o söz"
@@ -4621,8 +4741,8 @@
         ]
       },
       {
-        "source": "kara vasif karakol cemiyeti",
-        "target": "terminator zaim",
+        "source": "akademi maestro",
+        "target": "kara vasif karakol cemiyeti",
         "weight": 1,
         "topics": [
           "sürekli kendine hatırlatmak zorunda olduğun o söz"
@@ -4637,64 +4757,8 @@
         ]
       },
       {
-        "source": "kara vasif karakol cemiyeti",
-        "target": "tonymontana0909",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "akademi maestro",
-        "target": "eternalfire",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "eternalfire",
-        "target": "gandalfinasasi1",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "eternalfire",
-        "target": "i have dreams",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "eternalfire",
-        "target": "terminator zaim",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "eternalfire",
-        "target": "podarkes",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "eternalfire",
-        "target": "tonymontana0909",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "akademi maestro",
-        "target": "gandalfinasasi1",
+        "source": "haydavrepehlivan",
+        "target": "kara vasif karakol cemiyeti",
         "weight": 1,
         "topics": [
           "sürekli kendine hatırlatmak zorunda olduğun o söz"
@@ -4709,15 +4773,7 @@
         ]
       },
       {
-        "source": "akademi maestro",
-        "target": "terminator zaim",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "akademi maestro",
+        "source": "i have dreams",
         "target": "podarkes",
         "weight": 1,
         "topics": [
@@ -4725,15 +4781,7 @@
         ]
       },
       {
-        "source": "akademi maestro",
-        "target": "tonymontana0909",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "gandalfinasasi1",
+        "source": "haydavrepehlivan",
         "target": "i have dreams",
         "weight": 1,
         "topics": [
@@ -4741,15 +4789,7 @@
         ]
       },
       {
-        "source": "gandalfinasasi1",
-        "target": "terminator zaim",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "gandalfinasasi1",
+        "source": "akademi maestro",
         "target": "podarkes",
         "weight": 1,
         "topics": [
@@ -4757,56 +4797,16 @@
         ]
       },
       {
-        "source": "gandalfinasasi1",
-        "target": "tonymontana0909",
+        "source": "akademi maestro",
+        "target": "haydavrepehlivan",
         "weight": 1,
         "topics": [
           "sürekli kendine hatırlatmak zorunda olduğun o söz"
         ]
       },
       {
-        "source": "i have dreams",
-        "target": "terminator zaim",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "i have dreams",
+        "source": "haydavrepehlivan",
         "target": "podarkes",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "i have dreams",
-        "target": "tonymontana0909",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "podarkes",
-        "target": "terminator zaim",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "terminator zaim",
-        "target": "tonymontana0909",
-        "weight": 1,
-        "topics": [
-          "sürekli kendine hatırlatmak zorunda olduğun o söz"
-        ]
-      },
-      {
-        "source": "podarkes",
-        "target": "tonymontana0909",
         "weight": 1,
         "topics": [
           "sürekli kendine hatırlatmak zorunda olduğun o söz"
@@ -4821,72 +4821,8 @@
         ]
       },
       {
-        "source": "figelum",
-        "target": "kudayaltay",
-        "weight": 1,
-        "topics": [
-          "şu anda çalan şarkı"
-        ]
-      },
-      {
-        "source": "kudayaltay",
-        "target": "tiredandnotcare",
-        "weight": 1,
-        "topics": [
-          "şu anda çalan şarkı"
-        ]
-      },
-      {
-        "source": "kudayaltay",
-        "target": "kuros",
-        "weight": 1,
-        "topics": [
-          "şu anda çalan şarkı"
-        ]
-      },
-      {
         "source": "kudayaltay",
         "target": "sensible lawyer",
-        "weight": 1,
-        "topics": [
-          "şu anda çalan şarkı"
-        ]
-      },
-      {
-        "source": "blacklion17",
-        "target": "kudayaltay",
-        "weight": 1,
-        "topics": [
-          "şu anda çalan şarkı"
-        ]
-      },
-      {
-        "source": "figelum",
-        "target": "tiredandnotcare",
-        "weight": 1,
-        "topics": [
-          "şu anda çalan şarkı"
-        ]
-      },
-      {
-        "source": "figelum",
-        "target": "kuros",
-        "weight": 1,
-        "topics": [
-          "şu anda çalan şarkı"
-        ]
-      },
-      {
-        "source": "figelum",
-        "target": "sensible lawyer",
-        "weight": 1,
-        "topics": [
-          "şu anda çalan şarkı"
-        ]
-      },
-      {
-        "source": "blacklion17",
-        "target": "figelum",
         "weight": 1,
         "topics": [
           "şu anda çalan şarkı"
@@ -4894,7 +4830,23 @@
       },
       {
         "source": "kuros",
-        "target": "tiredandnotcare",
+        "target": "sensible lawyer",
+        "weight": 1,
+        "topics": [
+          "şu anda çalan şarkı"
+        ]
+      },
+      {
+        "source": "blacklion17",
+        "target": "sensible lawyer",
+        "weight": 1,
+        "topics": [
+          "şu anda çalan şarkı"
+        ]
+      },
+      {
+        "source": "figelum",
+        "target": "sensible lawyer",
         "weight": 1,
         "topics": [
           "şu anda çalan şarkı"
@@ -4909,16 +4861,32 @@
         ]
       },
       {
-        "source": "blacklion17",
-        "target": "tiredandnotcare",
+        "source": "kudayaltay",
+        "target": "kuros",
         "weight": 1,
         "topics": [
           "şu anda çalan şarkı"
         ]
       },
       {
-        "source": "kuros",
-        "target": "sensible lawyer",
+        "source": "blacklion17",
+        "target": "kudayaltay",
+        "weight": 1,
+        "topics": [
+          "şu anda çalan şarkı"
+        ]
+      },
+      {
+        "source": "figelum",
+        "target": "kudayaltay",
+        "weight": 1,
+        "topics": [
+          "şu anda çalan şarkı"
+        ]
+      },
+      {
+        "source": "kudayaltay",
+        "target": "tiredandnotcare",
         "weight": 1,
         "topics": [
           "şu anda çalan şarkı"
@@ -4933,8 +4901,40 @@
         ]
       },
       {
+        "source": "figelum",
+        "target": "kuros",
+        "weight": 1,
+        "topics": [
+          "şu anda çalan şarkı"
+        ]
+      },
+      {
+        "source": "kuros",
+        "target": "tiredandnotcare",
+        "weight": 1,
+        "topics": [
+          "şu anda çalan şarkı"
+        ]
+      },
+      {
         "source": "blacklion17",
-        "target": "sensible lawyer",
+        "target": "figelum",
+        "weight": 1,
+        "topics": [
+          "şu anda çalan şarkı"
+        ]
+      },
+      {
+        "source": "blacklion17",
+        "target": "tiredandnotcare",
+        "weight": 1,
+        "topics": [
+          "şu anda çalan şarkı"
+        ]
+      },
+      {
+        "source": "figelum",
+        "target": "tiredandnotcare",
         "weight": 1,
         "topics": [
           "şu anda çalan şarkı"

@@ -1,36 +1,13 @@
 {
-  "total_evaluated": 15,
-  "high_confidence_trolls": 11,
+  "total_evaluated": 11,
+  "high_confidence_trolls": 0,
   "cells": [
     {
-      "cell_name": "Kültür Savaşı & Yaşam Tarzı",
-      "member_count": 10,
-      "average_troll_score": 87.4,
+      "cell_name": "Kültür Savaşı & Kutuplaştırma Hücresi",
+      "member_count": 1,
+      "average_troll_score": 47.8,
       "members": [
-        "becathlon",
-        "givles",
-        "nane kokusu",
-        "miamix",
-        "londrast",
-        "biseydiycemben",
-        "yaren",
-        "enturi",
-        "bozaj",
         "timurun fillerinin bakicisi"
-      ],
-      "top_evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk",
-        "yabancı turistin türk esnafına isyan etmesi"
-      ]
-    },
-    {
-      "cell_name": "Ekonomi Savunması & Aklama",
-      "member_count": 2,
-      "average_troll_score": 78.7,
-      "members": [
-        "948",
-        "1xw"
       ],
       "top_evidence_topics": [
         "haşemalılarla aynı denize girmek istemeyen kadın",
@@ -40,271 +17,24 @@
   ],
   "candidates": [
     {
-      "nick": "becathlon",
-      "troll_score": 97.0,
-      "risk_level": "Kesin Organize Troll",
-      "badge_color": "red",
-      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 3,
-      "metrics": {
-        "topic_entropy": 0.92,
-        "stance_alignment": 100.0,
-        "smear_intensity": 100.0,
-        "vote_brigading": 95.0,
-        "synchronicity_score": 100.0,
-        "shift_regularity": 0.0
-      },
-      "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "givles",
-      "troll_score": 94.0,
-      "risk_level": "Kesin Organize Troll",
-      "badge_color": "red",
-      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "stance_alignment": 100.0,
-        "smear_intensity": 100.0,
-        "vote_brigading": 95.0,
-        "synchronicity_score": 100.0,
-        "shift_regularity": 0.0
-      },
-      "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "nane kokusu",
-      "troll_score": 94.0,
-      "risk_level": "Kesin Organize Troll",
-      "badge_color": "red",
-      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "stance_alignment": 100.0,
-        "smear_intensity": 100.0,
-        "vote_brigading": 95.0,
-        "synchronicity_score": 100.0,
-        "shift_regularity": 0.0
-      },
-      "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ],
-      "is_monitored": false
-    },
-    {
-      "nick": "miamix",
-      "troll_score": 94.0,
-      "risk_level": "Kesin Organize Troll",
-      "badge_color": "red",
-      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "stance_alignment": 100.0,
-        "smear_intensity": 100.0,
-        "vote_brigading": 95.0,
-        "synchronicity_score": 100.0,
-        "shift_regularity": 0.0
-      },
-      "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "londrast",
-      "troll_score": 91.0,
-      "risk_level": "Kesin Organize Troll",
-      "badge_color": "red",
-      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "stance_alignment": 100.0,
-        "smear_intensity": 100.0,
-        "vote_brigading": 80.0,
-        "synchronicity_score": 100.0,
-        "shift_regularity": 0.0
-      },
-      "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "biseydiycemben",
-      "troll_score": 91.0,
-      "risk_level": "Kesin Organize Troll",
-      "badge_color": "red",
-      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "stance_alignment": 100.0,
-        "smear_intensity": 100.0,
-        "vote_brigading": 80.0,
-        "synchronicity_score": 100.0,
-        "shift_regularity": 0.0
-      },
-      "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ],
-      "is_monitored": false
-    },
-    {
-      "nick": "yaren",
-      "troll_score": 88.0,
-      "risk_level": "Kesin Organize Troll",
-      "badge_color": "red",
-      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "stance_alignment": 100.0,
-        "smear_intensity": 100.0,
-        "vote_brigading": 65.0,
-        "synchronicity_score": 100.0,
-        "shift_regularity": 0.0
-      },
-      "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ],
-      "is_monitored": false
-    },
-    {
-      "nick": "948",
-      "troll_score": 86.2,
-      "risk_level": "Kesin Organize Troll",
-      "badge_color": "red",
-      "detected_cell": "Ekonomi Savunması & Aklama",
-      "entry_count": 2,
-      "metrics": {
-        "topic_entropy": 1.0,
-        "stance_alignment": 100.0,
-        "smear_intensity": 100.0,
-        "vote_brigading": 80.0,
-        "synchronicity_score": 50.0,
-        "shift_regularity": 0.0
-      },
-      "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "enturi",
-      "troll_score": 81.7,
-      "risk_level": "Kesin Organize Troll",
-      "badge_color": "red",
-      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 2,
-      "metrics": {
-        "topic_entropy": 1.0,
-        "stance_alignment": 50.0,
-        "smear_intensity": 100.0,
-        "vote_brigading": 95.0,
-        "synchronicity_score": 100.0,
-        "shift_regularity": 0.0
-      },
-      "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "bozaj",
-      "troll_score": 78.7,
-      "risk_level": "Kesin Organize Troll",
-      "badge_color": "red",
-      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 3,
-      "metrics": {
-        "topic_entropy": 0.92,
-        "stance_alignment": 66.7,
-        "smear_intensity": 66.7,
-        "vote_brigading": 95.0,
-        "synchronicity_score": 100.0,
-        "shift_regularity": 0.0
-      },
-      "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "1xw",
-      "troll_score": 71.2,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Ekonomi Savunması & Aklama",
-      "entry_count": 2,
-      "metrics": {
-        "topic_entropy": 1.0,
-        "stance_alignment": 50.0,
-        "smear_intensity": 100.0,
-        "vote_brigading": 80.0,
-        "synchronicity_score": 50.0,
-        "shift_regularity": 0.0
-      },
-      "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
       "nick": "timurun fillerinin bakicisi",
-      "troll_score": 64.2,
-      "risk_level": "Yüksek Olasılıklı Troll",
-      "badge_color": "orange",
-      "detected_cell": "Kültür Savaşı & Yaşam Tarzı",
+      "troll_score": 47.8,
+      "risk_level": "Şüpheli Algı Katılımcısı",
+      "badge_color": "yellow",
+      "detected_cell": "Kültür Savaşı & Kutuplaştırma Hücresi",
       "entry_count": 6,
       "metrics": {
-        "topic_entropy": 1.58,
-        "stance_alignment": 50.0,
-        "smear_intensity": 50.0,
+        "inception_count": 2,
+        "early_swarm_count": 3,
+        "manufactured_focus_ratio": 50.0,
         "vote_brigading": 80.0,
-        "synchronicity_score": 100.0,
-        "shift_regularity": 0.0
+        "stance_alignment": 50.0
       },
       "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın"
       ],
       "is_monitored": true
-    },
-    {
-      "nick": "realdreamer",
-      "troll_score": 43.0,
-      "risk_level": "Şüpheli / Polarize Hesap",
-      "badge_color": "yellow",
-      "detected_cell": "Genel Karalama & Algı Hücresi",
-      "entry_count": 1,
-      "metrics": {
-        "topic_entropy": 0.0,
-        "stance_alignment": 0.0,
-        "smear_intensity": 100.0,
-        "vote_brigading": 65.0,
-        "synchronicity_score": 0.0,
-        "shift_regularity": 0.0
-      },
-      "evidence_topics": [
-        "masterchef türkiye"
-      ],
-      "is_monitored": false
     },
     {
       "nick": "david ellefson",
@@ -315,30 +45,164 @@
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
-        "topic_entropy": 0.0,
-        "stance_alignment": 0.0,
-        "smear_intensity": 0.0,
+        "inception_count": 0,
+        "early_swarm_count": 1,
+        "manufactured_focus_ratio": 100.0,
         "vote_brigading": 0.0,
-        "synchronicity_score": 100.0,
-        "shift_regularity": 0.0
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": []
+    },
+    {
+      "nick": "enturi",
+      "troll_score": 0.0,
+      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "badge_color": "green",
+      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "entry_count": 2,
+      "is_monitored": true,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
       },
       "evidence_topics": []
     },
     {
       "nick": "georgewalker",
       "troll_score": 0.0,
-      "risk_level": "Organik / Beğeni Halkası Yok",
+      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
       "badge_color": "green",
-      "detected_cell": "Bireysel (Beğeni Halkası Yok - Elendi)",
+      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
       "entry_count": 1,
       "is_monitored": true,
       "metrics": {
-        "topic_entropy": 0.0,
-        "stance_alignment": 0.0,
-        "smear_intensity": 0.0,
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
         "vote_brigading": 0.0,
-        "synchronicity_score": 100.0,
-        "shift_regularity": 0.0
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": []
+    },
+    {
+      "nick": "bozaj",
+      "troll_score": 0.0,
+      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "badge_color": "green",
+      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "entry_count": 3,
+      "is_monitored": true,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": []
+    },
+    {
+      "nick": "givles",
+      "troll_score": 0.0,
+      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "badge_color": "green",
+      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "entry_count": 1,
+      "is_monitored": true,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": []
+    },
+    {
+      "nick": "miamix",
+      "troll_score": 0.0,
+      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "badge_color": "green",
+      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "entry_count": 1,
+      "is_monitored": true,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": []
+    },
+    {
+      "nick": "becathlon",
+      "troll_score": 0.0,
+      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "badge_color": "green",
+      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "entry_count": 3,
+      "is_monitored": true,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": []
+    },
+    {
+      "nick": "londrast",
+      "troll_score": 0.0,
+      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "badge_color": "green",
+      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "entry_count": 1,
+      "is_monitored": true,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": []
+    },
+    {
+      "nick": "1xw",
+      "troll_score": 0.0,
+      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "badge_color": "green",
+      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "entry_count": 2,
+      "is_monitored": true,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": []
+    },
+    {
+      "nick": "948",
+      "troll_score": 0.0,
+      "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+      "badge_color": "green",
+      "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+      "entry_count": 2,
+      "is_monitored": true,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
       },
       "evidence_topics": []
     }

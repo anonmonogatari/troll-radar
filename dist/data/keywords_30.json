@@ -1,20 +1,28 @@
 {
   "keywords": [
     {
+      "word": "değil",
+      "count": 54
+    },
+    {
       "word": "kadın",
       "count": 53
     },
     {
-      "word": "değil",
-      "count": 49
-    },
-    {
       "word": "türkiye",
-      "count": 42
+      "count": 43
     },
     {
       "word": "iyi",
-      "count": 40
+      "count": 41
+    },
+    {
+      "word": "insan",
+      "count": 34
+    },
+    {
+      "word": "güzel",
+      "count": 31
     },
     {
       "word": "kadının",
@@ -29,16 +37,28 @@
       "count": 27
     },
     {
-      "word": "insan",
-      "count": 27
-    },
-    {
       "word": "tam",
       "count": 27
     },
     {
       "word": "ilk",
       "count": 27
+    },
+    {
+      "word": "nasıl",
+      "count": 24
+    },
+    {
+      "word": "sadece",
+      "count": 24
+    },
+    {
+      "word": "kadınların",
+      "count": 24
+    },
+    {
+      "word": "insanın",
+      "count": 23
     },
     {
       "word": "beyaz",
@@ -49,19 +69,27 @@
       "count": 22
     },
     {
+      "word": "sürekli",
+      "count": 22
+    },
+    {
+      "word": "tek",
+      "count": 22
+    },
+    {
       "word": "açık",
       "count": 22
     },
     {
-      "word": "sadece",
-      "count": 21
-    },
-    {
       "word": "israil",
-      "count": 21
+      "count": 22
     },
     {
       "word": "ayşe",
+      "count": 21
+    },
+    {
+      "word": "erkek",
       "count": 21
     },
     {
@@ -69,7 +97,11 @@
       "count": 21
     },
     {
-      "word": "erkek",
+      "word": "benim",
+      "count": 20
+    },
+    {
+      "word": "savaşı",
       "count": 20
     },
     {
@@ -77,48 +109,16 @@
       "count": 19
     },
     {
-      "word": "benim",
-      "count": 19
-    },
-    {
-      "word": "tek",
-      "count": 19
-    },
-    {
-      "word": "savaşı",
-      "count": 19
-    },
-    {
-      "word": "yaş",
-      "count": 19
-    },
-    {
-      "word": "üstü",
-      "count": 19
-    },
-    {
-      "word": "istemeyen",
-      "count": 18
-    },
-    {
-      "word": "güzel",
-      "count": 18
-    },
-    {
       "word": "bana",
-      "count": 18
+      "count": 19
     },
     {
-      "word": "son",
-      "count": 18
+      "word": "sizi",
+      "count": 19
     },
     {
-      "word": "hatta",
-      "count": 18
-    },
-    {
-      "word": "gol",
-      "count": 18
+      "word": "kaç",
+      "count": 19
     }
   ]
 }

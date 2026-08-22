@@ -170,8 +170,8 @@
                 <i data-lucide="newspaper" class="w-4 h-4"></i>
                 <span>Haftalık İstihbarat Bülteni</span>
             </button>
-            <button onclick="switchTab('discovery')" id="tab-btn-discovery" class="nav-tab flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold border border-transparent transition-all text-purple-400 bg-purple-950/30 border-purple-500/30">
-                <i data-lucide="bot" class="w-4 h-4 text-purple-400"></i>
+            <button onclick="switchTab('discovery')" id="tab-btn-discovery" class="nav-tab flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold border border-transparent transition-all">
+                <i data-lucide="bot" class="w-4 h-4"></i>
                 <span>Otomatik Troll Keşfi & Hücre Radarı</span>
             </button>
             <button onclick="switchTab('analytics')" id="tab-btn-analytics" class="nav-tab flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold border border-transparent transition-all">
@@ -218,20 +218,20 @@
             <!-- Troll Detection Criteria Explainer Cards -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-xs">
                 <div class="glass-panel p-4 space-y-1.5 border-t-2 border-purple-500">
-                    <span class="text-purple-400 font-bold block">1. Söylem & Argüman Uyumu</span>
-                    <p class="text-slate-400 text-[11px]">Aynı hedefe aynı karalama/aklama argümanlarıyla koro halinde saldırma oranı. Zıt görüşlü organik tartışmacılar elenir.</p>
+                    <span class="text-purple-400 font-bold block">1. Kurgu Başlık Açma</span>
+                    <p class="text-slate-400 text-[11px]">Hedefli karalama, konser/israf veya kutuplaştırma kurgusuyla doğrudan yeni başlık açma (Entry #1) oranı.</p>
                 </div>
                 <div class="glass-panel p-4 space-y-1.5 border-t-2 border-red-500">
-                    <span class="text-red-400 font-bold block">2. İftira & Karalama Yoğunluğu</span>
-                    <p class="text-slate-400 text-[11px]">Konser, yolsuzluk iddiaları, kutuplaştırma ve dezenformasyon odaklılığı. Futbol ve magazin gürültüsü ayıklanır.</p>
+                    <span class="text-red-400 font-bold block">2. İlk Dalga Köpürtme</span>
+                    <p class="text-slate-400 text-[11px]">Açılan kurgu başlığa ilk 15 dakikada koro halinde ilk 5 entry'yi girerek sol frame'e taşıma sıklığı.</p>
                 </div>
                 <div class="glass-panel p-4 space-y-1.5 border-t-2 border-amber-500">
-                    <span class="text-amber-400 font-bold block">3. Organize Beğeni Halkası</span>
-                    <p class="text-slate-400 text-[11px]">Karalama entrylerini debe/şükela listesine sokmak için birbirini inorganik favorileme ve yukarı taşıma katsayısı.</p>
+                    <span class="text-amber-400 font-bold block">3. İlk Dalga Beğeni Halkası</span>
+                    <p class="text-slate-400 text-[11px]">Kurgu başlığın ilk entrylerini hızla favorileyip şükela ve debe listesine sokma korelasyonu.</p>
                 </div>
                 <div class="glass-panel p-4 space-y-1.5 border-t-2 border-blue-500">
-                    <span class="text-blue-400 font-bold block">4. Zamansal Eşzamanlılık</span>
-                    <p class="text-slate-400 text-[11px]">Kritik siyasi başlıklara 1-45 dakika aralıklarla peş peşe ve koro halinde organize entry girme korelasyonu.</p>
+                    <span class="text-blue-400 font-bold block">4. Genel Başlık İzolasyonu</span>
+                    <p class="text-slate-400 text-[11px]">Eski/genel başlıklara yazan veya geç katılan organik sözlük halkı %0 puan ile otomatik elenir.</p>
                 </div>
             </div>
 
@@ -243,7 +243,7 @@
                             <i data-lucide="boxes" class="w-4 h-4 text-purple-400"></i>
                             Tespit Edilen Siyasi Troll Hücreleri (Organized Cells)
                         </h3>
-                        <p class="text-xs text-slate-400">Ortak hedeflere çalışan organize yazar grupları</p>
+                        <p class="text-xs text-slate-400">Kurgu başlık açıp ilk 5 entry ile köpürten organize hücreler</p>
                     </div>
                 </div>
 
@@ -260,7 +260,7 @@
                             <i data-lucide="shield-alert" class="w-4 h-4 text-red-400"></i>
                             Otomatik Puanlanan Aday Hesaplar & Siyasi Troll İndeksi
                         </h3>
-                        <p class="text-xs text-slate-400">Gelişmiş siyasi karalama ve astroturfing değerlendirme sonuçları (0 - 100 Troll Skoru)</p>
+                        <p class="text-xs text-slate-400">Yeni açılan kurgu başlık ve ilk dalga köpürtme sonuçları (0 - 100 Troll Skoru)</p>
                     </div>
                 </div>
 
@@ -271,10 +271,10 @@
                                 <th class="py-3 px-3">Yazar Adı</th>
                                 <th class="py-3 px-3">Troll İndeksi</th>
                                 <th class="py-3 px-3">Tespit Edilen Hücre</th>
-                                <th class="py-3 px-3">Söylem Uyumu</th>
-                                <th class="py-3 px-3">Karalama Yoğunluğu</th>
+                                <th class="py-3 px-3">Kurgu Başlık Açma</th>
+                                <th class="py-3 px-3">İlk Dalga (#1-#5)</th>
                                 <th class="py-3 px-3">Beğeni Halkası</th>
-                                <th class="py-3 px-3">Eşzamanlılık</th>
+                                <th class="py-3 px-3">Söylem Uyumu</th>
                                 <th class="py-3 px-3 text-right">İşlem</th>
                             </tr>
                         </thead>
@@ -532,7 +532,7 @@
 
     <!-- Author Detail Dossier Modal -->
     <div id="author-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 modal-overlay">
-        <div class="bg-dark-800 border border-white/10 rounded-2xl max-w-2xl w-full max-h-[85vh] flex flex-col shadow-2xl overflow-hidden">
+        <div class="modal-content bg-dark-800 border border-white/10 rounded-2xl max-w-2xl w-full max-h-[85vh] flex flex-col shadow-2xl overflow-hidden">
             <!-- Modal Header -->
             <div class="p-5 border-b border-white/10 flex items-center justify-between bg-dark-900/50">
                 <div class="flex items-center space-x-3">
@@ -561,7 +561,7 @@
 
     <!-- Live Scrape Modal -->
     <div id="scrape-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 modal-overlay">
-        <div class="bg-dark-800 border border-white/10 rounded-2xl max-w-xl w-full flex flex-col shadow-2xl overflow-hidden">
+        <div class="modal-content bg-dark-800 border border-white/10 rounded-2xl max-w-xl w-full flex flex-col shadow-2xl overflow-hidden">
             
             <div class="p-5 border-b border-white/10 flex items-center justify-between bg-dark-900/50">
                 <div class="flex items-center space-x-2">

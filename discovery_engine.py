@@ -8,150 +8,123 @@ from collections import Counter, defaultdict
 from config import TARGET_AUTHORS, NARRATIVE_CATEGORIES, TURKISH_STOPWORDS
 from database import get_db
 from noise_filter import is_noise_topic
-from smear_detector import (
-    detect_entry_stance, calculate_smear_intensity_ratio,
-    calculate_narrative_alignment, calculate_vote_brigading_score
-)
+from smear_detector import detect_entry_stance, calculate_narrative_alignment, calculate_vote_brigading_score
+from manufactured_topic_detector import is_manufactured_troll_topic, is_generic_established_topic
 
 class TrollDiscoveryEngine:
     """
-    Refined Targeted Political Astroturfing, Smear Campaign,
-    Vote-Brigading, and Stance Alignment Detection Engine.
-    Filters out football/sports/entertainment noise completely.
+    High-Precision Troll Inception & Early Swarm Detection Engine.
+    Exclusively targets accounts that manufacture new smear/outrage topics
+    and the early swarm crew (#1-#5 entries) that coordinates to push them into Sol Frame/Debe.
     """
 
     def __init__(self):
         pass
 
-    def calculate_topic_entropy(self, topics: List[str]) -> float:
+    def evaluate_author_on_manufactured_topics(
+        self,
+        nick: str,
+        author_entries: List[Dict[str, Any]],
+        all_entries: List[Dict[str, Any]],
+        topic_timeline_map: Dict[str, List[Dict[str, Any]]]
+    ) -> Dict[str, Any]:
         """
-        Calculates Shannon Entropy of an author's topic distribution:
-        H(X) = - sum(p(x) * log2(p(x)))
-        """
-        if not topics:
-            return 0.0
-        
-        total = len(topics)
-        counts = Counter(topics)
-        entropy = 0.0
-        
-        for count in counts.values():
-            p = count / total
-            if p > 0:
-                entropy -= p * math.log2(p)
-                
-        return round(entropy, 2)
-
-    def calculate_shift_regularity(self, timestamps: List[str]) -> float:
-        """
-        Calculates the concentration of postings within standard work/shift hours (09:00 - 18:00 on weekdays).
-        """
-        if not timestamps:
-            return 0.0
-
-        work_shift_posts = 0
-        total_valid = 0
-
-        for ts in timestamps:
-            try:
-                dt = datetime.fromisoformat(ts)
-                total_valid += 1
-                if dt.weekday() < 5 and (9 <= dt.hour <= 18):
-                    work_shift_posts += 1
-            except Exception:
-                pass
-
-        if total_valid == 0:
-            return 0.0
-
-        return round((work_shift_posts / total_valid) * 100, 1)
-
-    def calculate_temporal_synchronicity(self, author_entries: List[Dict[str, Any]], all_entries: List[Dict[str, Any]], window_minutes: int = 45) -> float:
-        """
-        Calculates how frequently this author posts on the exact same political topic
-        within 'window_minutes' of other suspected/target authors.
-        """
-        if not author_entries:
-            return 0.0
-
-        author_entry_ids = set(e['id'] for e in author_entries)
-        other_entries = [e for e in all_entries if e['id'] not in author_entry_ids and not is_noise_topic(e['topic'])]
-
-        other_by_topic = defaultdict(list)
-        for e in other_entries:
-            try:
-                other_by_topic[e['topic']].append(datetime.fromisoformat(e['created_at']))
-            except Exception:
-                pass
-
-        synchronized_posts = 0
-        for e in author_entries:
-            topic = e['topic']
-            if topic not in other_by_topic:
-                continue
-            try:
-                author_dt = datetime.fromisoformat(e['created_at'])
-                for other_dt in other_by_topic[topic]:
-                    diff_mins = abs((author_dt - other_dt).total_seconds()) / 60.0
-                    if diff_mins <= window_minutes:
-                        synchronized_posts += 1
-                        break
-            except Exception:
-                pass
-
-        return round((synchronized_posts / len(author_entries)) * 100, 1)
-
-    def evaluate_author(self, nick: str, author_entries: List[Dict[str, Any]], all_entries: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """
-        Evaluates an author across targeted political astroturfing criteria:
-        1. Stance & Narrative Alignment (Aynı Tez & Söylem Birliği): 30%
-        2. Smear & Defamation Intensity (İftira/Karalama/Aklama Odaklılığı): 25%
-        3. Vote Brigading / Favoriting Ring (Organize Beğeni & Şükela Halkası): 20%
-        4. Temporal Synchronicity (Zamansal Eşzamanlılık): 15%
-        5. Topic Narrowness / Entropy (Konu Darlığı / Entropi): 10%
+        Evaluates an author on manufactured topic creation, early swarming, and brigading:
+        1. Topic Inception (Kurgu Başlık Açma - Entry #1): 40%
+        2. Early Swarm (#1-#5 Entry İle Köpürtme): 35%
+        3. First-Wave Favoriting Ring (Beğeni Halkası): 15%
+        4. Stance & Defamation Alignment (Söylem Uyumu): 10%
         """
         # Filter out noise entries for this author
         relevant_entries = [e for e in author_entries if not is_noise_topic(e['topic'], e.get('content'))]
         
-        # If author ONLY posts about football/sports/casual noise -> NOT a political troll!
         if not relevant_entries:
             return {
                 "nick": nick,
                 "troll_score": 0.0,
-                "risk_level": "Organik / Spor-Genel Yazar",
+                "risk_level": "Organik / Gürültü-Spor İçeriği",
                 "badge_color": "green",
                 "detected_cell": "Gürültü / Spor İçeriği (Elendi)",
                 "entry_count": len(author_entries),
                 "is_monitored": False,
                 "metrics": {
-                    "topic_entropy": 0.0,
-                    "stance_alignment": 0.0,
-                    "smear_intensity": 0.0,
+                    "inception_count": 0,
+                    "early_swarm_count": 0,
+                    "manufactured_focus_ratio": 0.0,
                     "vote_brigading": 0.0,
-                    "synchronicity_score": 0.0,
-                    "shift_regularity": 0.0
+                    "stance_alignment": 0.0
                 },
                 "evidence_topics": []
             }
 
-        topics = [e['topic'] for e in relevant_entries]
-        timestamps = [e['created_at'] for e in relevant_entries]
+        # Analyze positions on manufactured topics
+        inception_count = 0
+        early_swarm_count = 0
+        manufactured_topics_participated = []
+        cell_tags = []
 
-        # 1. Calculate Core Metrics
-        entropy = self.calculate_topic_entropy(topics)
-        entropy_troll_score = max(0.0, min(100.0, (3.2 - entropy) * 35.0)) if len(topics) >= 2 else 50.0
+        for e in relevant_entries:
+            topic = e['topic']
+            is_manuf, cell_type = is_manufactured_troll_topic(topic, e.get('content', ''))
+            
+            if not is_manuf:
+                continue
 
-        stance_alignment = calculate_narrative_alignment(relevant_entries, all_entries)
-        smear_intensity = calculate_smear_intensity_ratio(relevant_entries)
+            manufactured_topics_participated.append(topic)
+            cell_tags.append(cell_type)
+
+            # Check entry rank/position in this topic
+            topic_entries = topic_timeline_map.get(topic, [])
+            # Find index of this entry in the sorted topic entries
+            try:
+                entry_index = next(idx for idx, te in enumerate(topic_entries) if te['id'] == e['id'])
+            except StopIteration:
+                entry_index = 0
+
+            # If it's Entry #1 (Topic Starter)
+            if entry_index == 0:
+                inception_count += 1
+                early_swarm_count += 1
+            # If it's Entry #2 - #5 (Early Swarm)
+            elif entry_index < 5:
+                early_swarm_count += 1
+
+        # -------------------------------------------------------------
+        # MANDATORY HARD-GATE: MANUFACTURED TOPIC ENGAGEMENT
+        # -------------------------------------------------------------
+        # If an author NEVER opened a manufactured topic and NEVER participated in the
+        # first 5 entries of a smear topic, they are an ORGANIC user (Score = 0.0)!
+        if early_swarm_count == 0:
+            return {
+                "nick": nick,
+                "troll_score": 0.0,
+                "risk_level": "Organik / Kurgu Başlık Katılımı Yok",
+                "badge_color": "green",
+                "detected_cell": "Organik Yazar (Kurgu Başlık Yok - Elendi)",
+                "entry_count": len(relevant_entries),
+                "is_monitored": False,
+                "metrics": {
+                    "inception_count": 0,
+                    "early_swarm_count": 0,
+                    "manufactured_focus_ratio": 0.0,
+                    "vote_brigading": 0.0,
+                    "stance_alignment": 0.0
+                },
+                "evidence_topics": []
+            }
+
+        # Calculate Ratios
+        total_relevant = len(relevant_entries)
+        inception_ratio = round((inception_count / max(1, total_relevant)) * 100, 1)
+        early_swarm_ratio = round((early_swarm_count / max(1, total_relevant)) * 100, 1)
+        manufactured_focus_ratio = round((len(manufactured_topics_participated) / max(1, total_relevant)) * 100, 1)
+
         vote_brigading = calculate_vote_brigading_score(relevant_entries)
-        synchronicity = self.calculate_temporal_synchronicity(relevant_entries, all_entries)
-        shift_regularity = self.calculate_shift_regularity(timestamps)
+        stance_alignment = calculate_narrative_alignment(relevant_entries, all_entries)
 
         # -------------------------------------------------------------
-        # MANDATORY HARD-GATE: VOTE BRIGADING / FAVORITING RING
+        # MANDATORY HARD-GATE: VOTE BRIGADING
         # -------------------------------------------------------------
-        # An organized troll network CANNOT operate without an upvote/fav ring to push
-        # smear entries into Debe/Şükela. If no vote-brigading ring exists, immediately disqualify!
         if vote_brigading < 30.0:
             return {
                 "nick": nick,
@@ -162,70 +135,60 @@ class TrollDiscoveryEngine:
                 "entry_count": len(relevant_entries),
                 "is_monitored": False,
                 "metrics": {
-                    "topic_entropy": entropy,
-                    "stance_alignment": stance_alignment,
-                    "smear_intensity": smear_intensity,
+                    "inception_count": inception_count,
+                    "early_swarm_count": early_swarm_count,
+                    "manufactured_focus_ratio": manufactured_focus_ratio,
                     "vote_brigading": vote_brigading,
-                    "synchronicity_score": synchronicity,
-                    "shift_regularity": shift_regularity
+                    "stance_alignment": stance_alignment
                 },
                 "evidence_topics": []
             }
 
-        # 2. Weighted Political Astroturfing Troll Index (0 - 100)
+        # Weighted Troll Index
         raw_score = (
-            (stance_alignment * 0.30) +
-            (smear_intensity * 0.25) +
-            (vote_brigading * 0.20) +
-            (synchronicity * 0.15) +
-            (entropy_troll_score * 0.10)
+            (inception_ratio * 0.40) +
+            (early_swarm_ratio * 0.35) +
+            (vote_brigading * 0.15) +
+            (stance_alignment * 0.10)
         )
         troll_score = round(max(0.0, min(100.0, raw_score)), 1)
 
-        # 3. Determine Risk Classification
-        if troll_score >= 75:
-            risk_level = "Kesin Organize Troll"
+        # Risk Classification
+        if troll_score >= 70:
+            risk_level = "Kesin Kurgu Başlık Trollü"
             badge_color = "red"
-        elif troll_score >= 55:
-            risk_level = "Yüksek Olasılıklı Troll"
+        elif troll_score >= 50:
+            risk_level = "İlk Dalga Köpürtücü Troll"
             badge_color = "orange"
-        elif troll_score >= 35:
-            risk_level = "Şüpheli / Polarize Hesap"
+        elif troll_score >= 30:
+            risk_level = "Şüpheli Algı Katılımcısı"
             badge_color = "yellow"
         else:
-            risk_level = "Organik / Düşük Risk"
+            risk_level = "Düşük Risk / Organik"
             badge_color = "green"
 
-        # 4. Cell Categorization
-        cell_tags = []
-        top_cats = Counter([e.get('category', 'Genel') for e in relevant_entries]).most_common(2)
-        if top_cats:
-            for cat, cnt in top_cats:
-                if cat != "Genel" and cat != "Suni Gündem & Viral Çarpıtma":
-                    cell_tags.append(cat)
-        detected_cell = cell_tags[0] if cell_tags else "Genel Karalama & Algı Hücresi"
+        top_cell = Counter(cell_tags).most_common(1)[0][0] if cell_tags else "Genel Karalama Hücresi"
 
         return {
             "nick": nick,
             "troll_score": troll_score,
             "risk_level": risk_level,
             "badge_color": badge_color,
-            "detected_cell": detected_cell,
+            "detected_cell": top_cell,
             "entry_count": len(relevant_entries),
             "metrics": {
-                "topic_entropy": entropy,
-                "stance_alignment": stance_alignment,
-                "smear_intensity": smear_intensity,
+                "inception_count": inception_count,
+                "early_swarm_count": early_swarm_count,
+                "manufactured_focus_ratio": early_swarm_ratio,
                 "vote_brigading": vote_brigading,
-                "synchronicity_score": synchronicity,
-                "shift_regularity": shift_regularity
+                "stance_alignment": stance_alignment
             },
-            "evidence_topics": list(set(topics))[:4]
+            "evidence_topics": list(set(manufactured_topics_participated))[:4]
         }
 
     def run_auto_discovery_scan(self, days: int = 30, scrape_live: bool = False) -> List[Dict[str, Any]]:
         """
-        Scans authors, evaluates their metrics against political manipulation criteria,
+        Scans authors, evaluates them exclusively on newly created manufactured topics and early swarms,
         and saves discovered troll classifications into SQLite.
         """
         if scrape_live:
@@ -243,7 +206,7 @@ class TrollDiscoveryEngine:
             active_rows = cursor.execute("SELECT nick FROM authors WHERE is_active = 1").fetchall()
             active_monitored_set = set(r['nick'] for r in active_rows)
 
-            cursor.execute("SELECT * FROM entries WHERE created_at >= ?", (cutoff,))
+            cursor.execute("SELECT * FROM entries WHERE created_at >= ? ORDER BY created_at ASC", (cutoff,))
             all_entries = [dict(r) for r in cursor.fetchall()]
             for e in all_entries:
                 try:
@@ -252,6 +215,11 @@ class TrollDiscoveryEngine:
                 except Exception:
                     e['external_links'] = []
 
+        # Build topic timeline map (sorted chronological entries per topic)
+        topic_timeline_map = defaultdict(list)
+        for e in all_entries:
+            topic_timeline_map[e['topic']].append(e)
+
         # Group entries by author
         entries_by_author = defaultdict(list)
         for e in all_entries:
@@ -259,9 +227,10 @@ class TrollDiscoveryEngine:
 
         results = []
         for nick, author_entries in entries_by_author.items():
-            evaluation = self.evaluate_author(nick, author_entries, all_entries)
+            evaluation = self.evaluate_author_on_manufactured_topics(
+                nick, author_entries, all_entries, topic_timeline_map
+            )
             
-            # If author has score 0 because they only post sports/noise, omit or rank at bottom
             is_monitored = nick in active_monitored_set
             evaluation['is_monitored'] = is_monitored
             
@@ -295,11 +264,11 @@ class TrollDiscoveryEngine:
                     evaluation['troll_score'],
                     evaluation['risk_level'],
                     evaluation['detected_cell'],
-                    evaluation['metrics']['topic_entropy'],
-                    evaluation['metrics']['synchronicity_score'],
-                    evaluation['metrics']['smear_intensity'],
-                    evaluation['metrics']['shift_regularity'],
+                    evaluation['metrics']['inception_count'],
+                    evaluation['metrics']['early_swarm_count'],
+                    evaluation['metrics']['manufactured_focus_ratio'],
                     evaluation['metrics']['vote_brigading'],
+                    evaluation['metrics']['stance_alignment'],
                     evaluation['entry_count'],
                     json.dumps(evaluation['evidence_topics'], ensure_ascii=False),
                     datetime.now().isoformat(),
@@ -317,7 +286,7 @@ class TrollDiscoveryEngine:
         """
         cells = defaultdict(list)
         for ev in evaluations:
-            if ev['troll_score'] >= 45 and "Gürültü" not in ev['detected_cell']:
+            if ev['troll_score'] >= 40 and "Organik" not in ev['detected_cell'] and "Gürültü" not in ev['detected_cell']:
                 cell_name = ev['detected_cell']
                 cells[cell_name].append(ev)
 

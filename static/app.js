@@ -268,16 +268,16 @@ function renderDiscoveryCandidates(candidates) {
                     </span>
                 </td>
                 <td class="py-3 px-3 font-mono text-purple-300 font-bold">
-                    %${m.stance_alignment || 0}
+                    ${m.inception_count || 0} başlık
                 </td>
                 <td class="py-3 px-3 font-mono text-red-300 font-semibold">
-                    %${m.smear_intensity || 0}
+                    ${m.early_swarm_count || 0} entry (%${m.manufactured_focus_ratio || 0})
                 </td>
                 <td class="py-3 px-3 font-mono text-amber-300 font-semibold">
                     %${m.vote_brigading || 0}
                 </td>
                 <td class="py-3 px-3 font-mono text-blue-300 font-semibold">
-                    %${m.synchronicity_score || 0}
+                    %${m.stance_alignment || 0}
                 </td>
                 <td class="py-3 px-3 text-right">
                     ${c.is_monitored ? `
