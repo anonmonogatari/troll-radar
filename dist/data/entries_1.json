@@ -1,5 +1,5 @@
 {
-  "total": 214,
+  "total": 213,
   "entries": [
     {
       "id": "185847076",
@@ -3275,26 +3275,6 @@
       "category": "Dış Politika & Jeopolitik Savunma",
       "sentiment": "neutral",
       "external_links": [],
-      "is_coordinated": 1
-    },
-    {
-      "id": "185828969",
-      "author": "veerle",
-      "topic": "şu anda çalan şarkı",
-      "topic_slug": "u-anda-alan-ark",
-      "content": "görsel",
-      "date_str": "22.08.2026 01:38",
-      "created_at": "2026-08-22T01:38:00",
-      "favorite_count": 0,
-      "comment_count": 0,
-      "category": "Suni Gündem & Viral Çarpıtma",
-      "sentiment": "neutral",
-      "external_links": [
-        {
-          "text": "görsel",
-          "url": "https://soz.lk/i/wlwks6j9"
-        }
-      ],
       "is_coordinated": 1
     }
   ],
