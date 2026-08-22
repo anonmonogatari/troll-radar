@@ -147,12 +147,30 @@ async function loadOverviewStats() {
 // ----------------- TAB 0: AUTOMATED DISCOVERY & SCORING ----------------- //
 
 async function loadDiscovery() {
+    const cellsGrid = document.getElementById('discovery-cells-grid');
+    const tbody = document.getElementById('discovery-candidates-tbody');
+
+    if (cellsGrid && cellsGrid.innerHTML.trim() === '') {
+        cellsGrid.innerHTML = `
+            <div class="col-span-3 glass-panel p-6 text-center text-slate-400">
+                <div class="inline-block animate-spin mb-2 text-purple-400"><i data-lucide="loader-2" class="w-6 h-6"></i></div>
+                <p>Troll hücreleri analiz ediliyor...</p>
+            </div>
+        `;
+    }
+    if (tbody && tbody.innerHTML.trim() === '') {
+        tbody.innerHTML = `<tr><td colspan="8" class="text-center py-6 text-slate-400"><div class="inline-block animate-spin mb-2 text-purple-400"><i data-lucide="loader-2" class="w-5 h-5"></i></div><p>Aday hesaplar değerlendiriliyor...</p></td></tr>`;
+    }
+    lucide.createIcons();
+
     try {
         const data = await fetchApi(`/api/discovery/candidates?days=${currentDays}`, `./data/discovery_${currentDays}.json`);
         renderDiscoveryCells(data.cells || []);
         renderDiscoveryCandidates(data.candidates || []);
     } catch (err) {
         console.error("Failed to load discovery data:", err);
+        if (cellsGrid) cellsGrid.innerHTML = `<div class="col-span-3 text-center text-slate-500 text-xs py-4">Veri yüklenemedi.</div>`;
+        if (tbody) tbody.innerHTML = `<tr><td colspan="8" class="text-center py-4 text-slate-500 text-xs">Aday verisi alınamadı.</td></tr>`;
     }
 }
 
@@ -161,7 +179,7 @@ function renderDiscoveryCells(cells) {
     if (!grid) return;
 
     if (cells.length === 0) {
-        grid.innerHTML = `<p class="text-xs text-slate-500">Henüz belirgin bir troll hücresi ayrışmadı.</p>`;
+        grid.innerHTML = `<p class="text-xs text-slate-500 col-span-3 text-center py-4">Henüz belirgin bir troll hücresi ayrışmadı.</p>`;
         return;
     }
 
@@ -173,7 +191,7 @@ function renderDiscoveryCells(cells) {
                     <h4 class="text-sm font-bold text-white">${escapeHtml(c.cell_name)}</h4>
                 </div>
                 <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-purple-500/20 text-purple-300 border border-purple-500/30 font-mono">
-                    Ort. ${c.average_troll_score}%
+                    Ort. %${c.average_troll_score}
                 </span>
             </div>
 
@@ -238,7 +256,7 @@ function renderDiscoveryCandidates(candidates) {
                         <div class="w-16 bg-dark-900 rounded-full h-1.5 overflow-hidden border border-white/5">
                             <div class="${barColor} h-1.5 rounded-full" style="width: ${score}%"></div>
                         </div>
-                        <span class="font-bold font-mono text-white text-[11px]">${score}%</span>
+                        <span class="font-bold font-mono text-white text-[11px]">%${score}</span>
                     </div>
                     <span class="text-[9px] px-1.5 py-0.5 rounded border ${badgeBg} inline-block mt-1 font-semibold">
                         ${escapeHtml(c.risk_level)}
@@ -250,16 +268,16 @@ function renderDiscoveryCandidates(candidates) {
                     </span>
                 </td>
                 <td class="py-3 px-3 font-mono text-slate-300 font-semibold">
-                    ${m.synchronicity_score || 0}%
+                    %${m.synchronicity_score || 0}
                 </td>
                 <td class="py-3 px-3 font-mono text-slate-300">
                     <span title="Düşük olması troll eğilimini gösterir">${m.topic_entropy || 0} H(x)</span>
                 </td>
                 <td class="py-3 px-3 font-mono text-slate-300">
-                    ${m.political_ratio || 0}%
+                    %${m.political_ratio || 0}
                 </td>
                 <td class="py-3 px-3 font-mono text-slate-300">
-                    ${m.shift_regularity || 0}%
+                    %${m.shift_regularity || 0}
                 </td>
                 <td class="py-3 px-3 text-right">
                     <button onclick="promoteCandidate('${escapeHtml(c.nick)}')" class="px-2.5 py-1 bg-dark-900 hover:bg-dark-700 border border-white/10 text-blue-400 hover:text-white rounded text-[10px] font-semibold transition-all">
@@ -274,11 +292,28 @@ function renderDiscoveryCandidates(candidates) {
 }
 
 async function triggerDiscoveryScan() {
+    const btn = document.getElementById('discovery-scan-btn');
+    const originalHtml = btn ? btn.innerHTML : '';
+    if (btn) {
+        btn.disabled = true;
+        btn.innerHTML = `<i data-lucide="loader-2" class="w-4 h-4 animate-spin"></i><span>Analiz Ediliyor...</span>`;
+        lucide.createIcons();
+    }
+
     try {
-        await fetch(`/api/discovery/scan?days=${currentDays}`, { method: 'POST' });
+        const isStatic = window.location.hostname.includes('github.io');
+        if (!isStatic) {
+            await fetch(`/api/discovery/scan?days=${currentDays}`, { method: 'POST' });
+        }
         await loadDiscovery();
     } catch (e) {
         console.error("Scan error:", e);
+    } finally {
+        if (btn) {
+            btn.disabled = false;
+            btn.innerHTML = originalHtml;
+            lucide.createIcons();
+        }
     }
 }
 
