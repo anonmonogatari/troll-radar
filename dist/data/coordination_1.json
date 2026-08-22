@@ -60,32 +60,8 @@
     ],
     "links": [
       {
-        "source": "david ellefson",
-        "target": "enturi",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
-        ]
-      },
-      {
-        "source": "enturi",
-        "target": "georgewalker",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
-        ]
-      },
-      {
         "source": "enturi",
         "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
-        ]
-      },
-      {
-        "source": "david ellefson",
-        "target": "georgewalker",
         "weight": 1,
         "topics": [
           "ankara'da alman kurdundan kaçarken ölen çocuk"
@@ -108,12 +84,27 @@
         ]
       },
       {
-        "source": "becathlon",
-        "target": "bozaj",
-        "weight": 2,
+        "source": "david ellefson",
+        "target": "enturi",
+        "weight": 1,
         "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın",
-          "yabancı turistin türk esnafına isyan etmesi"
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
+        "source": "enturi",
+        "target": "georgewalker",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
+        "source": "david ellefson",
+        "target": "georgewalker",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
         ]
       },
       {
@@ -128,6 +119,15 @@
       {
         "source": "becathlon",
         "target": "timurun fillerinin bakicisi",
+        "weight": 2,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın",
+          "yabancı turistin türk esnafına isyan etmesi"
+        ]
+      },
+      {
+        "source": "becathlon",
+        "target": "bozaj",
         "weight": 2,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın",

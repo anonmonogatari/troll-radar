@@ -14,6 +14,19 @@ let scrapePollTimer = null;
 
 // Smart API fetcher: works on both live FastAPI backend and static GitHub Pages
 async function fetchApi(endpoint, fallbackStaticPath) {
+    const isStaticHost = window.location.hostname.includes('github.io') || window.location.protocol === 'file:';
+    
+    if (isStaticHost && fallbackStaticPath) {
+        try {
+            const staticRes = await fetch(fallbackStaticPath);
+            if (staticRes.ok) {
+                return await staticRes.json();
+            }
+        } catch (e) {
+            console.warn("Static fetch fallback:", e);
+        }
+    }
+
     try {
         const res = await fetch(endpoint);
         if (res.ok) {
