@@ -669,9 +669,9 @@ function renderKeywords(keywords) {
     `).join('');
 }
 
-// ----------------- TAB 3: NETWORK GRAPH (FORCE-DIRECTED CLUSTER ENGINE) ----------------- //
+// ----------------- TAB 3: NETWORK GRAPH (CLEAN CIRCULAR ORBITAL RADAR) ----------------- //
 
-let networkMinWeight = 2; // Default to filtering noise to prevent spaghetti hairballs
+let networkMinWeight = 1; // Show all connections cleanly with ultra-thin curved lines
 
 function setNetworkMinWeight(weight) {
     networkMinWeight = weight;
@@ -687,14 +687,14 @@ function setNetworkMinWeight(weight) {
     });
     const canvas = document.getElementById('networkCanvas');
     if (canvas && networkDataCache) {
-        drawNetworkGraph(canvas, networkDataCache, true);
+        drawNetworkGraph(canvas, networkDataCache);
     }
 }
 
 function resetNetworkPhysics() {
     const canvas = document.getElementById('networkCanvas');
     if (canvas && networkDataCache) {
-        drawNetworkGraph(canvas, networkDataCache, true);
+        drawNetworkGraph(canvas, networkDataCache);
     }
 }
 
@@ -711,18 +711,18 @@ async function loadNetwork() {
     }
 }
 
-let activeNetworkSim = null;
+let activeNetworkAnimation = null;
 
-function drawNetworkGraph(canvas, networkData, resetSimulation = false) {
+function drawNetworkGraph(canvas, networkData) {
     if (!networkData || !canvas) return;
     const ctx = canvas.getContext('2d');
     
-    // Stop any previous running animation loop
-    if (activeNetworkSim && activeNetworkSim.stop) {
-        activeNetworkSim.stop();
+    // Stop any existing animation loop
+    if (activeNetworkAnimation && activeNetworkAnimation.stop) {
+        activeNetworkAnimation.stop();
     }
 
-    // Set high-DPI internal resolution
+    // Set High-DPI Resolution
     const rect = canvas.getBoundingClientRect();
     const dpr = window.devicePixelRatio || 1;
     canvas.width = rect.width * dpr;
@@ -733,170 +733,132 @@ function drawNetworkGraph(canvas, networkData, resetSimulation = false) {
     const height = rect.height;
     const cx = width / 2;
     const cy = height / 2;
+    const radius = Math.min(width * 0.35, height * 0.38 - 35);
 
-    // Filter links by minimum threshold
-    const activeLinks = (networkData.links || []).filter(l => l.weight >= networkMinWeight);
+    // Sort nodes to cluster active coordinators next to each other along the ring
+    const rawNodes = [...networkData.nodes].sort((a, b) => (b.coordinated || 0) - (a.coordinated || 0));
+    const totalNodes = rawNodes.length;
 
-    // Build adjacency map
-    const neighborMap = {};
-    networkData.nodes.forEach(n => { neighborMap[n.id] = new Set(); });
-    activeLinks.forEach(l => {
-        if (neighborMap[l.source]) neighborMap[l.source].add(l.target);
-        if (neighborMap[l.target]) neighborMap[l.target].add(l.source);
-    });
+    // Filter active links based on min weight
+    const allLinks = networkData.links || [];
+    const activeLinks = allLinks.filter(l => l.weight >= networkMinWeight);
 
-    // Initialize nodes with clustered physics positions
-    const nodes = networkData.nodes.map((n, i) => {
-        const angle = (i / Math.max(1, networkData.nodes.length)) * Math.PI * 2;
-        const dist = 140 + (Math.random() - 0.5) * 80;
-        
-        let radius = 10;
-        let color = '#3b82f6';
-        let glowColor = 'rgba(59, 130, 246, 0.4)';
-        
+    // Calculate node positions along the clean circular radar ring
+    const nodes = rawNodes.map((n, i) => {
+        const angle = (i / totalNodes) * Math.PI * 2 - Math.PI / 2;
+        const x = cx + Math.cos(angle) * radius;
+        const y = cy + Math.sin(angle) * radius;
+
+        let dotColor = '#3b82f6';
+        let dotRadius = 5.5;
         if (n.coordinated >= 5) {
-            radius = 16;
-            color = '#ef4444';
-            glowColor = 'rgba(239, 68, 68, 0.6)';
+            dotColor = '#ef4444';
+            dotRadius = 7.5;
         } else if (n.coordinated >= 2) {
-            radius = 13;
-            color = '#f59e0b';
-            glowColor = 'rgba(245, 158, 11, 0.5)';
+            dotColor = '#f59e0b';
+            dotRadius = 6.5;
         }
 
         return {
             ...n,
-            x: cx + Math.cos(angle) * dist,
-            y: cy + Math.sin(angle) * dist,
-            vx: 0,
-            vy: 0,
-            radius: radius,
-            color: color,
-            glowColor: glowColor,
-            isHub: n.coordinated >= 4,
-            degree: neighborMap[n.id] ? neighborMap[n.id].size : 0
+            x: x,
+            y: y,
+            angle: angle,
+            dotRadius: dotRadius,
+            dotColor: dotColor,
+            isHub: n.coordinated >= 4
         };
     });
 
-    let draggedNode = null;
+    // Build fast lookup maps
+    const nodeMap = new Map(nodes.map(n => [n.id, n]));
+    const neighborMap = new Map();
+    nodes.forEach(n => neighborMap.set(n.id, new Set()));
+    activeLinks.forEach(l => {
+        if (neighborMap.has(l.source)) neighborMap.get(l.source).add(l.target);
+        if (neighborMap.has(l.target)) neighborMap.get(l.target).add(l.source);
+    });
+
     let hoveredNode = null;
+    let radarAngle = 0;
     let animId = null;
-    let simTicks = 0;
-    const MAX_TICKS = 220;
 
-    // Physics Step (Spring-Embedder Force Simulation)
-    function tickPhysics() {
-        const k = 110; // Ideal distance
-        const repulsionStrength = 3200;
-        const gravityStrength = 0.015;
-
-        // 1. Repulsion between all pairs
-        for (let i = 0; i < nodes.length; i++) {
-            for (let j = i + 1; j < nodes.length; j++) {
-                const a = nodes[i];
-                const b = nodes[j];
-                let dx = b.x - a.x;
-                let dy = b.y - a.y;
-                let dist = Math.sqrt(dx * dx + dy * dy);
-                if (dist < 1) { dist = 1; dx = Math.random() - 0.5; dy = Math.random() - 0.5; }
-
-                const force = repulsionStrength / (dist * dist);
-                const fx = (dx / dist) * force;
-                const fy = (dy / dist) * force;
-
-                if (a !== draggedNode) { a.vx -= fx; a.vy -= fy; }
-                if (b !== draggedNode) { b.vx += fx; b.vy += fy; }
-            }
-        }
-
-        // 2. Spring Attraction along links
-        activeLinks.forEach(l => {
-            const a = nodes.find(n => n.id === l.source);
-            const b = nodes.find(n => n.id === l.target);
-            if (!a || !b) return;
-
-            let dx = b.x - a.x;
-            let dy = b.y - a.y;
-            let dist = Math.sqrt(dx * dx + dy * dy);
-            if (dist < 1) dist = 1;
-
-            const springForce = (dist - k) * 0.035 * Math.min(2.5, 1 + (l.weight * 0.25));
-            const fx = (dx / dist) * springForce;
-            const fy = (dy / dist) * springForce;
-
-            if (a !== draggedNode) { a.vx += fx; a.vy += fy; }
-            if (b !== draggedNode) { b.vx -= fx; b.vy -= fy; }
-        });
-
-        // 3. Center Gravity & Boundary
-        nodes.forEach(n => {
-            if (n === draggedNode) return;
-            n.vx += (cx - n.x) * gravityStrength;
-            n.vy += (cy - n.y) * gravityStrength;
-
-            // Velocity damping
-            n.vx *= 0.82;
-            n.vy *= 0.82;
-
-            n.x += n.vx;
-            n.y += n.vy;
-
-            // Soft canvas bounds
-            const pad = n.radius + 20;
-            n.x = Math.max(pad, Math.min(width - pad, n.x));
-            n.y = Math.max(pad, Math.min(height - pad, n.y));
-        });
-    }
-
-    // Render Canvas Frame
     function render() {
         ctx.clearRect(0, 0, width, height);
 
-        const isHoverActive = !!hoveredNode;
-        const activeNeighbors = isHoverActive && neighborMap[hoveredNode.id] ? neighborMap[hoveredNode.id] : null;
+        // 1. Draw Subtle Radar Background Rings
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.035)';
+        ctx.lineWidth = 1;
+        [0.35, 0.70, 1.0].forEach(factor => {
+            ctx.beginPath();
+            ctx.arc(cx, cy, radius * factor, 0, Math.PI * 2);
+            ctx.stroke();
+        });
 
-        // Draw Links
+        // Radar Crosshairs
+        ctx.beginPath();
+        ctx.moveTo(cx - radius * 1.05, cy); ctx.lineTo(cx + radius * 1.05, cy);
+        ctx.moveTo(cx, cy - radius * 1.05); ctx.lineTo(cx, cy + radius * 1.05);
+        ctx.stroke();
+
+        // 2. Fast Sweeping Radar Scan Line
+        radarAngle += 0.025;
+        if (radarAngle > Math.PI * 2) radarAngle -= Math.PI * 2;
+        
+        ctx.save();
+        ctx.beginPath();
+        ctx.moveTo(cx, cy);
+        ctx.arc(cx, cy, radius * 1.02, radarAngle - 0.25, radarAngle);
+        ctx.closePath();
+        const sweepGrad = ctx.createRadialGradient(cx, cy, 0, cx, cy, radius);
+        sweepGrad.addColorStop(0, 'rgba(56, 189, 248, 0.0)');
+        sweepGrad.addColorStop(1, 'rgba(56, 189, 248, 0.06)');
+        ctx.fillStyle = sweepGrad;
+        ctx.fill();
+        ctx.restore();
+
+        const isHoverActive = !!hoveredNode;
+        const activeNeighbors = isHoverActive ? neighborMap.get(hoveredNode.id) : null;
+
+        // 3. Draw Ultra-Thin Curved Links (Quadratic Bezier Curves toward Center)
         activeLinks.forEach(l => {
-            const s = nodes.find(n => n.id === l.source);
-            const t = nodes.find(n => n.id === l.target);
+            const s = nodeMap.get(l.source);
+            const t = nodeMap.get(l.target);
             if (!s || !t) return;
 
-            const isConnectedToHovered = isHoverActive && (s.id === hoveredNode.id || t.id === hoveredNode.id);
+            const isConnected = isHoverActive && (s.id === hoveredNode.id || t.id === hoveredNode.id);
             
+            // Curve gently bends towards center (0.45 strength)
+            const cpx = cx * 0.45 + (s.x + t.x) * 0.275;
+            const cpy = cy * 0.45 + (s.y + t.y) * 0.275;
+
             ctx.beginPath();
             ctx.moveTo(s.x, s.y);
-            ctx.lineTo(t.x, t.y);
+            ctx.quadraticCurveTo(cpx, cpy, t.x, t.y);
 
             if (isHoverActive) {
-                if (isConnectedToHovered) {
+                if (isConnected) {
                     ctx.strokeStyle = '#38bdf8';
-                    ctx.lineWidth = Math.min(6, 2 + l.weight * 1.2);
+                    ctx.lineWidth = Math.min(2.5, 1.2 + l.weight * 0.3);
                     ctx.shadowColor = '#38bdf8';
-                    ctx.shadowBlur = 10;
-                } else {
-                    ctx.strokeStyle = 'rgba(255, 255, 255, 0.04)';
-                    ctx.lineWidth = 1;
+                    ctx.shadowBlur = 8;
+                    ctx.stroke();
                     ctx.shadowBlur = 0;
                 }
             } else {
-                ctx.shadowBlur = 0;
+                ctx.lineWidth = 0.6; // Ultra thin hairline!
                 if (l.weight >= 3) {
-                    ctx.strokeStyle = 'rgba(239, 68, 68, 0.55)';
-                    ctx.lineWidth = 2.5;
+                    ctx.strokeStyle = 'rgba(239, 68, 68, 0.22)';
                 } else if (l.weight >= 2) {
-                    ctx.strokeStyle = 'rgba(245, 158, 11, 0.40)';
-                    ctx.lineWidth = 1.8;
+                    ctx.strokeStyle = 'rgba(245, 158, 11, 0.16)';
                 } else {
-                    ctx.strokeStyle = 'rgba(59, 130, 246, 0.20)';
-                    ctx.lineWidth = 1.0;
+                    ctx.strokeStyle = 'rgba(59, 130, 246, 0.08)';
                 }
+                ctx.stroke();
             }
-
-            ctx.stroke();
-            ctx.shadowBlur = 0; // reset
         });
 
-        // Draw Nodes
+        // 4. Draw Clean Orbital Nodes
         nodes.forEach(n => {
             const isHovered = isHoverActive && hoveredNode.id === n.id;
             const isNeighbor = activeNeighbors && activeNeighbors.has(n.id);
@@ -904,40 +866,53 @@ function drawNetworkGraph(canvas, networkData, resetSimulation = false) {
 
             ctx.save();
             if (isDimmed) {
-                ctx.globalAlpha = 0.18;
+                ctx.globalAlpha = 0.22;
             } else {
                 ctx.globalAlpha = 1.0;
             }
 
-            // Glow on Hub / Hovered
+            // Draw Node Circle
+            const curRadius = isHovered ? n.dotRadius + 3 : n.dotRadius;
+            
             if (isHovered || (n.isHub && !isDimmed)) {
-                ctx.shadowColor = n.glowColor;
-                ctx.shadowBlur = isHovered ? 16 : 10;
+                ctx.shadowColor = n.dotColor;
+                ctx.shadowBlur = isHovered ? 14 : 8;
             }
 
             ctx.beginPath();
-            ctx.arc(n.x, n.y, isHovered ? n.radius + 4 : n.radius, 0, Math.PI * 2);
-            ctx.fillStyle = isHovered ? '#38bdf8' : n.color;
+            ctx.arc(n.x, n.y, curRadius, 0, Math.PI * 2);
+            ctx.fillStyle = isHovered ? '#38bdf8' : n.dotColor;
             ctx.fill();
 
-            ctx.lineWidth = isHovered ? 3 : (n.isHub ? 2.5 : 1.5);
-            ctx.strokeStyle = isHovered ? '#ffffff' : (isNeighbor ? '#38bdf8' : 'rgba(255, 255, 255, 0.4)');
+            ctx.lineWidth = isHovered ? 2.5 : 1.5;
+            ctx.strokeStyle = isHovered ? '#ffffff' : (isNeighbor ? '#38bdf8' : 'rgba(255, 255, 255, 0.5)');
             ctx.stroke();
             ctx.shadowBlur = 0;
 
-            // Node Labels
-            const showLabel = isHovered || isNeighbor || n.isHub || !isHoverActive;
-            if (showLabel) {
-                ctx.font = (isHovered || n.isHub) ? 'bold 11px Plus Jakarta Sans' : '10px Plus Jakarta Sans';
-                ctx.fillStyle = isHovered ? '#ffffff' : (isNeighbor ? '#38bdf8' : (n.isHub ? '#fca5a5' : '#94a3b8'));
+            // 5. Radial Outward Label Alignment (Never Overlaps!)
+            const cosA = Math.cos(n.angle);
+            const sinA = Math.sin(n.angle);
+            const labelOffset = curRadius + 7;
+            const lx = n.x + cosA * labelOffset;
+            const ly = n.y + sinA * labelOffset + 3;
+
+            ctx.font = isHovered ? 'bold 11px Plus Jakarta Sans' : (n.isHub ? '600 10px Plus Jakarta Sans' : '10px Plus Jakarta Sans');
+            
+            if (cosA > 0.25) {
+                ctx.textAlign = 'left';
+            } else if (cosA < -0.25) {
+                ctx.textAlign = 'right';
+            } else {
                 ctx.textAlign = 'center';
-                ctx.fillText(`@${n.label}`, n.x, n.y + n.radius + 13);
             }
+
+            ctx.fillStyle = isHovered ? '#ffffff' : (isNeighbor ? '#38bdf8' : (n.isHub ? '#fca5a5' : '#94a3b8'));
+            ctx.fillText(`@${n.label}`, lx, ly);
 
             ctx.restore();
         });
 
-        // HUD Tooltip Card for Hovered Node
+        // 6. Sleek Minimalist Center Radar HUD on Hover
         if (hoveredNode) {
             const peers = activeLinks
                 .filter(l => l.source === hoveredNode.id || l.target === hoveredNode.id)
@@ -947,71 +922,47 @@ function drawNetworkGraph(canvas, networkData, resetSimulation = false) {
                 })
                 .sort((a, b) => b.weight - a.weight);
 
-            const titleText = `@${hoveredNode.label}`;
-            const subText = `${hoveredNode.entries || 0} Entry • ${hoveredNode.coordinated || 0} Koordineli`;
-            const peerText = peers.length > 0 
-                ? `Ortak Hücre: ${peers.slice(0, 2).map(p => `@${p.nick} (${p.weight}x)`).join(', ')}`
-                : 'Ayrık Hücre Bağlantısı';
+            const cardW = 220;
+            const cardH = 82;
+            const hx = cx - cardW / 2;
+            const hy = cy - cardH / 2;
 
-            ctx.font = 'bold 12px Plus Jakarta Sans';
-            const w1 = ctx.measureText(titleText).width;
-            ctx.font = '10px Plus Jakarta Sans';
-            const w2 = ctx.measureText(subText).width;
-            const w3 = ctx.measureText(peerText).width;
-            const cardW = Math.max(160, Math.max(w1, Math.max(w2, w3)) + 24);
-            const cardH = 68;
-
-            let tx = hoveredNode.x - cardW / 2;
-            let ty = hoveredNode.y - hoveredNode.radius - cardH - 12;
-
-            // Keep within bounds
-            tx = Math.max(15, Math.min(width - cardW - 15, tx));
-            if (ty < 15) ty = hoveredNode.y + hoveredNode.radius + 20;
-
-            // Draw HUD Box
-            ctx.fillStyle = 'rgba(15, 23, 42, 0.95)';
+            // Frosted Center HUD
+            ctx.fillStyle = 'rgba(15, 23, 42, 0.92)';
             ctx.strokeStyle = 'rgba(56, 189, 248, 0.4)';
-            ctx.lineWidth = 1.5;
+            ctx.lineWidth = 1;
             ctx.beginPath();
-            ctx.roundRect(tx, ty, cardW, cardH, 10);
+            ctx.roundRect(hx, hy, cardW, cardH, 12);
             ctx.fill();
             ctx.stroke();
 
-            // Text
+            // Text info
+            ctx.textAlign = 'center';
             ctx.fillStyle = '#38bdf8';
             ctx.font = 'bold 12px Plus Jakarta Sans';
-            ctx.textAlign = 'left';
-            ctx.fillText(titleText, tx + 12, ty + 20);
+            ctx.fillText(`@${hoveredNode.label}`, cx, hy + 22);
 
             ctx.fillStyle = '#f1f5f9';
             ctx.font = '10px Plus Jakarta Sans';
-            ctx.fillText(subText, tx + 12, ty + 38);
+            ctx.fillText(`${hoveredNode.entries || 0} Entry • ${hoveredNode.coordinated || 0} Koordineli Operasyon`, cx, hy + 42);
 
             ctx.fillStyle = '#94a3b8';
             ctx.font = '9px Plus Jakarta Sans';
-            ctx.fillText(peerText, tx + 12, ty + 54);
+            const peerStr = peers.length > 0 
+                ? `Ortaklar: ${peers.slice(0, 2).map(p => `@${p.nick} (${p.weight}x)`).join(', ')}`
+                : 'Tekil / Ayrık Hücre';
+            ctx.fillText(peerStr, cx, hy + 62);
         }
     }
 
-    // Animation Physics Loop
-    function loop() {
-        if (simTicks < MAX_TICKS || draggedNode) {
-            tickPhysics();
-            simTicks++;
-        }
+    function animLoop() {
         render();
-        animId = requestAnimationFrame(loop);
+        animId = requestAnimationFrame(animLoop);
     }
 
-    // Pre-simulate 80 iterations instantly for instant clean layout
-    for (let i = 0; i < 80; i++) {
-        tickPhysics();
-    }
-    simTicks = 80;
+    animLoop();
 
-    loop();
-
-    activeNetworkSim = {
+    activeNetworkAnimation = {
         stop: () => {
             if (animId) cancelAnimationFrame(animId);
         }
@@ -1029,40 +980,23 @@ function drawNetworkGraph(canvas, networkData, resetSimulation = false) {
         return nodes.find(n => {
             const dx = n.x - pos.x;
             const dy = n.y - pos.y;
-            return Math.sqrt(dx * dx + dy * dy) <= (n.radius + 8);
+            return Math.sqrt(dx * dx + dy * dy) <= (n.dotRadius + 9);
         });
     }
 
-    // Canvas Mouse Events
-    canvas.onmousedown = (e) => {
-        const pos = getMousePos(e);
-        draggedNode = findNodeAt(pos);
-        if (draggedNode) {
-            simTicks = 0; // awaken simulation
-        }
-    };
-
+    // Fast Responsive Hover & Click
     canvas.onmousemove = (e) => {
         const pos = getMousePos(e);
-        if (draggedNode) {
-            draggedNode.x = pos.x;
-            draggedNode.y = pos.y;
-            draggedNode.vx = 0;
-            draggedNode.vy = 0;
-            simTicks = 0;
-        } else {
-            const prev = hoveredNode;
-            hoveredNode = findNodeAt(pos);
-            if (prev !== hoveredNode) {
-                canvas.style.cursor = hoveredNode ? 'pointer' : 'grab';
-            }
+        const prev = hoveredNode;
+        hoveredNode = findNodeAt(pos);
+        if (prev !== hoveredNode) {
+            canvas.style.cursor = hoveredNode ? 'pointer' : 'default';
         }
     };
 
-    canvas.onmouseup = () => {
-        if (draggedNode) {
-            draggedNode = null;
-        }
+    canvas.onmouseleave = () => {
+        hoveredNode = null;
+        canvas.style.cursor = 'default';
     };
 
     canvas.onclick = (e) => {

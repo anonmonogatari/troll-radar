@@ -1,5 +1,5 @@
 {
-  "total_evaluated": 191,
+  "total_evaluated": 190,
   "high_confidence_trolls": 2,
   "cells": [
     {
@@ -221,23 +221,6 @@
       },
       "evidence_topics": [],
       "is_monitored": true
-    },
-    {
-      "nick": "girmizi tuborg",
-      "troll_score": 37.0,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 80.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
     },
     {
       "nick": "londrast",
@@ -910,8 +893,8 @@
         "stance_alignment": 0.0
       },
       "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
+        "ankara'da alman kurdundan kaçarken ölen çocuk",
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },

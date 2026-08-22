@@ -1,8 +1,8 @@
 {
   "period_days": 1,
-  "total_entries": 281,
-  "coordinated_entries": 274,
-  "active_authors": 214,
+  "total_entries": 280,
+  "coordinated_entries": 273,
+  "active_authors": 213,
   "total_monitored_authors": 27,
   "total_topics": 23,
   "total_operations": 33,
@@ -12,13 +12,13 @@
     "Ekonomi Savunması & Aklama": 32,
     "Muhalefet & Belediye Karalama": 17,
     "Yargı, Güvenlik & Hamaset": 3,
-    "Dış Politika & Jeopolitik Savunma": 2
+    "Dış Politika & Jeopolitik Savunma": 1
   },
   "timeline": [
     {
       "day": "2026-08-22",
-      "total": 281,
-      "coordinated": 274
+      "total": 280,
+      "coordinated": 273
     }
   ]
 }
