@@ -1,49 +1,65 @@
 {
-  "total_evaluated": 190,
-  "high_confidence_trolls": 2,
+  "total_evaluated": 216,
+  "high_confidence_trolls": 7,
   "cells": [
     {
-      "cell_name": "Belediye Karalama",
-      "member_count": 6,
-      "average_troll_score": 62.2,
-      "members": [
-        "hackerbey",
-        "hirvatistanli",
-        "ingiliz dili ve edebiyati",
-        "jimmymartin",
-        "kafadanilo",
-        "david ellefson"
-      ],
-      "top_evidence_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk",
-        "chp'li belediyelerin fahiş konser harcamaları"
-      ]
-    },
-    {
       "cell_name": "Yargı / Güvenlik",
-      "member_count": 4,
-      "average_troll_score": 71.0,
+      "member_count": 18,
+      "average_troll_score": 64.7,
       "members": [
         "timurun fillerinin bakicisi",
+        "hackerbey",
+        "givles",
+        "hirvatistanli",
+        "enturi",
+        "londrast",
+        "ingiliz dili ve edebiyati",
         "localtime",
+        "parantezicindekiadam",
         "lacivertnokta",
-        "londrast"
+        "kafadanilo",
+        "dijitalkitap",
+        "jimmymartin",
+        "kecuva",
+        "reactionshot",
+        "georgewalker",
+        "szw",
+        "funkycrow"
       ],
       "top_evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
+        "chp'li belediyelerin fahiş konser harcamaları",
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "yabancı turistin türk esnafına isyan etmesi"
       ]
     },
     {
       "cell_name": "Ekonomi Aklama",
-      "member_count": 2,
-      "average_troll_score": 49.2,
+      "member_count": 4,
+      "average_troll_score": 71.1,
       "members": [
         "bozaj",
-        "becathlon"
+        "becathlon",
+        "1xw",
+        "948"
       ],
       "top_evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ]
+    },
+    {
+      "cell_name": "Algı Operasyonu",
+      "member_count": 2,
+      "average_troll_score": 70.5,
+      "members": [
+        "madanin",
+        "medyumay"
+      ],
+      "top_evidence_topics": [
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "yabancı turistin türk esnafına isyan etmesi"
       ]
     }
@@ -61,239 +77,480 @@
         "early_swarm_count": 6,
         "manufactured_focus_ratio": 60.0,
         "vote_brigading": 65.0,
-        "stance_alignment": 37.5
+        "stance_alignment": 40.0
       },
       "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
     {
       "nick": "hackerbey",
-      "troll_score": 84.2,
+      "troll_score": 87.0,
       "risk_level": "Kesin Troll",
       "badge_color": "red",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 6,
       "metrics": {
         "inception_count": 1,
         "early_swarm_count": 1,
-        "manufactured_focus_ratio": 100.0,
-        "vote_brigading": 95.0,
-        "stance_alignment": 100.0
-      },
-      "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "hirvatistanli",
-      "troll_score": 69.2,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 1,
-        "manufactured_focus_ratio": 100.0,
-        "vote_brigading": 95.0,
-        "stance_alignment": 100.0
-      },
-      "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "localtime",
-      "troll_score": 67.0,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Yargı / Güvenlik",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 1,
-        "manufactured_focus_ratio": 100.0,
+        "manufactured_focus_ratio": 16.7,
         "vote_brigading": 80.0,
-        "stance_alignment": 100.0
+        "stance_alignment": 33.3
       },
       "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        "chp'li belediyelerin fahiş konser harcamaları",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
     {
-      "nick": "lacivertnokta",
-      "troll_score": 64.8,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Yargı / Güvenlik",
-      "entry_count": 1,
+      "nick": "madanin",
+      "troll_score": 81.8,
+      "risk_level": "Kesin Troll",
+      "badge_color": "red",
+      "detected_cell": "Algı Operasyonu",
+      "entry_count": 7,
       "metrics": {
-        "inception_count": 0,
+        "inception_count": 1,
         "early_swarm_count": 1,
-        "manufactured_focus_ratio": 100.0,
-        "vote_brigading": 65.0,
-        "stance_alignment": 100.0
+        "manufactured_focus_ratio": 14.3,
+        "vote_brigading": 50.0,
+        "stance_alignment": 14.3
       },
       "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "ingiliz dili ve edebiyati",
-      "troll_score": 55.0,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 1,
-        "manufactured_focus_ratio": 100.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "jimmymartin",
-      "troll_score": 55.0,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 1,
-        "manufactured_focus_ratio": 100.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "kafadanilo",
-      "troll_score": 55.0,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 1,
-        "manufactured_focus_ratio": 100.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "david ellefson",
-      "troll_score": 55.0,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 1,
-        "manufactured_focus_ratio": 100.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "londrast",
-      "troll_score": 52.0,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Yargı / Güvenlik",
-      "entry_count": 2,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 1,
-        "manufactured_focus_ratio": 50.0,
-        "vote_brigading": 80.0,
-        "stance_alignment": 50.0
-      },
-      "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
     {
       "nick": "bozaj",
-      "troll_score": 49.2,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
+      "troll_score": 80.5,
+      "risk_level": "Kesin Troll",
+      "badge_color": "red",
       "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
+      "entry_count": 8,
       "metrics": {
         "inception_count": 0,
-        "early_swarm_count": 1,
-        "manufactured_focus_ratio": 33.3,
+        "early_swarm_count": 3,
+        "manufactured_focus_ratio": 37.5,
         "vote_brigading": 95.0,
-        "stance_alignment": 66.7
+        "stance_alignment": 25.0
       },
       "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "givles",
+      "troll_score": 79.2,
+      "risk_level": "Kesin Troll",
+      "badge_color": "red",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 6,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 2,
+        "manufactured_focus_ratio": 33.3,
+        "vote_brigading": 95.0,
+        "stance_alignment": 16.7
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
     {
       "nick": "becathlon",
-      "troll_score": 49.2,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
+      "troll_score": 73.0,
+      "risk_level": "Kesin Troll",
+      "badge_color": "red",
       "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
+      "entry_count": 8,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 1,
-        "manufactured_focus_ratio": 33.3,
+        "manufactured_focus_ratio": 12.5,
         "vote_brigading": 95.0,
-        "stance_alignment": 100.0
+        "stance_alignment": 37.5
       },
       "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "hirvatistanli",
+      "troll_score": 72.0,
+      "risk_level": "Kesin Troll",
+      "badge_color": "red",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 6,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 1,
+        "manufactured_focus_ratio": 16.7,
+        "vote_brigading": 80.0,
+        "stance_alignment": 33.3
+      },
+      "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "enturi",
+      "troll_score": 69.2,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 7,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 95.0,
+        "stance_alignment": 14.3
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "londrast",
+      "troll_score": 67.0,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 6,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 80.0,
+        "stance_alignment": 16.7
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
     {
       "nick": "1xw",
-      "troll_score": 39.5,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
+      "troll_score": 67.0,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
       "detected_cell": "Ekonomi Aklama",
-      "entry_count": 2,
+      "entry_count": 8,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 80.0,
+        "stance_alignment": 37.5
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "ingiliz dili ve edebiyati",
+      "troll_score": 66.8,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 7,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 1,
-        "manufactured_focus_ratio": 50.0,
-        "vote_brigading": 80.0,
-        "stance_alignment": 50.0
+        "manufactured_focus_ratio": 14.3,
+        "vote_brigading": 50.0,
+        "stance_alignment": 28.6
       },
       "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "localtime",
+      "troll_score": 64.8,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 7,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 65.0,
+        "stance_alignment": 28.6
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "948",
+      "troll_score": 63.9,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 8,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 80.0,
+        "stance_alignment": 37.5
+      },
+      "evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "parantezicindekiadam",
+      "troll_score": 62.5,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 6,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 50.0,
+        "stance_alignment": 33.3
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "lacivertnokta",
+      "troll_score": 62.5,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 7,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 50.0,
+        "stance_alignment": 42.9
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "kafadanilo",
+      "troll_score": 59.3,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 7,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 1,
+        "manufactured_focus_ratio": 14.3,
+        "vote_brigading": 0.0,
+        "stance_alignment": 14.3
+      },
+      "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "medyumay",
+      "troll_score": 59.3,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Algı Operasyonu",
+      "entry_count": 7,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 1,
+        "manufactured_focus_ratio": 14.3,
+        "vote_brigading": 0.0,
+        "stance_alignment": 14.3
+      },
+      "evidence_topics": [
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "dijitalkitap",
+      "troll_score": 57.5,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 5,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 50.0,
+        "stance_alignment": 20.0
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "jimmymartin",
+      "troll_score": 56.0,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 5,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 1,
+        "manufactured_focus_ratio": 20.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 20.0
+      },
+      "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "kecuva",
+      "troll_score": 55.0,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 7,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 14.3
+      },
+      "evidence_topics": [
+        "chp'li belediyelerin fahiş konser harcamaları",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "reactionshot",
+      "troll_score": 55.0,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 6,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 16.7
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "georgewalker",
+      "troll_score": 55.0,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 7,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 14.3
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "szw",
+      "troll_score": 50.0,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 5,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 20.0
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "funkycrow",
+      "troll_score": 45.0,
+      "risk_level": "Şüpheli",
+      "badge_color": "yellow",
+      "detected_cell": "Yargı / Güvenlik",
+      "entry_count": 4,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
@@ -314,40 +571,6 @@
       },
       "evidence_topics": [],
       "is_monitored": false
-    },
-    {
-      "nick": "enturi",
-      "troll_score": 39.2,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 2,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 95.0,
-        "stance_alignment": 50.0
-      },
-      "evidence_topics": [],
-      "is_monitored": true
-    },
-    {
-      "nick": "givles",
-      "troll_score": 39.2,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 95.0,
-        "stance_alignment": 100.0
-      },
-      "evidence_topics": [],
-      "is_monitored": true
     },
     {
       "nick": "nane kokusu",
@@ -384,6 +607,23 @@
       "is_monitored": true
     },
     {
+      "nick": "girmizi tuborg",
+      "troll_score": 37.0,
+      "risk_level": "Şüpheli",
+      "badge_color": "yellow",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 80.0,
+        "stance_alignment": 100.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
       "nick": "biseydiycemben",
       "troll_score": 37.0,
       "risk_level": "Şüpheli",
@@ -395,6 +635,23 @@
         "early_swarm_count": 0,
         "manufactured_focus_ratio": 0.0,
         "vote_brigading": 80.0,
+        "stance_alignment": 100.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "pubvertica",
+      "troll_score": 34.8,
+      "risk_level": "Şüpheli",
+      "badge_color": "yellow",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 65.0,
         "stance_alignment": 100.0
       },
       "evidence_topics": [],
@@ -435,12 +692,12 @@
       "is_monitored": false
     },
     {
-      "nick": "kecuva",
+      "nick": "david ellefson",
       "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
       "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
+      "entry_count": 3,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 0,
@@ -449,7 +706,8 @@
         "stance_alignment": 0.0
       },
       "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları"
+        "ankara'da alman kurdundan kaçarken ölen çocuk",
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
@@ -777,7 +1035,126 @@
       "is_monitored": false
     },
     {
+      "nick": "ondokuztemmuz",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "badas",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "shagrax",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 2,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "arzuhalim",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "gktu94",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
       "nick": "saksi cicegi",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "bluefox557",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "apollondafni",
       "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
@@ -930,23 +1307,6 @@
       "is_monitored": false
     },
     {
-      "nick": "shagrax",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
       "nick": "notthatsimplee",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -1066,6 +1426,23 @@
       "is_monitored": false
     },
     {
+      "nick": "kill me back",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
       "nick": "rabbitx",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -1168,6 +1545,23 @@
       "is_monitored": false
     },
     {
+      "nick": "keremtunaa",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
       "nick": "arzawa",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -1217,23 +1611,6 @@
       },
       "evidence_topics": [],
       "is_monitored": false
-    },
-    {
-      "nick": "georgewalker",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": true
     },
     {
       "nick": "shinigami ryuk",
@@ -1496,7 +1873,7 @@
       "risk_level": "Organik",
       "badge_color": "green",
       "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
+      "entry_count": 2,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 0,
@@ -1904,7 +2281,7 @@
       "risk_level": "Organik",
       "badge_color": "green",
       "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
+      "entry_count": 2,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 0,
@@ -2103,6 +2480,23 @@
       "is_monitored": false
     },
     {
+      "nick": "bunutartisabiliriz",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
       "nick": "slowrocker",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -2223,6 +2617,23 @@
     },
     {
       "nick": "hazretihan",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "mimar sinan da basic design aldi mi",
       "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
@@ -2427,6 +2838,23 @@
     },
     {
       "nick": "akademi maestro",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "sinatragibigiyinmekisteyenadam",
       "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
@@ -2715,6 +3143,23 @@
       "is_monitored": false
     },
     {
+      "nick": "trcapital",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
       "nick": "i have dreams",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -2749,6 +3194,23 @@
       "is_monitored": false
     },
     {
+      "nick": "neela",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
       "nick": "darwinisecdeyeyatiranadam",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -2767,6 +3229,23 @@
     },
     {
       "nick": "hayalethayaethayret",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "duma duma dum",
       "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
@@ -3055,6 +3534,23 @@
       "is_monitored": false
     },
     {
+      "nick": "critical interrogation",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
       "nick": "frank begbie",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -3141,6 +3637,40 @@
     },
     {
       "nick": "angelloffdarkness",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 2,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "dr bullshit",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "zeytinbornululu",
       "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
@@ -3274,26 +3804,6 @@
       },
       "evidence_topics": [],
       "is_monitored": false
-    },
-    {
-      "nick": "948",
-      "troll_score": 24.5,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 2,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 80.0,
-        "stance_alignment": 100.0
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ],
-      "is_monitored": true
     },
     {
       "nick": "vladmicov",

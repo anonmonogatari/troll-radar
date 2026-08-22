@@ -4,17 +4,17 @@
     {
       "topic": "haşemalılarla aynı denize girmek istemeyen kadın",
       "category": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 15,
-      "author_count": 12,
-      "coord_count": 15,
+      "entry_count": 31,
+      "author_count": 26,
+      "coord_count": 31,
       "is_coordinated": true,
       "first_seen": "2026-08-22T11:43:00",
-      "last_seen": "2026-08-22T21:52:00",
-      "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 12 hesap tarafından eşzamanlı gündeme taşındı.",
+      "last_seen": "2026-08-22T22:16:00",
+      "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 26 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "bozaj",
         "nane kokusu",
         "timurun fillerinin bakicisi",
+        "bozaj",
         "givles"
       ],
       "sample_entries": [
@@ -61,6 +61,123 @@
       ]
     },
     {
+      "topic": "yabancı turistin türk esnafına isyan etmesi",
+      "category": "Ekonomi Savunması & Aklama",
+      "entry_count": 30,
+      "author_count": 25,
+      "coord_count": 30,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T15:44:00",
+      "last_seen": "2026-08-22T20:55:00",
+      "summary": "Pahalılık/turist/esnaf algısını çarpıtma ve ekonomik tepkileri hafifletme amacıyla 25 hesap tarafından organize paylaşıldı.",
+      "authors": [
+        "timurun fillerinin bakicisi",
+        "bozaj",
+        "givles"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "ilgili turistin videosu 1 nargileye istenen fiyat türkiye'ye tatile gelen bir yabancı turistin 'kimse artık hakkınızda iyi konuşmuyor. kaliteyi kaybediyorsunuz' diye başlayan isyanıdır. fırsatçı esnafın cezasını tüm ülke çekiyor.",
+          "date_str": "22.08.2026 15:44",
+          "created_at": "2026-08-22T15:44:00",
+          "is_coordinated": 1,
+          "id": "185800005"
+        },
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "ilgili turistin videosu1 nargileye istenen fiyattürkiye'ye tatile gelen bir yabancı turistin \"kimse artık hakkınızda iyi konuşmuyor. kaliteyi kaybediyorsunuz, itibarınız düşüyor\" diye başlayan ve esnaflara uzanan isyandır.",
+          "date_str": "22.08.2026 15:44 ~ 16:24",
+          "created_at": "2026-08-22T15:44:00",
+          "is_coordinated": 1,
+          "id": "185838093"
+        },
+        {
+          "author": "bozaj",
+          "content": "avrupa'da sokak ortasında bir kahveye 10 euro verirken sesi çıkmayanların türkiye'de üç kuruşluk hesaba algı yapması olayıdır. esnafımızı karalamak moda oldu.",
+          "date_str": "22.08.2026 15:45",
+          "created_at": "2026-08-22T15:45:00",
+          "is_coordinated": 1,
+          "id": "185800006"
+        },
+        {
+          "author": "bozaj",
+          "content": "esnaf zorla dükkana çağırıyor diye haykırmış. oğlum hepimizin bildiği şeyleri bir yabancıdan dinlemek çok rahatsız edici lan. daha doğrusu utandırıcı.",
+          "date_str": "22.08.2026 15:45",
+          "created_at": "2026-08-22T15:45:00",
+          "is_coordinated": 1,
+          "id": "185838096"
+        },
+        {
+          "author": "givles",
+          "content": "yunan heykeli gibi adamı çıldırtmış bizim namuslu esnafımız.\"insanları dolandırıyorsunuz\" demiş. daha da kötüsü yerel insanlar bunun farkında ancak ses çıkmıyor hiç. çıksa da duyan olmuyor. kurbağa meselesi.şu videonun tamamını izleyen herhangi bir devlet yetkilisinin aklına, dozerle turistik bölgede tur atma fikri gelmiyorsa çok da konuşulacak bir şey yok demektir.",
+          "date_str": "22.08.2026 15:45 ~ 16:39",
+          "created_at": "2026-08-22T15:45:00",
+          "is_coordinated": 1,
+          "id": "185838094"
+        }
+      ]
+    },
+    {
+      "topic": "ankara'da alman kurdundan kaçarken ölen çocuk",
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "entry_count": 28,
+      "author_count": 25,
+      "coord_count": 28,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T07:31:00",
+      "last_seen": "2026-08-22T18:50:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "becathlon",
+        "timurun fillerinin bakicisi",
+        "bozaj",
+        "givles"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "olayın videosu başsavcılığın açıklaması. olay ankara'da yaşanmış. köpekten kaçarken fenalaşıp başını betona çarpan 15 yaşındaki çocuk hayatını kaybetmiş. mansur yavaş'ın sokak hayvanları konusundaki vurdumduymazlığı bir cana daha mal oldu.",
+          "date_str": "22.08.2026 07:31",
+          "created_at": "2026-08-22T07:31:00",
+          "is_coordinated": 1,
+          "id": "185800010"
+        },
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "olayın videosubaşsavcılığın olaya ilişkin açıklaması olay ankara'da yaşanmış.alman kurdu cinsi köpekten kaçarken fenalaşarak yere düşüp başını betona çarpan 15 yaşındaki çocuk hayatını kaybetmiş.",
+          "date_str": "22.08.2026 07:31 ~ 07:42",
+          "created_at": "2026-08-22T07:31:00",
+          "is_coordinated": 1,
+          "id": "185831198"
+        },
+        {
+          "author": "bozaj",
+          "content": "yaz tatilinde amcasının yanında çalışıyormuş. oğlum kahroldum lan sabah sabah. hele o amca ve hatta aile bir ömür kendini kahredecek. biri işe göndermeseydim diye, öteki işe almasaydım diye.",
+          "date_str": "22.08.2026 07:32",
+          "created_at": "2026-08-22T07:32:00",
+          "is_coordinated": 1,
+          "id": "185831202"
+        },
+        {
+          "author": "givles",
+          "content": "alman kurdu. ve tasmasız. üstelik sahipli. şimdi bunu bir silah olarak değerlendirip, sahibini cinayete azmettirmekten yargılamak adaletin ta kendisi olur. çocuğa çok üzüldüm.başsavcılık ise köpek havladığı için bunların yaşandığını söylemiş. başsavcılıkla bizim izlediğimiz videolar farklı sanırım.",
+          "date_str": "22.08.2026 07:32 ~ 11:09",
+          "created_at": "2026-08-22T07:32:00",
+          "is_coordinated": 1,
+          "id": "185831200"
+        },
+        {
+          "author": "becathlon",
+          "content": "bir esnaf dükkanında ne diye tasmasız bir alman kurdu besler arkadaş. ve köpek hep saldırıyormuş insanlara havlıyormuş. buna rağmen de tasmasız geziyormuş. bir sıçramış, iki sıçramış. çok yazık olmuş.",
+          "date_str": "22.08.2026 07:34",
+          "created_at": "2026-08-22T07:34:00",
+          "is_coordinated": 1,
+          "id": "185831215"
+        }
+      ]
+    },
+    {
       "topic": "22 ağustos 2026 fenerbahçe konyaspor maçı",
       "category": "Ekonomi Savunması & Aklama",
       "entry_count": 10,
@@ -71,10 +188,10 @@
       "last_seen": "2026-08-22T20:41:00",
       "summary": "Pahalılık/turist/esnaf algısını çarpıtma ve ekonomik tepkileri hafifletme amacıyla 10 hesap tarafından organize paylaşıldı.",
       "authors": [
-        "7714714",
-        "ondortelliuc",
-        "mertolyon",
         "rootifera",
+        "mertolyon",
+        "ondortelliuc",
+        "7714714",
         "monofobik"
       ],
       "sample_entries": [
@@ -131,10 +248,10 @@
       "last_seen": "2026-08-22T11:44:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 10 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "x4",
-        "charango",
-        "neutral true",
         "debe okurum",
+        "charango",
+        "x4",
+        "neutral true",
         "cunoesse vittulainen"
       ],
       "sample_entries": [
@@ -192,10 +309,10 @@
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
         "kedisininyumagi",
-        "odoriko",
         "lmrvnx",
         "edward leon",
-        "delikanlininja"
+        "delikanlininja",
+        "odoriko"
       ],
       "sample_entries": [
         {
@@ -251,11 +368,11 @@
       "last_seen": "2026-08-22T11:18:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "hard disk gibi adam",
         "to vbe or not to vbe",
-        "yesindeed",
         "debe okurum",
-        "hilmi bunu begendi"
+        "yesindeed",
+        "hilmi bunu begendi",
+        "hard disk gibi adam"
       ],
       "sample_entries": [
         {
@@ -301,6 +418,66 @@
       ]
     },
     {
+      "topic": "birini sevmekten vazgeçmek",
+      "category": "Muhalefet & Belediye Karalama",
+      "entry_count": 10,
+      "author_count": 10,
+      "coord_count": 10,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T02:11:00",
+      "last_seen": "2026-08-22T22:31:00",
+      "summary": "Muhalefet partileri ve belediyeleri hedef alan organize dezenformasyon/eleştiri dalgası.",
+      "authors": [
+        "kill me back",
+        "to vbe or not to vbe",
+        "keremtunaa",
+        "apollondafni",
+        "bunutartisabiliriz"
+      ],
+      "sample_entries": [
+        {
+          "author": "apollondafni",
+          "content": "bazen sağlığınız için alacağınız en doğru karardır: mesela kahveyi sevmeyi bıraksam içmeyeceğim, böylece şu anda olduğu gibi midem - sanki ölecekmişim gibi - ağrımayacak.kahveden sadece vazgeçmeyi değil, tiksinmeyi diliyorum.* uzun lafın kısası birini veya bir şeyi sevmekten vazgeçmek kimi zaman hayal ettiğinizden bile daha iyidir.",
+          "date_str": "22.08.2026 02:11",
+          "created_at": "2026-08-22T02:11:00",
+          "is_coordinated": 1,
+          "id": "185829508"
+        },
+        {
+          "author": "kill me back",
+          "content": "youtube",
+          "date_str": "22.08.2026 03:25",
+          "created_at": "2026-08-22T03:25:00",
+          "is_coordinated": 1,
+          "id": "185830230"
+        },
+        {
+          "author": "keremtunaa",
+          "content": "birine dağ olursunuz ama o size kar bile olamaz. birine yar olursunuz o size yar olmaktan imtina eder. bir çok yanlışını affeder, çocukça yönlerine sabredersiniz. 100 hatasını affedersiniz, o sizi yargılamak için tek bir hatanızı bekler. siz meraktan ölürsünüz, yazı nasıl geçti, kışı nasıl geçti, gittiği yerde iyi mi diye dert edersiniz. o başınıza en ufak bir musibet gelip düşmenizi bekler. böyle birisi sevilmez arkadaşlar. sevmek, iyi olma halini isteme ve sürekli merakta kalmaktır. bunlar yoksa sevgi yoktur. vazgeçeceksiniz. o çoktan vazgeçmiş size ne oluyor?",
+          "date_str": "22.08.2026 05:12",
+          "created_at": "2026-08-22T05:12:00",
+          "is_coordinated": 1,
+          "id": "185830764"
+        },
+        {
+          "author": "bunutartisabiliriz",
+          "content": "olur oyle, bir anda bazen, isiklarin sonmesi gibi...",
+          "date_str": "22.08.2026 13:28",
+          "created_at": "2026-08-22T13:28:00",
+          "is_coordinated": 1,
+          "id": "185835903"
+        },
+        {
+          "author": "to vbe or not to vbe",
+          "content": "“pes ettiğimden değil, olmayacağını gözüme soka soka gösterdiğin için vazgeçtim.”milena'ya mektuplar - *",
+          "date_str": "22.08.2026 13:50",
+          "created_at": "2026-08-22T13:50:00",
+          "is_coordinated": 1,
+          "id": "185836249"
+        }
+      ]
+    },
+    {
       "topic": "bu saatte hala uyumama sebebi",
       "category": "Suni Gündem & Viral Çarpıtma",
       "entry_count": 10,
@@ -312,10 +489,10 @@
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
         "heterodokss",
-        "augusto pinochet",
+        "belgium in the rainn",
         "kendinegelotuzsundediler",
         "notthatsimplee",
-        "belgium in the rainn"
+        "augusto pinochet"
       ],
       "sample_entries": [
         {
@@ -372,10 +549,10 @@
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
         "ckmltyf",
-        "slowrocker",
-        "lonely tree",
         "niltt",
-        "screenknife"
+        "slowrocker",
+        "screenknife",
+        "lonely tree"
       ],
       "sample_entries": [
         {
@@ -431,11 +608,11 @@
       "last_seen": "2026-08-22T12:54:00",
       "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
       "authors": [
-        "ne rakisi sevim",
-        "bilmemeninbilmisligi",
-        "burunsuz pinok",
         "raybanzib",
-        "19o5"
+        "19o5",
+        "bilmemeninbilmisligi",
+        "ne rakisi sevim",
+        "burunsuz pinok"
       ],
       "sample_entries": [
         {
@@ -491,11 +668,11 @@
       "last_seen": "2026-08-22T17:23:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 10 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
+        "supermike",
         "nahpeykerhapiyuttunnamussuzziver",
-        "melvinton",
-        "la columna rota",
         "eeee sonra",
-        "supermike"
+        "melvinton",
+        "la columna rota"
       ],
       "sample_entries": [
         {
@@ -552,10 +729,10 @@
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
         "acmemade",
-        "materialsengineer",
-        "arsiz marketing",
         "arzawa",
-        "vladmicov"
+        "vladmicov",
+        "materialsengineer",
+        "arsiz marketing"
       ],
       "sample_entries": [
         {
@@ -611,11 +788,11 @@
       "last_seen": "2026-08-22T22:43:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
+        "entrollment",
         "protego",
-        "fyodorwell",
-        "kirkbirincikarakter",
         "darwinisecdeyeyatiranadam",
-        "entrollment"
+        "kirkbirincikarakter",
+        "fyodorwell"
       ],
       "sample_entries": [
         {
@@ -671,11 +848,11 @@
       "last_seen": "2026-08-22T22:22:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "the dark defender",
-        "crowded house",
         "octopusss",
         "homoiskandinavus",
-        "cars"
+        "cars",
+        "crowded house",
+        "the dark defender"
       ],
       "sample_entries": [
         {
@@ -717,186 +894,6 @@
           "created_at": "2026-08-22T22:08:00",
           "is_coordinated": 1,
           "id": "185844832"
-        }
-      ]
-    },
-    {
-      "topic": "otuz yaş üstü kariyerli kadınlar neden evlenmiyor",
-      "category": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 10,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T02:11:00",
-      "last_seen": "2026-08-22T04:23:00",
-      "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 10 hesap tarafından eşzamanlı gündeme taşındı.",
-      "authors": [
-        "saksi cicegi",
-        "ascsagittarius",
-        "sozen",
-        "cikolataliportakal",
-        "funeral winds"
-      ],
-      "sample_entries": [
-        {
-          "author": "saksi cicegi",
-          "content": "ilişki uzmanı erkek turnusolu gorevi gören başlık.otuz yas üstü kariyerli kadınlarin “hedef kitlesindeki iyi erkeklerin çoğu çoktan kapılmış” tespiti komik. medeni hali evli oldugu için \"kapılmış\" diye isimlendirerek kalite belgesi basılan adamların yarısı sözlükte “evlilik pişmanlıktır” başlığında ağıt yakıyor.bir erkeğin evlenmiş olması onun yüksek “piyasa değeri” olduğunu değil, en fazla bir kadının bir zamanlar onu seçmiş olduğunu gösterir. başka kadınlar tarafından tercih edilmiş bir erkeğin daha değerli görünmesi de zaten pek yeni bir şey değil. erkeğin kalitesini ölçerken; yine kadınların seçimini kalite göstergesi olarak baz alıyorsunuz, çok zavallıca.daha komiği, kendi mabadının yemediği evlilik konusunda ahkam kesen adamlar gelmiş, kariyerli kadınları “çay yapmaya yanaşmıyorlar” diye dört tipe ayırıyor.osur, osur ipe diz muhabbeti resmen.edit: cevab gelmiş üstteki yazardan. anlamamış; son kez anlatalım: “kapılmış” sözcüğüne bu kadar mesai harcayınca argümanın kurtulduğunu sanmışsın ama mesele semantik değil. kapılmış deme, seçilmiş de; istersen mahmut de. bir kadının bir erkeği seçmiş olmasını o erkeğin niteliğine dair gösterge olarak kullanmış olduğun gerçeği değişmiyor.evet, profiline “acaba trol mü?” diyerek birkaç dakikamı ayırdım. e yani? zaman benim; kahyası mısın? evli olmaman mesele değil; anlamadın yine. insan yaşamadığı şey hakkında gözlem yapabilir. yalnız, kendi tecrübesi olmayan bir konuda kadınlara “evliliğin gerektirdiği tavizleri” öğretmeye girişince entry'sinde komik oluyor. güldük. \"genelleme yapmadan” deyip ardından otuz yaş üstü kariyerli kadınları dört tipe ayırmışsın. başına tedbiren “genelleme yapmıyorum” yazmak hemen arkasından yaptığın genellemeyi hükümsüz kılmıyor ama tebrikler; böyle durumlar için oraya küçük bir emniyet kemeri takmayı iyi akıl etmişsin la bebe ya da chatgpt mi demeliyim? ne diyem, mahmut mu diyem? anlamayacaksın zaten. en iyisi cahil ile sohbeti kesmek demişler.",
-          "date_str": "22.08.2026 02:11 ~ 11:12",
-          "created_at": "2026-08-22T02:11:00",
-          "is_coordinated": 1,
-          "id": "185829511"
-        },
-        {
-          "author": "funeral winds",
-          "content": "kendi kariyerine uygun bir erkek bulamadığından olabilir.",
-          "date_str": "22.08.2026 02:12",
-          "created_at": "2026-08-22T02:12:00",
-          "is_coordinated": 1,
-          "id": "185829515"
-        },
-        {
-          "author": "sozen",
-          "content": "doğurganlık ve anaçlık sıfır olduğu için. rus ve ukraynalı (hatta suriyeli) bacıların bizimkilerini eğitmesi gerekir. bu kafayla evrim bu nesli silip atacak.",
-          "date_str": "22.08.2026 02:19",
-          "created_at": "2026-08-22T02:19:00",
-          "is_coordinated": 1,
-          "id": "185829622"
-        },
-        {
-          "author": "ascsagittarius",
-          "content": "otuz yaş üstü bekar erkekler sıkıntılı olduğu için.",
-          "date_str": "22.08.2026 02:21",
-          "created_at": "2026-08-22T02:21:00",
-          "is_coordinated": 1,
-          "id": "185829644"
-        },
-        {
-          "author": "cikolataliportakal",
-          "content": "çok basit, özgürlük ve keyfince yaşamak istiyorlar. birine bağlı kalmadan. erkekler, çocuk, aile, bunların hepsi 'bağımsızlığını kazanmış' kadınları boğuyor :)",
-          "date_str": "22.08.2026 02:28",
-          "created_at": "2026-08-22T02:28:00",
-          "is_coordinated": 1,
-          "id": "185829721"
-        }
-      ]
-    },
-    {
-      "topic": "sürekli kendine hatırlatmak zorunda olduğun o söz",
-      "category": "Suni Gündem & Viral Çarpıtma",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 10,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T20:51:00",
-      "last_seen": "2026-08-22T22:28:00",
-      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
-      "authors": [
-        "gandalfinasasi1",
-        "akademi maestro",
-        "eternalfire",
-        "kara vasif karakol cemiyeti",
-        "i have dreams"
-      ],
-      "sample_entries": [
-        {
-          "author": "akademi maestro",
-          "content": "kâbus da rüya da aynı; ikisi de geçiyor ömür gibi, vakit gibi.",
-          "date_str": "22.08.2026 20:51",
-          "created_at": "2026-08-22T20:51:00",
-          "is_coordinated": 1,
-          "id": "185842834"
-        },
-        {
-          "author": "eternalfire",
-          "content": "hiç kimsenin umurunda değilsin.",
-          "date_str": "22.08.2026 20:53",
-          "created_at": "2026-08-22T20:53:00",
-          "is_coordinated": 1,
-          "id": "185842867"
-        },
-        {
-          "author": "kara vasif karakol cemiyeti",
-          "content": "başkaları hakkında beylik laflar sarf etme...önce sen ahlaklı ve dürüst olmalısın, önce kendi içini arındırmalısın.",
-          "date_str": "22.08.2026 20:57",
-          "created_at": "2026-08-22T20:57:00",
-          "is_coordinated": 1,
-          "id": "185842956"
-        },
-        {
-          "author": "gandalfinasasi1",
-          "content": "deveye diken insana siken yaranır.atasözleri ciddi bir sosyolojik birikimin ürünüdür, aynı anda dünyanın tüm coğrafyalarında birbirinden bağımsız insanlar aynı fikre ve düşünceye olası ve sıradan insan davranışları sebebiyle aynı bakış açısıyla bakabilirler.işte bu da onlardan biridir.insan; nezaketli, ince düşünceli ve kibarsa işin sonunda muhakkak ki kaybediyor ve bu şaşmıyor arkadaşlar.kimse kimseyi kandırmasın, insan doğası s*kilme ve hırpalanmadan keyif alıyor.",
-          "date_str": "22.08.2026 20:57",
-          "created_at": "2026-08-22T20:57:00",
-          "is_coordinated": 1,
-          "id": "185842964"
-        },
-        {
-          "author": "i have dreams",
-          "content": "“görelim mevla neyler, neylerse güzel eyler.”",
-          "date_str": "22.08.2026 21:44",
-          "created_at": "2026-08-22T21:44:00",
-          "is_coordinated": 1,
-          "id": "185843881"
-        }
-      ]
-    },
-    {
-      "topic": "anderson talisca",
-      "category": "Suni Gündem & Viral Çarpıtma",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 9,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T04:02:00",
-      "last_seen": "2026-08-22T09:27:00",
-      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
-      "authors": [
-        "shinigami ryuk",
-        "youth gone wild",
-        "vzw",
-        "vladmicov",
-        "better call sabire"
-      ],
-      "sample_entries": [
-        {
-          "author": "vladmicov",
-          "content": "fenerin acil durumlarda camı kıran 10 numarası. inşallah gönderilir zira bu adamın yapacağı istatistikleri çok ararlar.",
-          "date_str": "22.08.2026 04:02",
-          "created_at": "2026-08-22T04:02:00",
-          "is_coordinated": 0,
-          "id": "185830471"
-        },
-        {
-          "author": "youth gone wild",
-          "content": "en kritik maç öncesinde bunu gönderip hazırlık kampını sakatlığı sebebiyle kaçırmış vedat ve snorlax gibi dolaşan lukaku ile oynamayı düşünüyorsa ben cidden yapıya inanırım.böyle bir kararı anca yapı verir hatta \"ulan ayıp mı oluyor çok mu abartıyoruz\" falan diyebilirler.",
-          "date_str": "22.08.2026 06:36",
-          "created_at": "2026-08-22T06:36:00",
-          "is_coordinated": 1,
-          "id": "185830999"
-        },
-        {
-          "author": "shinigami ryuk",
-          "content": "fenerbahçe taraftarı mülayim adam sevmez. alex bile yeri geldiğinde agresifleşen, yönetime, teknik direktöre tavır koyabilen, takım içinde sözünü dinlenen, sivri olmasa da diş gösterebilen bir karakterdi. onun yanıda olduğu için sezon sonu bir çok futbolcu yollandı. talisca ise geldiğinden beri vur ensesine al lokmasına takıldığı için üzerine çok yüklenildi. tek bir negatif röportajı yok, yedek kalmayı hiç sorun etmedi. penaltı kaçırdı, bazen haddinden fazla zorladı ama totalde takımı hep yarışta tuttu. son bir buçuk sezonda onun olmadığı dönemeçlerin hepsine sıçtı sıvadı bu takım.bu arada herif kariyer sezonunu fenerbahçe'de yaşıyor. görsel70 maçta 50 gol katkısı var adamın. kaldı ki bunların büyük kısmında sonradan girdi. attığı gollerin büyük kısmı da maç çözen goller. gönderilirse sebebi yabancı limiti olur fakat sezon boyunca yokluğunu çok ararız. akıllarda kaçırdığı penaltıyla kalması normal fakat çözdüğü maçlardan bahsedilmemesi ayıp. şahsen onun yerine verim alamadığımız diğer oyunculardan çıkılmasını tercih ederdim.",
-          "date_str": "22.08.2026 08:10 ~ 09:41",
-          "created_at": "2026-08-22T08:10:00",
-          "is_coordinated": 1,
-          "id": "185831405"
-        },
-        {
-          "author": "vzw",
-          "content": "fenerbahçeden kim gitsin istersin diye rakiplerine sorsalar1.kante 2. talisca 3.asensio derler biri gidiyor diğerini göndermeye çalışıyorlar, böyle devam aziz başkan",
-          "date_str": "22.08.2026 08:34",
-          "created_at": "2026-08-22T08:34:00",
-          "is_coordinated": 1,
-          "id": "185831574"
-        },
-        {
-          "author": "better call sabire",
-          "content": "şu herifin attığı gollere bakıp 'gitmesin' diyen kim varsa skor taraftarıdır. bir futbolcunun sahada bu sik kafalı kadar gamsız, yürüyerek takılabilmesi için ya messi ya ronaldo olması lazım. ki onlar bile bu yaşta bu lavuktan fazla mücadele ediyor.sezon başından beri forvette bu yarakhasan değil de serdar dursun oynamış olsa kat kat iyi futbol olurdu sahada ve çok daha fazla gol atardık. bu beyimiz 90 dakika ceza yayında bekliyor ayağına top gelecek de, rakip stoper basmazsa kontrol edip dönecek de kaleye vuracak. baba sen bu kafandaki hikayeyi anca gornik bilmem neye karşı, arabistan'daki takımlara karşı filan yaparsın. sahaya mücadele etmek için çıkan hiçbir profesyonel rakip sana bu kadar alan vermez. zaten bu lavuğun ayağına gelen her topa rakip bundan önce hamle yapıyor, bu da ayağına sıkmışlar gibi 10dk yerlerde yatıyor. baskı yediğinde buna yerden veya havadan atılan hiçbir topu tutup da arkadaşına kazandırdığını görmedik.bu herife gelen her top ya direk rakibe geçiyor, es kaza kontrol edip dönebildiyse de kaleye vurup geçiyor. hayırdır olum seni messi ronaldo filan mısın her gelen topu kaleye vuracak? geçen seneden beri aynı şeyi yazıyoruz, rakibin bu herifi yakın savunduğu hiçbir maçta oyunu kontrol edemeyiz. anca işte kayseri, konya, rize mize maçlarında atar, onlarda da attığından fazla zararı olur 90 dakika içinde. tabelaya baksan 20 gol attı dersin ama takım oyununun içine sıçıp eli belinde bekledikten sonra alex'in, juninho'yu filan getir, bu yaşta boş beleş takımlara uzaktan şutla frikile filan onlar da atar 15-20 gol .",
-          "date_str": "22.08.2026 08:47 ~ 08:50",
-          "created_at": "2026-08-22T08:47:00",
-          "is_coordinated": 1,
-          "id": "185831687"
         }
       ]
     }

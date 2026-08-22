@@ -837,11 +837,92 @@ window.addEventListener('resize', () => {
     }, 250);
 });
 
-// Global Keyboard Listener for Closing Modals with Escape
+// Export Dropdown Handlers (Click-to-toggle with safe menu navigation)
+function toggleExportMenu(event) {
+    if (event) event.stopPropagation();
+    const dropdown = document.getElementById('export-dropdown');
+    if (!dropdown) return;
+    dropdown.classList.toggle('hidden');
+    lucide.createIcons();
+}
+
+function closeExportMenu() {
+    const dropdown = document.getElementById('export-dropdown');
+    if (dropdown && !dropdown.classList.contains('hidden')) {
+        dropdown.classList.add('hidden');
+    }
+}
+
+async function downloadExport(format) {
+    closeExportMenu();
+    
+    // In local server mode with active backend
+    if (isServerOnline) {
+        window.open(`/api/export?format=${format}&days=${currentDays}`, '_blank');
+        return;
+    }
+
+    // In static GitHub Pages mode
+    if (format === 'json') {
+        const jsonUrl = `./data/entries_${currentDays}.json`;
+        const a = document.createElement('a');
+        a.href = jsonUrl;
+        a.download = `troll_radar_entries_${currentDays}d.json`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    } else if (format === 'csv') {
+        try {
+            const data = await fetchApi(`/api/entries?days=${currentDays}&limit=1000`, `./data/entries_${currentDays}.json`);
+            const entries = data.entries || [];
+            if (entries.length === 0) {
+                alert("İndirilecek entry bulunamadı.");
+                return;
+            }
+            const headers = ["id", "author", "topic", "category", "created_at", "favorite_count", "is_coordinated", "content"];
+            const csvRows = [headers.join(',')];
+            for (const e of entries) {
+                const row = [
+                    e.id,
+                    `"${(e.author || '').replace(/"/g, '""')}"`,
+                    `"${(e.topic || '').replace(/"/g, '""')}"`,
+                    `"${(e.category || '').replace(/"/g, '""')}"`,
+                    e.created_at,
+                    e.favorite_count || 0,
+                    e.is_coordinated ? 1 : 0,
+                    `"${(e.content || '').replace(/"/g, '""')}"`
+                ];
+                csvRows.push(row.join(','));
+            }
+            const blob = new Blob(["\uFEFF" + csvRows.join('\n')], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `troll_radar_export_${currentDays}d.csv`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        } catch (err) {
+            console.error("CSV export error:", err);
+        }
+    }
+}
+
+// Global Click Listener to Close Dropdown When Clicking Outside
+document.addEventListener('click', (e) => {
+    const exportContainer = document.getElementById('export-container');
+    if (exportContainer && !exportContainer.contains(e.target)) {
+        closeExportMenu();
+    }
+});
+
+// Global Keyboard Listener for Closing Modals and Menus with Escape
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
         closeAuthorModal();
         closeScrapeModal();
+        closeExportMenu();
     }
 });
 

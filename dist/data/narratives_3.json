@@ -2,79 +2,19 @@
   "period_days": 3,
   "narratives": [
     {
-      "topic": "olası israil türkiye savaşı",
-      "category": "Dış Politika & Jeopolitik Savunma",
-      "entry_count": 15,
-      "author_count": 15,
-      "coord_count": 15,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T01:15:00",
-      "last_seen": "2026-08-22T02:00:00",
-      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
-      "authors": [
-        "large hail storm",
-        "ckcozr",
-        "hohem",
-        "meridyen6",
-        "viransce"
-      ],
-      "sample_entries": [
-        {
-          "author": "meridyen6",
-          "content": "adolf hitler'in ne kadar büyük bir lider olduğunu öğrendiniz mi? adolf hitler insanlığı yahudilerden kurtaracaktı ama ne yazık ki molotov-ribbentrop paktı'nı bozup rusya'ya saldırması ve savaşı kaybetmesi bunu engelledi. adolf hitler savaşı kazansaydı insanlık yahudi belasından kurtarılacaktı. adolf hitler aceleci davranmamalıydı. adolf hitler filistin'i ve müslümanları seviyordu. özünde iyi bir insandı. volkswagen'i kurdu ve alman halkını ucuz ve kaliteli araba sahibi yaptı. bugünkü amerikan savaş teknolojisinin bu kadar gelişmiş olması adolf hitler'in sayesindedir. amerikalılar ikinci dünya savaşı'nda alman teknolojisini öğrenip kendi ülkelerine götürdüler. yahudi medyası kuyruk acısı yüzünden hitler'i yıllarca kötü gösterdi.",
-          "date_str": "22.08.2026 01:15 ~ 01:21",
-          "created_at": "2026-08-22T01:15:00",
-          "is_coordinated": 1,
-          "id": "185828593"
-        },
-        {
-          "author": "hohem",
-          "content": "kürdler doğru yerde konumlanmalıdır.",
-          "date_str": "22.08.2026 01:20",
-          "created_at": "2026-08-22T01:20:00",
-          "is_coordinated": 1,
-          "id": "185828677"
-        },
-        {
-          "author": "viransce",
-          "content": "eğer böyle bir savaş çıkarsa ilk aşamalarda taktik gereği kendilerini ezilen yenilgiye uğramış gibi dünyaya gösterip türkiyenin stratejik bir iki bölgesine nükleer saldırı yapabilirler işte mecbur kaldık bizi yok ediyorlardı bıdı bıdı diye dünyaya yedirmeye çalışırlar işte o zaman durumu ve oluşacak yıkımı düşünmek zor. ayrıca asıl tehlike şu an hava gücü bakımından israile nasıl bir karşılık verilebilir eldeki uçaklar hava savunma sistemleri bunlar hesaba katılıyor mu haritadan sileriz diyenler bir cevap verirse güzel olur bir tarafta f16 diğer yanda f35 biri diğerini havada görmüyor bile hava savunma sistemi desen ayrı muamma . bir de yunanistan saldırma fikri evet düşünebilirler ama fiiliyata geçmesi anca olası savaşta türkiyeye başka bir ülkeden yardım gelirse ama onda bile düşük ihtimal anca savaş esnasında bizim donanmayı veya uçakları zoraki engelleyici bi tutum olursa ve vurulması hadisesi vuku bulduğunda bu bahaneyle dalabilirler nitekim içlerinde türkiyenin her girdiği krizde şimdi zamanı hadi saldıralım diyen bir zümreleri hep mevcut. yani kısaca azdan az çoktan çok gider mantığı gerçekleşebilir insan kaybı prestij kaybı zor iş bu savaş erken sonlandırılsa bile geçerli durum.",
-          "date_str": "22.08.2026 01:20",
-          "created_at": "2026-08-22T01:20:00",
-          "is_coordinated": 1,
-          "id": "185828697"
-        },
-        {
-          "author": "ckcozr",
-          "content": "israilin elinde türkiyeyi tam anlamıyla diz çöktürüp yok edecek kadar nukleer yok. ama kendini yok ettirecek kadar var. hatta dunyanın herhangi bir köşesinde yaşayan siyonist tohumu israillilerin tarihten silinmesine yetecek kadar.ekseri 0,02 - 0,05 - 0,1 megaton gucunde taktik nukleer ve iki elin parmaklarını geçmeyecek 0,5 ve 1 megatonluk başlıklar.turkıyeyi vuracak, nukleer serpinti balkanlarda yunanistan, bulgaristan ve romanya gibi nato ulkelerini etkileyecek ve karadeniz kıyılarında rusyaya ulaşacak ha ? rusyanın doktrini \"sahilleri dahil herhangi bir kitlesel silahın etkisininde kalırsa o kovboy ulkeyi uzerinde bin yıl hamam böceği bile bitmeyecek hale getir\" üzerinedir.45 ten beri kimse nukleer atmamış, atamaz. rusya atış serbest madem ben ne kasıyorum bu kadar deyip ukrayna ve çevresinde bir tane ülkede ot bitmesine bile izin vermez. kuzey kore bi enayi ben miyim israil bile atabiliyorsa yagdır guneye ve japonyaya der, hindistan ve pakistanı zaten hiç tartışmayalım.böyle bir hatada diyorum ya, turkiye elbet yara alır fakat yeryüzünde bırak yetişkin bir siyonist tohumunu, kundakta ki bebesi bile kalmaz.",
-          "date_str": "22.08.2026 01:21 ~ 01:23",
-          "created_at": "2026-08-22T01:21:00",
-          "is_coordinated": 1,
-          "id": "185828709"
-        },
-        {
-          "author": "large hail storm",
-          "content": "ayranı yok içmeye tahterevanla gider sıçmaya",
-          "date_str": "22.08.2026 01:22",
-          "created_at": "2026-08-22T01:22:00",
-          "is_coordinated": 1,
-          "id": "185828728"
-        }
-      ]
-    },
-    {
       "topic": "haşemalılarla aynı denize girmek istemeyen kadın",
       "category": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 15,
-      "author_count": 12,
-      "coord_count": 15,
+      "entry_count": 31,
+      "author_count": 26,
+      "coord_count": 31,
       "is_coordinated": true,
       "first_seen": "2026-08-22T11:43:00",
-      "last_seen": "2026-08-22T21:52:00",
-      "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 12 hesap tarafından eşzamanlı gündeme taşındı.",
+      "last_seen": "2026-08-22T22:16:00",
+      "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 26 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "bozaj",
         "nane kokusu",
         "timurun fillerinin bakicisi",
+        "bozaj",
         "givles"
       ],
       "sample_entries": [
@@ -121,6 +61,482 @@
       ]
     },
     {
+      "topic": "yabancı turistin türk esnafına isyan etmesi",
+      "category": "Ekonomi Savunması & Aklama",
+      "entry_count": 30,
+      "author_count": 25,
+      "coord_count": 30,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T15:44:00",
+      "last_seen": "2026-08-22T20:55:00",
+      "summary": "Pahalılık/turist/esnaf algısını çarpıtma ve ekonomik tepkileri hafifletme amacıyla 25 hesap tarafından organize paylaşıldı.",
+      "authors": [
+        "timurun fillerinin bakicisi",
+        "bozaj",
+        "givles"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "ilgili turistin videosu 1 nargileye istenen fiyat türkiye'ye tatile gelen bir yabancı turistin 'kimse artık hakkınızda iyi konuşmuyor. kaliteyi kaybediyorsunuz' diye başlayan isyanıdır. fırsatçı esnafın cezasını tüm ülke çekiyor.",
+          "date_str": "22.08.2026 15:44",
+          "created_at": "2026-08-22T15:44:00",
+          "is_coordinated": 1,
+          "id": "185800005"
+        },
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "ilgili turistin videosu1 nargileye istenen fiyattürkiye'ye tatile gelen bir yabancı turistin \"kimse artık hakkınızda iyi konuşmuyor. kaliteyi kaybediyorsunuz, itibarınız düşüyor\" diye başlayan ve esnaflara uzanan isyandır.",
+          "date_str": "22.08.2026 15:44 ~ 16:24",
+          "created_at": "2026-08-22T15:44:00",
+          "is_coordinated": 1,
+          "id": "185838093"
+        },
+        {
+          "author": "bozaj",
+          "content": "avrupa'da sokak ortasında bir kahveye 10 euro verirken sesi çıkmayanların türkiye'de üç kuruşluk hesaba algı yapması olayıdır. esnafımızı karalamak moda oldu.",
+          "date_str": "22.08.2026 15:45",
+          "created_at": "2026-08-22T15:45:00",
+          "is_coordinated": 1,
+          "id": "185800006"
+        },
+        {
+          "author": "bozaj",
+          "content": "esnaf zorla dükkana çağırıyor diye haykırmış. oğlum hepimizin bildiği şeyleri bir yabancıdan dinlemek çok rahatsız edici lan. daha doğrusu utandırıcı.",
+          "date_str": "22.08.2026 15:45",
+          "created_at": "2026-08-22T15:45:00",
+          "is_coordinated": 1,
+          "id": "185838096"
+        },
+        {
+          "author": "givles",
+          "content": "yunan heykeli gibi adamı çıldırtmış bizim namuslu esnafımız.\"insanları dolandırıyorsunuz\" demiş. daha da kötüsü yerel insanlar bunun farkında ancak ses çıkmıyor hiç. çıksa da duyan olmuyor. kurbağa meselesi.şu videonun tamamını izleyen herhangi bir devlet yetkilisinin aklına, dozerle turistik bölgede tur atma fikri gelmiyorsa çok da konuşulacak bir şey yok demektir.",
+          "date_str": "22.08.2026 15:45 ~ 16:39",
+          "created_at": "2026-08-22T15:45:00",
+          "is_coordinated": 1,
+          "id": "185838094"
+        }
+      ]
+    },
+    {
+      "topic": "ankara'da alman kurdundan kaçarken ölen çocuk",
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "entry_count": 28,
+      "author_count": 25,
+      "coord_count": 28,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T07:31:00",
+      "last_seen": "2026-08-22T18:50:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "becathlon",
+        "timurun fillerinin bakicisi",
+        "bozaj",
+        "givles"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "olayın videosu başsavcılığın açıklaması. olay ankara'da yaşanmış. köpekten kaçarken fenalaşıp başını betona çarpan 15 yaşındaki çocuk hayatını kaybetmiş. mansur yavaş'ın sokak hayvanları konusundaki vurdumduymazlığı bir cana daha mal oldu.",
+          "date_str": "22.08.2026 07:31",
+          "created_at": "2026-08-22T07:31:00",
+          "is_coordinated": 1,
+          "id": "185800010"
+        },
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "olayın videosubaşsavcılığın olaya ilişkin açıklaması olay ankara'da yaşanmış.alman kurdu cinsi köpekten kaçarken fenalaşarak yere düşüp başını betona çarpan 15 yaşındaki çocuk hayatını kaybetmiş.",
+          "date_str": "22.08.2026 07:31 ~ 07:42",
+          "created_at": "2026-08-22T07:31:00",
+          "is_coordinated": 1,
+          "id": "185831198"
+        },
+        {
+          "author": "bozaj",
+          "content": "yaz tatilinde amcasının yanında çalışıyormuş. oğlum kahroldum lan sabah sabah. hele o amca ve hatta aile bir ömür kendini kahredecek. biri işe göndermeseydim diye, öteki işe almasaydım diye.",
+          "date_str": "22.08.2026 07:32",
+          "created_at": "2026-08-22T07:32:00",
+          "is_coordinated": 1,
+          "id": "185831202"
+        },
+        {
+          "author": "givles",
+          "content": "alman kurdu. ve tasmasız. üstelik sahipli. şimdi bunu bir silah olarak değerlendirip, sahibini cinayete azmettirmekten yargılamak adaletin ta kendisi olur. çocuğa çok üzüldüm.başsavcılık ise köpek havladığı için bunların yaşandığını söylemiş. başsavcılıkla bizim izlediğimiz videolar farklı sanırım.",
+          "date_str": "22.08.2026 07:32 ~ 11:09",
+          "created_at": "2026-08-22T07:32:00",
+          "is_coordinated": 1,
+          "id": "185831200"
+        },
+        {
+          "author": "becathlon",
+          "content": "bir esnaf dükkanında ne diye tasmasız bir alman kurdu besler arkadaş. ve köpek hep saldırıyormuş insanlara havlıyormuş. buna rağmen de tasmasız geziyormuş. bir sıçramış, iki sıçramış. çok yazık olmuş.",
+          "date_str": "22.08.2026 07:34",
+          "created_at": "2026-08-22T07:34:00",
+          "is_coordinated": 1,
+          "id": "185831215"
+        }
+      ]
+    },
+    {
+      "topic": "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+      "category": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 28,
+      "author_count": 24,
+      "coord_count": 28,
+      "is_coordinated": true,
+      "first_seen": "2026-08-21T08:05:00",
+      "last_seen": "2026-08-21T10:06:00",
+      "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
+      "authors": [
+        "becathlon",
+        "timurun fillerinin bakicisi",
+        "bozaj",
+        "givles"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "olay anı videosu süleyman soylu'nun açıklaması. otobüste yolculuk yapan kadının terör estirmesi olayı. hareket halindeki otobüsten inmek istemiş.",
+          "date_str": "21.08.2026 08:05",
+          "created_at": "2026-08-21T08:05:00",
+          "is_coordinated": 1,
+          "id": "185800020"
+        },
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "olay anı videosusüleyman soylu olaya ilişkin açıklama yapmışşehirler arası otobüste yolculuk yapan kadının terör estirmesi olayı. hareket halindeki otobüsten inmek istemiş. izin verilmeyince kıyameti koparmış, tehditler savurmuş.",
+          "date_str": "21.08.2026 08:05 ~ 08:54",
+          "created_at": "2026-08-21T08:05:00",
+          "is_coordinated": 1,
+          "id": "185811875"
+        },
+        {
+          "author": "bozaj",
+          "content": "kocasına, oğluna, babasına hatta hayatındaki tanıdığı tüm erkeklere acıdığım kadının eylemi. evlerden ırak.",
+          "date_str": "21.08.2026 08:06",
+          "created_at": "2026-08-21T08:06:00",
+          "is_coordinated": 1,
+          "id": "185811876"
+        },
+        {
+          "author": "givles",
+          "content": "en korktuğum insan tipi. başına gelmeyen bilemez. çirkef kadınla baş edemezsin. ağzına sıçar hayatının içine eder. aha böyle izlersin.",
+          "date_str": "21.08.2026 08:06",
+          "created_at": "2026-08-21T08:06:00",
+          "is_coordinated": 1,
+          "id": "185811878"
+        },
+        {
+          "author": "becathlon",
+          "content": "\"yemin ederim sizi yaşatmam\"hele hele laflara bak aq. gözaltı haberini beklediğim kadının ortalığın amına koyması hadisesi.",
+          "date_str": "21.08.2026 08:08",
+          "created_at": "2026-08-21T08:08:00",
+          "is_coordinated": 1,
+          "id": "185811890"
+        }
+      ]
+    },
+    {
+      "topic": "sokakta birlikte olan çifte beddua eden kadın",
+      "category": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 24,
+      "author_count": 24,
+      "coord_count": 24,
+      "is_coordinated": true,
+      "first_seen": "2026-08-21T10:46:00",
+      "last_seen": "2026-08-21T14:40:00",
+      "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 24 hesap tarafından eşzamanlı gündeme taşındı.",
+      "authors": [
+        "givles",
+        "bozaj",
+        "timurun fillerinin bakicisi",
+        "kafadanilo",
+        "kecuva"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "hassas videoolay izmir'de yaşanmış.sokak ortasında çift birlikte olmuş ve olay anını videoya alan kadın, çifte beddualar etmiş.edit: sokakta sevişen çifte beddua eden kadın olacaktı ancak sevişmek kelimesi sözlükte sansürlü olduğundan başlık sol framede görünmüyor.",
+          "date_str": "21.08.2026 10:46 ~ 10:53",
+          "created_at": "2026-08-21T10:46:00",
+          "is_coordinated": 1,
+          "id": "185813613"
+        },
+        {
+          "author": "givles",
+          "content": "\"kaç dakika oldu hala\"ablam alışmış 10 saniyelik sevişmeye, içi gidiyor. kıyamam.",
+          "date_str": "21.08.2026 10:47",
+          "created_at": "2026-08-21T10:47:00",
+          "is_coordinated": 1,
+          "id": "185813622"
+        },
+        {
+          "author": "kafadanilo",
+          "content": "sevişen çiftin arkasındaki duvarda yazan yazı ironi gibi olmuş.",
+          "date_str": "21.08.2026 10:47",
+          "created_at": "2026-08-21T10:47:00",
+          "is_coordinated": 1,
+          "id": "185813618"
+        },
+        {
+          "author": "kecuva",
+          "content": "ikisi de uçmuş ayakta duramıyorlar. muhtemelen alkollüler. (bkz: türkler yapınca eğreti duran şeyler)",
+          "date_str": "21.08.2026 10:48",
+          "created_at": "2026-08-21T10:48:00",
+          "is_coordinated": 1,
+          "id": "185813635"
+        },
+        {
+          "author": "bozaj",
+          "content": "bunlar pilotun da ötesine bağlamış. sadece alkol gibi durmuyor. e tabii ki izahı yok şu tablonun da video çekip beddua sıralamak nedir aq. ara polisi gelsin.",
+          "date_str": "21.08.2026 10:52",
+          "created_at": "2026-08-21T10:52:00",
+          "is_coordinated": 1,
+          "id": "185813693"
+        }
+      ]
+    },
+    {
+      "topic": "olası israil türkiye savaşı",
+      "category": "Dış Politika & Jeopolitik Savunma",
+      "entry_count": 23,
+      "author_count": 23,
+      "coord_count": 23,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T01:15:00",
+      "last_seen": "2026-08-22T02:11:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "viransce",
+        "hohem",
+        "meridyen6",
+        "large hail storm",
+        "ckcozr"
+      ],
+      "sample_entries": [
+        {
+          "author": "meridyen6",
+          "content": "adolf hitler'in ne kadar büyük bir lider olduğunu öğrendiniz mi? adolf hitler insanlığı yahudilerden kurtaracaktı ama ne yazık ki molotov-ribbentrop paktı'nı bozup rusya'ya saldırması ve savaşı kaybetmesi bunu engelledi. adolf hitler savaşı kazansaydı insanlık yahudi belasından kurtarılacaktı. adolf hitler aceleci davranmamalıydı. adolf hitler filistin'i ve müslümanları seviyordu. özünde iyi bir insandı. volkswagen'i kurdu ve alman halkını ucuz ve kaliteli araba sahibi yaptı. bugünkü amerikan savaş teknolojisinin bu kadar gelişmiş olması adolf hitler'in sayesindedir. amerikalılar ikinci dünya savaşı'nda alman teknolojisini öğrenip kendi ülkelerine götürdüler. yahudi medyası kuyruk acısı yüzünden hitler'i yıllarca kötü gösterdi.",
+          "date_str": "22.08.2026 01:15 ~ 01:21",
+          "created_at": "2026-08-22T01:15:00",
+          "is_coordinated": 1,
+          "id": "185828593"
+        },
+        {
+          "author": "hohem",
+          "content": "kürdler doğru yerde konumlanmalıdır.",
+          "date_str": "22.08.2026 01:20",
+          "created_at": "2026-08-22T01:20:00",
+          "is_coordinated": 1,
+          "id": "185828677"
+        },
+        {
+          "author": "viransce",
+          "content": "eğer böyle bir savaş çıkarsa ilk aşamalarda taktik gereği kendilerini ezilen yenilgiye uğramış gibi dünyaya gösterip türkiyenin stratejik bir iki bölgesine nükleer saldırı yapabilirler işte mecbur kaldık bizi yok ediyorlardı bıdı bıdı diye dünyaya yedirmeye çalışırlar işte o zaman durumu ve oluşacak yıkımı düşünmek zor. ayrıca asıl tehlike şu an hava gücü bakımından israile nasıl bir karşılık verilebilir eldeki uçaklar hava savunma sistemleri bunlar hesaba katılıyor mu haritadan sileriz diyenler bir cevap verirse güzel olur bir tarafta f16 diğer yanda f35 biri diğerini havada görmüyor bile hava savunma sistemi desen ayrı muamma . bir de yunanistan saldırma fikri evet düşünebilirler ama fiiliyata geçmesi anca olası savaşta türkiyeye başka bir ülkeden yardım gelirse ama onda bile düşük ihtimal anca savaş esnasında bizim donanmayı veya uçakları zoraki engelleyici bi tutum olursa ve vurulması hadisesi vuku bulduğunda bu bahaneyle dalabilirler nitekim içlerinde türkiyenin her girdiği krizde şimdi zamanı hadi saldıralım diyen bir zümreleri hep mevcut. yani kısaca azdan az çoktan çok gider mantığı gerçekleşebilir insan kaybı prestij kaybı zor iş bu savaş erken sonlandırılsa bile geçerli durum.",
+          "date_str": "22.08.2026 01:20",
+          "created_at": "2026-08-22T01:20:00",
+          "is_coordinated": 1,
+          "id": "185828697"
+        },
+        {
+          "author": "ckcozr",
+          "content": "israilin elinde türkiyeyi tam anlamıyla diz çöktürüp yok edecek kadar nukleer yok. ama kendini yok ettirecek kadar var. hatta dunyanın herhangi bir köşesinde yaşayan siyonist tohumu israillilerin tarihten silinmesine yetecek kadar.ekseri 0,02 - 0,05 - 0,1 megaton gucunde taktik nukleer ve iki elin parmaklarını geçmeyecek 0,5 ve 1 megatonluk başlıklar.turkıyeyi vuracak, nukleer serpinti balkanlarda yunanistan, bulgaristan ve romanya gibi nato ulkelerini etkileyecek ve karadeniz kıyılarında rusyaya ulaşacak ha ? rusyanın doktrini \"sahilleri dahil herhangi bir kitlesel silahın etkisininde kalırsa o kovboy ulkeyi uzerinde bin yıl hamam böceği bile bitmeyecek hale getir\" üzerinedir.45 ten beri kimse nukleer atmamış, atamaz. rusya atış serbest madem ben ne kasıyorum bu kadar deyip ukrayna ve çevresinde bir tane ülkede ot bitmesine bile izin vermez. kuzey kore bi enayi ben miyim israil bile atabiliyorsa yagdır guneye ve japonyaya der, hindistan ve pakistanı zaten hiç tartışmayalım.böyle bir hatada diyorum ya, turkiye elbet yara alır fakat yeryüzünde bırak yetişkin bir siyonist tohumunu, kundakta ki bebesi bile kalmaz.",
+          "date_str": "22.08.2026 01:21 ~ 01:23",
+          "created_at": "2026-08-22T01:21:00",
+          "is_coordinated": 1,
+          "id": "185828709"
+        },
+        {
+          "author": "large hail storm",
+          "content": "ayranı yok içmeye tahterevanla gider sıçmaya",
+          "date_str": "22.08.2026 01:22",
+          "created_at": "2026-08-22T01:22:00",
+          "is_coordinated": 1,
+          "id": "185828728"
+        }
+      ]
+    },
+    {
+      "topic": "çocuğuna annen o... biliyor musun diyen baba",
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "entry_count": 18,
+      "author_count": 18,
+      "coord_count": 17,
+      "is_coordinated": true,
+      "first_seen": "2026-08-20T07:45:00",
+      "last_seen": "2026-08-20T22:01:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "bozaj",
+        "becathlon",
+        "timurun fillerinin bakicisi",
+        "kafadanilo",
+        "givles"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "küfür içerir videokadın, adamın whatsapp mesajlarını ifşalamışbu da olay sonrası adamın açıklaması \"orospu\" olacaktı ama malum sansür.boşanma aşamasındaki çiftin, araçta ettiği kavgada babanın kurduğu cümle.çocuğuna dönüp \"annen orospu biliyor musun\" demiş. etraftakiler adamı zorla araçtan uzaklaştırmış.",
+          "date_str": "20.08.2026 07:45 ~ 07:58",
+          "created_at": "2026-08-20T07:45:00",
+          "is_coordinated": 1,
+          "id": "185793226"
+        },
+        {
+          "author": "givles",
+          "content": "çocukların arkadaşları, çocukların ana babasını tanıyordur neticede. şimdi böyle bakınca olaya, o çocukların arkadaşları tarafından bu video yüzünden nasıl zorbalanacağını düşünmek aşırı rahatsız etti. bir baba işte bunu düşünmeli.",
+          "date_str": "20.08.2026 07:46",
+          "created_at": "2026-08-20T07:46:00",
+          "is_coordinated": 1,
+          "id": "185793228"
+        },
+        {
+          "author": "kafadanilo",
+          "content": "kimin haklı olduğunun hiçbir önemi yok. kadın gerçekten öyle olsa dahi çocuklara anan orospu demek nedir hayvan herif. o kadını anne yapan da sensin nihayetinde.",
+          "date_str": "20.08.2026 07:46",
+          "created_at": "2026-08-20T07:46:00",
+          "is_coordinated": 1,
+          "id": "185793227"
+        },
+        {
+          "author": "bozaj",
+          "content": "bu hikayede olan çocuklara olur. bariz belli anne de baba da sorunlu tipler.",
+          "date_str": "20.08.2026 07:47",
+          "created_at": "2026-08-20T07:47:00",
+          "is_coordinated": 1,
+          "id": "185793235"
+        },
+        {
+          "author": "becathlon",
+          "content": "çocuk çok küçük. muhtemelen de korkudan kilitlenmiş.ama muhtemeldir ki biraz daha büyüdüğünde ikisinden de nefret edecek. insanlar kalitesini her zaman boşanırken belli eder. ayrılık turnusol gibidir zira.",
+          "date_str": "20.08.2026 07:57",
+          "created_at": "2026-08-20T07:57:00",
+          "is_coordinated": 1,
+          "id": "185793297"
+        }
+      ]
+    },
+    {
+      "topic": "masterchef türkiye",
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "entry_count": 12,
+      "author_count": 12,
+      "coord_count": 11,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T01:31:00",
+      "last_seen": "2026-08-22T21:53:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "realdreamer",
+        "gunisiginda asili duran toz zerresi",
+        "mentolin",
+        "gulbesekerisevdimde",
+        "annenin terlik isabet ettiremedigi evlat"
+      ],
+      "sample_entries": [
+        {
+          "author": "gunisiginda asili duran toz zerresi",
+          "content": "youtube'da geriden izleyerek geliyorum ayşe konusunda benim gördüğüm şey ayşe’nin egoistliği değil, bazı insanların kendine güvenen, net ve kimseye yaranma ihtiyacı duymayan bir kadına ne kadar tahammülsüz olabildiği...şükran meselesinde olay aslında çok basit: ayşe'den pilava bakması isteniyor, ayşe de bakıp diri diyor. ekip oyununda yapılması gereken tam olarak bu değil mi? üstelik o uyarı olmasa pilavın sonucu ortada. sonra çıkıp yaşın kadar pilav yaptım demek bana çok şey anlatıyor. tecrübe, kaç yıldır pilav yaptığınla değil; doğru bir uyarı geldiğinde onu kişisel saldırıya çevirmeden değerlendirebilmekle belli olur. madem bu kadar tecrübelisin, diri denilince alınmak yerine pilavın nasıl toparlanacağını bilirsin. ayşe’nin söylediği bir cümleyi dakikalarca büyütüp sonra mağdur olan taraf gibi davranmak da ayşe’yi değil, tam tersine şükran’ın tavrını sorgulatıyor.bu büyüklerin yaş takıntısını hiç anlamıyorum. yaşça büyük olmak, yalnızca benden daha önce doğmuş olmaktır. düşüncenin doğruluğunu ya da davranışın olgunluğunu garanti etmez. sırf yaşınız büyük diye kimse gerçeği söylemekten çekinecek değil!nilay’a gelince bir yarışmacının yemeğini eleştirirsin, performansını eleştirirsin, yanlışını söylersin; bunların hepsi yarışmanın parçası. ama iş “yürüyüşüne bile gıcık oluyorum” noktasına geldiyse artık konuşulan şey mutfak değildir. bir insanın yürüyüşünün bile sana batması, ayşe hakkında değil senin ayşe’ye ne kadar takıldığın hakkında çok daha fazla şey söyler. egoist, kendini beğenmiş demek kolay fakat ayşe’nin yaptıklarına bakınca bağırıp çağıran, kendini gruplara kabul ettirmeye çalışan, balkonlarda insanların arkasından konuşan biri görmüyorum. tam tersine işine bakan, gerektiğinde fikrini söyleyen ve sonrasında yoluna devam eden birini görüyorum.bazılarının ayşe’de kibir sandığı şey aslında özgüven. soğukluk sandıkları şey mesafe. sertlik dedikleri şey de netlik. muhammed’in ayşe’ye tadım sorumluluğunu verip onu fiilen gizli takım kaptanı gibi konumlandırması, sonra da ayşe bu görev yüzünden hedef tahtasına oturtulunca tek kelime etmemesi bence olayın en rahatsız edici taraflarından biri. görevi verirken varsın, bedeli çıkınca yoksun. ayşe’ye görev verip tepki gelince geri çekilmek, sorumluluğu başkasının omzuna bırakmaktan başka bir şey değil.",
+          "date_str": "22.08.2026 01:31",
+          "created_at": "2026-08-22T01:31:00",
+          "is_coordinated": 1,
+          "id": "185828858"
+        },
+        {
+          "author": "mentolin",
+          "content": "1) batuhan iyi ve kompleksiz bir insan olduğunu düşünüyorum. yetenekli de bir laz. ama bugüne kadar gördüğüm kadarıyla üst düzey restoran mutfağından gelen bir şef refleksi vermiyor. daha çok orta-alt segment alakart mutfaklarında pişmiş gibi bir izlenim bırakıyor. ilerleyen süreçlerde hiç şansı olmadığını düşünüyorum.2) nilay'ı hiç sevemedim. berbat makyaj yapıyor. tv'ye çıkan insan makyaj yapmayı bilecek arkadaş. bana göre makyaj yapmayı bilmiyor. çok da antipatik geliyor. eğitim ve mutfak tarafında da yetersiz buluyorum. batuhan'dan önce eleneceğini düşünüyorum.3) hasan alp esasında tertemiz bir çocuk. eğitimli ve yetenekli de bir arkadaş. şu ana kadar gördüklerim içinde en umut verici gençlerden biri. yolu açık.4) şiringül'e geçenlerde sözlük'te \"balongül\" denmiş, güldüm. eskiden güzel bir kız olduğu açık. lakin estetik müdahalelerinin sonucunu hiç beğenmiyorum. yüzündeki değişiklikler konuşurken bile dikkatimi dağıtıyor. kaynaklarda 38 yaşında olduğu geçiyor ama 90'larda izel-çelik-ercan'la çalıştığını söylüyor. burada matematik tutmuyor. hangisi yanlış bilmiyorum. mutfak performansını da yetersiz buluyorum. batuhan'dan önce, nilay'dan sonra eleneceğini tahmin ediyorum.5) enes çok iyi bir çocuk. ama mutfak konusunda berbat ötesi yeteneksiz olduğunu düşünüyorum. tabağında profesyonel mutfak deneyiminin ağırlığını göremiyorum. bu hafta eleneceğini düşünüyorum.6) eyüp can'ın terapiye değil, biraz kendini ve öfkesini yönetmeye ihtiyacı var. kent hayatına ve profesyonel mutfak kültürüne hâlâ tam olarak adapte olamamış gibi geliyor bana. yeteneksiz de buluyorum. kebap ve benzeri mutfaklarda deneyimli olabilir ama chef olmak başka bir şey. böyle chef'lik olmaz.7) nurten ablanın harika bir anne ve insan olduğundan eminim. ama yarışmada karşısına çıkan yemeklerin ve tekniklerin bir kısmına yeterince aşina olmadığını düşünüyorum. profesyonel chef repertuvarı açısından işi zor. gider.8) şadi ağabey muhteşem bir insan. oraya sadece eğlenmek için gelmiş gibi. çok da güzel eğleniyor. tadını çıkarıyor. yetenekli de bir arkadaş. önü açık.9) burçin ablanın da çok iyi bir insan olduğunu düşünüyorum. bu yüzden kötü estetik ameliyatlarından vurmayacağım. ama mutfak performansını yetersiz buluyorum. gider.10) tolga abi iyi ve emekçi bir insan. yetenekli de. ama asla chef olduğunu düşünmüyorum. iyi yemek yapan, emekçi bir mutfak insanı olmak başka; mutfağı yöneten chef olmak başka. o seviyeyi henüz göremiyorum. gider.11) muhammed çok yetenekli çocuk. ama hayatının kolay geçmediği belli. kaptanlık yapabileceğini henüz düşünmüyorum. mutfak yeteneği ise çok açık. önü açık.12) recep iyi bir insana benziyor. ama üzerinde ciddi bir hayat mücadelesi yaşamış insan hali var. yetenekli bir genç ama bunu henüz tam olarak yansıtamadı. biraz rahatlayabilirse çok daha iyi işler çıkarabilir.13) bahar oradaki en hanımefendi insan. aynı zamanda en yüksek değerde emekçilerden biri. çok da yetenekli. önü açık. umarım birinci olur.14) şükran sosyolojik bir teyze. yetenekli bir kadın ama çok korkuyor. ben de 43 yaşındayım. biz 40 yaş üstü insanlar bu dünyayı iğrenç ve yaşanmaz hale getirdik. bir de iyi gençlerin üzerine ego kusuyoruz. bunu yapmamalıyız. ayşe'ye yaptıklarından dolayı benim gözümde ciddi biçimde eleştirilmeyi hak ediyor. gençlerin üzerine kendi korkularımızı ve egolarımızı yıkmamalıyız.15) armağan'dan korkuyorum. ama çok korkuyorum. televizyondaki bakışlarından bile bakışlarımı kaçırıyorum. başka hiçbir şey söylemeyeceğim.16) ayşe gerçekten hayran olunacak bir genç. dünya ahiret kızım, gelinim olsun. maşallah. bence siyasete atılmayı ciddi ciddi düşünmeli. harika bir yönetici. ama yemek konusunda henüz çok iyi değil. lakin her geçen gün gelişiyor. tebrik ederim.",
+          "date_str": "22.08.2026 01:49 ~ 02:01",
+          "created_at": "2026-08-22T01:49:00",
+          "is_coordinated": 1,
+          "id": "185829145"
+        },
+        {
+          "author": "gulbesekerisevdimde",
+          "content": "bu nilayın tam olarak derdi ne ? masterchef i magazine çevirmeye çalışıyor. bence kaliteyi çok düşürüyor fitnelik fesatlık dedikodu yeri değil burası. umarım ya elenir ya kendisine gelir. elenmesi tercihim.",
+          "date_str": "22.08.2026 02:59 ~ 02:59",
+          "created_at": "2026-08-22T02:59:00",
+          "is_coordinated": 1,
+          "id": "185830026"
+        },
+        {
+          "author": "annenin terlik isabet ettiremedigi evlat",
+          "content": "(bkz: nilay burçin ve kübra'yla aynı eve çıkmak)",
+          "date_str": "22.08.2026 03:50",
+          "created_at": "2026-08-22T03:50:00",
+          "is_coordinated": 1,
+          "id": "185830414"
+        },
+        {
+          "author": "realdreamer",
+          "content": "tarihin en korkak senesi bu sene muhtemelen. 40 yaş üstü o kadar insan var hepsi muhammed ve grubundan çekiniyor ne laf söylüyor ne oy atıyor. hasan alp falan beceriksizin önde gideni iki haftadır potaya gitmiyor. geçtiğimiz yıllarda bir kaptan 2 kez oyun kaybetse işi bitmişti 3 oyun kaybeden kaptana 1 oy çıkmış koca takımdan. öte yandan ayşe'yi yalnız ve tek başına görmüşler yüklenip duruyorlar kıza. duruşu olan ve iyi değerlendirme yapan bir kız elbette kimseye yaranamayacaktı. bu yıl özellikle kadınlar evi rezalet çok sinsi olmuş. bundan önceki senelerde genelde birbirilerine ablalık kardeşlik yaparlardı bu yıl hepsi fesat ve manipülatör. maalesef böyle durumlarda da ayşe gibi yalnız kalanların mentali çabuk çöküyor umarım kendisi 2021 burcu gibi olmaz. rezalet bir sene yarışmacıları nasıl seçtiniz anlam veremedim içeride 2 3 düzgün insan var masterchef normalde böyle olmazdı.",
+          "date_str": "22.08.2026 10:28",
+          "created_at": "2026-08-22T10:28:00",
+          "is_coordinated": 1,
+          "id": "185832847"
+        }
+      ]
+    },
+    {
+      "topic": "şu anda çalan şarkı",
+      "category": "Suni Gündem & Viral Çarpıtma",
+      "entry_count": 12,
+      "author_count": 12,
+      "coord_count": 10,
+      "is_coordinated": true,
+      "first_seen": "2026-08-22T01:38:00",
+      "last_seen": "2026-08-22T14:48:00",
+      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
+      "authors": [
+        "liligum",
+        "lechef",
+        "kudayaltay",
+        "veerle",
+        "kiy"
+      ],
+      "sample_entries": [
+        {
+          "author": "veerle",
+          "content": "görsel",
+          "date_str": "22.08.2026 01:38",
+          "created_at": "2026-08-22T01:38:00",
+          "is_coordinated": 1,
+          "id": "185828969"
+        },
+        {
+          "author": "lechef",
+          "content": "sony walkman ve mini hoparlörler, adaptör ile gece lambasına takılan prizden çekilen elektrik ile çalışırdı. müthiş icaddı. en çok bu şarkıyı dinlerdik. eski para ile 700 lira eden yurtkur fişi ile alınmış küçük somon ekmek, bir paket krem peynir ve sallama çay. üzerine kırmızı kısa winston sigarayı yaktık mı bizden daha güzeli yoktu hiç. https://youtu.be/vn22hxepu3q?si=gvzpz7-8_5i8nrdeçılgın zamanlar...gidenler ! ölümün acımasızlığı...zamanın sonsuzluğu anlamayanlar..güzel şeyler bulmak umuduyla yola düşenler...toprağın bol olsun bok kafalı ortak.",
+          "date_str": "22.08.2026 01:41",
+          "created_at": "2026-08-22T01:41:00",
+          "is_coordinated": 1,
+          "id": "185829008"
+        },
+        {
+          "author": "liligum",
+          "content": "düştüğün yerde, derman sendedir.https://youtu.be/kkkudaaaasu?si=wzwerb3wm_gptmu1nasıl yaktılar seni hasret.",
+          "date_str": "22.08.2026 04:37",
+          "created_at": "2026-08-22T04:37:00",
+          "is_coordinated": 0,
+          "id": "185830638"
+        },
+        {
+          "author": "kiy",
+          "content": "marc & friends - foret de hetres",
+          "date_str": "22.08.2026 09:13",
+          "created_at": "2026-08-22T09:13:00",
+          "is_coordinated": 0,
+          "id": "185831895"
+        },
+        {
+          "author": "kudayaltay",
+          "content": "şurada yer alandır.",
+          "date_str": "22.08.2026 12:15",
+          "created_at": "2026-08-22T12:15:00",
+          "is_coordinated": 1,
+          "id": "185834537"
+        }
+      ]
+    },
+    {
       "topic": "otuz yaş üstü kariyerli kadınlar neden evlenmiyor",
       "category": "Kültür Savaşı & Yaşam Tarzı",
       "entry_count": 11,
@@ -131,11 +547,11 @@
       "last_seen": "2026-08-22T04:23:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 11 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "saksi cicegi",
-        "ascsagittarius",
-        "engineer061",
         "sozen",
-        "funeral winds"
+        "ascsagittarius",
+        "funeral winds",
+        "saksi cicegi",
+        "engineer061"
       ],
       "sample_entries": [
         {
@@ -192,10 +608,10 @@
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
         "ckmltyf",
-        "slowrocker",
-        "lonely tree",
         "niltt",
-        "ddy666"
+        "slowrocker",
+        "ddy666",
+        "lonely tree"
       ],
       "sample_entries": [
         {
@@ -251,11 +667,11 @@
       "last_seen": "2026-08-22T09:28:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "acmemade",
-        "arsiz marketing",
-        "arzawa",
         "gitmiyorsun",
-        "vladmicov"
+        "acmemade",
+        "arzawa",
+        "vladmicov",
+        "arsiz marketing"
       ],
       "sample_entries": [
         {
@@ -311,10 +727,10 @@
       "last_seen": "2026-08-22T20:41:00",
       "summary": "Pahalılık/turist/esnaf algısını çarpıtma ve ekonomik tepkileri hafifletme amacıyla 10 hesap tarafından organize paylaşıldı.",
       "authors": [
-        "7714714",
-        "ondortelliuc",
-        "mertolyon",
         "rootifera",
+        "mertolyon",
+        "ondortelliuc",
+        "7714714",
         "monofobik"
       ],
       "sample_entries": [
@@ -371,10 +787,10 @@
       "last_seen": "2026-08-22T11:44:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 10 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "x4",
-        "charango",
-        "neutral true",
         "debe okurum",
+        "charango",
+        "x4",
+        "neutral true",
         "cunoesse vittulainen"
       ],
       "sample_entries": [
@@ -432,10 +848,10 @@
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
         "kedisininyumagi",
-        "odoriko",
         "lmrvnx",
         "edward leon",
-        "delikanlininja"
+        "delikanlininja",
+        "odoriko"
       ],
       "sample_entries": [
         {
@@ -477,426 +893,6 @@
           "created_at": "2026-08-22T21:03:00",
           "is_coordinated": 1,
           "id": "185843066"
-        }
-      ]
-    },
-    {
-      "topic": "bir insanın sizi sevmediğini nasıl anlarsınız",
-      "category": "Suni Gündem & Viral Çarpıtma",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 10,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T10:00:00",
-      "last_seen": "2026-08-22T11:18:00",
-      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
-      "authors": [
-        "hard disk gibi adam",
-        "to vbe or not to vbe",
-        "yesindeed",
-        "debe okurum",
-        "hilmi bunu begendi"
-      ],
-      "sample_entries": [
-        {
-          "author": "debe okurum",
-          "content": "insanlar zamanla benden menfaat elde edemeyeceklerini anlayıp bana kötü davranıyorbaşta güzel kızlar hariç herkes normal davranıyor. sonra biraz tanıdıkça sanki hakkımda bir kanaat oluşuyor ve davranışları değişiyor. daha mesafeli, daha küçümseyici, daha umursamaz oluyorlar.hatta bazen beni görünce yüzü değişen, selam vermeye bile tenezzül etmeyen insanlar oluyor. bunların çoğu güzel bulduğum ilgi duyduğum kızlar oluyor. insan ister istemez \"acaba bende ne görüyorlar?\" diye düşünüyor.en kötüsü de bir süre sonra insan onların davranışlarını sorgulamayı bırakıp kendisini sorgulamaya başlıyor.belki gerçekten yetersizim, belki de yıllardır böyle muamele gördüğüm için insanların en ufak mesafesini bile küçümsenmek olarak yorumluyorum.ama hangisi olursa olsun insan kendisini sürekli değersiz hissettiren kişilerle dolu ortamlara girdikçe zamanla gerçekten değersiz olduğuna inanmaya başlıyor.",
-          "date_str": "22.08.2026 10:00",
-          "created_at": "2026-08-22T10:00:00",
-          "is_coordinated": 1,
-          "id": "185832441"
-        },
-        {
-          "author": "hilmi bunu begendi",
-          "content": "görmek istemediğiniz sürece anlayamazsınız. fakat gözünüz bir kez açıldı mı, yanınızdaki nefes alışından bile anlarsınız.",
-          "date_str": "22.08.2026 10:08",
-          "created_at": "2026-08-22T10:08:00",
-          "is_coordinated": 1,
-          "id": "185832549"
-        },
-        {
-          "author": "to vbe or not to vbe",
-          "content": "(bkz: zaman ayırmak) bu işin turnusoludur. seven kişi ne yapar ne eder zaman ayırır veya zaman yaratır.",
-          "date_str": "22.08.2026 10:15",
-          "created_at": "2026-08-22T10:15:00",
-          "is_coordinated": 1,
-          "id": "185832660"
-        },
-        {
-          "author": "hard disk gibi adam",
-          "content": "bunu anlama dürtüsünü doğurduysa, sevmiyordur.",
-          "date_str": "22.08.2026 10:18",
-          "created_at": "2026-08-22T10:18:00",
-          "is_coordinated": 1,
-          "id": "185832706"
-        },
-        {
-          "author": "yesindeed",
-          "content": "a bronx tale filmini izleyenler kilitli araba testini bilir. ben bunu gunumuze uyarladim ama sadece erkekler icin gecerli. kizlar icin bilmiyorum. bir kizin seni sevdigini ve onunla bir omur gecirebilecegini anlamak icin 2 kelime yeterli. \"karnim acikti.\"eger o kiz seni doyurmak icin secenekler aramaya ve sana sorular sormaya basliyorsa o kiz seni seviyordur ve bir omur gecirilir. ama bos bos suratina bakiyorsa, ne yapalim, disaridan siparis ver, mutfak orada, ben de cok aciktim falan diyorsa salla gitsin. cunku gercekten seven insan once sevdigini dusunur.",
-          "date_str": "22.08.2026 10:49",
-          "created_at": "2026-08-22T10:49:00",
-          "is_coordinated": 1,
-          "id": "185833143"
-        }
-      ]
-    },
-    {
-      "topic": "bu saatte hala uyumama sebebi",
-      "category": "Suni Gündem & Viral Çarpıtma",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 10,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T02:47:00",
-      "last_seen": "2026-08-22T03:28:00",
-      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
-      "authors": [
-        "heterodokss",
-        "augusto pinochet",
-        "kendinegelotuzsundediler",
-        "notthatsimplee",
-        "belgium in the rainn"
-      ],
-      "sample_entries": [
-        {
-          "author": "belgium in the rainn",
-          "content": "canım istemiyor",
-          "date_str": "22.08.2026 02:47",
-          "created_at": "2026-08-22T02:47:00",
-          "is_coordinated": 1,
-          "id": "185829910"
-        },
-        {
-          "author": "heterodokss",
-          "content": "ışıkları siz kapatırsınız dediklerinde 1,5 saatte bitireceğin tenisi 2,5 saate yayarsan bu saati buluyor işte",
-          "date_str": "22.08.2026 02:48",
-          "created_at": "2026-08-22T02:48:00",
-          "is_coordinated": 1,
-          "id": "185829919"
-        },
-        {
-          "author": "notthatsimplee",
-          "content": "bu başlık benim günlüğüm gibi oldu da, neyse. bu gece de uyumayacağım pek galiba. bir anda dalıp gidiyorum günlerdir, bunları yaşama sebebim de düşüncelerimin yoğunluğu ve günlerdir çok yorulmam.şimdi yazı yazacağım diye ümit ediyorum. bilmiyorum.",
-          "date_str": "22.08.2026 02:54",
-          "created_at": "2026-08-22T02:54:00",
-          "is_coordinated": 1,
-          "id": "185829978"
-        },
-        {
-          "author": "augusto pinochet",
-          "content": "dinlediğim türküler beni 15-20 yıl öncesine götürdü, düşünüp dinliyorum , 1 paket sigara da bitti .",
-          "date_str": "22.08.2026 02:54",
-          "created_at": "2026-08-22T02:54:00",
-          "is_coordinated": 1,
-          "id": "185829981"
-        },
-        {
-          "author": "kendinegelotuzsundediler",
-          "content": "bu klimayı köklemenin ne gereği var şimdi? kışlık kapüşonlu var üstümde dondum ya! uyutmuyor da! hasta olmasak iyi!",
-          "date_str": "22.08.2026 02:57",
-          "created_at": "2026-08-22T02:57:00",
-          "is_coordinated": 1,
-          "id": "185830011"
-        }
-      ]
-    },
-    {
-      "topic": "izmir'de tartıştığı kişiyi boğarak öldüren cani",
-      "category": "Yargı, Güvenlik & Hamaset",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 10,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T12:25:00",
-      "last_seen": "2026-08-22T12:54:00",
-      "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
-      "authors": [
-        "ne rakisi sevim",
-        "bilmemeninbilmisligi",
-        "burunsuz pinok",
-        "raybanzib",
-        "19o5"
-      ],
-      "sample_entries": [
-        {
-          "author": "19o5",
-          "content": "izmir'de bir şahıs, tartıştığı kişiyi boğarak öldürdü.--- spoiler ---hassas videoedit: videonun uzun hali--- spoiler ---ömrünün sonuna kadar hapisten çıkmaması gerek.",
-          "date_str": "22.08.2026 12:25 ~ 16:25",
-          "created_at": "2026-08-22T12:25:00",
-          "is_coordinated": 1,
-          "id": "185834713"
-        },
-        {
-          "author": "bilmemeninbilmisligi",
-          "content": "vahşet ulan, yuh kısas olmalı kesinlikle",
-          "date_str": "22.08.2026 12:28",
-          "created_at": "2026-08-22T12:28:00",
-          "is_coordinated": 1,
-          "id": "185834771"
-        },
-        {
-          "author": "raybanzib",
-          "content": "insanın içinde bulunan ilkel dürtüyü törpüleyebilmesi ve çoğu zaman alttan alabilmesi bu yüzden olgunluk olarak kabul ediliyor.sandığınız gibi “cevap veremedi” , “ses çıkarmadı” durumları bir eziklik değil, ulaşılmış olgunluk mertebesinin sonucudur.",
-          "date_str": "22.08.2026 12:35 ~ 16:02",
-          "created_at": "2026-08-22T12:35:00",
-          "is_coordinated": 1,
-          "id": "185834892"
-        },
-        {
-          "author": "ne rakisi sevim",
-          "content": "atletlinin gamsizligi beni cileden cikardi. lan adam cebellesiyor iste, can cekisiyor. kossana amk ya. katile bir sey diyemiyorum zaten, adami bogarak oldurmus. bir de kendine gelsin diye tokatliyor. savas halleri disinda sebebi ne olursa olsun bir insani oldurebilmek bana buyuk bir cahillik, aptallik veya bilinc disi eylemmis gibi geliyor. umarim hayatimin hicbir doneminde o sekilde bilincimi kaybetmem.",
-          "date_str": "22.08.2026 12:39",
-          "created_at": "2026-08-22T12:39:00",
-          "is_coordinated": 1,
-          "id": "185834960"
-        },
-        {
-          "author": "burunsuz pinok",
-          "content": "e ülkede gerçek adalet olmayınca, suçsuzlar hapiste ve azılı suçlular dışarıda olunca herkes elini kolunu sallaya sallaya, rahatça birilerini katlediyor böyle.yazık ya şu hale bak.",
-          "date_str": "22.08.2026 12:40",
-          "created_at": "2026-08-22T12:40:00",
-          "is_coordinated": 1,
-          "id": "185834981"
-        }
-      ]
-    },
-    {
-      "topic": "kadınların güzel gözüktüğünü sandığı şeyler",
-      "category": "Kültür Savaşı & Yaşam Tarzı",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 10,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T11:47:00",
-      "last_seen": "2026-08-22T17:23:00",
-      "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 10 hesap tarafından eşzamanlı gündeme taşındı.",
-      "authors": [
-        "nahpeykerhapiyuttunnamussuzziver",
-        "melvinton",
-        "la columna rota",
-        "eeee sonra",
-        "supermike"
-      ],
-      "sample_entries": [
-        {
-          "author": "melvinton",
-          "content": "dudak dolgusu ve protez tırnak. ikisi de tiksindirici şeyler.",
-          "date_str": "22.08.2026 11:47",
-          "created_at": "2026-08-22T11:47:00",
-          "is_coordinated": 1,
-          "id": "185834071"
-        },
-        {
-          "author": "nahpeykerhapiyuttunnamussuzziver",
-          "content": "sallantılı küpe. bi dikkat edin, anlayacaksınız.",
-          "date_str": "22.08.2026 12:09",
-          "created_at": "2026-08-22T12:09:00",
-          "is_coordinated": 1,
-          "id": "185834436"
-        },
-        {
-          "author": "la columna rota",
-          "content": "takma kirpik...yelpaze gibi olanlarindan",
-          "date_str": "22.08.2026 12:10",
-          "created_at": "2026-08-22T12:10:00",
-          "is_coordinated": 1,
-          "id": "185834457"
-        },
-        {
-          "author": "supermike",
-          "content": "(bkz: botoks)",
-          "date_str": "22.08.2026 12:10",
-          "created_at": "2026-08-22T12:10:00",
-          "is_coordinated": 1,
-          "id": "185834459"
-        },
-        {
-          "author": "eeee sonra",
-          "content": "yine çoğunluğu erkeklerden mürekkep bir güruhun kadınlar ve onların bedenlerine ilişkin ahkam kestiği bir başlıktır.şu kadınları bi salınız efenim...",
-          "date_str": "22.08.2026 12:26",
-          "created_at": "2026-08-22T12:26:00",
-          "is_coordinated": 1,
-          "id": "185834738"
-        }
-      ]
-    },
-    {
-      "topic": "mason greenwood",
-      "category": "Suni Gündem & Viral Çarpıtma",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 10,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T21:50:00",
-      "last_seen": "2026-08-22T22:43:00",
-      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
-      "authors": [
-        "protego",
-        "fyodorwell",
-        "kirkbirincikarakter",
-        "darwinisecdeyeyatiranadam",
-        "entrollment"
-      ],
-      "sample_entries": [
-        {
-          "author": "darwinisecdeyeyatiranadam",
-          "content": "aq ben bi ayağı zor kullanıyorum adam iki ayağı çok iyi kullanıyo o nası rahatlık aw",
-          "date_str": "22.08.2026 21:50",
-          "created_at": "2026-08-22T21:50:00",
-          "is_coordinated": 1,
-          "id": "185844203"
-        },
-        {
-          "author": "entrollment",
-          "content": "solaklar daha fazla penaltı kaçırır teorisi dolaşıyordu bir ara. sanki bu nedenle sağıyla penaltıyı kullandı, kaçınca soluyla tamamladı. haftaiçi soluyla tavana asmamış olsa, ters ayağıyla tamamladı derdim. kullandığı penaltıyı görünce, ters ayağıyla penaltı kullandı diyerek güncelleyeyim. velhasıl asensio varken başkası duran top kullanmamalı. solaklar daha fazla penaltı kaçırmaz zaten.",
-          "date_str": "22.08.2026 21:55",
-          "created_at": "2026-08-22T21:55:00",
-          "is_coordinated": 1,
-          "id": "185844416"
-        },
-        {
-          "author": "protego",
-          "content": "şu adam da azıcık aidiyet olsa bırak heykeli şehre adını verir mk.ekmek bana bana izliyoruz..",
-          "date_str": "22.08.2026 22:08",
-          "created_at": "2026-08-22T22:08:00",
-          "is_coordinated": 1,
-          "id": "185844805"
-        },
-        {
-          "author": "fyodorwell",
-          "content": "fenerbahçe'nin en iyi futbolcusu. halısaha maçında gibi takılıyor. herif ligin çok üstünde.",
-          "date_str": "22.08.2026 22:09",
-          "created_at": "2026-08-22T22:09:00",
-          "is_coordinated": 1,
-          "id": "185844852"
-        },
-        {
-          "author": "kirkbirincikarakter",
-          "content": "kaç yıllık fenerliyim onca oyuncu gördüm en son asensio gelince alex geldi dedim sonunda ama bu adam başka bir seviye abi. arda güler gibi buranın oyuncusu değil yolu düşmüş sanki. umarım gidecekse de şampiyon yapar öyle gider. dünya yıldızı top tepici.",
-          "date_str": "22.08.2026 22:23 ~ 22:46",
-          "created_at": "2026-08-22T22:23:00",
-          "is_coordinated": 1,
-          "id": "185845292"
-        }
-      ]
-    },
-    {
-      "topic": "muhammed kerem aktürkoğlu",
-      "category": "Suni Gündem & Viral Çarpıtma",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 10,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T16:22:00",
-      "last_seen": "2026-08-22T22:22:00",
-      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
-      "authors": [
-        "the dark defender",
-        "crowded house",
-        "octopusss",
-        "homoiskandinavus",
-        "cars"
-      ],
-      "sample_entries": [
-        {
-          "author": "the dark defender",
-          "content": "bence 8 numara denenmeli. özellikle ligte bu pozisyonda rotasyon olarak kullanılmalı. başarılı olursa sonrasına bakılır. bu pozisyonda top kaybı oranı da düşecektir. çevikliği ile zaman zaman ver-kaç vs defans arkasına sarkabilir, enerjisi ile geriye destek verip top kapabilir. yerli/yabancı problemi varken kesinlikle faydalanılması gerek.",
-          "date_str": "22.08.2026 16:22",
-          "created_at": "2026-08-22T16:22:00",
-          "is_coordinated": 1,
-          "id": "185838677"
-        },
-        {
-          "author": "octopusss",
-          "content": "bugün oynamazsa rahat kazanırız.",
-          "date_str": "22.08.2026 17:09",
-          "created_at": "2026-08-22T17:09:00",
-          "is_coordinated": 1,
-          "id": "185839352"
-        },
-        {
-          "author": "crowded house",
-          "content": "vitaminsiz",
-          "date_str": "22.08.2026 17:15",
-          "created_at": "2026-08-22T17:15:00",
-          "is_coordinated": 1,
-          "id": "185839450"
-        },
-        {
-          "author": "cars",
-          "content": "konya maçında attığı topuk pasıyla “qerem 7”dedirtmiştir",
-          "date_str": "22.08.2026 22:03",
-          "created_at": "2026-08-22T22:03:00",
-          "is_coordinated": 1,
-          "id": "185844640"
-        },
-        {
-          "author": "homoiskandinavus",
-          "content": "bu maçtan bağımsız söylüyorum. fenerbahçe için yedekten girecek oyuncu konumundadır. iki tane güzel hareket yapar sonra ikisini de unutturur. kritik yerde takıma nefes aldıracak bir oyuncu değil. hücumda fener için fark yaratacak oyuncular lazım. ya hatasız oynayacak kante gibi ya da atletik performansı olacak bunda ikisi de orta seviye. bakalım bu sezon neler verecek izleyelim.",
-          "date_str": "22.08.2026 22:08",
-          "created_at": "2026-08-22T22:08:00",
-          "is_coordinated": 1,
-          "id": "185844832"
-        }
-      ]
-    },
-    {
-      "topic": "sürekli kendine hatırlatmak zorunda olduğun o söz",
-      "category": "Suni Gündem & Viral Çarpıtma",
-      "entry_count": 10,
-      "author_count": 10,
-      "coord_count": 10,
-      "is_coordinated": true,
-      "first_seen": "2026-08-22T20:51:00",
-      "last_seen": "2026-08-22T22:28:00",
-      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
-      "authors": [
-        "gandalfinasasi1",
-        "akademi maestro",
-        "eternalfire",
-        "kara vasif karakol cemiyeti",
-        "i have dreams"
-      ],
-      "sample_entries": [
-        {
-          "author": "akademi maestro",
-          "content": "kâbus da rüya da aynı; ikisi de geçiyor ömür gibi, vakit gibi.",
-          "date_str": "22.08.2026 20:51",
-          "created_at": "2026-08-22T20:51:00",
-          "is_coordinated": 1,
-          "id": "185842834"
-        },
-        {
-          "author": "eternalfire",
-          "content": "hiç kimsenin umurunda değilsin.",
-          "date_str": "22.08.2026 20:53",
-          "created_at": "2026-08-22T20:53:00",
-          "is_coordinated": 1,
-          "id": "185842867"
-        },
-        {
-          "author": "kara vasif karakol cemiyeti",
-          "content": "başkaları hakkında beylik laflar sarf etme...önce sen ahlaklı ve dürüst olmalısın, önce kendi içini arındırmalısın.",
-          "date_str": "22.08.2026 20:57",
-          "created_at": "2026-08-22T20:57:00",
-          "is_coordinated": 1,
-          "id": "185842956"
-        },
-        {
-          "author": "gandalfinasasi1",
-          "content": "deveye diken insana siken yaranır.atasözleri ciddi bir sosyolojik birikimin ürünüdür, aynı anda dünyanın tüm coğrafyalarında birbirinden bağımsız insanlar aynı fikre ve düşünceye olası ve sıradan insan davranışları sebebiyle aynı bakış açısıyla bakabilirler.işte bu da onlardan biridir.insan; nezaketli, ince düşünceli ve kibarsa işin sonunda muhakkak ki kaybediyor ve bu şaşmıyor arkadaşlar.kimse kimseyi kandırmasın, insan doğası s*kilme ve hırpalanmadan keyif alıyor.",
-          "date_str": "22.08.2026 20:57",
-          "created_at": "2026-08-22T20:57:00",
-          "is_coordinated": 1,
-          "id": "185842964"
-        },
-        {
-          "author": "i have dreams",
-          "content": "“görelim mevla neyler, neylerse güzel eyler.”",
-          "date_str": "22.08.2026 21:44",
-          "created_at": "2026-08-22T21:44:00",
-          "is_coordinated": 1,
-          "id": "185843881"
         }
       ]
     }

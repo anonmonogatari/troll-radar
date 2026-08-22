@@ -2,23 +2,103 @@
   "keywords": [
     {
       "word": "kadın",
+      "count": 53
+    },
+    {
+      "word": "yabancı",
+      "count": 36
+    },
+    {
+      "word": "çocuk",
       "count": 35
+    },
+    {
+      "word": "bkz",
+      "count": 35
+    },
+    {
+      "word": "turistin",
+      "count": 35
+    },
+    {
+      "word": "değil",
+      "count": 34
+    },
+    {
+      "word": "türk",
+      "count": 33
+    },
+    {
+      "word": "alman",
+      "count": 33
+    },
+    {
+      "word": "denize",
+      "count": 33
+    },
+    {
+      "word": "girmek",
+      "count": 32
+    },
+    {
+      "word": "istemeyen",
+      "count": 32
+    },
+    {
+      "word": "isyan",
+      "count": 32
+    },
+    {
+      "word": "ankara",
+      "count": 31
+    },
+    {
+      "word": "haşemalılarla",
+      "count": 31
+    },
+    {
+      "word": "etmesi",
+      "count": 31
+    },
+    {
+      "word": "kaçarken",
+      "count": 30
+    },
+    {
+      "word": "esnafına",
+      "count": 30
+    },
+    {
+      "word": "ölen",
+      "count": 29
+    },
+    {
+      "word": "türkiye",
+      "count": 28
+    },
+    {
+      "word": "iyi",
+      "count": 28
+    },
+    {
+      "word": "kurdundan",
+      "count": 28
     },
     {
       "word": "fenerbahçe",
       "count": 28
     },
     {
-      "word": "değil",
-      "count": 27
-    },
-    {
-      "word": "iyi",
-      "count": 25
-    },
-    {
       "word": "kadınların",
-      "count": 24
+      "count": 26
+    },
+    {
+      "word": "nasıl",
+      "count": 23
+    },
+    {
+      "word": "güzel",
+      "count": 23
     },
     {
       "word": "beyaz",
@@ -29,7 +109,7 @@
       "count": 21
     },
     {
-      "word": "güzel",
+      "word": "insan",
       "count": 21
     },
     {
@@ -37,88 +117,8 @@
       "count": 21
     },
     {
-      "word": "hesap",
-      "count": 20
-    },
-    {
-      "word": "türkiye",
-      "count": 19
-    },
-    {
-      "word": "kadınlar",
-      "count": 18
-    },
-    {
       "word": "sürekli",
-      "count": 18
-    },
-    {
-      "word": "sizi",
-      "count": 18
-    },
-    {
-      "word": "nasıl",
-      "count": 18
-    },
-    {
-      "word": "kadının",
-      "count": 17
-    },
-    {
-      "word": "ilk",
-      "count": 17
-    },
-    {
-      "word": "gol",
-      "count": 17
-    },
-    {
-      "word": "denize",
-      "count": 17
-    },
-    {
-      "word": "kaç",
-      "count": 16
-    },
-    {
-      "word": "yaş",
-      "count": 16
-    },
-    {
-      "word": "üstü",
-      "count": 16
-    },
-    {
-      "word": "girmek",
-      "count": 16
-    },
-    {
-      "word": "istemeyen",
-      "count": 16
-    },
-    {
-      "word": "konyaspor",
-      "count": 16
-    },
-    {
-      "word": "zaman",
-      "count": 15
-    },
-    {
-      "word": "insan",
-      "count": 15
-    },
-    {
-      "word": "hala",
-      "count": 15
-    },
-    {
-      "word": "talisca",
-      "count": 15
-    },
-    {
-      "word": "insanın",
-      "count": 15
+      "count": 20
     }
   ]
 }

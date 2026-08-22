@@ -1,16 +1,22 @@
 {
-  "total_evaluated": 165,
-  "high_confidence_trolls": 1,
+  "total_evaluated": 193,
+  "high_confidence_trolls": 2,
   "cells": [
     {
       "cell_name": "Ekonomi Aklama",
-      "member_count": 2,
-      "average_troll_score": 49.2,
+      "member_count": 7,
+      "average_troll_score": 59.7,
       "members": [
         "bozaj",
-        "becathlon"
+        "becathlon",
+        "1xw",
+        "948",
+        "enturi",
+        "givles",
+        "georgewalker"
       ],
       "top_evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "yabancı turistin türk esnafına isyan etmesi"
       ]
     },
@@ -22,19 +28,8 @@
         "timurun fillerinin bakicisi"
       ],
       "top_evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ]
-    },
-    {
-      "cell_name": "Belediye Karalama",
-      "member_count": 1,
-      "average_troll_score": 55.0,
-      "members": [
-        "david ellefson"
-      ],
-      "top_evidence_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
       ]
     }
   ],
@@ -54,43 +49,24 @@
         "stance_alignment": 50.0
       },
       "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "david ellefson",
-      "troll_score": 55.0,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 1,
-        "manufactured_focus_ratio": 100.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
     },
     {
       "nick": "bozaj",
-      "troll_score": 49.2,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
+      "troll_score": 76.2,
+      "risk_level": "Kesin Troll",
+      "badge_color": "red",
       "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
+      "entry_count": 5,
       "metrics": {
         "inception_count": 0,
-        "early_swarm_count": 1,
-        "manufactured_focus_ratio": 33.3,
+        "early_swarm_count": 2,
+        "manufactured_focus_ratio": 40.0,
         "vote_brigading": 95.0,
-        "stance_alignment": 66.7
+        "stance_alignment": 40.0
       },
       "evidence_topics": [
         "yabancı turistin türk esnafına isyan etmesi"
@@ -99,6 +75,83 @@
     },
     {
       "nick": "becathlon",
+      "troll_score": 64.2,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 5,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 95.0,
+        "stance_alignment": 60.0
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "1xw",
+      "troll_score": 62.0,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 5,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 80.0,
+        "stance_alignment": 60.0
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "948",
+      "troll_score": 62.0,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 5,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 80.0,
+        "stance_alignment": 60.0
+      },
+      "evidence_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "enturi",
+      "troll_score": 59.2,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 4,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 95.0,
+        "stance_alignment": 25.0
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "givles",
       "troll_score": 49.2,
       "risk_level": "Şüpheli",
       "badge_color": "yellow",
@@ -109,7 +162,7 @@
         "early_swarm_count": 1,
         "manufactured_focus_ratio": 33.3,
         "vote_brigading": 95.0,
-        "stance_alignment": 100.0
+        "stance_alignment": 33.3
       },
       "evidence_topics": [
         "yabancı turistin türk esnafına isyan etmesi"
@@ -117,56 +170,22 @@
       "is_monitored": true
     },
     {
-      "nick": "1xw",
-      "troll_score": 39.5,
+      "nick": "georgewalker",
+      "troll_score": 45.0,
       "risk_level": "Şüpheli",
       "badge_color": "yellow",
       "detected_cell": "Ekonomi Aklama",
-      "entry_count": 2,
+      "entry_count": 4,
       "metrics": {
         "inception_count": 0,
-        "early_swarm_count": 1,
-        "manufactured_focus_ratio": 50.0,
-        "vote_brigading": 80.0,
-        "stance_alignment": 50.0
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 25.0
       },
       "evidence_topics": [
         "yabancı turistin türk esnafına isyan etmesi"
       ],
-      "is_monitored": true
-    },
-    {
-      "nick": "enturi",
-      "troll_score": 39.2,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 2,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 95.0,
-        "stance_alignment": 50.0
-      },
-      "evidence_topics": [],
-      "is_monitored": true
-    },
-    {
-      "nick": "givles",
-      "troll_score": 39.2,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 95.0,
-        "stance_alignment": 100.0
-      },
-      "evidence_topics": [],
       "is_monitored": true
     },
     {
@@ -204,7 +223,7 @@
       "is_monitored": true
     },
     {
-      "nick": "londrast",
+      "nick": "girmizi tuborg",
       "troll_score": 37.0,
       "risk_level": "Şüpheli",
       "badge_color": "yellow",
@@ -215,9 +234,28 @@
         "early_swarm_count": 0,
         "manufactured_focus_ratio": 0.0,
         "vote_brigading": 80.0,
-        "stance_alignment": 100.0
+        "stance_alignment": 0.0
       },
       "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "londrast",
+      "troll_score": 37.0,
+      "risk_level": "Şüpheli",
+      "badge_color": "yellow",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 3,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 80.0,
+        "stance_alignment": 33.3
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
       "is_monitored": true
     },
     {
@@ -272,7 +310,83 @@
       "is_monitored": false
     },
     {
-      "nick": "atalaykirbancioglu",
+      "nick": "madanin",
+      "troll_score": 32.5,
+      "risk_level": "Şüpheli",
+      "badge_color": "yellow",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 3,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 50.0,
+        "stance_alignment": 33.3
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "parantezicindekiadam",
+      "troll_score": 32.5,
+      "risk_level": "Şüpheli",
+      "badge_color": "yellow",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 3,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 50.0,
+        "stance_alignment": 33.3
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "lacivertnokta",
+      "troll_score": 32.5,
+      "risk_level": "Şüpheli",
+      "badge_color": "yellow",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 3,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 50.0,
+        "stance_alignment": 66.7
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "dijitalkitap",
+      "troll_score": 32.5,
+      "risk_level": "Şüpheli",
+      "badge_color": "yellow",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 3,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 50.0,
+        "stance_alignment": 33.3
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "arzuhalim",
       "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
@@ -289,24 +403,7 @@
       "is_monitored": false
     },
     {
-      "nick": "30 a 3 kala",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "deligirl59",
+      "nick": "gktu94",
       "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
@@ -324,6 +421,40 @@
     },
     {
       "nick": "saksi cicegi",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "bluefox557",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "apollondafni",
       "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
@@ -612,6 +743,23 @@
       "is_monitored": false
     },
     {
+      "nick": "kill me back",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
       "nick": "rabbitx",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -714,6 +862,23 @@
       "is_monitored": false
     },
     {
+      "nick": "keremtunaa",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
       "nick": "arzawa",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -765,12 +930,12 @@
       "is_monitored": false
     },
     {
-      "nick": "georgewalker",
+      "nick": "david ellefson",
       "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
       "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
+      "entry_count": 2,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 0,
@@ -778,7 +943,10 @@
         "vote_brigading": 0.0,
         "stance_alignment": 0.0
       },
-      "evidence_topics": [],
+      "evidence_topics": [
+        "ankara'da alman kurdundan kaçarken ölen çocuk",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
       "is_monitored": true
     },
     {
@@ -833,6 +1001,44 @@
       "is_monitored": false
     },
     {
+      "nick": "medyumay",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 3,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 33.3
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "kecuva",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 3,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 33.3
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
       "nick": "dark focus",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -884,6 +1090,25 @@
       "is_monitored": false
     },
     {
+      "nick": "kafadanilo",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 3,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 33.3
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
       "nick": "vatkalickt",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -899,6 +1124,25 @@
       },
       "evidence_topics": [],
       "is_monitored": false
+    },
+    {
+      "nick": "reactionshot",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 3,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 33.3
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
     },
     {
       "nick": "mesglsn sanirm bn yatiyrm",
@@ -1003,6 +1247,25 @@
       "is_monitored": false
     },
     {
+      "nick": "localtime",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 3,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 33.3
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
       "nick": "debe okurum",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -1037,12 +1300,31 @@
       "is_monitored": false
     },
     {
+      "nick": "ingiliz dili ve edebiyati",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 3,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 33.3
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
       "nick": "to vbe or not to vbe",
       "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
       "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
+      "entry_count": 2,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 0,
@@ -1069,6 +1351,25 @@
       },
       "evidence_topics": [],
       "is_monitored": false
+    },
+    {
+      "nick": "hackerbey",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 3,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 33.3
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
     },
     {
       "nick": "yesindeed",
@@ -1222,6 +1523,44 @@
       },
       "evidence_topics": [],
       "is_monitored": false
+    },
+    {
+      "nick": "hirvatistanli",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 3,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 33.3
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "szw",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 3,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 33.3
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
     },
     {
       "nick": "cunoesse vittulainen",
@@ -1450,7 +1789,7 @@
       "risk_level": "Organik",
       "badge_color": "green",
       "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
+      "entry_count": 2,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 0,
@@ -1649,6 +1988,23 @@
       "is_monitored": false
     },
     {
+      "nick": "bunutartisabiliriz",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
       "nick": "slowrocker",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -1769,6 +2125,23 @@
     },
     {
       "nick": "hazretihan",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "mimar sinan da basic design aldi mi",
       "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
@@ -1921,6 +2294,44 @@
       "is_monitored": false
     },
     {
+      "nick": "jimmymartin",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 2,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "funkycrow",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Ekonomi Aklama",
+      "entry_count": 2,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
+    },
+    {
       "nick": "niltt",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -1973,6 +2384,23 @@
     },
     {
       "nick": "akademi maestro",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "sinatragibigiyinmekisteyenadam",
       "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
@@ -2261,6 +2689,23 @@
       "is_monitored": false
     },
     {
+      "nick": "trcapital",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
       "nick": "i have dreams",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -2295,6 +2740,23 @@
       "is_monitored": false
     },
     {
+      "nick": "neela",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
       "nick": "darwinisecdeyeyatiranadam",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -2313,6 +2775,23 @@
     },
     {
       "nick": "hayalethayaethayret",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "duma duma dum",
       "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
@@ -2601,6 +3080,23 @@
       "is_monitored": false
     },
     {
+      "nick": "critical interrogation",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
       "nick": "frank begbie",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -2687,6 +3183,40 @@
     },
     {
       "nick": "angelloffdarkness",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 2,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "dr bullshit",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": false
+    },
+    {
+      "nick": "zeytinbornululu",
       "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
@@ -2820,26 +3350,6 @@
       },
       "evidence_topics": [],
       "is_monitored": false
-    },
-    {
-      "nick": "948",
-      "troll_score": 24.5,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 2,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 80.0,
-        "stance_alignment": 100.0
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ],
-      "is_monitored": true
     },
     {
       "nick": "vladmicov",
