@@ -194,14 +194,6 @@
     "links": [
       {
         "source": "medyumay",
-        "target": "miamix",
-        "weight": 1,
-        "topics": [
-          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
-        ]
-      },
-      {
-        "source": "medyumay",
         "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
@@ -210,7 +202,7 @@
       },
       {
         "source": "madanin",
-        "target": "medyumay",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
@@ -226,6 +218,14 @@
       },
       {
         "source": "madanin",
+        "target": "medyumay",
+        "weight": 1,
+        "topics": [
+          "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+        ]
+      },
+      {
+        "source": "medyumay",
         "target": "miamix",
         "weight": 1,
         "topics": [
@@ -234,10 +234,18 @@
       },
       {
         "source": "madanin",
-        "target": "timurun fillerinin bakicisi",
+        "target": "miamix",
         "weight": 1,
         "topics": [
           "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı"
+        ]
+      },
+      {
+        "source": "georgewalker",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
         ]
       },
       {
@@ -249,7 +257,23 @@
         ]
       },
       {
+        "source": "david ellefson",
+        "target": "georgewalker",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
         "source": "enturi",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
+        "source": "david ellefson",
         "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
@@ -265,27 +289,51 @@
         ]
       },
       {
-        "source": "georgewalker",
-        "target": "timurun fillerinin bakicisi",
+        "source": "hirvatistanli",
+        "target": "ingiliz dili ve edebiyati",
         "weight": 1,
         "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
+          "chp'li belediyelerin fahiş konser harcamaları"
         ]
       },
       {
-        "source": "david ellefson",
-        "target": "georgewalker",
+        "source": "ingiliz dili ve edebiyati",
+        "target": "kecuva",
         "weight": 1,
         "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
+          "chp'li belediyelerin fahiş konser harcamaları"
         ]
       },
       {
-        "source": "david ellefson",
-        "target": "timurun fillerinin bakicisi",
+        "source": "hackerbey",
+        "target": "ingiliz dili ve edebiyati",
         "weight": 1,
         "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "ingiliz dili ve edebiyati",
+        "target": "jimmymartin",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "ingiliz dili ve edebiyati",
+        "target": "kafadanilo",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hirvatistanli",
+        "target": "kecuva",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
         ]
       },
       {
@@ -297,56 +345,8 @@
         ]
       },
       {
-        "source": "hackerbey",
-        "target": "ingiliz dili ve edebiyati",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "hackerbey",
-        "target": "jimmymartin",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "hackerbey",
-        "target": "kecuva",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "hackerbey",
-        "target": "kafadanilo",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "hirvatistanli",
-        "target": "ingiliz dili ve edebiyati",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
         "source": "hirvatistanli",
         "target": "jimmymartin",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "hirvatistanli",
-        "target": "kecuva",
         "weight": 1,
         "topics": [
           "chp'li belediyelerin fahiş konser harcamaları"
@@ -361,24 +361,8 @@
         ]
       },
       {
-        "source": "ingiliz dili ve edebiyati",
-        "target": "jimmymartin",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "ingiliz dili ve edebiyati",
+        "source": "hackerbey",
         "target": "kecuva",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "ingiliz dili ve edebiyati",
-        "target": "kafadanilo",
         "weight": 1,
         "topics": [
           "chp'li belediyelerin fahiş konser harcamaları"
@@ -387,14 +371,6 @@
       {
         "source": "jimmymartin",
         "target": "kecuva",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "jimmymartin",
-        "target": "kafadanilo",
         "weight": 1,
         "topics": [
           "chp'li belediyelerin fahiş konser harcamaları"
@@ -409,8 +385,32 @@
         ]
       },
       {
-        "source": "dijitalkitap",
-        "target": "reactionshot",
+        "source": "hackerbey",
+        "target": "jimmymartin",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hackerbey",
+        "target": "kafadanilo",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "jimmymartin",
+        "target": "kafadanilo",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "playerman",
+        "target": "szw",
         "weight": 1,
         "topics": [
           "ekrem imamoğlu'nun roma gezisi faturası"
@@ -425,24 +425,24 @@
         ]
       },
       {
-        "source": "dijitalkitap",
-        "target": "szw",
-        "weight": 1,
-        "topics": [
-          "ekrem imamoğlu'nun roma gezisi faturası"
-        ]
-      },
-      {
-        "source": "dijitalkitap",
-        "target": "parantezicindekiadam",
-        "weight": 1,
-        "topics": [
-          "ekrem imamoğlu'nun roma gezisi faturası"
-        ]
-      },
-      {
         "source": "playerman",
         "target": "reactionshot",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "parantezicindekiadam",
+        "target": "playerman",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "dijitalkitap",
+        "target": "szw",
         "weight": 1,
         "topics": [
           "ekrem imamoğlu'nun roma gezisi faturası"
@@ -458,6 +458,14 @@
       },
       {
         "source": "parantezicindekiadam",
+        "target": "szw",
+        "weight": 1,
+        "topics": [
+          "ekrem imamoğlu'nun roma gezisi faturası"
+        ]
+      },
+      {
+        "source": "dijitalkitap",
         "target": "reactionshot",
         "weight": 1,
         "topics": [
@@ -465,8 +473,8 @@
         ]
       },
       {
-        "source": "playerman",
-        "target": "szw",
+        "source": "dijitalkitap",
+        "target": "parantezicindekiadam",
         "weight": 1,
         "topics": [
           "ekrem imamoğlu'nun roma gezisi faturası"
@@ -474,22 +482,14 @@
       },
       {
         "source": "parantezicindekiadam",
-        "target": "playerman",
+        "target": "reactionshot",
         "weight": 1,
         "topics": [
           "ekrem imamoğlu'nun roma gezisi faturası"
         ]
       },
       {
-        "source": "parantezicindekiadam",
-        "target": "szw",
-        "weight": 1,
-        "topics": [
-          "ekrem imamoğlu'nun roma gezisi faturası"
-        ]
-      },
-      {
-        "source": "bozaj",
+        "source": "becathlon",
         "target": "timurun fillerinin bakicisi",
         "weight": 2,
         "topics": [
@@ -507,7 +507,7 @@
         ]
       },
       {
-        "source": "becathlon",
+        "source": "bozaj",
         "target": "timurun fillerinin bakicisi",
         "weight": 2,
         "topics": [
@@ -524,7 +524,7 @@
         ]
       },
       {
-        "source": "localtime",
+        "source": "londrast",
         "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
@@ -534,6 +534,30 @@
       {
         "source": "localtime",
         "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        ]
+      },
+      {
+        "source": "lacivertnokta",
+        "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        ]
+      },
+      {
+        "source": "localtime",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        ]
+      },
+      {
+        "source": "lacivertnokta",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "soylu'nun yeğeniyim diyen kadının terör estirmesi"
@@ -548,27 +572,11 @@
         ]
       },
       {
-        "source": "londrast",
-        "target": "timurun fillerinin bakicisi",
+        "source": "georgewalker",
+        "target": "givles",
         "weight": 1,
         "topics": [
-          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
-        ]
-      },
-      {
-        "source": "lacivertnokta",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
-        ]
-      },
-      {
-        "source": "lacivertnokta",
-        "target": "londrast",
-        "weight": 1,
-        "topics": [
-          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+          "türkiye'nin brics üyeliği ve batı'nın paniği"
         ]
       },
       {
@@ -581,14 +589,6 @@
       },
       {
         "source": "funkycrow",
-        "target": "givles",
-        "weight": 1,
-        "topics": [
-          "türkiye'nin brics üyeliği ve batı'nın paniği"
-        ]
-      },
-      {
-        "source": "georgewalker",
         "target": "givles",
         "weight": 1,
         "topics": [

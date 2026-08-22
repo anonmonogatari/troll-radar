@@ -29,10 +29,10 @@
         "londrast"
       ],
       "top_evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi",
         "çocuğuna annen o... biliyor musun diyen baba",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
       ]
     },
     {
@@ -193,9 +193,9 @@
         "link_bias": 100.0
       },
       "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi",
         "çocuğuna annen o... biliyor musun diyen baba",
-        "ankara'da alman kurdundan kaçarken ölen çocuk",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "haşemalılarla aynı denize girmek istemeyen kadın"
       ]
     },

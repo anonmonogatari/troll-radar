@@ -60,6 +60,14 @@
     ],
     "links": [
       {
+        "source": "georgewalker",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
         "source": "enturi",
         "target": "georgewalker",
         "weight": 1,
@@ -68,7 +76,23 @@
         ]
       },
       {
+        "source": "david ellefson",
+        "target": "georgewalker",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
         "source": "enturi",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
+        "source": "david ellefson",
         "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
@@ -84,31 +108,7 @@
         ]
       },
       {
-        "source": "georgewalker",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
-        ]
-      },
-      {
-        "source": "david ellefson",
-        "target": "georgewalker",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
-        ]
-      },
-      {
-        "source": "david ellefson",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
-        ]
-      },
-      {
-        "source": "bozaj",
+        "source": "becathlon",
         "target": "timurun fillerinin bakicisi",
         "weight": 2,
         "topics": [
@@ -126,7 +126,7 @@
         ]
       },
       {
-        "source": "becathlon",
+        "source": "bozaj",
         "target": "timurun fillerinin bakicisi",
         "weight": 2,
         "topics": [

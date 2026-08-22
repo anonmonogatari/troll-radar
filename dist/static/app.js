@@ -627,18 +627,19 @@ function drawNetworkGraph(canvas, networkData) {
     const height = rect.height;
 
     const nodes = networkData.nodes.map((n, i) => {
-        const angle = (i / networkData.nodes.length) * Math.PI * 2;
+        const angle = (i / Math.max(1, networkData.nodes.length)) * Math.PI * 2;
         const radius = Math.min(width, height) * 0.35;
         return {
             ...n,
-            x: width / 2 + Math.cos(angle) * radius + (Math.random() - 0.5) * 40,
-            y: height / 2 + Math.sin(angle) * radius + (Math.random() - 0.5) * 40,
-            vx: 0,
-            vy: 0
+            x: width / 2 + Math.cos(angle) * radius + (Math.random() - 0.5) * 30,
+            y: height / 2 + Math.sin(angle) * radius + (Math.random() - 0.5) * 30,
+            radius: n.radius || 12
         };
     });
 
-    const links = networkData.links;
+    const links = networkData.links || [];
+    let draggedNode = null;
+    let hoveredNode = null;
 
     function render() {
         ctx.clearRect(0, 0, width, height);
@@ -652,31 +653,114 @@ function drawNetworkGraph(canvas, networkData) {
             ctx.beginPath();
             ctx.moveTo(s.x, s.y);
             ctx.lineTo(t.x, t.y);
-            ctx.strokeStyle = l.weight > 2 ? 'rgba(239, 68, 68, 0.4)' : 'rgba(59, 130, 246, 0.2)';
+            ctx.strokeStyle = l.weight > 2 ? 'rgba(239, 68, 68, 0.45)' : 'rgba(59, 130, 246, 0.25)';
             ctx.lineWidth = Math.min(5, 1 + l.weight);
             ctx.stroke();
         });
 
         // Draw Nodes
         nodes.forEach(n => {
+            const isHovered = hoveredNode && hoveredNode.id === n.id;
             ctx.beginPath();
-            ctx.arc(n.x, n.y, n.radius || 12, 0, Math.PI * 2);
+            ctx.arc(n.x, n.y, isHovered ? n.radius + 4 : n.radius, 0, Math.PI * 2);
             ctx.fillStyle = n.coordinated > 0 ? '#ef4444' : '#3b82f6';
             ctx.fill();
-            ctx.lineWidth = 2;
-            ctx.strokeStyle = '#ffffff';
+            ctx.lineWidth = isHovered ? 3 : 2;
+            ctx.strokeStyle = isHovered ? '#60a5fa' : '#ffffff';
             ctx.stroke();
 
             // Label
-            ctx.font = '10px Plus Jakarta Sans';
-            ctx.fillStyle = '#f1f5f9';
+            ctx.font = isHovered ? 'bold 11px Plus Jakarta Sans' : '10px Plus Jakarta Sans';
+            ctx.fillStyle = isHovered ? '#60a5fa' : '#f1f5f9';
             ctx.textAlign = 'center';
-            ctx.fillText(`@${n.label}`, n.x, n.y + (n.radius || 12) + 12);
+            ctx.fillText(`@${n.label}`, n.x, n.y + n.radius + 14);
+        });
+
+        // Hover Tooltip
+        if (hoveredNode) {
+            const text = `@${hoveredNode.label} (${hoveredNode.entries} entry, ${hoveredNode.coordinated} koordineli)`;
+            ctx.font = '11px Plus Jakarta Sans';
+            const textWidth = ctx.measureText(text).width;
+            
+            const tx = Math.max(10, Math.min(width - textWidth - 20, hoveredNode.x - textWidth / 2));
+            const ty = Math.max(25, hoveredNode.y - hoveredNode.radius - 12);
+
+            ctx.fillStyle = 'rgba(15, 23, 42, 0.92)';
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.15)';
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.roundRect(tx - 8, ty - 16, textWidth + 16, 22, 6);
+            ctx.fill();
+            ctx.stroke();
+
+            ctx.fillStyle = '#ffffff';
+            ctx.textAlign = 'left';
+            ctx.fillText(text, tx, ty);
+        }
+    }
+
+    function getMousePos(evt) {
+        const r = canvas.getBoundingClientRect();
+        return {
+            x: evt.clientX - r.left,
+            y: evt.clientY - r.top
+        };
+    }
+
+    function findNodeAt(pos) {
+        return nodes.find(n => {
+            const dx = n.x - pos.x;
+            const dy = n.y - pos.y;
+            return Math.sqrt(dx * dx + dy * dy) <= (n.radius + 6);
         });
     }
 
+    // Canvas Events
+    canvas.onmousedown = (e) => {
+        const pos = getMousePos(e);
+        draggedNode = findNodeAt(pos);
+    };
+
+    canvas.onmousemove = (e) => {
+        const pos = getMousePos(e);
+        if (draggedNode) {
+            draggedNode.x = pos.x;
+            draggedNode.y = pos.y;
+            render();
+        } else {
+            const prevHovered = hoveredNode;
+            hoveredNode = findNodeAt(pos);
+            if (prevHovered !== hoveredNode) {
+                canvas.style.cursor = hoveredNode ? 'pointer' : 'grab';
+                render();
+            }
+        }
+    };
+
+    canvas.onmouseup = (e) => {
+        if (draggedNode) {
+            draggedNode = null;
+        }
+    };
+
+    canvas.onclick = (e) => {
+        const pos = getMousePos(e);
+        const clicked = findNodeAt(pos);
+        if (clicked) {
+            openAuthorModal(clicked.id);
+        }
+    };
+
     render();
 }
+
+// Global Keyboard Listener for Closing Modals with Escape
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        closeAuthorModal();
+        closeScrapeModal();
+    }
+});
 
 // ----------------- TAB 4: AUTHORS LIST ----------------- //
 
