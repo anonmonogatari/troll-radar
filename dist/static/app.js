@@ -280,9 +280,17 @@ function renderDiscoveryCandidates(candidates) {
                     %${m.shift_regularity || 0}
                 </td>
                 <td class="py-3 px-3 text-right">
-                    <button onclick="promoteCandidate('${escapeHtml(c.nick)}')" class="px-2.5 py-1 bg-dark-900 hover:bg-dark-700 border border-white/10 text-blue-400 hover:text-white rounded text-[10px] font-semibold transition-all">
-                        + İzlemeye Al
-                    </button>
+                    ${c.is_monitored ? `
+                        <button onclick="unpromoteCandidate('${escapeHtml(c.nick)}')" class="px-2.5 py-1 bg-red-500/15 hover:bg-red-500/30 border border-red-500/40 text-red-400 hover:text-red-300 rounded text-[10px] font-bold transition-all flex items-center justify-end gap-1 ml-auto">
+                            <i data-lucide="user-minus" class="w-3 h-3"></i>
+                            <span>İzlemeden Çıkar</span>
+                        </button>
+                    ` : `
+                        <button onclick="promoteCandidate('${escapeHtml(c.nick)}')" class="px-2.5 py-1 bg-dark-900 hover:bg-dark-700 border border-white/10 text-blue-400 hover:text-white rounded text-[10px] font-semibold transition-all flex items-center justify-end gap-1 ml-auto">
+                            <i data-lucide="user-plus" class="w-3 h-3"></i>
+                            <span>+ İzlemeye Al</span>
+                        </button>
+                    `}
                 </td>
             </tr>
         `;
@@ -296,14 +304,14 @@ async function triggerDiscoveryScan() {
     const originalHtml = btn ? btn.innerHTML : '';
     if (btn) {
         btn.disabled = true;
-        btn.innerHTML = `<i data-lucide="loader-2" class="w-4 h-4 animate-spin"></i><span>Analiz Ediliyor...</span>`;
+        btn.innerHTML = `<i data-lucide="loader-2" class="w-4 h-4 animate-spin"></i><span>Gündem Taranıyor...</span>`;
         lucide.createIcons();
     }
 
     try {
         const isStatic = window.location.hostname.includes('github.io');
         if (!isStatic) {
-            await fetch(`/api/discovery/scan?days=${currentDays}`, { method: 'POST' });
+            await fetch(`/api/discovery/scan?days=${currentDays}&live_gundem=true`, { method: 'POST' });
         }
         await loadDiscovery();
     } catch (e) {
@@ -319,15 +327,27 @@ async function triggerDiscoveryScan() {
 
 async function promoteCandidate(nick) {
     try {
-        const res = await fetch(`/api/discovery/promote/${encodeURIComponent(nick)}`, { method: 'POST' });
-        const data = await res.json();
-        if (data.status === 'success') {
-            alert(`@${nick} başarıyla ana izleme listesine eklendi!`);
-            loadAuthors();
-            loadDiscovery();
+        const isStatic = window.location.hostname.includes('github.io');
+        if (!isStatic) {
+            await fetch(`/api/discovery/promote/${encodeURIComponent(nick)}`, { method: 'POST' });
         }
+        await loadAuthors();
+        await loadDiscovery();
     } catch (e) {
         console.error("Promote error:", e);
+    }
+}
+
+async function unpromoteCandidate(nick) {
+    try {
+        const isStatic = window.location.hostname.includes('github.io');
+        if (!isStatic) {
+            await fetch(`/api/discovery/unpromote/${encodeURIComponent(nick)}`, { method: 'POST' });
+        }
+        await loadAuthors();
+        await loadDiscovery();
+    } catch (e) {
+        console.error("Unpromote error:", e);
     }
 }
 

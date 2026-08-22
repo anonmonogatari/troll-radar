@@ -221,15 +221,27 @@ class TrollDiscoveryEngine:
             "evidence_topics": list(set(topics))[:4]
         }
 
-    def run_auto_discovery_scan(self, days: int = 30) -> List[Dict[str, Any]]:
+    def run_auto_discovery_scan(self, days: int = 30, scrape_live: bool = False) -> List[Dict[str, Any]]:
         """
-        Scans all authors currently in DB, evaluates their metrics,
+        Scans authors, evaluates their metrics, optionally scrapes current Gündem/Debe,
         and saves discovered troll classifications into SQLite.
         """
+        if scrape_live:
+            try:
+                from scraper import EksiScraper
+                scraper = EksiScraper()
+                scraper.scrape_gundem_and_top_entries(limit_topics=10, max_entries_per_topic=10)
+            except Exception as e:
+                print(f"Live gündem scrape warning: {e}")
+
         cutoff = (datetime.now() - timedelta(days=days)).isoformat() if days > 0 else "1970-01-01"
         
         with get_db() as conn:
             cursor = conn.cursor()
+            # Fetch active monitored authors
+            active_rows = cursor.execute("SELECT nick FROM authors WHERE is_active = 1").fetchall()
+            active_monitored_set = set(r['nick'] for r in active_rows)
+
             cursor.execute("SELECT * FROM entries WHERE created_at >= ?", (cutoff,))
             all_entries = [dict(r) for r in cursor.fetchall()]
             for e in all_entries:
@@ -247,6 +259,8 @@ class TrollDiscoveryEngine:
         results = []
         for nick, author_entries in entries_by_author.items():
             evaluation = self.evaluate_author(nick, author_entries, all_entries)
+            is_monitored = nick in active_monitored_set
+            evaluation['is_monitored'] = is_monitored
             results.append(evaluation)
 
             # Persist evaluation to database
@@ -269,7 +283,8 @@ class TrollDiscoveryEngine:
                         link_bias=excluded.link_bias,
                         entry_count=excluded.entry_count,
                         evidence_topics=excluded.evidence_topics,
-                        discovered_at=excluded.discovered_at
+                        discovered_at=excluded.discovered_at,
+                        is_monitored=excluded.is_monitored
                 """, (
                     nick,
                     evaluation['troll_score'],
@@ -283,7 +298,7 @@ class TrollDiscoveryEngine:
                     evaluation['entry_count'],
                     json.dumps(evaluation['evidence_topics'], ensure_ascii=False),
                     datetime.now().isoformat(),
-                    1 if nick in TARGET_AUTHORS else 0
+                    1 if is_monitored else 0
                 ))
                 conn.commit()
 

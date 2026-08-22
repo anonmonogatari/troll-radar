@@ -123,6 +123,14 @@
     ],
     "links": [
       {
+        "source": "david ellefson",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
         "source": "georgewalker",
         "target": "timurun fillerinin bakicisi",
         "weight": 1,
@@ -131,16 +139,8 @@
         ]
       },
       {
-        "source": "david ellefson",
-        "target": "georgewalker",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
-        ]
-      },
-      {
         "source": "enturi",
-        "target": "georgewalker",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "ankara'da alman kurdundan kaçarken ölen çocuk"
@@ -148,15 +148,7 @@
       },
       {
         "source": "david ellefson",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
-        ]
-      },
-      {
-        "source": "enturi",
-        "target": "timurun fillerinin bakicisi",
+        "target": "georgewalker",
         "weight": 1,
         "topics": [
           "ankara'da alman kurdundan kaçarken ölen çocuk"
@@ -171,6 +163,22 @@
         ]
       },
       {
+        "source": "enturi",
+        "target": "georgewalker",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
+        "source": "hirvatistanli",
+        "target": "kafadanilo",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
         "source": "hackerbey",
         "target": "hirvatistanli",
         "weight": 1,
@@ -180,7 +188,7 @@
       },
       {
         "source": "hirvatistanli",
-        "target": "kecuva",
+        "target": "ingiliz dili ve edebiyati",
         "weight": 1,
         "topics": [
           "chp'li belediyelerin fahiş konser harcamaları"
@@ -188,7 +196,7 @@
       },
       {
         "source": "hirvatistanli",
-        "target": "kafadanilo",
+        "target": "kecuva",
         "weight": 1,
         "topics": [
           "chp'li belediyelerin fahiş konser harcamaları"
@@ -203,22 +211,6 @@
         ]
       },
       {
-        "source": "hirvatistanli",
-        "target": "ingiliz dili ve edebiyati",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "hackerbey",
-        "target": "kecuva",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
         "source": "hackerbey",
         "target": "kafadanilo",
         "weight": 1,
@@ -227,16 +219,8 @@
         ]
       },
       {
-        "source": "hackerbey",
-        "target": "jimmymartin",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "hackerbey",
-        "target": "ingiliz dili ve edebiyati",
+        "source": "ingiliz dili ve edebiyati",
+        "target": "kafadanilo",
         "weight": 1,
         "topics": [
           "chp'li belediyelerin fahiş konser harcamaları"
@@ -252,7 +236,31 @@
       },
       {
         "source": "jimmymartin",
+        "target": "kafadanilo",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hackerbey",
+        "target": "ingiliz dili ve edebiyati",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hackerbey",
         "target": "kecuva",
+        "weight": 1,
+        "topics": [
+          "chp'li belediyelerin fahiş konser harcamaları"
+        ]
+      },
+      {
+        "source": "hackerbey",
+        "target": "jimmymartin",
         "weight": 1,
         "topics": [
           "chp'li belediyelerin fahiş konser harcamaları"
@@ -261,22 +269,6 @@
       {
         "source": "ingiliz dili ve edebiyati",
         "target": "kecuva",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "jimmymartin",
-        "target": "kafadanilo",
-        "weight": 1,
-        "topics": [
-          "chp'li belediyelerin fahiş konser harcamaları"
-        ]
-      },
-      {
-        "source": "ingiliz dili ve edebiyati",
-        "target": "kafadanilo",
         "weight": 1,
         "topics": [
           "chp'li belediyelerin fahiş konser harcamaları"
@@ -291,16 +283,15 @@
         ]
       },
       {
-        "source": "becathlon",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 2,
+        "source": "jimmymartin",
+        "target": "kecuva",
+        "weight": 1,
         "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın",
-          "yabancı turistin türk esnafına isyan etmesi"
+          "chp'li belediyelerin fahiş konser harcamaları"
         ]
       },
       {
-        "source": "bozaj",
+        "source": "becathlon",
         "target": "timurun fillerinin bakicisi",
         "weight": 2,
         "topics": [
@@ -318,11 +309,28 @@
         ]
       },
       {
+        "source": "bozaj",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 2,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın",
+          "yabancı turistin türk esnafına isyan etmesi"
+        ]
+      },
+      {
         "source": "1xw",
         "target": "948",
         "weight": 1,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın"
+        ]
+      },
+      {
+        "source": "localtime",
+        "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
         ]
       },
       {
@@ -342,22 +350,6 @@
         ]
       },
       {
-        "source": "localtime",
-        "target": "londrast",
-        "weight": 1,
-        "topics": [
-          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
-        ]
-      },
-      {
-        "source": "lacivertnokta",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
-        ]
-      },
-      {
         "source": "londrast",
         "target": "timurun fillerinin bakicisi",
         "weight": 1,
@@ -368,6 +360,14 @@
       {
         "source": "lacivertnokta",
         "target": "londrast",
+        "weight": 1,
+        "topics": [
+          "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        ]
+      },
+      {
+        "source": "lacivertnokta",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "soylu'nun yeğeniyim diyen kadının terör estirmesi"

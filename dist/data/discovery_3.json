@@ -29,10 +29,10 @@
         "londrast"
       ],
       "top_evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "çocuğuna annen o... biliyor musun diyen baba",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "sokakta birlikte olan çifte beddua eden kadın",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi"
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
       ]
     },
     {
@@ -57,8 +57,8 @@
         "becathlon"
       ],
       "top_evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
       ]
     }
   ],
@@ -80,7 +80,8 @@
       },
       "evidence_topics": [
         "chp'li belediyelerin fahiş konser harcamaları"
-      ]
+      ],
+      "is_monitored": true
     },
     {
       "nick": "hirvatistanli",
@@ -99,7 +100,8 @@
       },
       "evidence_topics": [
         "chp'li belediyelerin fahiş konser harcamaları"
-      ]
+      ],
+      "is_monitored": true
     },
     {
       "nick": "ingiliz dili ve edebiyati",
@@ -118,7 +120,8 @@
       },
       "evidence_topics": [
         "chp'li belediyelerin fahiş konser harcamaları"
-      ]
+      ],
+      "is_monitored": true
     },
     {
       "nick": "jimmymartin",
@@ -137,7 +140,8 @@
       },
       "evidence_topics": [
         "chp'li belediyelerin fahiş konser harcamaları"
-      ]
+      ],
+      "is_monitored": true
     },
     {
       "nick": "kafadanilo",
@@ -156,7 +160,8 @@
       },
       "evidence_topics": [
         "chp'li belediyelerin fahiş konser harcamaları"
-      ]
+      ],
+      "is_monitored": true
     },
     {
       "nick": "kecuva",
@@ -175,7 +180,8 @@
       },
       "evidence_topics": [
         "chp'li belediyelerin fahiş konser harcamaları"
-      ]
+      ],
+      "is_monitored": true
     },
     {
       "nick": "timurun fillerinin bakicisi",
@@ -193,11 +199,12 @@
         "link_bias": 100.0
       },
       "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "sokakta birlikte olan çifte beddua eden kadın",
-        "çocuğuna annen o... biliyor musun diyen baba",
-        "yabancı turistin türk esnafına isyan etmesi"
-      ]
+        "sokakta birlikte olan çifte beddua eden kadın"
+      ],
+      "is_monitored": true
     },
     {
       "nick": "lacivertnokta",
@@ -216,7 +223,8 @@
       },
       "evidence_topics": [
         "soylu'nun yeğeniyim diyen kadının terör estirmesi"
-      ]
+      ],
+      "is_monitored": true
     },
     {
       "nick": "localtime",
@@ -235,7 +243,8 @@
       },
       "evidence_topics": [
         "soylu'nun yeğeniyim diyen kadının terör estirmesi"
-      ]
+      ],
+      "is_monitored": true
     },
     {
       "nick": "londrast",
@@ -254,7 +263,8 @@
       },
       "evidence_topics": [
         "soylu'nun yeğeniyim diyen kadının terör estirmesi"
-      ]
+      ],
+      "is_monitored": true
     },
     {
       "nick": "david ellefson",
@@ -273,7 +283,8 @@
       },
       "evidence_topics": [
         "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
+      ],
+      "is_monitored": true
     },
     {
       "nick": "enturi",
@@ -292,7 +303,8 @@
       },
       "evidence_topics": [
         "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
+      ],
+      "is_monitored": true
     },
     {
       "nick": "georgewalker",
@@ -311,7 +323,8 @@
       },
       "evidence_topics": [
         "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
+      ],
+      "is_monitored": true
     },
     {
       "nick": "bozaj",
@@ -329,9 +342,10 @@
         "link_bias": 0.0
       },
       "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ]
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
     },
     {
       "nick": "becathlon",
@@ -349,9 +363,10 @@
         "link_bias": 0.0
       },
       "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ]
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
     },
     {
       "nick": "1xw",
@@ -369,9 +384,10 @@
         "link_bias": 0.0
       },
       "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ]
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
     },
     {
       "nick": "948",
@@ -389,9 +405,10 @@
         "link_bias": 0.0
       },
       "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ]
+        "haşemalılarla aynı denize girmek istemeyen kadın",
+        "yabancı turistin türk esnafına isyan etmesi"
+      ],
+      "is_monitored": true
     }
   ]
 }

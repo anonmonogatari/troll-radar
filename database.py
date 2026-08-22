@@ -354,3 +354,12 @@ def promote_discovered_troll(nick: str) -> bool:
         cursor.execute("UPDATE discovered_trolls SET is_monitored = 1 WHERE nick = ?", (nick,))
         conn.commit()
         return True
+
+def unpromote_discovered_troll(nick: str) -> bool:
+    """Removes a troll from the active monitoring watchlist."""
+    with get_db() as conn:
+        cursor = conn.cursor()
+        cursor.execute("UPDATE authors SET is_active = 0 WHERE nick = ?", (nick,))
+        cursor.execute("UPDATE discovered_trolls SET is_monitored = 0 WHERE nick = ?", (nick,))
+        conn.commit()
+        return True

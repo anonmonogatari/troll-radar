@@ -234,3 +234,97 @@ class EksiScraper:
             "entries_found": total_entries,
             "status": "completed"
         }
+
+    def scrape_gundem_and_top_entries(self, limit_topics: int = 10, max_entries_per_topic: int = 10) -> Dict[str, Any]:
+        """
+        Scrapes trending Gündem and Debe (most favorited/popular) topics from Ekşi Sözlük,
+        extracts candidate authors, and records entries to database for automated troll discovery.
+        """
+        discovered_candidates = set()
+        new_entries_count = 0
+        topics_to_scan = []
+
+        # 1. Fetch Gündem topics
+        gundem_html = self._fetch_url(f"https://{self.domain}/basliklar/gundem")
+        if gundem_html:
+            soup = BeautifulSoup(gundem_html, 'html.parser')
+            for a in soup.select('ul.topic-list > li > a')[:limit_topics]:
+                href = a.get('href', '')
+                title = a.text.strip()
+                # Clean entry count badge from title text (e.g. 'fenerbahçe 892' -> 'fenerbahçe')
+                clean_title = re.sub(r'\s+\d+$', '', title)
+                if href and clean_title:
+                    topics_to_scan.append({'title': clean_title, 'href': href})
+
+        # 2. Fetch Debe (Dünün en beğenilen entryleri)
+        debe_html = self._fetch_url(f"https://{self.domain}/debe")
+        if debe_html:
+            soup = BeautifulSoup(debe_html, 'html.parser')
+            for a in soup.select('ul.topic-list > li > a, #topic > li > a')[:limit_topics]:
+                href = a.get('href', '')
+                title = a.text.strip()
+                clean_title = re.sub(r'\s+\d+$', '', title)
+                if href and clean_title and not any(t['href'] == href for t in topics_to_scan):
+                    topics_to_scan.append({'title': clean_title, 'href': href})
+
+        # 3. For each topic, fetch most favorited / popular entries (?a=nice or ?a=popular)
+        for t_info in topics_to_scan:
+            topic_url = f"https://{self.domain}{t_info['href']}"
+            if '?a=' not in topic_url:
+                topic_url += "?a=popular"
+
+            topic_html = self._fetch_url(topic_url)
+            if not topic_html:
+                continue
+
+            soup = BeautifulSoup(topic_html, 'html.parser')
+            entries = soup.select('#entry-item-list > li')
+
+            for li in entries[:max_entries_per_topic]:
+                entry_id = li.get('data-id')
+                author = li.get('data-author')
+                content_div = li.select_one('.content')
+                date_elem = li.select_one('.entry-date')
+
+                if not entry_id or not author or not content_div:
+                    continue
+
+                discovered_candidates.add(author)
+                raw_date = date_elem.text.strip() if date_elem else ""
+                dt_obj = self.parse_entry_date(raw_date)
+                created_at_iso = dt_obj.isoformat() if dt_obj else datetime.now().isoformat()
+                content_text = content_div.text.strip()
+                fav_count = int(li.get('data-favorite-count', 0) or 0)
+                category = self.classify_entry(t_info['title'], content_text)
+
+                links = []
+                for a_link in content_div.select('a'):
+                    h = a_link.get('href', '')
+                    if h.startswith('http') and 'eksisozluk' not in h:
+                        links.append({'text': a_link.text.strip(), 'url': h})
+
+                entry_record = {
+                    "id": str(entry_id),
+                    "author": author,
+                    "topic": t_info['title'],
+                    "topic_slug": re.sub(r'[^a-zA-Z0-9\-]', '', t_info['title'].lower().replace(' ', '-')),
+                    "content": content_text,
+                    "date_str": raw_date,
+                    "created_at": created_at_iso,
+                    "favorite_count": fav_count,
+                    "comment_count": 0,
+                    "category": category,
+                    "sentiment": "negative" if any(w in content_text.lower() for w in ["rezalet", "terör", "ihanet", "skandal", "isyan", "yalan", "suç"]) else "neutral",
+                    "external_links": links,
+                    "is_coordinated": False
+                }
+                upsert_entry(entry_record)
+                new_entries_count += 1
+
+            time.sleep(0.3)
+
+        return {
+            "topics_scanned": len(topics_to_scan),
+            "candidates_found": list(discovered_candidates),
+            "new_entries_count": new_entries_count
+        }

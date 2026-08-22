@@ -150,11 +150,11 @@ def get_discovery_candidates(days: int = 30):
     }
 
 @app.post("/api/discovery/scan")
-def trigger_discovery_scan(days: int = 30):
-    """Triggers complete auto-discovery and scoring run."""
+def trigger_discovery_scan(days: int = 30, live_gundem: bool = True):
+    """Triggers complete auto-discovery and scoring run, optionally scraping Gündem & Debe."""
     from discovery_engine import TrollDiscoveryEngine
     engine = TrollDiscoveryEngine()
-    evaluations = engine.run_auto_discovery_scan(days=days)
+    evaluations = engine.run_auto_discovery_scan(days=days, scrape_live=live_gundem)
     cells = engine.cluster_troll_cells(evaluations)
     return {"status": "success", "evaluated_count": len(evaluations), "cells_count": len(cells)}
 
@@ -163,7 +163,14 @@ def promote_author_to_watchlist(nick: str):
     """Promotes an auto-discovered troll into the primary watchlist."""
     from database import promote_discovered_troll
     success = promote_discovered_troll(nick)
-    return {"status": "success" if success else "failed", "nick": nick}
+    return {"status": "success" if success else "failed", "nick": nick, "is_monitored": True}
+
+@app.post("/api/discovery/unpromote/{nick}")
+def unpromote_author_from_watchlist(nick: str):
+    """Removes an author from the active monitoring watchlist."""
+    from database import unpromote_discovered_troll
+    success = unpromote_discovered_troll(nick)
+    return {"status": "success" if success else "failed", "nick": nick, "is_monitored": False}
 
 # ----------------- BACKGROUND SCRAPING ----------------- #
 

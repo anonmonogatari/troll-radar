@@ -60,6 +60,14 @@
     ],
     "links": [
       {
+        "source": "david ellefson",
+        "target": "timurun fillerinin bakicisi",
+        "weight": 1,
+        "topics": [
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
+        ]
+      },
+      {
         "source": "georgewalker",
         "target": "timurun fillerinin bakicisi",
         "weight": 1,
@@ -68,16 +76,8 @@
         ]
       },
       {
-        "source": "david ellefson",
-        "target": "georgewalker",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
-        ]
-      },
-      {
         "source": "enturi",
-        "target": "georgewalker",
+        "target": "timurun fillerinin bakicisi",
         "weight": 1,
         "topics": [
           "ankara'da alman kurdundan kaçarken ölen çocuk"
@@ -85,15 +85,7 @@
       },
       {
         "source": "david ellefson",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 1,
-        "topics": [
-          "ankara'da alman kurdundan kaçarken ölen çocuk"
-        ]
-      },
-      {
-        "source": "enturi",
-        "target": "timurun fillerinin bakicisi",
+        "target": "georgewalker",
         "weight": 1,
         "topics": [
           "ankara'da alman kurdundan kaçarken ölen çocuk"
@@ -108,16 +100,15 @@
         ]
       },
       {
-        "source": "becathlon",
-        "target": "timurun fillerinin bakicisi",
-        "weight": 2,
+        "source": "enturi",
+        "target": "georgewalker",
+        "weight": 1,
         "topics": [
-          "haşemalılarla aynı denize girmek istemeyen kadın",
-          "yabancı turistin türk esnafına isyan etmesi"
+          "ankara'da alman kurdundan kaçarken ölen çocuk"
         ]
       },
       {
-        "source": "bozaj",
+        "source": "becathlon",
         "target": "timurun fillerinin bakicisi",
         "weight": 2,
         "topics": [
@@ -128,6 +119,15 @@
       {
         "source": "becathlon",
         "target": "bozaj",
+        "weight": 2,
+        "topics": [
+          "haşemalılarla aynı denize girmek istemeyen kadın",
+          "yabancı turistin türk esnafına isyan etmesi"
+        ]
+      },
+      {
+        "source": "bozaj",
+        "target": "timurun fillerinin bakicisi",
         "weight": 2,
         "topics": [
           "haşemalılarla aynı denize girmek istemeyen kadın",
