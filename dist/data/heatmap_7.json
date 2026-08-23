@@ -747,7 +747,7 @@
       "day_name": "Cuma",
       "hour": 10,
       "hour_label": "10:00",
-      "count": 6
+      "count": 7
     },
     {
       "day_index": 4,
@@ -985,14 +985,14 @@
       "day_name": "Cumartesi",
       "hour": 20,
       "hour_label": "20:00",
-      "count": 27
+      "count": 28
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 21,
       "hour_label": "21:00",
-      "count": 27
+      "count": 28
     },
     {
       "day_index": 5,
@@ -1062,35 +1062,35 @@
       "day_name": "Pazar",
       "hour": 7,
       "hour_label": "07:00",
-      "count": 3
+      "count": 0
     },
     {
       "day_index": 6,
       "day_name": "Pazar",
       "hour": 8,
       "hour_label": "08:00",
-      "count": 11
+      "count": 8
     },
     {
       "day_index": 6,
       "day_name": "Pazar",
       "hour": 9,
       "hour_label": "09:00",
-      "count": 10
+      "count": 1
     },
     {
       "day_index": 6,
       "day_name": "Pazar",
       "hour": 10,
       "hour_label": "10:00",
-      "count": 9
+      "count": 1
     },
     {
       "day_index": 6,
       "day_name": "Pazar",
       "hour": 11,
       "hour_label": "11:00",
-      "count": 3
+      "count": 0
     },
     {
       "day_index": 6,
@@ -1153,7 +1153,7 @@
       "day_name": "Pazar",
       "hour": 20,
       "hour_label": "20:00",
-      "count": 0
+      "count": 1
     },
     {
       "day_index": 6,

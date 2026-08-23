@@ -2,27 +2,27 @@
   "keywords": [
     {
       "word": "kadın",
-      "count": 178
+      "count": 150
     },
     {
       "word": "bkz",
-      "count": 124
-    },
-    {
-      "word": "değil",
-      "count": 82
+      "count": 116
     },
     {
       "word": "türk",
       "count": 76
     },
     {
-      "word": "kadının",
-      "count": 68
+      "word": "değil",
+      "count": 76
     },
     {
       "word": "türkiye",
-      "count": 68
+      "count": 69
+    },
+    {
+      "word": "kadının",
+      "count": 69
     },
     {
       "word": "diyen",
@@ -34,11 +34,11 @@
     },
     {
       "word": "nun",
-      "count": 50
+      "count": 51
     },
     {
       "word": "insan",
-      "count": 48
+      "count": 47
     },
     {
       "word": "istemeyen",
@@ -54,62 +54,58 @@
     },
     {
       "word": "çocuk",
-      "count": 41
+      "count": 42
     },
     {
       "word": "israil",
       "count": 39
     },
     {
-      "word": "adam",
-      "count": 38
-    },
-    {
       "word": "güzel",
       "count": 38
     },
     {
-      "word": "nasıl",
-      "count": 37
+      "word": "yabancı",
+      "count": 38
     },
     {
       "word": "tartıştığı",
       "count": 37
     },
     {
-      "word": "yabancı",
-      "count": 37
-    },
-    {
       "word": "soylu",
-      "count": 35
+      "count": 36
     },
     {
       "word": "alman",
-      "count": 35
+      "count": 36
     },
     {
       "word": "turistin",
+      "count": 36
+    },
+    {
+      "word": "nasıl",
       "count": 35
     },
     {
-      "word": "kadınların",
-      "count": 34
-    },
-    {
-      "word": "alan",
-      "count": 34
-    },
-    {
-      "word": "tek",
-      "count": 33
-    },
-    {
       "word": "sadece",
-      "count": 33
+      "count": 34
     },
     {
       "word": "terör",
+      "count": 34
+    },
+    {
+      "word": "adam",
+      "count": 33
+    },
+    {
+      "word": "etmesi",
+      "count": 33
+    },
+    {
+      "word": "ankara",
       "count": 33
     },
     {
@@ -117,7 +113,11 @@
       "count": 33
     },
     {
-      "word": "etmesi",
+      "word": "isyan",
+      "count": 33
+    },
+    {
+      "word": "alan",
       "count": 32
     }
   ]

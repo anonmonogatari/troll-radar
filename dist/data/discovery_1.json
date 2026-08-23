@@ -1,332 +1,36 @@
 {
-  "total_evaluated": 185,
-  "high_confidence_trolls": 2,
+  "total_evaluated": 60,
+  "high_confidence_trolls": 0,
   "cells": [
-    {
-      "cell_name": "Ekonomi Aklama",
-      "member_count": 7,
-      "average_troll_score": 59.7,
-      "members": [
-        "bozaj",
-        "becathlon",
-        "1xw",
-        "948",
-        "enturi",
-        "givles",
-        "georgewalker"
-      ],
-      "top_evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "yabancı turistin türk esnafına isyan etmesi"
-      ]
-    },
     {
       "cell_name": "Kültür Savaşı",
       "member_count": 1,
-      "average_troll_score": 100.0,
+      "average_troll_score": 49.8,
       "members": [
-        "timurun fillerinin bakicisi"
+        "948"
       ],
       "top_evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "haşemalılarla aynı denize girmek istemeyen kadın"
       ]
     }
   ],
   "candidates": [
     {
-      "nick": "timurun fillerinin bakicisi",
-      "troll_score": 100.0,
-      "risk_level": "Kesin Troll",
-      "badge_color": "red",
-      "detected_cell": "Kültür Savaşı",
-      "entry_count": 6,
-      "metrics": {
-        "inception_count": 2,
-        "early_swarm_count": 4,
-        "manufactured_focus_ratio": 66.7,
-        "vote_brigading": 80.0,
-        "stance_alignment": 50.0
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "bozaj",
-      "troll_score": 76.2,
-      "risk_level": "Kesin Troll",
-      "badge_color": "red",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 5,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 2,
-        "manufactured_focus_ratio": 40.0,
-        "vote_brigading": 95.0,
-        "stance_alignment": 40.0
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "becathlon",
-      "troll_score": 64.2,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 5,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 95.0,
-        "stance_alignment": 60.0
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "1xw",
-      "troll_score": 62.0,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 5,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 80.0,
-        "stance_alignment": 60.0
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
       "nick": "948",
-      "troll_score": 62.0,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 5,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 80.0,
-        "stance_alignment": 60.0
-      },
-      "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "enturi",
-      "troll_score": 59.2,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 4,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 95.0,
-        "stance_alignment": 25.0
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "givles",
-      "troll_score": 49.2,
+      "troll_score": 49.8,
       "risk_level": "Şüpheli",
       "badge_color": "yellow",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
+      "detected_cell": "Kültür Savaşı",
+      "entry_count": 2,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 1,
-        "manufactured_focus_ratio": 33.3,
-        "vote_brigading": 95.0,
-        "stance_alignment": 33.3
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "georgewalker",
-      "troll_score": 45.0,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 4,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 25.0
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "nane kokusu",
-      "troll_score": 39.2,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 95.0,
-        "stance_alignment": 100.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "miamix",
-      "troll_score": 39.2,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 95.0,
-        "stance_alignment": 100.0
-      },
-      "evidence_topics": [],
-      "is_monitored": true
-    },
-    {
-      "nick": "londrast",
-      "troll_score": 37.0,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 80.0,
-        "stance_alignment": 33.3
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "biseydiycemben",
-      "troll_score": 37.0,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 80.0,
-        "stance_alignment": 100.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "realdreamer",
-      "troll_score": 34.8,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 65.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "yaren",
-      "troll_score": 34.8,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
+        "manufactured_focus_ratio": 50.0,
         "vote_brigading": 65.0,
         "stance_alignment": 100.0
       },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "madanin",
-      "troll_score": 32.5,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 50.0,
-        "stance_alignment": 33.3
-      },
       "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "parantezicindekiadam",
-      "troll_score": 32.5,
-      "risk_level": "Şüpheli",
-      "badge_color": "yellow",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 50.0,
-        "stance_alignment": 33.3
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
+        "haşemalılarla aynı denize girmek istemeyen kadın"
       ],
       "is_monitored": true
     },
@@ -335,18 +39,16 @@
       "troll_score": 32.5,
       "risk_level": "Şüpheli",
       "badge_color": "yellow",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 0,
         "manufactured_focus_ratio": 0.0,
         "vote_brigading": 50.0,
-        "stance_alignment": 66.7
+        "stance_alignment": 100.0
       },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
+      "evidence_topics": [],
       "is_monitored": true
     },
     {
@@ -354,2135 +56,34 @@
       "troll_score": 32.5,
       "risk_level": "Şüpheli",
       "badge_color": "yellow",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 0,
         "manufactured_focus_ratio": 0.0,
         "vote_brigading": 50.0,
-        "stance_alignment": 33.3
+        "stance_alignment": 100.0
       },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
+      "evidence_topics": [],
       "is_monitored": true
     },
     {
-      "nick": "cikolataliportakal",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
+      "nick": "londrast",
+      "troll_score": 32.5,
+      "risk_level": "Şüpheli",
+      "badge_color": "yellow",
       "detected_cell": "Belediye Karalama",
       "entry_count": 1,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 0,
         "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
+        "vote_brigading": 50.0,
+        "stance_alignment": 100.0
       },
       "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "hevamfuskiki",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "tinsel",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "belgium in the rainn",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "heterodokss",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "shagrax",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "notthatsimplee",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "augusto pinochet",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "kendinegelotuzsundediler",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "29lu",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "gulbesekerisevdimde",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "angelinapectoris",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "o9",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "funeral winds",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "kill me back",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "rabbitx",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "arsiz marketing",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "acmemade",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "annenin terlik isabet ettiremedigi evlat",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "falanks",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "attorney general",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "keremtunaa",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "arzawa",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "materialsengineer",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "youth gone wild",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "david ellefson",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 2,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk",
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
       "is_monitored": true
-    },
-    {
-      "nick": "shinigami ryuk",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "vzw",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "better call sabire",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "medyumay",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 33.3
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "kecuva",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 33.3
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "dark focus",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "puffats",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "myboltttt",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "kafadanilo",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 33.3
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "vatkalickt",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "reactionshot",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 33.3
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "mesglsn sanirm bn yatiyrm",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "kiloveremeyenkediannesi",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "verybutverygoodman",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "kaymakam halil hilmi",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "sosyaldeneydekicuzdanicebellezedenadam",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "cave art",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "localtime",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 33.3
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "debe okurum",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 2,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "hilmi bunu begendi",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "ingiliz dili ve edebiyati",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 33.3
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "to vbe or not to vbe",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 2,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "hard disk gibi adam",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "hackerbey",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 33.3
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "yesindeed",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "kozmik yazar",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "x4",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "charango",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "satranc sampiyonu",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "freedostum",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "neutral true",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "kiyveni",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "bir sigara yaksam biter mi dertler",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "hirvatistanli",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 33.3
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "szw",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 3,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 33.3
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "cunoesse vittulainen",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "thoothamon",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "ucansarman",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "deli ali 667",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "karakanka",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "delivida",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "melvinton",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "shewasfun7",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "nahpeykerhapiyuttunnamussuzziver",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "la columna rota",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "supermike",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "kudayaltay",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "19o5",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "eeee sonra",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 2,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "bilmemeninbilmisligi",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "mantikli insanin sesi",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "raybanzib",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "ne rakisi sevim",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "burunsuz pinok",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "wishuwerehere",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "karizmatik bir nick olsun",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "ben buraya niye ciktim",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "feignant",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "peter4",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "ckmltyf",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "bunutartisabiliriz",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "slowrocker",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "ondortelliuc",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "figelum",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "blacklion17",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "tiredandnotcare",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "sensible lawyer",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "kuros",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "hazretihan",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "mimar sinan da basic design aldi mi",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "walterwolf",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "the dark defender",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "kirmizi baslikli at kafasi",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "boncuksurat",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "hepinizsalaksiniz",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "octopusss",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "crowded house",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "sozlukcunuz",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "jimmymartin",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 2,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "funkycrow",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Ekonomi Aklama",
-      "entry_count": 2,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "niltt",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "lonely tree",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "screenknife",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "akademi maestro",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "sinatragibigiyinmekisteyenadam",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "eternalfire",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "the archmage",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "lmrvnx",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "kara vasif karakol cemiyeti",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "gandalfinasasi1",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "delikanlininja",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "edward leon",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "kedisininyumagi",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "odoriko",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "hallorann",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "omlet nerde stalin bey",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
-    },
-    {
-      "nick": "militaristadam",
-      "troll_score": 25.0,
-      "risk_level": "Organik",
-      "badge_color": "green",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 0,
-        "manufactured_focus_ratio": 0.0,
-        "vote_brigading": 0.0,
-        "stance_alignment": 0.0
-      },
-      "evidence_topics": [],
-      "is_monitored": false
     },
     {
       "nick": "pinna",
@@ -2706,6 +307,23 @@
       "is_monitored": false
     },
     {
+      "nick": "hackerbey",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 100.0
+      },
+      "evidence_topics": [],
+      "is_monitored": true
+    },
+    {
       "nick": "cars",
       "troll_score": 25.0,
       "risk_level": "Organik",
@@ -2772,6 +390,23 @@
       },
       "evidence_topics": [],
       "is_monitored": false
+    },
+    {
+      "nick": "hirvatistanli",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 100.0
+      },
+      "evidence_topics": [],
+      "is_monitored": true
     },
     {
       "nick": "fyodorwell",
@@ -2857,6 +492,23 @@
       },
       "evidence_topics": [],
       "is_monitored": false
+    },
+    {
+      "nick": "szw",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 100.0
+      },
+      "evidence_topics": [],
+      "is_monitored": true
     },
     {
       "nick": "hayatdevamediyormu",
@@ -3216,12 +868,12 @@
       "is_monitored": false
     },
     {
-      "nick": "vladmicov",
-      "troll_score": 12.5,
+      "nick": "timurun fillerinin bakicisi",
+      "troll_score": 25.0,
       "risk_level": "Organik",
       "badge_color": "green",
       "detected_cell": "Belediye Karalama",
-      "entry_count": 2,
+      "entry_count": 1,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 0,
@@ -3230,7 +882,160 @@
         "stance_alignment": 0.0
       },
       "evidence_topics": [],
-      "is_monitored": false
+      "is_monitored": true
+    },
+    {
+      "nick": "bozaj",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": true
+    },
+    {
+      "nick": "givles",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": true
+    },
+    {
+      "nick": "becathlon",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": true
+    },
+    {
+      "nick": "enturi",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": true
+    },
+    {
+      "nick": "madanin",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": true
+    },
+    {
+      "nick": "medyumay",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 100.0
+      },
+      "evidence_topics": [],
+      "is_monitored": true
+    },
+    {
+      "nick": "kecuva",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": true
+    },
+    {
+      "nick": "kafadanilo",
+      "troll_score": 25.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 1,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": [],
+      "is_monitored": true
+    },
+    {
+      "nick": "reactionshot",
+      "troll_score": 0.0,
+      "risk_level": "Organik",
+      "badge_color": "green",
+      "detected_cell": "Organik (Elendi)",
+      "entry_count": 1,
+      "is_monitored": true,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 0,
+        "manufactured_focus_ratio": 0.0,
+        "vote_brigading": 0.0,
+        "stance_alignment": 0.0
+      },
+      "evidence_topics": []
     }
   ]
 }

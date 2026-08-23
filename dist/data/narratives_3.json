@@ -12,10 +12,10 @@
       "last_seen": "2026-08-22T22:16:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 26 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "nane kokusu",
-        "bozaj",
         "givles",
-        "timurun fillerinin bakicisi"
+        "timurun fillerinin bakicisi",
+        "nane kokusu",
+        "bozaj"
       ],
       "sample_entries": [
         {
@@ -63,17 +63,17 @@
     {
       "topic": "yabancı turistin türk esnafına isyan etmesi",
       "category": "Ekonomi Savunması & Aklama",
-      "entry_count": 30,
-      "author_count": 25,
-      "coord_count": 30,
+      "entry_count": 31,
+      "author_count": 26,
+      "coord_count": 31,
       "is_coordinated": true,
       "first_seen": "2026-08-22T15:44:00",
-      "last_seen": "2026-08-22T20:55:00",
-      "summary": "Pahalılık/turist/esnaf algısını çarpıtma ve ekonomik tepkileri hafifletme amacıyla 25 hesap tarafından organize paylaşıldı.",
+      "last_seen": "2026-08-22T21:01:00",
+      "summary": "Pahalılık/turist/esnaf algısını çarpıtma ve ekonomik tepkileri hafifletme amacıyla 26 hesap tarafından organize paylaşıldı.",
       "authors": [
-        "bozaj",
         "givles",
-        "timurun fillerinin bakicisi"
+        "timurun fillerinin bakicisi",
+        "bozaj"
       ],
       "sample_entries": [
         {
@@ -121,18 +121,18 @@
     {
       "topic": "ankara'da alman kurdundan kaçarken ölen çocuk",
       "category": "Suni Gündem & Viral Çarpıtma",
-      "entry_count": 28,
-      "author_count": 25,
-      "coord_count": 28,
+      "entry_count": 29,
+      "author_count": 26,
+      "coord_count": 29,
       "is_coordinated": true,
       "first_seen": "2026-08-22T07:31:00",
-      "last_seen": "2026-08-22T18:50:00",
+      "last_seen": "2026-08-22T20:03:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "becathlon",
-        "bozaj",
         "givles",
-        "timurun fillerinin bakicisi"
+        "timurun fillerinin bakicisi",
+        "becathlon",
+        "bozaj"
       ],
       "sample_entries": [
         {
@@ -180,18 +180,18 @@
     {
       "topic": "soylu'nun yeğeniyim diyen kadının terör estirmesi",
       "category": "Yargı, Güvenlik & Hamaset",
-      "entry_count": 28,
-      "author_count": 24,
-      "coord_count": 28,
+      "entry_count": 29,
+      "author_count": 25,
+      "coord_count": 29,
       "is_coordinated": true,
       "first_seen": "2026-08-21T08:05:00",
-      "last_seen": "2026-08-21T10:06:00",
+      "last_seen": "2026-08-21T10:15:00",
       "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
       "authors": [
-        "becathlon",
-        "bozaj",
         "givles",
-        "timurun fillerinin bakicisi"
+        "timurun fillerinin bakicisi",
+        "becathlon",
+        "bozaj"
       ],
       "sample_entries": [
         {
@@ -247,11 +247,11 @@
       "last_seen": "2026-08-21T14:40:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 24 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
+        "givles",
         "kecuva",
-        "bozaj",
-        "kafadanilo",
         "timurun fillerinin bakicisi",
-        "givles"
+        "kafadanilo",
+        "bozaj"
       ],
       "sample_entries": [
         {
@@ -307,8 +307,8 @@
       "last_seen": "2026-08-22T02:11:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "hohem",
         "large hail storm",
+        "hohem",
         "viransce",
         "meridyen6",
         "ckcozr"
@@ -357,66 +357,6 @@
       ]
     },
     {
-      "topic": "çocuğuna annen o... biliyor musun diyen baba",
-      "category": "Suni Gündem & Viral Çarpıtma",
-      "entry_count": 18,
-      "author_count": 18,
-      "coord_count": 17,
-      "is_coordinated": true,
-      "first_seen": "2026-08-20T07:45:00",
-      "last_seen": "2026-08-20T22:01:00",
-      "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
-      "authors": [
-        "bozaj",
-        "kafadanilo",
-        "becathlon",
-        "timurun fillerinin bakicisi",
-        "givles"
-      ],
-      "sample_entries": [
-        {
-          "author": "timurun fillerinin bakicisi",
-          "content": "küfür içerir videokadın, adamın whatsapp mesajlarını ifşalamışbu da olay sonrası adamın açıklaması \"orospu\" olacaktı ama malum sansür.boşanma aşamasındaki çiftin, araçta ettiği kavgada babanın kurduğu cümle.çocuğuna dönüp \"annen orospu biliyor musun\" demiş. etraftakiler adamı zorla araçtan uzaklaştırmış.",
-          "date_str": "20.08.2026 07:45 ~ 07:58",
-          "created_at": "2026-08-20T07:45:00",
-          "is_coordinated": 1,
-          "id": "185793226"
-        },
-        {
-          "author": "givles",
-          "content": "çocukların arkadaşları, çocukların ana babasını tanıyordur neticede. şimdi böyle bakınca olaya, o çocukların arkadaşları tarafından bu video yüzünden nasıl zorbalanacağını düşünmek aşırı rahatsız etti. bir baba işte bunu düşünmeli.",
-          "date_str": "20.08.2026 07:46",
-          "created_at": "2026-08-20T07:46:00",
-          "is_coordinated": 1,
-          "id": "185793228"
-        },
-        {
-          "author": "kafadanilo",
-          "content": "kimin haklı olduğunun hiçbir önemi yok. kadın gerçekten öyle olsa dahi çocuklara anan orospu demek nedir hayvan herif. o kadını anne yapan da sensin nihayetinde.",
-          "date_str": "20.08.2026 07:46",
-          "created_at": "2026-08-20T07:46:00",
-          "is_coordinated": 1,
-          "id": "185793227"
-        },
-        {
-          "author": "bozaj",
-          "content": "bu hikayede olan çocuklara olur. bariz belli anne de baba da sorunlu tipler.",
-          "date_str": "20.08.2026 07:47",
-          "created_at": "2026-08-20T07:47:00",
-          "is_coordinated": 1,
-          "id": "185793235"
-        },
-        {
-          "author": "becathlon",
-          "content": "çocuk çok küçük. muhtemelen de korkudan kilitlenmiş.ama muhtemeldir ki biraz daha büyüdüğünde ikisinden de nefret edecek. insanlar kalitesini her zaman boşanırken belli eder. ayrılık turnusol gibidir zira.",
-          "date_str": "20.08.2026 07:57",
-          "created_at": "2026-08-20T07:57:00",
-          "is_coordinated": 1,
-          "id": "185793297"
-        }
-      ]
-    },
-    {
       "topic": "masterchef türkiye",
       "category": "Suni Gündem & Viral Çarpıtma",
       "entry_count": 12,
@@ -428,10 +368,10 @@
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
         "realdreamer",
-        "mentolin",
-        "gunisiginda asili duran toz zerresi",
+        "gulbesekerisevdimde",
         "annenin terlik isabet ettiremedigi evlat",
-        "gulbesekerisevdimde"
+        "gunisiginda asili duran toz zerresi",
+        "mentolin"
       ],
       "sample_entries": [
         {
@@ -487,11 +427,11 @@
       "last_seen": "2026-08-22T14:48:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "kiy",
         "lechef",
-        "liligum",
         "veerle",
-        "kudayaltay"
+        "kudayaltay",
+        "kiy",
+        "liligum"
       ],
       "sample_entries": [
         {
@@ -550,8 +490,8 @@
         "ascsagittarius",
         "engineer061",
         "funeral winds",
-        "sozen",
-        "saksi cicegi"
+        "saksi cicegi",
+        "sozen"
       ],
       "sample_entries": [
         {
@@ -597,6 +537,66 @@
       ]
     },
     {
+      "topic": "32 yaşında 5 bin gün primi olan taş gibi kadın",
+      "category": "Kültür Savaşı & Yaşam Tarzı",
+      "entry_count": 11,
+      "author_count": 11,
+      "coord_count": 10,
+      "is_coordinated": true,
+      "first_seen": "2026-08-23T08:01:00",
+      "last_seen": "2026-08-23T20:34:00",
+      "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 11 hesap tarafından eşzamanlı gündeme taşındı.",
+      "authors": [
+        "givles",
+        "enturi",
+        "becathlon",
+        "timurun fillerinin bakicisi",
+        "bozaj"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "kadının videosubunu ben demiyorum, kendisi diyor. \"gencecik, taş gibi halimle çalıştım. şimdi sadece yaşımı bekliyorum\" demiş. akabinde de herkese laf atmış.",
+          "date_str": "23.08.2026 08:01",
+          "created_at": "2026-08-23T08:01:00",
+          "is_coordinated": 1,
+          "id": "185852719"
+        },
+        {
+          "author": "bozaj",
+          "content": "abi şu dudak nedir ya. basur dudak yaptırmayın kendinize gerçekten şu halinizi aynada beğeniyor musunuz aq.t: bir kadının prim günüyle övünmesi hadisesi.",
+          "date_str": "23.08.2026 08:02",
+          "created_at": "2026-08-23T08:02:00",
+          "is_coordinated": 1,
+          "id": "185852722"
+        },
+        {
+          "author": "givles",
+          "content": "ablacığım direkt tamamen soyunsaydın taş gibiyim demek için. tamam ikna olduk taş gibisin aq.*",
+          "date_str": "23.08.2026 08:02",
+          "created_at": "2026-08-23T08:02:00",
+          "is_coordinated": 1,
+          "id": "185852720"
+        },
+        {
+          "author": "becathlon",
+          "content": "mesele dudağından ziyade ten rengine rağmen kullandığı ruj. eskort gibi duruyor aq kimse söylememiştir muhtemelen. okursa bir katkım olsun da dikkat etsin diye yazıyorum. insanlıktan yani.",
+          "date_str": "23.08.2026 08:04",
+          "created_at": "2026-08-23T08:04:00",
+          "is_coordinated": 1,
+          "id": "185852739"
+        },
+        {
+          "author": "enturi",
+          "content": "\"sahne ve sunuculuk\" imiş sektörü. 16 yaşında nerede sunuculuk yapmış ya da nerede sahne almış merak ettiğim kadındır.",
+          "date_str": "23.08.2026 08:14",
+          "created_at": "2026-08-23T08:14:00",
+          "is_coordinated": 1,
+          "id": "185852832"
+        }
+      ]
+    },
+    {
       "topic": "görülmüş en etkileyici tarihi yapı",
       "category": "Suni Gündem & Viral Çarpıtma",
       "entry_count": 11,
@@ -607,10 +607,10 @@
       "last_seen": "2026-08-22T22:25:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "ckmltyf",
-        "niltt",
         "lonely tree",
         "slowrocker",
+        "ckmltyf",
+        "niltt",
         "ddy666"
       ],
       "sample_entries": [
@@ -667,11 +667,11 @@
       "last_seen": "2026-08-22T09:28:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
+        "arzawa",
         "gitmiyorsun",
-        "vladmicov",
-        "acmemade",
         "arsiz marketing",
-        "arzawa"
+        "acmemade",
+        "vladmicov"
       ],
       "sample_entries": [
         {
@@ -727,11 +727,11 @@
       "last_seen": "2026-08-22T20:41:00",
       "summary": "Pahalılık/turist/esnaf algısını çarpıtma ve ekonomik tepkileri hafifletme amacıyla 10 hesap tarafından organize paylaşıldı.",
       "authors": [
-        "monofobik",
-        "7714714",
-        "mertolyon",
+        "rootifera",
         "ondortelliuc",
-        "rootifera"
+        "mertolyon",
+        "monofobik",
+        "7714714"
       ],
       "sample_entries": [
         {
@@ -787,11 +787,11 @@
       "last_seen": "2026-08-22T11:44:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 10 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "neutral true",
-        "cunoesse vittulainen",
         "charango",
+        "cunoesse vittulainen",
+        "x4",
         "debe okurum",
-        "x4"
+        "neutral true"
       ],
       "sample_entries": [
         {
@@ -847,10 +847,10 @@
       "last_seen": "2026-08-22T21:27:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
+        "odoriko",
+        "kedisininyumagi",
         "edward leon",
         "lmrvnx",
-        "kedisininyumagi",
-        "odoriko",
         "delikanlininja"
       ],
       "sample_entries": [

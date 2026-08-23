@@ -12,10 +12,10 @@
       "last_seen": "2026-08-22T22:16:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 26 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "nane kokusu",
-        "bozaj",
         "givles",
-        "timurun fillerinin bakicisi"
+        "timurun fillerinin bakicisi",
+        "nane kokusu",
+        "bozaj"
       ],
       "sample_entries": [
         {
@@ -63,17 +63,17 @@
     {
       "topic": "yabancı turistin türk esnafına isyan etmesi",
       "category": "Ekonomi Savunması & Aklama",
-      "entry_count": 30,
-      "author_count": 25,
-      "coord_count": 30,
+      "entry_count": 31,
+      "author_count": 26,
+      "coord_count": 31,
       "is_coordinated": true,
       "first_seen": "2026-08-22T15:44:00",
-      "last_seen": "2026-08-22T20:55:00",
-      "summary": "Pahalılık/turist/esnaf algısını çarpıtma ve ekonomik tepkileri hafifletme amacıyla 25 hesap tarafından organize paylaşıldı.",
+      "last_seen": "2026-08-22T21:01:00",
+      "summary": "Pahalılık/turist/esnaf algısını çarpıtma ve ekonomik tepkileri hafifletme amacıyla 26 hesap tarafından organize paylaşıldı.",
       "authors": [
-        "bozaj",
         "givles",
-        "timurun fillerinin bakicisi"
+        "timurun fillerinin bakicisi",
+        "bozaj"
       ],
       "sample_entries": [
         {
@@ -121,18 +121,18 @@
     {
       "topic": "ankara'da alman kurdundan kaçarken ölen çocuk",
       "category": "Suni Gündem & Viral Çarpıtma",
-      "entry_count": 28,
-      "author_count": 25,
-      "coord_count": 28,
+      "entry_count": 29,
+      "author_count": 26,
+      "coord_count": 29,
       "is_coordinated": true,
       "first_seen": "2026-08-22T07:31:00",
-      "last_seen": "2026-08-22T18:50:00",
+      "last_seen": "2026-08-22T20:03:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "becathlon",
-        "bozaj",
         "givles",
-        "timurun fillerinin bakicisi"
+        "timurun fillerinin bakicisi",
+        "becathlon",
+        "bozaj"
       ],
       "sample_entries": [
         {
@@ -178,80 +178,20 @@
       ]
     },
     {
-      "topic": "kadın hakimin tartıştığı çifti gözaltına aldırması",
-      "category": "Yargı, Güvenlik & Hamaset",
-      "entry_count": 26,
-      "author_count": 25,
-      "coord_count": 26,
-      "is_coordinated": true,
-      "first_seen": "2026-08-18T10:36:00",
-      "last_seen": "2026-08-18T14:08:00",
-      "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
-      "authors": [
-        "bozaj",
-        "becathlon",
-        "timurun fillerinin bakicisi",
-        "givles",
-        "enturi"
-      ],
-      "sample_entries": [
-        {
-          "author": "timurun fillerinin bakicisi",
-          "content": "gözaltına alınan kadının olayı anlatımıbu da kaza anının videosuolay adana'da yaşanmış.öğretmen olan kadın ve infaz koruma memuru olan eşinin gözaltına alınma hadisesi. kadın hakim, ani manevra yapmış. adam da bunun üstüne kadına çarpmamak için manevra yapınca bir kamyona çarpmış. kadın yoluna devam etmiş. ışıklarda karşılaşınca adam kadına aracında hasar olduğunu söylemiş. ve o günün akşamına ısrarlı takip nedeniyle gözaltına alınmışlar.",
-          "date_str": "18.08.2026 10:36",
-          "created_at": "2026-08-18T10:36:00",
-          "is_coordinated": 1,
-          "id": "185757852"
-        },
-        {
-          "author": "bozaj",
-          "content": "\"kadın hakim hakaretler edip, sizi gözaltına aldıracağım dedi\"adalet kılıcı böyle bir şey değil. ki devletin haber ajanslarına kadar düşmüş olay.art niyet göstergesi var. tek başına sürücü alınsa yine kabul edielemez tabii ama karı koca alınmaları olayın açıklanabilir tek yanını bırakmıyor. zaten olayın her yanını 2'sinin alınması açıklıyor. muhakeme yeteneği olan herkes her şeyin farkında. gerisi edebiyata girer.",
-          "date_str": "18.08.2026 10:37 ~ 12:39",
-          "created_at": "2026-08-18T10:37:00",
-          "is_coordinated": 1,
-          "id": "185757855"
-        },
-        {
-          "author": "givles",
-          "content": "karı kocayı bir gece nezarette tutmuşlar. hepsi hakkında kanunsuz emirden de işlem yapılmasını dilerim şayet kadının söyledikleri doğru ise. pek yalan gibi durmuyor. birileri böyle durumda buna yetkin yok diyebilmeli.",
-          "date_str": "18.08.2026 10:37",
-          "created_at": "2026-08-18T10:37:00",
-          "is_coordinated": 1,
-          "id": "185757860"
-        },
-        {
-          "author": "becathlon",
-          "content": "avukatın cümlesi her şeyi anlatıyor:\"şahsi egolarını tatmin etmek için vatandaşa bu kadar zulmetmesin\"zulmetmesin demiyor. bu kadar zulmetmesin diyor. daha üstüne ne denir ki.",
-          "date_str": "18.08.2026 10:45",
-          "created_at": "2026-08-18T10:45:00",
-          "is_coordinated": 1,
-          "id": "185757967"
-        },
-        {
-          "author": "enturi",
-          "content": "ilgili kadın hakimin tüm kararları incelenmeli. adaleti kendi lehine kullanma çabasına girenin kantarı bozuktur zira.",
-          "date_str": "18.08.2026 10:57",
-          "created_at": "2026-08-18T10:57:00",
-          "is_coordinated": 1,
-          "id": "185758156"
-        }
-      ]
-    },
-    {
       "topic": "soylu'nun yeğeniyim diyen kadının terör estirmesi",
       "category": "Yargı, Güvenlik & Hamaset",
-      "entry_count": 28,
-      "author_count": 24,
-      "coord_count": 28,
+      "entry_count": 29,
+      "author_count": 25,
+      "coord_count": 29,
       "is_coordinated": true,
       "first_seen": "2026-08-21T08:05:00",
-      "last_seen": "2026-08-21T10:06:00",
+      "last_seen": "2026-08-21T10:15:00",
       "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
       "authors": [
-        "becathlon",
-        "bozaj",
         "givles",
-        "timurun fillerinin bakicisi"
+        "timurun fillerinin bakicisi",
+        "becathlon",
+        "bozaj"
       ],
       "sample_entries": [
         {
@@ -297,6 +237,66 @@
       ]
     },
     {
+      "topic": "kadın hakimin tartıştığı çifti gözaltına aldırması",
+      "category": "Yargı, Güvenlik & Hamaset",
+      "entry_count": 26,
+      "author_count": 25,
+      "coord_count": 26,
+      "is_coordinated": true,
+      "first_seen": "2026-08-18T10:36:00",
+      "last_seen": "2026-08-18T14:08:00",
+      "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
+      "authors": [
+        "givles",
+        "enturi",
+        "becathlon",
+        "timurun fillerinin bakicisi",
+        "bozaj"
+      ],
+      "sample_entries": [
+        {
+          "author": "timurun fillerinin bakicisi",
+          "content": "gözaltına alınan kadının olayı anlatımıbu da kaza anının videosuolay adana'da yaşanmış.öğretmen olan kadın ve infaz koruma memuru olan eşinin gözaltına alınma hadisesi. kadın hakim, ani manevra yapmış. adam da bunun üstüne kadına çarpmamak için manevra yapınca bir kamyona çarpmış. kadın yoluna devam etmiş. ışıklarda karşılaşınca adam kadına aracında hasar olduğunu söylemiş. ve o günün akşamına ısrarlı takip nedeniyle gözaltına alınmışlar.",
+          "date_str": "18.08.2026 10:36",
+          "created_at": "2026-08-18T10:36:00",
+          "is_coordinated": 1,
+          "id": "185757852"
+        },
+        {
+          "author": "bozaj",
+          "content": "\"kadın hakim hakaretler edip, sizi gözaltına aldıracağım dedi\"adalet kılıcı böyle bir şey değil. ki devletin haber ajanslarına kadar düşmüş olay.art niyet göstergesi var. tek başına sürücü alınsa yine kabul edielemez tabii ama karı koca alınmaları olayın açıklanabilir tek yanını bırakmıyor. zaten olayın her yanını 2'sinin alınması açıklıyor. muhakeme yeteneği olan herkes her şeyin farkında. gerisi edebiyata girer.",
+          "date_str": "18.08.2026 10:37 ~ 12:39",
+          "created_at": "2026-08-18T10:37:00",
+          "is_coordinated": 1,
+          "id": "185757855"
+        },
+        {
+          "author": "givles",
+          "content": "karı kocayı bir gece nezarette tutmuşlar. hepsi hakkında kanunsuz emirden de işlem yapılmasını dilerim şayet kadının söyledikleri doğru ise. pek yalan gibi durmuyor. birileri böyle durumda buna yetkin yok diyebilmeli.",
+          "date_str": "18.08.2026 10:37",
+          "created_at": "2026-08-18T10:37:00",
+          "is_coordinated": 1,
+          "id": "185757860"
+        },
+        {
+          "author": "becathlon",
+          "content": "avukatın cümlesi her şeyi anlatıyor:\"şahsi egolarını tatmin etmek için vatandaşa bu kadar zulmetmesin\"zulmetmesin demiyor. bu kadar zulmetmesin diyor. daha üstüne ne denir ki.",
+          "date_str": "18.08.2026 10:45",
+          "created_at": "2026-08-18T10:45:00",
+          "is_coordinated": 1,
+          "id": "185757967"
+        },
+        {
+          "author": "enturi",
+          "content": "ilgili kadın hakimin tüm kararları incelenmeli. adaleti kendi lehine kullanma çabasına girenin kantarı bozuktur zira.",
+          "date_str": "18.08.2026 10:57",
+          "created_at": "2026-08-18T10:57:00",
+          "is_coordinated": 1,
+          "id": "185758156"
+        }
+      ]
+    },
+    {
       "topic": "manisa'da sunroof'tan çıkıp dans eden kadın",
       "category": "Kültür Savaşı & Yaşam Tarzı",
       "entry_count": 24,
@@ -307,11 +307,11 @@
       "last_seen": "2026-08-16T11:05:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 24 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "bozaj",
+        "givles",
+        "enturi",
         "becathlon",
         "timurun fillerinin bakicisi",
-        "givles",
-        "enturi"
+        "bozaj"
       ],
       "sample_entries": [
         {
@@ -367,11 +367,11 @@
       "last_seen": "2026-08-21T14:40:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 24 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
+        "givles",
         "kecuva",
-        "bozaj",
-        "kafadanilo",
         "timurun fillerinin bakicisi",
-        "givles"
+        "kafadanilo",
+        "bozaj"
       ],
       "sample_entries": [
         {
@@ -427,11 +427,11 @@
       "last_seen": "2026-08-18T08:28:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "david ellefson",
+        "givles",
+        "enturi",
         "becathlon",
         "timurun fillerinin bakicisi",
-        "givles",
-        "enturi"
+        "david ellefson"
       ],
       "sample_entries": [
         {
@@ -487,8 +487,8 @@
       "last_seen": "2026-08-22T02:11:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "hohem",
         "large hail storm",
+        "hohem",
         "viransce",
         "meridyen6",
         "ckcozr"
@@ -547,11 +547,11 @@
       "last_seen": "2026-08-18T09:56:00",
       "summary": "Muhalefet partileri ve belediyeleri hedef alan organize dezenformasyon/eleştiri dalgası.",
       "authors": [
-        "bozaj",
+        "givles",
+        "enturi",
         "becathlon",
         "timurun fillerinin bakicisi",
-        "givles",
-        "enturi"
+        "bozaj"
       ],
       "sample_entries": [
         {
@@ -607,11 +607,11 @@
       "last_seen": "2026-08-20T22:01:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "bozaj",
-        "kafadanilo",
+        "givles",
         "becathlon",
         "timurun fillerinin bakicisi",
-        "givles"
+        "kafadanilo",
+        "bozaj"
       ],
       "sample_entries": [
         {
@@ -667,11 +667,11 @@
       "last_seen": "2026-08-18T09:26:00",
       "summary": "Toplumsal kutuplaşma ve yaşam tarzı tartışması üzerinden 14 hesap tarafından eşzamanlı gündeme taşındı.",
       "authors": [
-        "bozaj",
+        "givles",
+        "enturi",
         "becathlon",
         "timurun fillerinin bakicisi",
-        "givles",
-        "enturi"
+        "bozaj"
       ],
       "sample_entries": [
         {
@@ -728,10 +728,10 @@
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
         "realdreamer",
-        "mentolin",
-        "gunisiginda asili duran toz zerresi",
+        "gulbesekerisevdimde",
         "annenin terlik isabet ettiremedigi evlat",
-        "gulbesekerisevdimde"
+        "gunisiginda asili duran toz zerresi",
+        "mentolin"
       ],
       "sample_entries": [
         {
@@ -787,11 +787,11 @@
       "last_seen": "2026-08-22T14:48:00",
       "summary": "Gündem değiştirme ve dikkat dağıtma amaçlı viral içerik pompalaması.",
       "authors": [
-        "kiy",
         "lechef",
-        "liligum",
         "veerle",
-        "kudayaltay"
+        "kudayaltay",
+        "kiy",
+        "liligum"
       ],
       "sample_entries": [
         {
@@ -847,10 +847,10 @@
       "last_seen": "2026-08-19T11:00:00",
       "summary": "Yargı ve güvenlik süreçlerini meşrulaştırma veya karşıt figürleri itibarsızlaştırma operasyonu.",
       "authors": [
-        "timurun fillerinin bakicisi",
-        "becathlon",
-        "londrast",
         "enturi",
+        "londrast",
+        "becathlon",
+        "timurun fillerinin bakicisi",
         "madanin"
       ],
       "sample_entries": [

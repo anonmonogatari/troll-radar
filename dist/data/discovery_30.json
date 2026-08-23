@@ -5,7 +5,7 @@
     {
       "cell_name": "Algı Operasyonu",
       "member_count": 16,
-      "average_troll_score": 68.7,
+      "average_troll_score": 68.3,
       "members": [
         "bozaj",
         "hackerbey",
@@ -14,8 +14,8 @@
         "becathlon",
         "enturi",
         "dijitalkitap",
-        "londrast",
         "reactionshot",
+        "londrast",
         "madanin",
         "ingiliz dili ve edebiyati",
         "kafadanilo",
@@ -25,11 +25,11 @@
         "miamix"
       ],
       "top_evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
-        "yabancı turistin türk esnafına isyan etmesi",
-        "birleştirilmesi talep edilen başlıklar",
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması"
+        "ankara'da alman kurdundan kaçarken ölen çocuk",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "chp'li belediyelerin fahiş konser harcamaları"
       ]
     },
     {
@@ -45,27 +45,27 @@
         "funkycrow"
       ],
       "top_evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
-        "yabancı turistin türk esnafına isyan etmesi",
-        "chp'li belediyelerin fahiş konser harcamaları"
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "chp'li belediyelerin fahiş konser harcamaları",
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ]
     },
     {
       "cell_name": "Belediye Karalama",
       "member_count": 3,
-      "average_troll_score": 63.9,
+      "average_troll_score": 63.1,
       "members": [
-        "playerman",
         "georgewalker",
+        "playerman",
         "szw"
       ],
       "top_evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "ekrem imamoğlu'nun roma gezisi faturası",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi"
       ]
     },
     {
@@ -77,10 +77,10 @@
         "948"
       ],
       "top_evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "haşemalılarla aynı denize girmek istemeyen kadın",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi"
       ]
     }
   ],
@@ -91,41 +91,41 @@
       "risk_level": "Kesin Troll",
       "badge_color": "red",
       "detected_cell": "Yargı / Güvenlik",
-      "entry_count": 18,
+      "entry_count": 19,
       "metrics": {
         "inception_count": 6,
         "early_swarm_count": 10,
-        "manufactured_focus_ratio": 55.6,
+        "manufactured_focus_ratio": 52.6,
         "vote_brigading": 65.0,
-        "stance_alignment": 22.2
+        "stance_alignment": 21.1
       },
       "evidence_topics": [
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ],
       "is_monitored": true
     },
     {
       "nick": "bozaj",
-      "troll_score": 92.1,
+      "troll_score": 91.6,
       "risk_level": "Kesin Troll",
       "badge_color": "red",
       "detected_cell": "Algı Operasyonu",
-      "entry_count": 16,
+      "entry_count": 17,
       "metrics": {
         "inception_count": 1,
         "early_swarm_count": 5,
-        "manufactured_focus_ratio": 31.2,
+        "manufactured_focus_ratio": 29.4,
         "vote_brigading": 95.0,
-        "stance_alignment": 20.0
+        "stance_alignment": 18.8
       },
       "evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
-        "birleştirilmesi talep edilen başlıklar",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ],
       "is_monitored": true
     },
@@ -144,10 +144,10 @@
         "stance_alignment": 18.2
       },
       "evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "chp'li belediyelerin fahiş konser harcamaları",
+        "yabancı turistin türk esnafına isyan etmesi",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "chp'li belediyelerin fahiş konser harcamaları"
       ],
       "is_monitored": true
     },
@@ -166,75 +166,75 @@
         "stance_alignment": 16.7
       },
       "evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "yabancı turistin türk esnafına isyan etmesi",
         "ekrem imamoğlu'nun roma gezisi faturası",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi"
       ],
       "is_monitored": true
     },
     {
       "nick": "givles",
-      "troll_score": 75.2,
+      "troll_score": 74.9,
       "risk_level": "Kesin Troll",
       "badge_color": "red",
       "detected_cell": "Algı Operasyonu",
-      "entry_count": 15,
+      "entry_count": 16,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 3,
-        "manufactured_focus_ratio": 20.0,
+        "manufactured_focus_ratio": 18.8,
         "vote_brigading": 95.0,
-        "stance_alignment": 13.3
+        "stance_alignment": 12.5
       },
       "evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
-        "yabancı turistin türk esnafına isyan etmesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ],
       "is_monitored": true
     },
     {
       "nick": "becathlon",
-      "troll_score": 75.2,
+      "troll_score": 74.9,
       "risk_level": "Kesin Troll",
       "badge_color": "red",
       "detected_cell": "Algı Operasyonu",
-      "entry_count": 15,
+      "entry_count": 16,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 3,
-        "manufactured_focus_ratio": 20.0,
+        "manufactured_focus_ratio": 18.8,
         "vote_brigading": 95.0,
-        "stance_alignment": 20.0
+        "stance_alignment": 18.8
       },
       "evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
-        "yabancı turistin türk esnafına isyan etmesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ],
       "is_monitored": true
     },
     {
       "nick": "enturi",
-      "troll_score": 73.5,
+      "troll_score": 73.2,
       "risk_level": "Kesin Troll",
       "badge_color": "red",
       "detected_cell": "Algı Operasyonu",
-      "entry_count": 14,
+      "entry_count": 15,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 2,
-        "manufactured_focus_ratio": 14.3,
+        "manufactured_focus_ratio": 13.3,
         "vote_brigading": 95.0,
-        "stance_alignment": 7.1
+        "stance_alignment": 6.7
       },
       "evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
-        "yabancı turistin türk esnafına isyan etmesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ],
       "is_monitored": true
@@ -254,9 +254,9 @@
         "stance_alignment": 20.0
       },
       "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "yabancı turistin türk esnafına isyan etmesi",
+        "chp'li belediyelerin fahiş konser harcamaları"
       ],
       "is_monitored": true
     },
@@ -275,72 +275,31 @@
         "stance_alignment": 18.2
       },
       "evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "ekrem imamoğlu'nun roma gezisi faturası",
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "londrast",
-      "troll_score": 69.3,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Algı Operasyonu",
-      "entry_count": 13,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 1,
-        "manufactured_focus_ratio": 7.7,
-        "vote_brigading": 80.0,
-        "stance_alignment": 7.7
-      },
-      "evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
         "yabancı turistin türk esnafına isyan etmesi",
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması"
+        "ekrem imamoğlu'nun roma gezisi faturası",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi"
       ],
       "is_monitored": true
     },
     {
       "nick": "reactionshot",
-      "troll_score": 69.3,
+      "troll_score": 67.4,
       "risk_level": "İlk Dalga",
       "badge_color": "orange",
       "detected_cell": "Algı Operasyonu",
-      "entry_count": 13,
+      "entry_count": 14,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 1,
-        "manufactured_focus_ratio": 7.7,
+        "manufactured_focus_ratio": 7.1,
         "vote_brigading": 80.0,
-        "stance_alignment": 15.4
+        "stance_alignment": 14.3
       },
       "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "yabancı turistin türk esnafına isyan etmesi",
         "19 ağustos 2026 a. kuytul'un gözaltına alınması",
-        "ekrem imamoğlu'nun roma gezisi faturası"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "playerman",
-      "troll_score": 69.2,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Belediye Karalama",
-      "entry_count": 1,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 1,
-        "manufactured_focus_ratio": 100.0,
-        "vote_brigading": 95.0,
-        "stance_alignment": 100.0
-      },
-      "evidence_topics": [
         "ekrem imamoğlu'nun roma gezisi faturası"
       ],
       "is_monitored": true
@@ -360,9 +319,9 @@
         "stance_alignment": 7.7
       },
       "evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "yabancı turistin türk esnafına isyan etmesi",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi"
       ],
       "is_monitored": true
     },
@@ -381,7 +340,50 @@
         "stance_alignment": 23.1
       },
       "evidence_topics": [
+        "yabancı turistin türk esnafına isyan etmesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "londrast",
+      "troll_score": 66.9,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Algı Operasyonu",
+      "entry_count": 14,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 1,
+        "manufactured_focus_ratio": 7.1,
+        "vote_brigading": 65.0,
+        "stance_alignment": 14.3
+      },
+      "evidence_topics": [
+        "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "playerman",
+      "troll_score": 66.8,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Belediye Karalama",
+      "entry_count": 4,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 1,
+        "manufactured_focus_ratio": 25.0,
+        "vote_brigading": 95.0,
+        "stance_alignment": 25.0
+      },
+      "evidence_topics": [
+        "ekrem imamoğlu'nun roma gezisi faturası",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "yabancı turistin türk esnafına isyan etmesi"
       ],
@@ -389,22 +391,22 @@
     },
     {
       "nick": "madanin",
-      "troll_score": 66.8,
+      "troll_score": 66.5,
       "risk_level": "İlk Dalga",
       "badge_color": "orange",
       "detected_cell": "Algı Operasyonu",
-      "entry_count": 14,
+      "entry_count": 15,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 2,
-        "manufactured_focus_ratio": 14.3,
+        "manufactured_focus_ratio": 13.3,
         "vote_brigading": 50.0,
-        "stance_alignment": 7.1
+        "stance_alignment": 6.7
       },
       "evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
-        "yabancı turistin türk esnafına isyan etmesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ],
       "is_monitored": true
@@ -424,10 +426,10 @@
         "stance_alignment": 16.7
       },
       "evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "chp'li belediyelerin fahiş konser harcamaları",
+        "yabancı turistin türk esnafına isyan etmesi",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "chp'li belediyelerin fahiş konser harcamaları"
       ],
       "is_monitored": true
     },
@@ -446,9 +448,9 @@
         "stance_alignment": 16.7
       },
       "evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "yabancı turistin türk esnafına isyan etmesi",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi"
       ],
       "is_monitored": true
     },
@@ -467,9 +469,9 @@
         "stance_alignment": 23.1
       },
       "evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "yabancı turistin türk esnafına isyan etmesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "haşemalılarla aynı denize girmek istemeyen kadın"
       ],
       "is_monitored": true
@@ -489,9 +491,9 @@
         "stance_alignment": 25.0
       },
       "evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "yabancı turistin türk esnafına isyan etmesi",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "yabancı turistin türk esnafına isyan etmesi"
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi"
       ],
       "is_monitored": true
     },
@@ -510,36 +512,14 @@
         "stance_alignment": 11.1
       },
       "evidence_topics": [
-        "chp'li belediyelerin fahiş konser harcamaları",
         "soylu'nun yeğeniyim diyen kadının terör estirmesi",
-        "yabancı turistin türk esnafına isyan etmesi"
-      ],
-      "is_monitored": true
-    },
-    {
-      "nick": "kafadanilo",
-      "troll_score": 57.3,
-      "risk_level": "İlk Dalga",
-      "badge_color": "orange",
-      "detected_cell": "Algı Operasyonu",
-      "entry_count": 13,
-      "metrics": {
-        "inception_count": 0,
-        "early_swarm_count": 1,
-        "manufactured_focus_ratio": 7.7,
-        "vote_brigading": 0.0,
-        "stance_alignment": 7.7
-      },
-      "evidence_topics": [
-        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "yabancı turistin türk esnafına isyan etmesi",
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
         "chp'li belediyelerin fahiş konser harcamaları"
       ],
       "is_monitored": true
     },
     {
-      "nick": "medyumay",
+      "nick": "kafadanilo",
       "troll_score": 57.1,
       "risk_level": "İlk Dalga",
       "badge_color": "orange",
@@ -553,9 +533,31 @@
         "stance_alignment": 7.1
       },
       "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
+        "chp'li belediyelerin fahiş konser harcamaları",
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması"
+      ],
+      "is_monitored": true
+    },
+    {
+      "nick": "medyumay",
+      "troll_score": 57.0,
+      "risk_level": "İlk Dalga",
+      "badge_color": "orange",
+      "detected_cell": "Algı Operasyonu",
+      "entry_count": 15,
+      "metrics": {
+        "inception_count": 0,
+        "early_swarm_count": 1,
+        "manufactured_focus_ratio": 6.7,
+        "vote_brigading": 0.0,
+        "stance_alignment": 13.3
+      },
+      "evidence_topics": [
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
-        "yabancı turistin türk esnafına isyan etmesi",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
+        "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
         "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ],
       "is_monitored": true
@@ -575,8 +577,8 @@
         "stance_alignment": 10.0
       },
       "evidence_topics": [
-        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "ekrem imamoğlu'nun roma gezisi faturası",
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true
@@ -587,19 +589,19 @@
       "risk_level": "İlk Dalga",
       "badge_color": "orange",
       "detected_cell": "Algı Operasyonu",
-      "entry_count": 13,
+      "entry_count": 14,
       "metrics": {
         "inception_count": 0,
         "early_swarm_count": 0,
         "manufactured_focus_ratio": 0.0,
         "vote_brigading": 0.0,
-        "stance_alignment": 7.7
+        "stance_alignment": 7.1
       },
       "evidence_topics": [
+        "soylu'nun yeğeniyim diyen kadının terör estirmesi",
         "17 ağustos 2026 alihan kuriş'in savcılık ifadesi",
-        "yabancı turistin türk esnafına isyan etmesi",
-        "19 ağustos 2026 a. kuytul'un gözaltına alınması",
-        "chp'li belediyelerin fahiş konser harcamaları"
+        "chp'li belediyelerin fahiş konser harcamaları",
+        "19 ağustos 2026 a. kuytul'un gözaltına alınması"
       ],
       "is_monitored": true
     },
@@ -638,8 +640,8 @@
         "stance_alignment": 0.0
       },
       "evidence_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk",
         "19 ağustos 2026 öcalan'ın özgür özel'e çağrısı",
+        "ankara'da alman kurdundan kaçarken ölen çocuk",
         "yabancı turistin türk esnafına isyan etmesi"
       ],
       "is_monitored": true

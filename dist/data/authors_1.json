@@ -2,407 +2,52 @@
   "total": 27,
   "authors": [
     {
-      "nick": "timurun fillerinin bakicisi",
-      "display_name": "timurun fillerinin bakicisi",
-      "last_scraped_at": "2026-08-23T01:58:23.018450",
-      "last_entry_at": "2026-08-22T15:44:00",
-      "is_active": 1,
-      "period_entries": 6,
-      "coordinated_entries": 6,
-      "distinct_topics": 3,
-      "risk_score": 100.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "1xw",
-      "display_name": "1xw",
-      "last_scraped_at": "2026-08-23T01:58:26.889839",
-      "last_entry_at": "2026-08-22T21:14:00",
-      "is_active": 1,
-      "period_entries": 5,
-      "coordinated_entries": 5,
-      "distinct_topics": 3,
-      "risk_score": 95.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
       "nick": "948",
       "display_name": "948",
-      "last_scraped_at": "2026-08-23T01:58:24.951893",
+      "last_scraped_at": "2026-08-23T21:13:30.881487",
       "last_entry_at": "2026-08-22T21:52:00",
       "is_active": 1,
-      "period_entries": 5,
-      "coordinated_entries": 5,
-      "distinct_topics": 3,
-      "risk_score": 95.0,
+      "period_entries": 2,
+      "coordinated_entries": 2,
+      "distinct_topics": 1,
+      "risk_score": 38.0,
       "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
+        "haşemalılarla aynı denize girmek istemeyen kadın"
       ]
     },
     {
       "nick": "becathlon",
       "display_name": "becathlon",
-      "last_scraped_at": "2026-08-23T01:58:28.920181",
-      "last_entry_at": "2026-08-22T15:47:00",
+      "last_scraped_at": "2026-08-23T21:13:32.311411",
+      "last_entry_at": "2026-08-23T08:04:00",
       "is_active": 1,
-      "period_entries": 5,
-      "coordinated_entries": 5,
-      "distinct_topics": 3,
-      "risk_score": 95.0,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
       "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
+        "32 yaşında 5 bin gün primi olan taş gibi kadın"
       ]
     },
     {
       "nick": "bozaj",
       "display_name": "bozaj",
-      "last_scraped_at": "2026-08-23T01:58:30.860037",
-      "last_entry_at": "2026-08-22T15:45:00",
+      "last_scraped_at": "2026-08-23T21:13:33.700132",
+      "last_entry_at": "2026-08-23T08:02:00",
       "is_active": 1,
-      "period_entries": 5,
-      "coordinated_entries": 5,
-      "distinct_topics": 3,
-      "risk_score": 95.0,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
       "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "enturi",
-      "display_name": "enturi",
-      "last_scraped_at": "2026-08-23T01:58:36.010886",
-      "last_entry_at": "2026-08-22T15:49:00",
-      "is_active": 1,
-      "period_entries": 4,
-      "coordinated_entries": 4,
-      "distinct_topics": 3,
-      "risk_score": 76.0,
-      "top_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk",
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
-      ]
-    },
-    {
-      "nick": "georgewalker",
-      "display_name": "georgewalker",
-      "last_scraped_at": "2026-08-23T01:58:38.553902",
-      "last_entry_at": "2026-08-22T21:05:00",
-      "is_active": 1,
-      "period_entries": 4,
-      "coordinated_entries": 4,
-      "distinct_topics": 3,
-      "risk_score": 76.0,
-      "top_topics": [
-        "ankara'da alman kurdundan kaçarken ölen çocuk",
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın"
+        "32 yaşında 5 bin gün primi olan taş gibi kadın"
       ]
     },
     {
       "nick": "dijitalkitap",
       "display_name": "dijitalkitap",
-      "last_scraped_at": "2026-08-23T01:58:34.002748",
+      "last_scraped_at": "2026-08-23T21:13:34.958017",
       "last_entry_at": "2026-08-22T22:05:00",
-      "is_active": 1,
-      "period_entries": 3,
-      "coordinated_entries": 3,
-      "distinct_topics": 3,
-      "risk_score": 57.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "givles",
-      "display_name": "givles",
-      "last_scraped_at": "2026-08-23T01:58:39.909419",
-      "last_entry_at": "2026-08-22T15:45:00",
-      "is_active": 1,
-      "period_entries": 3,
-      "coordinated_entries": 3,
-      "distinct_topics": 3,
-      "risk_score": 57.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "hackerbey",
-      "display_name": "hackerbey",
-      "last_scraped_at": "2026-08-23T01:58:41.925654",
-      "last_entry_at": "2026-08-22T22:00:00",
-      "is_active": 1,
-      "period_entries": 3,
-      "coordinated_entries": 3,
-      "distinct_topics": 3,
-      "risk_score": 57.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "hirvatistanli",
-      "display_name": "hirvatistanli",
-      "last_scraped_at": "2026-08-23T01:58:42.605319",
-      "last_entry_at": "2026-08-22T22:08:00",
-      "is_active": 1,
-      "period_entries": 3,
-      "coordinated_entries": 3,
-      "distinct_topics": 3,
-      "risk_score": 57.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "ingiliz dili ve edebiyati",
-      "display_name": "ingiliz dili ve edebiyati",
-      "last_scraped_at": "2026-08-23T01:58:45.268432",
-      "last_entry_at": "2026-08-22T21:21:00",
-      "is_active": 1,
-      "period_entries": 3,
-      "coordinated_entries": 3,
-      "distinct_topics": 3,
-      "risk_score": 57.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "kafadanilo",
-      "display_name": "kafadanilo",
-      "last_scraped_at": "2026-08-23T01:58:48.140834",
-      "last_entry_at": "2026-08-22T16:20:00",
-      "is_active": 1,
-      "period_entries": 3,
-      "coordinated_entries": 3,
-      "distinct_topics": 3,
-      "risk_score": 57.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "kecuva",
-      "display_name": "kecuva",
-      "last_scraped_at": "2026-08-23T01:58:51.923234",
-      "last_entry_at": "2026-08-22T16:17:00",
-      "is_active": 1,
-      "period_entries": 3,
-      "coordinated_entries": 3,
-      "distinct_topics": 3,
-      "risk_score": 57.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "lacivertnokta",
-      "display_name": "lacivertnokta",
-      "last_scraped_at": "2026-08-23T01:58:54.558528",
-      "last_entry_at": "2026-08-22T21:45:00",
-      "is_active": 1,
-      "period_entries": 3,
-      "coordinated_entries": 3,
-      "distinct_topics": 3,
-      "risk_score": 57.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "localtime",
-      "display_name": "localtime",
-      "last_scraped_at": "2026-08-23T01:58:57.180454",
-      "last_entry_at": "2026-08-22T16:31:00",
-      "is_active": 1,
-      "period_entries": 3,
-      "coordinated_entries": 3,
-      "distinct_topics": 3,
-      "risk_score": 57.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "londrast",
-      "display_name": "londrast",
-      "last_scraped_at": "2026-08-23T01:59:00.480506",
-      "last_entry_at": "2026-08-22T16:05:00",
-      "is_active": 1,
-      "period_entries": 3,
-      "coordinated_entries": 3,
-      "distinct_topics": 3,
-      "risk_score": 57.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "madanin",
-      "display_name": "madanin",
-      "last_scraped_at": "2026-08-23T01:59:01.822046",
-      "last_entry_at": "2026-08-22T16:08:00",
-      "is_active": 1,
-      "period_entries": 3,
-      "coordinated_entries": 3,
-      "distinct_topics": 3,
-      "risk_score": 57.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "medyumay",
-      "display_name": "medyumay",
-      "last_scraped_at": "2026-08-23T01:59:04.445974",
-      "last_entry_at": "2026-08-22T16:12:00",
-      "is_active": 1,
-      "period_entries": 3,
-      "coordinated_entries": 3,
-      "distinct_topics": 3,
-      "risk_score": 57.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "parantezicindekiadam",
-      "display_name": "parantezicindekiadam",
-      "last_scraped_at": "2026-08-23T01:59:06.465497",
-      "last_entry_at": "2026-08-22T21:17:00",
-      "is_active": 1,
-      "period_entries": 3,
-      "coordinated_entries": 3,
-      "distinct_topics": 3,
-      "risk_score": 57.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "reactionshot",
-      "display_name": "reactionshot",
-      "last_scraped_at": "2026-08-23T01:59:10.551488",
-      "last_entry_at": "2026-08-22T16:27:00",
-      "is_active": 1,
-      "period_entries": 3,
-      "coordinated_entries": 3,
-      "distinct_topics": 3,
-      "risk_score": 57.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "szw",
-      "display_name": "szw",
-      "last_scraped_at": "2026-08-23T01:59:11.234563",
-      "last_entry_at": "2026-08-22T22:16:00",
-      "is_active": 1,
-      "period_entries": 3,
-      "coordinated_entries": 3,
-      "distinct_topics": 3,
-      "risk_score": 57.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "haşemalılarla aynı denize girmek istemeyen kadın",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "david ellefson",
-      "display_name": "david ellefson",
-      "last_scraped_at": "2026-08-23T01:58:32.684761",
-      "last_entry_at": "2026-08-22T17:24:00",
-      "is_active": 1,
-      "period_entries": 2,
-      "coordinated_entries": 2,
-      "distinct_topics": 2,
-      "risk_score": 38.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "funkycrow",
-      "display_name": "funkycrow",
-      "last_scraped_at": "2026-08-23T01:58:36.663838",
-      "last_entry_at": "2026-08-22T20:55:00",
-      "is_active": 1,
-      "period_entries": 2,
-      "coordinated_entries": 2,
-      "distinct_topics": 2,
-      "risk_score": 38.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "jimmymartin",
-      "display_name": "jimmymartin",
-      "last_scraped_at": "2026-08-23T01:58:45.942591",
-      "last_entry_at": "2026-08-22T20:47:00",
-      "is_active": 1,
-      "period_entries": 2,
-      "coordinated_entries": 2,
-      "distinct_topics": 2,
-      "risk_score": 38.0,
-      "top_topics": [
-        "yabancı turistin türk esnafına isyan etmesi",
-        "ankara'da alman kurdundan kaçarken ölen çocuk"
-      ]
-    },
-    {
-      "nick": "miamix",
-      "display_name": "miamix",
-      "last_scraped_at": "2026-08-23T01:59:05.041765",
-      "last_entry_at": "2026-08-22T11:45:00",
       "is_active": 1,
       "period_entries": 1,
       "coordinated_entries": 1,
@@ -413,10 +58,300 @@
       ]
     },
     {
+      "nick": "enturi",
+      "display_name": "enturi",
+      "last_scraped_at": "2026-08-23T21:13:35.625410",
+      "last_entry_at": "2026-08-23T08:14:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
+      "top_topics": [
+        "32 yaşında 5 bin gün primi olan taş gibi kadın"
+      ]
+    },
+    {
+      "nick": "givles",
+      "display_name": "givles",
+      "last_scraped_at": "2026-08-23T21:13:38.181368",
+      "last_entry_at": "2026-08-23T08:02:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
+      "top_topics": [
+        "32 yaşında 5 bin gün primi olan taş gibi kadın"
+      ]
+    },
+    {
+      "nick": "hackerbey",
+      "display_name": "hackerbey",
+      "last_scraped_at": "2026-08-23T21:13:38.781158",
+      "last_entry_at": "2026-08-22T22:00:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
+      "top_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "nick": "hirvatistanli",
+      "display_name": "hirvatistanli",
+      "last_scraped_at": "2026-08-23T21:13:39.385347",
+      "last_entry_at": "2026-08-22T22:08:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
+      "top_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "nick": "kafadanilo",
+      "display_name": "kafadanilo",
+      "last_scraped_at": "2026-08-23T21:13:41.243881",
+      "last_entry_at": "2026-08-23T10:14:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
+      "top_topics": [
+        "32 yaşında 5 bin gün primi olan taş gibi kadın"
+      ]
+    },
+    {
+      "nick": "kecuva",
+      "display_name": "kecuva",
+      "last_scraped_at": "2026-08-23T21:13:42.538487",
+      "last_entry_at": "2026-08-23T09:24:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
+      "top_topics": [
+        "32 yaşında 5 bin gün primi olan taş gibi kadın"
+      ]
+    },
+    {
+      "nick": "lacivertnokta",
+      "display_name": "lacivertnokta",
+      "last_scraped_at": "2026-08-23T21:13:43.141228",
+      "last_entry_at": "2026-08-22T21:45:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
+      "top_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "nick": "londrast",
+      "display_name": "londrast",
+      "last_scraped_at": "2026-08-23T21:13:46.641281",
+      "last_entry_at": "2026-08-23T08:23:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
+      "top_topics": [
+        "32 yaşında 5 bin gün primi olan taş gibi kadın"
+      ]
+    },
+    {
+      "nick": "madanin",
+      "display_name": "madanin",
+      "last_scraped_at": "2026-08-23T21:13:47.262204",
+      "last_entry_at": "2026-08-23T08:36:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
+      "top_topics": [
+        "32 yaşında 5 bin gün primi olan taş gibi kadın"
+      ]
+    },
+    {
+      "nick": "medyumay",
+      "display_name": "medyumay",
+      "last_scraped_at": "2026-08-23T21:13:47.971315",
+      "last_entry_at": "2026-08-23T08:58:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
+      "top_topics": [
+        "32 yaşında 5 bin gün primi olan taş gibi kadın"
+      ]
+    },
+    {
+      "nick": "reactionshot",
+      "display_name": "reactionshot",
+      "last_scraped_at": "2026-08-23T21:13:50.466243",
+      "last_entry_at": "2026-08-23T20:34:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 0,
+      "distinct_topics": 1,
+      "risk_score": 4.0,
+      "top_topics": [
+        "32 yaşında 5 bin gün primi olan taş gibi kadın"
+      ]
+    },
+    {
+      "nick": "szw",
+      "display_name": "szw",
+      "last_scraped_at": "2026-08-23T21:13:51.086091",
+      "last_entry_at": "2026-08-22T22:16:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
+      "top_topics": [
+        "haşemalılarla aynı denize girmek istemeyen kadın"
+      ]
+    },
+    {
+      "nick": "timurun fillerinin bakicisi",
+      "display_name": "timurun fillerinin bakicisi",
+      "last_scraped_at": "2026-08-23T21:13:30.161019",
+      "last_entry_at": "2026-08-23T08:01:00",
+      "is_active": 1,
+      "period_entries": 1,
+      "coordinated_entries": 1,
+      "distinct_topics": 1,
+      "risk_score": 19.0,
+      "top_topics": [
+        "32 yaşında 5 bin gün primi olan taş gibi kadın"
+      ]
+    },
+    {
+      "nick": "1xw",
+      "display_name": "1xw",
+      "last_scraped_at": "2026-08-23T21:13:31.695727",
+      "last_entry_at": "2026-08-22T21:14:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "david ellefson",
+      "display_name": "david ellefson",
+      "last_scraped_at": "2026-08-23T21:13:34.342535",
+      "last_entry_at": "2026-08-22T17:24:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "funkycrow",
+      "display_name": "funkycrow",
+      "last_scraped_at": "2026-08-23T21:13:36.246911",
+      "last_entry_at": "2026-08-22T20:55:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "georgewalker",
+      "display_name": "georgewalker",
+      "last_scraped_at": "2026-08-23T21:13:36.860836",
+      "last_entry_at": "2026-08-22T21:05:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "ingiliz dili ve edebiyati",
+      "display_name": "ingiliz dili ve edebiyati",
+      "last_scraped_at": "2026-08-23T21:13:40.015040",
+      "last_entry_at": "2026-08-22T21:21:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "jimmymartin",
+      "display_name": "jimmymartin",
+      "last_scraped_at": "2026-08-23T21:13:40.639607",
+      "last_entry_at": "2026-08-22T20:47:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "localtime",
+      "display_name": "localtime",
+      "last_scraped_at": "2026-08-23T21:13:45.967345",
+      "last_entry_at": "2026-08-22T16:31:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "miamix",
+      "display_name": "miamix",
+      "last_scraped_at": "2026-08-23T21:13:48.603508",
+      "last_entry_at": "2026-08-22T11:45:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
+      "nick": "parantezicindekiadam",
+      "display_name": "parantezicindekiadam",
+      "last_scraped_at": "2026-08-23T21:13:49.219297",
+      "last_entry_at": "2026-08-22T21:17:00",
+      "is_active": 1,
+      "period_entries": 0,
+      "coordinated_entries": 0,
+      "distinct_topics": 0,
+      "risk_score": 0.0,
+      "top_topics": []
+    },
+    {
       "nick": "playerman",
       "display_name": "playerman",
-      "last_scraped_at": "2026-08-23T01:59:09.204152",
-      "last_entry_at": "2026-08-18T16:25:00",
+      "last_scraped_at": "2026-08-23T21:13:49.850542",
+      "last_entry_at": "2026-08-22T21:01:00",
       "is_active": 1,
       "period_entries": 0,
       "coordinated_entries": 0,

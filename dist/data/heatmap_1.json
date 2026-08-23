@@ -859,119 +859,119 @@
       "day_name": "Cumartesi",
       "hour": 2,
       "hour_label": "02:00",
-      "count": 11
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 3,
       "hour_label": "03:00",
-      "count": 9
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 4,
       "hour_label": "04:00",
-      "count": 4
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 5,
       "hour_label": "05:00",
-      "count": 3
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 6,
       "hour_label": "06:00",
-      "count": 1
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 7,
       "hour_label": "07:00",
-      "count": 10
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 8,
       "hour_label": "08:00",
-      "count": 9
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 9,
       "hour_label": "09:00",
-      "count": 13
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 10,
       "hour_label": "10:00",
-      "count": 15
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 11,
       "hour_label": "11:00",
-      "count": 26
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 12,
       "hour_label": "12:00",
-      "count": 22
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 13,
       "hour_label": "13:00",
-      "count": 14
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 14,
       "hour_label": "14:00",
-      "count": 7
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 15,
       "hour_label": "15:00",
-      "count": 8
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 16,
       "hour_label": "16:00",
-      "count": 11
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 17,
       "hour_label": "17:00",
-      "count": 8
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 18,
       "hour_label": "18:00",
-      "count": 6
+      "count": 0
     },
     {
       "day_index": 5,
@@ -985,14 +985,14 @@
       "day_name": "Cumartesi",
       "hour": 20,
       "hour_label": "20:00",
-      "count": 27
+      "count": 0
     },
     {
       "day_index": 5,
       "day_name": "Cumartesi",
       "hour": 21,
       "hour_label": "21:00",
-      "count": 27
+      "count": 17
     },
     {
       "day_index": 5,
@@ -1069,21 +1069,21 @@
       "day_name": "Pazar",
       "hour": 8,
       "hour_label": "08:00",
-      "count": 0
+      "count": 8
     },
     {
       "day_index": 6,
       "day_name": "Pazar",
       "hour": 9,
       "hour_label": "09:00",
-      "count": 0
+      "count": 1
     },
     {
       "day_index": 6,
       "day_name": "Pazar",
       "hour": 10,
       "hour_label": "10:00",
-      "count": 0
+      "count": 1
     },
     {
       "day_index": 6,
@@ -1153,7 +1153,7 @@
       "day_name": "Pazar",
       "hour": 20,
       "hour_label": "20:00",
-      "count": 0
+      "count": 1
     },
     {
       "day_index": 6,

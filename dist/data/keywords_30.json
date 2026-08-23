@@ -2,11 +2,11 @@
   "keywords": [
     {
       "word": "kadın",
-      "count": 178
+      "count": 190
     },
     {
       "word": "bkz",
-      "count": 124
+      "count": 131
     },
     {
       "word": "değil",
@@ -14,19 +14,19 @@
     },
     {
       "word": "türk",
-      "count": 76
+      "count": 77
     },
     {
       "word": "kadının",
-      "count": 68
+      "count": 72
     },
     {
       "word": "türkiye",
-      "count": 68
+      "count": 69
     },
     {
       "word": "diyen",
-      "count": 57
+      "count": 58
     },
     {
       "word": "ağustos",
@@ -34,7 +34,7 @@
     },
     {
       "word": "nun",
-      "count": 50
+      "count": 51
     },
     {
       "word": "insan",
@@ -54,7 +54,7 @@
     },
     {
       "word": "çocuk",
-      "count": 41
+      "count": 42
     },
     {
       "word": "israil",
@@ -69,6 +69,10 @@
       "count": 38
     },
     {
+      "word": "yabancı",
+      "count": 38
+    },
+    {
       "word": "nasıl",
       "count": 37
     },
@@ -77,19 +81,19 @@
       "count": 37
     },
     {
-      "word": "yabancı",
-      "count": 37
-    },
-    {
       "word": "soylu",
-      "count": 35
+      "count": 36
     },
     {
       "word": "alman",
-      "count": 35
+      "count": 36
     },
     {
       "word": "turistin",
+      "count": 36
+    },
+    {
+      "word": "sadece",
       "count": 35
     },
     {
@@ -101,24 +105,20 @@
       "count": 34
     },
     {
+      "word": "terör",
+      "count": 34
+    },
+    {
       "word": "tek",
       "count": 33
     },
     {
-      "word": "sadece",
-      "count": 33
-    },
-    {
-      "word": "terör",
-      "count": 33
-    },
-    {
-      "word": "denize",
-      "count": 33
-    },
-    {
       "word": "etmesi",
-      "count": 32
+      "count": 33
+    },
+    {
+      "word": "ankara",
+      "count": 33
     }
   ]
 }
